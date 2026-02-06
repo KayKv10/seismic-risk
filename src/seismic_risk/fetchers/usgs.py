@@ -44,6 +44,7 @@ def fetch_earthquakes(
             place=feat["properties"].get("place", ""),
         )
         for feat in features
+        if feat["properties"]["mag"] is not None
     ]
 
 

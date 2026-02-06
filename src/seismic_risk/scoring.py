@@ -3,8 +3,8 @@
 from __future__ import annotations
 
 from datetime import datetime, timezone
-from typing import Literal
 
+from seismic_risk.config import ScoringMethod
 from seismic_risk.geo import haversine
 from seismic_risk.models import (
     Airport,
@@ -16,8 +16,6 @@ from seismic_risk.models import (
 )
 
 ALERT_ORDER: dict[str, int] = {"green": 1, "yellow": 2, "orange": 3, "red": 4}
-
-ScoringMethod = Literal["exposure", "legacy"]
 
 
 def find_exposed_airports(
@@ -65,7 +63,7 @@ def find_exposed_airports(
                     latitude=round(ap.latitude, 6),
                     longitude=round(ap.longitude, 6),
                     municipality=ap.municipality,
-                    closest_quake_distance_km=round(best),
+                    closest_quake_distance_km=round(best, 1),
                     nearby_quakes=nearby,
                     exposure_score=round(score, 2),
                 )

@@ -32,14 +32,11 @@ jobs:
       - name: Create output directory
         run: mkdir -p output
 
-      - name: Run pipeline (JSON)
-        run: uv run seismic-risk run --format json -o output/latest.json
-
-      - name: Run pipeline (HTML)
-        run: uv run seismic-risk run --format html -o output/latest.html
-
-      - name: Run pipeline (Markdown)
-        run: uv run seismic-risk run --format markdown -o output/latest.md
+      - name: Run pipeline (all formats)
+        run: |
+          uv run seismic-risk run --format json -o output/latest.json
+          uv run seismic-risk run --format html -o output/latest.html
+          uv run seismic-risk run --format markdown -o output/latest.md
 
       - name: Create index redirect
         run: |

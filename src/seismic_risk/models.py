@@ -68,7 +68,7 @@ class ExposedAirport:
     latitude: float
     longitude: float
     municipality: str
-    closest_quake_distance_km: int
+    closest_quake_distance_km: float
     nearby_quakes: list[NearbyQuake] = field(default_factory=list)
     exposure_score: float = 0.0
 
