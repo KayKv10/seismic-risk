@@ -9,6 +9,7 @@ from typing import Any
 
 from seismic_risk.data.airport_movements import AIRPORT_MOVEMENTS, DEFAULT_MOVEMENTS
 from seismic_risk.geo import felt_radius_km
+from seismic_risk.history import TrendSummary
 from seismic_risk.models import CountryRiskResult
 
 
@@ -229,6 +230,39 @@ _HTML_TEMPLATE = """<!DOCTYPE html>
             margin: 3px 0;
             color: #555;
         }
+        .trend-section {
+            margin-top: 12px;
+            border-top: 1px solid #eee;
+            padding-top: 8px;
+        }
+        .trend-section h4 {
+            font-size: 13px;
+            color: #333;
+            margin-bottom: 6px;
+        }
+        .trend-item {
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+            padding: 3px 0;
+            border-bottom: 1px solid #f5f5f5;
+        }
+        .trend-item .iso {
+            font-weight: bold;
+            width: 36px;
+            color: #333;
+        }
+        .trend-item .sparkline { flex: 1; margin: 0 6px; }
+        .trend-item .delta {
+            font-weight: bold;
+            flex-shrink: 0;
+            width: 50px;
+            text-align: right;
+        }
+        .trend-up { color: #dc3545; }
+        .trend-down { color: #28a745; }
+        .trend-new { color: #6f42c1; }
+        .trend-stable { color: #6c757d; }
     </style>
 </head>
 <body>
@@ -243,6 +277,15 @@ _HTML_TEMPLATE = """<!DOCTYPE html>
         <div class="top-airports">
             <h4>Top 5 Most Exposed</h4>
             <div id="top-airports-list"></div>
+        </div>
+        <div class="trend-section" id="trend-section"
+             style="display:none;">
+            <h4>Score Trends</h4>
+            <div id="trend-list"></div>
+            <p style="font-size:10px;color:#999;margin-top:4px;">
+                Based on <span id="trend-days">0</span> days
+                of history
+            </p>
         </div>
         <p style="margin-top: 10px; font-size: 11px; color: #999;">
             Generated: __GENERATED_TIME__
@@ -320,6 +363,7 @@ _HTML_TEMPLATE = """<!DOCTYPE html>
 
     <script>
         var data = __GEOJSON_DATA__;
+        var trendData = __TREND_DATA__;
 
         // Categorize features
         var airports = data.features.filter(
@@ -379,6 +423,83 @@ _HTML_TEMPLATE = """<!DOCTYPE html>
                 + p.exposure_score.toFixed(1) + '</span>';
             listEl.appendChild(item);
         });
+
+        // Sparkline builder (pure SVG, no dependencies)
+        function buildSparkline(scores) {
+            if (scores.length < 2) return '';
+            var w = 80, h = 24, pad = 2;
+            var min = Math.min.apply(null, scores);
+            var max = Math.max.apply(null, scores);
+            var range = max - min || 1;
+            var step = (w - 2 * pad) / (scores.length - 1);
+            var points = scores.map(function(s, i) {
+                var x = pad + i * step;
+                var y = h - pad
+                    - ((s - min) / range) * (h - 2 * pad);
+                return x.toFixed(1) + ',' + y.toFixed(1);
+            }).join(' ');
+            var last = scores[scores.length - 1];
+            var first = scores[0];
+            var color = last > first ? '#dc3545'
+                : last < first ? '#28a745' : '#6c757d';
+            return '<svg width="' + w + '" height="' + h
+                + '" viewBox="0 0 ' + w + ' ' + h + '">'
+                + '<polyline points="' + points
+                + '" fill="none" stroke="' + color
+                + '" stroke-width="1.5"'
+                + ' stroke-linecap="round"'
+                + ' stroke-linejoin="round"/></svg>';
+        }
+
+        // Populate trend sidebar section
+        if (trendData !== null) {
+            document.getElementById('trend-section')
+                .style.display = '';
+            document.getElementById('trend-days')
+                .textContent = trendData.history_days;
+            var seen = {};
+            var trendEntries = [];
+            airports.forEach(function(f) {
+                var iso3 = f.properties.iso_alpha3;
+                if (trendData.countries[iso3] && !seen[iso3]) {
+                    seen[iso3] = true;
+                    trendEntries.push({
+                        iso3: iso3,
+                        data: trendData.countries[iso3],
+                    });
+                }
+            });
+            trendEntries.sort(function(a, b) {
+                return Math.abs(b.data.delta)
+                    - Math.abs(a.data.delta);
+            });
+            var trendList = document
+                .getElementById('trend-list');
+            trendEntries.slice(0, 7).forEach(function(entry) {
+                var d = entry.data;
+                var item = document.createElement('div');
+                item.className = 'trend-item';
+                var svg = buildSparkline(d.scores);
+                var deltaClass = d.direction === 'up'
+                    ? 'trend-up'
+                    : d.direction === 'down' ? 'trend-down'
+                    : d.direction === 'new' ? 'trend-new'
+                    : 'trend-stable';
+                var deltaText = d.direction === 'new'
+                    ? 'NEW'
+                    : d.direction === 'stable' ? '~'
+                    : (d.delta > 0 ? '+' : '')
+                        + d.delta.toFixed(1);
+                item.innerHTML =
+                    '<span class="iso">' + entry.iso3
+                    + '</span>'
+                    + '<span class="sparkline">'
+                    + svg + '</span>'
+                    + '<span class="delta ' + deltaClass
+                    + '">' + deltaText + '</span>';
+                trendList.appendChild(item);
+            });
+        }
 
         // Initialize map
         var map = L.map('map').setView([20, 0], 2);
@@ -553,6 +674,33 @@ _HTML_TEMPLATE = """<!DOCTYPE html>
                         + '<div class="popup-row">'
                         + 'Country score: '
                         + p.country_risk_score + '</div>'
+                        + (function() {
+                            if (!trendData
+                                || !trendData.countries[
+                                    p.iso_alpha3])
+                                return '';
+                            var ct = trendData.countries[
+                                p.iso_alpha3];
+                            var cls = ct.direction === 'up'
+                                ? 'trend-up'
+                                : ct.direction === 'down'
+                                ? 'trend-down'
+                                : 'trend-stable';
+                            var txt = ct.direction === 'new'
+                                ? 'NEW'
+                                : (ct.delta > 0 ? '+' : '')
+                                    + ct.delta.toFixed(1);
+                            var arrow = ct.direction === 'up'
+                                ? '&#9650; '
+                                : ct.direction === 'down'
+                                ? '&#9660; '
+                                : '';
+                            return '<div class="popup-row">'
+                                + '<span class="' + cls
+                                + '">' + arrow + txt
+                                + '</span> vs previous'
+                                + '</div>';
+                        })()
                     );
                     layer.on('click', function() {
                         justSelected = true;
@@ -736,27 +884,50 @@ _HTML_TEMPLATE = """<!DOCTYPE html>
 </html>"""
 
 
+def _build_trend_data(trends: TrendSummary) -> dict[str, Any]:
+    """Convert TrendSummary to a compact dict for JS embedding."""
+    return {
+        "date": trends.date,
+        "history_days": trends.history_days,
+        "countries": {
+            iso3: {
+                "scores": ct.scores,
+                "dates": ct.dates,
+                "current": ct.current_score,
+                "previous": ct.previous_score,
+                "delta": ct.score_delta,
+                "direction": ct.trend_direction,
+                "is_new": ct.is_new,
+                "days_tracked": ct.days_tracked,
+            }
+            for iso3, ct in trends.country_trends.items()
+            if not ct.is_gone
+        },
+    }
+
+
 def export_html(
     results: list[CountryRiskResult],
     output_path: Path,
+    *,
+    trends: TrendSummary | None = None,
 ) -> Path:
-    """Export risk results as a standalone HTML file with Leaflet.js map.
-
-    Creates an interactive map with:
-    - Diamond airport markers: color = exposure score, size = movement volume
-    - Circle earthquake markers: gray, sized by magnitude (off by default)
-    - Dashed connection lines (off by default)
-    - Click-to-highlight: click an airport to show its connections + quakes
-    - Earthquake toggle: "near airports" vs "all in region" (mutually exclusive)
-    - Layer toggle controls, Top 5 sidebar, and legend
-    """
+    """Export risk results as a standalone HTML file with Leaflet.js map."""
     geojson_data = _build_geojson_data(results)
     generated_time = datetime.now(tz=timezone.utc).strftime(
         "%Y-%m-%d %H:%M UTC"
     )
 
+    trend_json = "null"
+    if trends is not None:
+        trend_json = json.dumps(
+            _build_trend_data(trends)
+        ).replace("</", "<\\/")
+
     html_content = _HTML_TEMPLATE.replace(
         "__GEOJSON_DATA__", json.dumps(geojson_data).replace("</", "<\\/")
+    ).replace(
+        "__TREND_DATA__", trend_json
     ).replace(
         "__GENERATED_TIME__", generated_time
     )

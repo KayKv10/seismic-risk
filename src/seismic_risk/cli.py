@@ -108,6 +108,10 @@ def run(
         bool,
         typer.Option("--no-cache", help="Disable disk caching for airports/country data."),
     ] = False,
+    history_dir: Annotated[
+        Path | None,
+        typer.Option("--history-dir", help="Directory for daily snapshot history."),
+    ] = None,
 ) -> None:
     """Run the seismic risk assessment pipeline."""
     log_level = logging.DEBUG if verbose else logging.INFO
@@ -127,6 +131,7 @@ def run(
         output_format=output_format,
         scoring_method=scorer,
         cache_enabled=not no_cache,
+        history_dir=history_dir,
     )
 
     try:
@@ -139,8 +144,22 @@ def run(
         console.print("[yellow]No countries qualified for risk assessment.[/yellow]")
         raise typer.Exit()
 
-    exporter = EXPORTERS[config.output_format]
-    exporter(results, config.output_file)
+    trends = None
+    if config.history_dir is not None:
+        from seismic_risk.history import compute_trends, load_history, save_snapshot
+
+        save_snapshot(results, config.history_dir, config.scoring_method)
+        history = load_history(config.history_dir)
+        trends = compute_trends(history, results, config.scoring_method)
+
+    if trends is not None and config.output_format in ("html", "markdown"):
+        if config.output_format == "html":
+            export_html(results, config.output_file, trends=trends)
+        else:
+            export_markdown(results, config.output_file, trends=trends)
+    else:
+        exporter = EXPORTERS[config.output_format]
+        exporter(results, config.output_file)
 
     console.print()
     table = Table(title="Seismic Risk Assessment Results")

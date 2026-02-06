@@ -29,14 +29,14 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
-      - name: Create output directory
-        run: mkdir -p output
+      - name: Create output directories
+        run: mkdir -p output output/history
 
       - name: Run pipeline (all formats)
         run: |
-          uv run seismic-risk run --format json -o output/latest.json
-          uv run seismic-risk run --format html -o output/latest.html
-          uv run seismic-risk run --format markdown -o output/latest.md
+          uv run seismic-risk run --format json --history-dir output/history -o output/latest.json
+          uv run seismic-risk run --format html --history-dir output/history -o output/latest.html
+          uv run seismic-risk run --format markdown --history-dir output/history -o output/latest.md
 
       - name: Create index redirect
         run: |

@@ -8,6 +8,7 @@ from pathlib import Path
 import pytest
 
 from seismic_risk.config import SeismicRiskConfig
+from seismic_risk.history import CountryTrend, TrendSummary
 from seismic_risk.models import (
     Airport,
     CountryRiskResult,
@@ -246,3 +247,29 @@ def sample_results() -> list[CountryRiskResult]:
             seismic_hub_risk_score=42.85,
         ),
     ]
+
+
+@pytest.fixture
+def sample_trends() -> TrendSummary:
+    """Pre-built TrendSummary for trend-aware exporter tests."""
+    return TrendSummary(
+        date="2026-02-06",
+        history_days=7,
+        country_trends={
+            "JPN": CountryTrend(
+                iso_alpha3="JPN",
+                country="Japan",
+                scores=[38.2, 40.1, 42.85],
+                dates=["2026-02-04", "2026-02-05", "2026-02-06"],
+                current_score=42.85,
+                previous_score=40.1,
+                score_delta=2.75,
+                trend_direction="up",
+                is_new=False,
+                is_gone=False,
+                days_tracked=3,
+            ),
+        },
+        new_countries=[],
+        gone_countries=[],
+    )

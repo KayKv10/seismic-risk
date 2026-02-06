@@ -421,6 +421,48 @@ class TestHTMLExport:
         assert "overlayremove" in content
         assert "highlightedQuakes = []" in content
 
+    def test_trend_data_embedded_when_provided(self, sample_results, sample_trends, tmp_path):
+        output = tmp_path / "test.html"
+        export_html(sample_results, output, trends=sample_trends)
+
+        content = output.read_text()
+        assert "var trendData =" in content
+        assert '"history_days": 7' in content
+        assert '"JPN"' in content
+
+    def test_trend_data_null_without_trends(self, sample_results, tmp_path):
+        output = tmp_path / "test.html"
+        export_html(sample_results, output)
+
+        content = output.read_text()
+        assert "var trendData = null;" in content
+
+    def test_sparkline_js_function_present(self, sample_results, tmp_path):
+        output = tmp_path / "test.html"
+        export_html(sample_results, output)
+
+        content = output.read_text()
+        assert "function buildSparkline" in content
+        assert "polyline" in content
+
+    def test_trend_section_hidden_by_default(self, sample_results, tmp_path):
+        output = tmp_path / "test.html"
+        export_html(sample_results, output)
+
+        content = output.read_text()
+        assert 'id="trend-section"' in content
+        assert 'style="display:none;"' in content
+
+    def test_trend_xss_safe(self, sample_results, sample_trends, tmp_path):
+        output = tmp_path / "test.html"
+        export_html(sample_results, output, trends=sample_trends)
+
+        content = output.read_text()
+        trend_start = content.index("var trendData =")
+        trend_end = content.index(";", trend_start)
+        trend_block = content[trend_start:trend_end]
+        assert "</script>" not in trend_block
+
 
 class TestAirportMovementsData:
     def test_movements_data_structure(self):
@@ -649,3 +691,101 @@ class TestMarkdownExport:
         content = output.read_text()
         assert "## Country Summary" in content
         assert "## Airport Details" in content
+
+    def test_with_trends_has_summary_section(self, sample_results, sample_trends, tmp_path):
+        output = tmp_path / "test.md"
+        export_markdown(sample_results, output, trends=sample_trends)
+
+        content = output.read_text()
+        assert "## Trend Summary" in content
+        assert "7 days" in content
+
+    def test_with_trends_has_trend_column(self, sample_results, sample_trends, tmp_path):
+        output = tmp_path / "test.md"
+        export_markdown(sample_results, output, trends=sample_trends)
+
+        content = output.read_text()
+        assert "| Trend |" in content
+        assert "+2.8" in content or "+2.75" in content
+
+    def test_without_trends_no_trend_column(self, sample_results, tmp_path):
+        output = tmp_path / "test.md"
+        export_markdown(sample_results, output)
+
+        content = output.read_text()
+        assert "| Trend |" not in content
+        assert "## Trend Summary" not in content
+
+    def test_new_country_indicator(self, sample_results, tmp_path):
+        from seismic_risk.history import CountryTrend, TrendSummary
+
+        trends_with_new = TrendSummary(
+            date="2026-02-06",
+            history_days=3,
+            country_trends={
+                "JPN": CountryTrend(
+                    iso_alpha3="JPN",
+                    country="Japan",
+                    scores=[42.85],
+                    dates=["2026-02-06"],
+                    current_score=42.85,
+                    previous_score=None,
+                    score_delta=0.0,
+                    trend_direction="new",
+                    is_new=True,
+                    is_gone=False,
+                    days_tracked=1,
+                ),
+            },
+            new_countries=["JPN"],
+            gone_countries=[],
+        )
+        output = tmp_path / "test.md"
+        export_markdown(sample_results, output, trends=trends_with_new)
+
+        content = output.read_text()
+        assert "NEW" in content
+        assert "**New entries**: Japan" in content
+
+    def test_gone_country_listed(self, sample_results, tmp_path):
+        from seismic_risk.history import CountryTrend, TrendSummary
+
+        trends_with_gone = TrendSummary(
+            date="2026-02-06",
+            history_days=3,
+            country_trends={
+                "JPN": CountryTrend(
+                    iso_alpha3="JPN",
+                    country="Japan",
+                    scores=[38.0, 40.0, 42.85],
+                    dates=["2026-02-04", "2026-02-05", "2026-02-06"],
+                    current_score=42.85,
+                    previous_score=40.0,
+                    score_delta=2.85,
+                    trend_direction="up",
+                    is_new=False,
+                    is_gone=False,
+                    days_tracked=3,
+                ),
+                "PHL": CountryTrend(
+                    iso_alpha3="PHL",
+                    country="Philippines",
+                    scores=[91.0, 85.0],
+                    dates=["2026-02-04", "2026-02-05"],
+                    current_score=0.0,
+                    previous_score=85.0,
+                    score_delta=-85.0,
+                    trend_direction="gone",
+                    is_new=False,
+                    is_gone=True,
+                    days_tracked=2,
+                ),
+            },
+            new_countries=[],
+            gone_countries=["PHL"],
+        )
+        output = tmp_path / "test.md"
+        export_markdown(sample_results, output, trends=trends_with_gone)
+
+        content = output.read_text()
+        assert "**Dropped off**: Philippines" in content

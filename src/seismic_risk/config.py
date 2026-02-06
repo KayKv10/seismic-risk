@@ -52,3 +52,7 @@ class SeismicRiskConfig(BaseSettings):
     cache_enabled: bool = Field(
         default=True, description="Enable disk caching for airports and country data."
     )
+    history_dir: Path | None = Field(
+        default=None,
+        description="Directory for daily snapshot history. Enables trend tracking when set.",
+    )
