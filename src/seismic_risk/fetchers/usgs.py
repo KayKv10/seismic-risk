@@ -18,15 +18,16 @@ def fetch_earthquakes(
     end_date = datetime.now(timezone.utc)
     start_date = end_date - timedelta(days=days_lookback)
 
+    params: dict[str, str | float] = {
+        "format": "geojson",
+        "minmagnitude": min_magnitude,
+        "starttime": start_date.strftime("%Y-%m-%d"),
+        "endtime": end_date.strftime("%Y-%m-%d"),
+        "orderby": "time",
+    }
     resp = requests.get(
         "https://earthquake.usgs.gov/fdsnws/event/1/query",
-        params={
-            "format": "geojson",
-            "minmagnitude": min_magnitude,
-            "starttime": start_date.strftime("%Y-%m-%d"),
-            "endtime": end_date.strftime("%Y-%m-%d"),
-            "orderby": "time",
-        },
+        params=params,
         timeout=timeout,
     )
     resp.raise_for_status()

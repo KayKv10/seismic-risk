@@ -72,4 +72,4 @@ def reverse_geocode_batch(
     coords: list[tuple[float, float]],
 ) -> list[dict[str, str]]:
     """Reverse-geocode a batch of (latitude, longitude) pairs to country codes."""
-    return rg.search(coords)
+    return rg.search(coords)  # type: ignore[no-any-return]

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+from collections.abc import Callable
 from pathlib import Path
 from typing import Annotated
 
@@ -19,9 +20,12 @@ from seismic_risk.exporters import (
     export_json,
     export_markdown,
 )
+from seismic_risk.models import CountryRiskResult
 from seismic_risk.pipeline import run_pipeline
 
-EXPORTERS = {
+Exporter = Callable[[list[CountryRiskResult], Path], Path]
+
+EXPORTERS: dict[str, Exporter] = {
     "json": export_json,
     "geojson": export_geojson,
     "html": export_html,
