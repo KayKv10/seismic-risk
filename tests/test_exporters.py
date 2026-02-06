@@ -478,9 +478,9 @@ class TestCSVExport:
         with open(output) as f:
             reader = csv.reader(f)
             header = next(reader)
-            assert len(header) == 14
+            assert len(header) == 22
             for row in reader:
-                assert len(row) == 14
+                assert len(row) == 22
 
     def test_header_names(self, sample_results, tmp_path):
         import csv
@@ -493,7 +493,9 @@ class TestCSVExport:
             header = next(reader)
 
         assert header == [
-            "country", "iso_alpha3", "risk_score", "pager_alert",
+            "country", "iso_alpha3", "iso_alpha2", "region", "capital",
+            "population", "risk_score", "earthquake_count", "avg_magnitude",
+            "pager_alert", "tsunami_warning", "significant_events",
             "airport_name", "iata_code", "municipality", "latitude",
             "longitude", "closest_quake_km", "exposure_score",
             "nearby_quake_count", "strongest_quake_mag", "strongest_quake_date",
@@ -524,6 +526,26 @@ class TestCSVExport:
         for row in rows:
             assert row["country"] == "Japan"
             assert row["iso_alpha3"] == "JPN"
+            assert row["iso_alpha2"] == "JP"
+            assert row["region"] == "Asia"
+            assert row["capital"] == "Tokyo"
+            assert row["population"] == "125800000"
+
+    def test_seismic_context_fields(self, sample_results, tmp_path):
+        import csv
+
+        output = tmp_path / "test.csv"
+        export_csv(sample_results, output)
+
+        with open(output) as f:
+            reader = csv.DictReader(f)
+            rows = list(reader)
+
+        for row in rows:
+            assert row["earthquake_count"] == "3"
+            assert row["avg_magnitude"] == "5.37"
+            assert row["tsunami_warning"] == "False"
+            assert row["significant_events"] == "1"
 
     def test_airport_data_present(self, sample_results, tmp_path):
         import csv
@@ -572,6 +594,8 @@ class TestMarkdownExport:
         content = output.read_text()
         assert "## Country Summary" in content
         assert "| Japan |" in content
+        assert "| Region |" in content
+        assert "| Avg Mag |" in content
 
     def test_contains_airport_details_table(self, sample_results, tmp_path):
         output = tmp_path / "test.md"
@@ -579,8 +603,27 @@ class TestMarkdownExport:
 
         content = output.read_text()
         assert "## Airport Details" in content
+        assert "| Municipality |" in content
+        assert "Narita" in content
         assert "NRT" in content
         assert "HND" in content
+
+    def test_country_summary_has_strongest_quake(self, sample_results, tmp_path):
+        output = tmp_path / "test.md"
+        export_markdown(sample_results, output)
+
+        content = output.read_text()
+        assert "| Strongest |" in content
+        assert "M6.1" in content
+        assert "2026-01-28" in content
+
+    def test_country_summary_has_tsunami_column(self, sample_results, tmp_path):
+        output = tmp_path / "test.md"
+        export_markdown(sample_results, output)
+
+        content = output.read_text()
+        assert "| Tsunami |" in content
+        assert "| No |" in content or "No" in content
 
     def test_contains_generation_timestamp(self, sample_results, tmp_path):
         output = tmp_path / "test.md"

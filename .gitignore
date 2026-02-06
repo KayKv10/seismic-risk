@@ -202,8 +202,9 @@ cython_debug/
 .cursorindexingignore
 .claude/
 
-# Project planning (local only)
+# Project planning and conventions (local only)
 PROJECT_PLAN.md
+CLAUDE.md
 
 # Pipeline output (generated)
 output/

@@ -20,23 +20,35 @@ def export_markdown(
         "",
         "## Country Summary",
         "",
-        "| Country | ISO | Score | Quakes | Airports | Alert |",
-        "|:--------|:----|------:|-------:|---------:|:------|",
+        "| Country | ISO | Region | Score | Avg Mag | Strongest | Quakes"
+        " | Airports | Alert | Tsunami | Sig. Events |",
+        "|:--------|:----|:-------|------:|--------:|:----------|-------:"
+        "|---------:|:------|:--------|------------:|",
     ]
 
     for r in results:
+        strongest = r.strongest_earthquake
+        strongest_str = (
+            f"M{strongest.magnitude} ({strongest.date})" if strongest else "-"
+        )
         lines.append(
-            f"| {r.country} | {r.iso_alpha3} | {r.seismic_hub_risk_score:.1f}"
+            f"| {r.country} | {r.iso_alpha3} | {r.region}"
+            f" | {r.seismic_hub_risk_score:.1f}"
+            f" | {r.avg_magnitude:.1f} | {strongest_str}"
             f" | {r.earthquake_count} | {len(r.exposed_airports)}"
-            f" | {r.highest_pager_alert or '-'} |"
+            f" | {r.highest_pager_alert or '-'}"
+            f" | {'Yes' if r.tsunami_warning_issued else 'No'}"
+            f" | {r.significant_events_count} |"
         )
 
     lines.extend([
         "",
         "## Airport Details",
         "",
-        "| Airport | IATA | Country | Exposure | Closest Quake (km) | Nearby Quakes |",
-        "|:--------|:-----|:--------|--------:|--------------------:|--------------:|",
+        "| Airport | IATA | Municipality | Country | Exposure"
+        " | Closest Quake (km) | Nearby Quakes |",
+        "|:--------|:-----|:-------------|:--------|--------:"
+        "|-------------------:|--------------:|",
     ])
 
     for r in results:
@@ -46,7 +58,8 @@ def export_markdown(
             reverse=True,
         ):
             lines.append(
-                f"| {airport.name} | {airport.iata_code} | {r.country}"
+                f"| {airport.name} | {airport.iata_code}"
+                f" | {airport.municipality} | {r.country}"
                 f" | {airport.exposure_score:.1f}"
                 f" | {airport.closest_quake_distance_km}"
                 f" | {len(airport.nearby_quakes)} |"
