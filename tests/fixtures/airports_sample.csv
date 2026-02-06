@@ -1,0 +1,5 @@
+id,ident,type,name,latitude_deg,longitude_deg,elevation_ft,continent,iso_country,iso_region,municipality,scheduled_service,gps_code,iata_code,local_code,home_link,wikipedia_link,keywords
+6492,RJAA,large_airport,Narita International Airport,35.7647,140.3864,141,AS,JP,JP-12,Narita,yes,RJAA,NRT,,http://www.narita-airport.jp,https://en.wikipedia.org/wiki/Narita_International_Airport,Tokyo Narita
+6493,RJTT,large_airport,Tokyo Haneda International Airport,35.5533,139.7811,35,AS,JP,JP-13,Tokyo,yes,RJTT,HND,,http://www.tokyo-airport-bldg.co.jp,https://en.wikipedia.org/wiki/Haneda_Airport,Haneda
+6494,SCEL,large_airport,Comodoro Arturo Merino Benitez International Airport,-33.393,-70.7858,1555,SA,CL,CL-RM,Santiago,yes,SCEL,SCL,,,https://en.wikipedia.org/wiki/Comodoro_Arturo_Merino_Ben%C3%ADtez_International_Airport,Santiago
+6495,EDDF,large_airport,Frankfurt am Main Airport,50.0333,8.5706,364,EU,DE,DE-HE,Frankfurt,yes,EDDF,FRA,,http://www.frankfurt-airport.de,https://en.wikipedia.org/wiki/Frankfurt_Airport,

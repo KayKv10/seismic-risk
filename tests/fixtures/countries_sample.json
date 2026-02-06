@@ -1,0 +1,28 @@
+{
+  "JP": {
+    "name": {"common": "Japan", "official": "Japan"},
+    "cca3": "JPN",
+    "capital": ["Tokyo"],
+    "population": 125800000,
+    "area": 377975,
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "currencies": {"JPY": {"name": "Japanese yen", "symbol": "\u00a5"}},
+    "languages": {"jpn": "Japanese"},
+    "unMember": true,
+    "borders": []
+  },
+  "CL": {
+    "name": {"common": "Chile", "official": "Republic of Chile"},
+    "cca3": "CHL",
+    "capital": ["Santiago"],
+    "population": 19116209,
+    "area": 756102,
+    "region": "Americas",
+    "subregion": "South America",
+    "currencies": {"CLP": {"name": "Chilean peso", "symbol": "$"}},
+    "languages": {"spa": "Spanish"},
+    "unMember": true,
+    "borders": ["ARG", "BOL", "PER"]
+  }
+}

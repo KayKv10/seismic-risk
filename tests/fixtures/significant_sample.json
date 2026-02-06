@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1700000000000,
+    "count": 1
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "us2025abc3",
+      "properties": {
+        "mag": 6.1,
+        "place": "Near Tokyo, Japan",
+        "time": 1700200000000,
+        "alert": "orange",
+        "felt": 1500,
+        "tsunami": 0,
+        "sig": 800,
+        "title": "M 6.1 - Near Tokyo, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.2, 35.7, 20.0]
+      }
+    }
+  ]
+}
