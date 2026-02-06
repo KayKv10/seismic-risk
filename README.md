@@ -54,7 +54,7 @@ seismic-risk --version
 *Updated daily by [GitHub Actions](https://github.com/KayKv10/seismic-risk/actions/workflows/daily-report.yml). View the [interactive map](https://kaykv10.github.io/seismic-risk/latest.html).*
 
 <!-- LATEST_RESULTS_START -->
-*Last updated: 2026-02-06 07:03 UTC*
+*Last updated: 2026-02-06 07:30 UTC*
 
 | # | Country | ISO | Score | Quakes | Airports | Alert |
 |--:|:--------|:----|------:|-------:|---------:|:------|
