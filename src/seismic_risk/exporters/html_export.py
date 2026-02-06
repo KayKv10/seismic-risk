@@ -600,6 +600,13 @@ _HTML_TEMPLATE = """<!DOCTYPE html>
             }
         });
 
+        map.on('overlayremove', function(e) {
+            if (e.name === 'Quakes near airports'
+                    || e.name === 'All quakes in region') {
+                highlightedQuakes = [];
+            }
+        });
+
         // --- Click-to-highlight ---
         var selectedAirport = null;
         var highlightedConnections = [];
@@ -749,7 +756,7 @@ def export_html(
     )
 
     html_content = _HTML_TEMPLATE.replace(
-        "__GEOJSON_DATA__", json.dumps(geojson_data)
+        "__GEOJSON_DATA__", json.dumps(geojson_data).replace("</", "<\\/")
     ).replace(
         "__GENERATED_TIME__", generated_time
     )

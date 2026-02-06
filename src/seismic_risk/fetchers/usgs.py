@@ -2,19 +2,27 @@
 
 from __future__ import annotations
 
+import logging
 from datetime import datetime, timedelta, timezone
 
-import requests
+from requests import Session
 
+from seismic_risk.http import create_session
 from seismic_risk.models import Earthquake, SignificantEvent
+
+logger = logging.getLogger(__name__)
 
 
 def fetch_earthquakes(
     min_magnitude: float = 4.0,
     days_lookback: int = 30,
     timeout: int = 60,
+    session: Session | None = None,
 ) -> list[Earthquake]:
     """Fetch recent earthquakes from the USGS FDSN Event Web Service."""
+    if session is None:
+        session = create_session()
+
     end_date = datetime.now(timezone.utc)
     start_date = end_date - timedelta(days=days_lookback)
 
@@ -25,7 +33,7 @@ def fetch_earthquakes(
         "endtime": end_date.strftime("%Y-%m-%d"),
         "orderby": "time",
     }
-    resp = requests.get(
+    resp = session.get(
         "https://earthquake.usgs.gov/fdsnws/event/1/query",
         params=params,
         timeout=timeout,
@@ -50,16 +58,24 @@ def fetch_earthquakes(
 
 def fetch_significant_earthquakes(
     timeout: int = 30,
+    session: Session | None = None,
 ) -> dict[str, SignificantEvent]:
     """Fetch USGS significant earthquakes feed (past 30 days).
 
-    Returns empty dict on HTTP errors (non-fatal).
+    Returns empty dict on HTTP errors or network failures (non-fatal).
     """
-    resp = requests.get(
-        "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson",
-        timeout=timeout,
-    )
-    if resp.status_code != 200:
+    if session is None:
+        session = create_session()
+
+    try:
+        resp = session.get(
+            "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson",
+            timeout=timeout,
+        )
+        if resp.status_code != 200:
+            return {}
+    except Exception:
+        logger.warning("Failed to fetch significant earthquakes", exc_info=True)
         return {}
 
     result: dict[str, SignificantEvent] = {}

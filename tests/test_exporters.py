@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
+import copy
 import json
+from dataclasses import replace
 
 from seismic_risk.exporters.csv_export import export_csv
 from seismic_risk.exporters.geojson_export import export_geojson
@@ -391,6 +393,33 @@ class TestHTMLExport:
         content = output.read_text()
         assert "Earthquake Shaking" in content
         assert "MMI V" in content
+
+    def test_script_tag_injection_escaped(self, sample_results, tmp_path):
+        """Ensure </script> in place names cannot break out of the script tag."""
+        malicious_results = copy.deepcopy(sample_results)
+        bad_quake = replace(
+            malicious_results[0].earthquakes[0],
+            place='Test</script><img src=x>',
+        )
+        malicious_results[0].earthquakes[0] = bad_quake
+        output = tmp_path / "test.html"
+        export_html(malicious_results, output)
+
+        content = output.read_text()
+        # The raw </script> must not appear inside the GeoJSON data block
+        script_start = content.index("var data = ")
+        script_end = content.index("// Categorize features")
+        data_block = content[script_start:script_end]
+        assert "</script>" not in data_block
+        assert r"<\/script>" in data_block
+
+    def test_overlayremove_clears_highlighted_quakes(self, sample_results, tmp_path):
+        output = tmp_path / "test.html"
+        export_html(sample_results, output)
+
+        content = output.read_text()
+        assert "overlayremove" in content
+        assert "highlightedQuakes = []" in content
 
 
 class TestAirportMovementsData:

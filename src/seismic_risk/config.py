@@ -49,3 +49,6 @@ class SeismicRiskConfig(BaseSettings):
         default="exposure",
         description="Scoring method: 'exposure' (distance-weighted) or 'legacy'.",
     )
+    cache_enabled: bool = Field(
+        default=True, description="Enable disk caching for airports and country data."
+    )

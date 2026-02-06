@@ -11,6 +11,7 @@ from seismic_risk.fetchers.airports import fetch_airports
 from seismic_risk.fetchers.countries import fetch_country_metadata
 from seismic_risk.fetchers.usgs import fetch_earthquakes, fetch_significant_earthquakes
 from seismic_risk.geo import reverse_geocode_batch
+from seismic_risk.http import create_session
 from seismic_risk.models import CountryRiskResult
 from seismic_risk.scoring import (
     calculate_risk_score,
@@ -60,6 +61,9 @@ def run_pipeline(config: SeismicRiskConfig) -> list[CountryRiskResult]:
     7. Compute exposure, stats, and score per country
     8. Sort by risk score descending
     """
+    # Create shared HTTP session with retry for all fetchers
+    session = create_session()
+
     # Step 1: Fetch earthquakes
     logger.info(
         "Fetching USGS M%.1f+ earthquakes (past %d days)...",
@@ -70,6 +74,7 @@ def run_pipeline(config: SeismicRiskConfig) -> list[CountryRiskResult]:
         min_magnitude=config.min_magnitude,
         days_lookback=config.days_lookback,
         timeout=config.request_timeout,
+        session=session,
     )
     logger.info("Retrieved %d earthquakes", len(earthquakes))
 
@@ -103,7 +108,9 @@ def run_pipeline(config: SeismicRiskConfig) -> list[CountryRiskResult]:
 
     # Step 4: Fetch significant earthquakes
     logger.info("Fetching USGS significant earthquakes...")
-    significant_quakes = fetch_significant_earthquakes(timeout=config.request_timeout)
+    significant_quakes = fetch_significant_earthquakes(
+        timeout=config.request_timeout, session=session
+    )
     logger.info("Significant earthquakes: %d", len(significant_quakes))
 
     # Step 5: Fetch airports for qualifying countries
@@ -111,6 +118,8 @@ def run_pipeline(config: SeismicRiskConfig) -> list[CountryRiskResult]:
     all_airports = fetch_airports(
         airport_type=config.airport_type,
         country_codes=qualifying_countries,
+        session=session,
+        use_cache=config.cache_enabled,
     )
 
     airports_by_country: dict[str, list] = {}
@@ -122,7 +131,10 @@ def run_pipeline(config: SeismicRiskConfig) -> list[CountryRiskResult]:
 
     # Step 6: Fetch REST Countries metadata
     logger.info("Fetching country metadata...")
-    rest_data = fetch_country_metadata(has_airports, timeout=config.request_timeout)
+    rest_data = fetch_country_metadata(
+        has_airports, timeout=config.request_timeout, session=session,
+        use_cache=config.cache_enabled,
+    )
 
     # Step 7: Compute exposure and score for each country
     results: list[CountryRiskResult] = []

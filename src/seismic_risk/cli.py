@@ -104,6 +104,10 @@ def run(
         bool,
         typer.Option("--verbose", "-v", help="Enable verbose logging."),
     ] = False,
+    no_cache: Annotated[
+        bool,
+        typer.Option("--no-cache", help="Disable disk caching for airports/country data."),
+    ] = False,
 ) -> None:
     """Run the seismic risk assessment pipeline."""
     log_level = logging.DEBUG if verbose else logging.INFO
@@ -122,6 +126,7 @@ def run(
         output_file=output,
         output_format=output_format,
         scoring_method=scorer,
+        cache_enabled=not no_cache,
     )
 
     try:
