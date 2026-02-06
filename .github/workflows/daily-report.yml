@@ -1,0 +1,62 @@
+name: Daily Report
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Create output directory
+        run: mkdir -p output
+
+      - name: Run pipeline (JSON)
+        run: uv run seismic-risk run --format json -o output/latest.json
+
+      - name: Run pipeline (HTML)
+        run: uv run seismic-risk run --format html -o output/latest.html
+
+      - name: Run pipeline (Markdown)
+        run: uv run seismic-risk run --format markdown -o output/latest.md
+
+      - name: Update README with latest results
+        run: python scripts/update_readme.py
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f output/ README.md
+          git diff --cached --quiet || git commit -m "Daily report: $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output/
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -200,6 +200,19 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+.claude/
+
+# Project planning (local only)
+PROJECT_PLAN.md
+
+# Pipeline output (generated)
+output/
+dashboard.html
+seismic_risk_output.*
+test_output.*
+test.json
+test.html
+test.geojson
 
 # Marimo
 marimo/_static/

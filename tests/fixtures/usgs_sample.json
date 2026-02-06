@@ -1,0 +1,99 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1700000000000,
+    "count": 5
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "us2025abc1",
+      "properties": {
+        "mag": 5.2,
+        "place": "Near coast of Japan",
+        "time": 1700000000000,
+        "alert": null,
+        "felt": null,
+        "tsunami": 0,
+        "sig": 400,
+        "title": "M 5.2 - Near coast of Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.5, 38.3, 30.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "us2025abc2",
+      "properties": {
+        "mag": 4.8,
+        "place": "Central Japan",
+        "time": 1700100000000,
+        "alert": null,
+        "felt": null,
+        "tsunami": 0,
+        "sig": 300,
+        "title": "M 4.8 - Central Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.8, 36.1, 45.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "us2025abc3",
+      "properties": {
+        "mag": 6.1,
+        "place": "Near Tokyo, Japan",
+        "time": 1700200000000,
+        "alert": "orange",
+        "felt": 1500,
+        "tsunami": 0,
+        "sig": 800,
+        "title": "M 6.1 - Near Tokyo, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.2, 35.7, 20.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "us2025def1",
+      "properties": {
+        "mag": 5.5,
+        "place": "Offshore Bio-Bio, Chile",
+        "time": 1700300000000,
+        "alert": null,
+        "felt": null,
+        "tsunami": 0,
+        "sig": 450,
+        "title": "M 5.5 - Offshore Bio-Bio, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.1, -36.8, 25.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "us2025def2",
+      "properties": {
+        "mag": 4.3,
+        "place": "Central Chile",
+        "time": 1700400000000,
+        "alert": null,
+        "felt": null,
+        "tsunami": 0,
+        "sig": 250,
+        "title": "M 4.3 - Central Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.2, -33.4, 55.0]
+      }
+    }
+  ]
+}
