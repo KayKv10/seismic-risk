@@ -146,11 +146,15 @@ def run(
 
     trends = None
     if config.history_dir is not None:
+        from datetime import datetime, timezone
+
         from seismic_risk.history import compute_trends, load_history, save_snapshot
 
-        save_snapshot(results, config.history_dir, config.scoring_method)
         history = load_history(config.history_dir)
-        trends = compute_trends(history, results, config.scoring_method)
+        today_str = datetime.now(tz=timezone.utc).date().isoformat()
+        prior_history = [s for s in history if s.date != today_str]
+        trends = compute_trends(prior_history, results, config.scoring_method)
+        save_snapshot(results, config.history_dir, config.scoring_method)
 
     if trends is not None and config.output_format in ("html", "markdown"):
         if config.output_format == "html":
