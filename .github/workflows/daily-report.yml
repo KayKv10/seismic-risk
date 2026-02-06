@@ -41,6 +41,13 @@ jobs:
       - name: Run pipeline (Markdown)
         run: uv run seismic-risk run --format markdown -o output/latest.md
 
+      - name: Create index redirect
+        run: |
+          cat > output/index.html << 'REDIRECT'
+          <!DOCTYPE html>
+          <html><head><meta http-equiv="refresh" content="0;url=latest.html"></head></html>
+          REDIRECT
+
       - name: Update README with latest results
         run: python scripts/update_readme.py
 
