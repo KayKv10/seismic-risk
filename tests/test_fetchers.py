@@ -31,8 +31,9 @@ class TestFetchEarthquakes:
             json={"type": "FeatureCollection", "features": []},
             status=200,
         )
-        result = fetch_earthquakes()
-        assert result == []
+        earthquakes, event_types = fetch_earthquakes()
+        assert earthquakes == []
+        assert event_types == {}
 
     @responses.activate
     def test_null_magnitude_filtered(self):
@@ -56,9 +57,11 @@ class TestFetchEarthquakes:
             },
             status=200,
         )
-        result = fetch_earthquakes(min_magnitude=4.0)
-        assert len(result) == 1
-        assert result[0].id == "test2"
+        earthquakes, event_types = fetch_earthquakes(min_magnitude=4.0)
+        assert len(earthquakes) == 1
+        assert earthquakes[0].id == "test2"
+        assert "test1" not in event_types
+        assert "test2" in event_types
 
     @responses.activate
     def test_valid_response_returns_earthquakes(self):
@@ -70,18 +73,50 @@ class TestFetchEarthquakes:
                 "features": [
                     {
                         "id": "eq1",
-                        "properties": {"mag": 6.0, "time": 1700000000000, "place": "Tokyo"},
+                        "properties": {
+                            "mag": 6.0,
+                            "time": 1700000000000,
+                            "place": "Tokyo",
+                            "types": ",shakemap,dyfi,",
+                        },
                         "geometry": {"coordinates": [140.0, 35.0, 20.0]},
                     },
                 ],
             },
             status=200,
         )
-        result = fetch_earthquakes()
-        assert len(result) == 1
-        assert result[0].magnitude == 6.0
-        assert result[0].latitude == 35.0
-        assert result[0].longitude == 140.0
+        earthquakes, event_types = fetch_earthquakes()
+        assert len(earthquakes) == 1
+        assert earthquakes[0].magnitude == 6.0
+        assert earthquakes[0].latitude == 35.0
+        assert earthquakes[0].longitude == 140.0
+        assert earthquakes[0].shakemap_available is True
+        assert event_types["eq1"] == ",shakemap,dyfi,"
+
+    @responses.activate
+    def test_shakemap_available_false_when_not_in_types(self):
+        responses.add(
+            responses.GET,
+            "https://earthquake.usgs.gov/fdsnws/event/1/query",
+            json={
+                "type": "FeatureCollection",
+                "features": [
+                    {
+                        "id": "eq1",
+                        "properties": {
+                            "mag": 5.0,
+                            "time": 1700000000000,
+                            "place": "Test",
+                            "types": ",dyfi,origin,",
+                        },
+                        "geometry": {"coordinates": [0, 0, 10]},
+                    },
+                ],
+            },
+            status=200,
+        )
+        earthquakes, _ = fetch_earthquakes()
+        assert earthquakes[0].shakemap_available is False
 
     @responses.activate
     def test_malformed_json_raises(self):

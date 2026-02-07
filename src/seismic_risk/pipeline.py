@@ -70,7 +70,7 @@ def run_pipeline(config: SeismicRiskConfig) -> list[CountryRiskResult]:
         config.min_magnitude,
         config.days_lookback,
     )
-    earthquakes = fetch_earthquakes(
+    earthquakes, event_types = fetch_earthquakes(
         min_magnitude=config.min_magnitude,
         days_lookback=config.days_lookback,
         timeout=config.request_timeout,

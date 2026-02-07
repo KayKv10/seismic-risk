@@ -17,6 +17,7 @@ class Earthquake:
     time_ms: int
     place: str
     country_code: str = ""
+    shakemap_available: bool = False
 
 
 @dataclass(frozen=True)
@@ -57,6 +58,8 @@ class NearbyQuake:
     place: str
     distance_km: float
     exposure_contribution: float
+    pga_g: float | None = None
+    mmi: float | None = None
 
 
 @dataclass

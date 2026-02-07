@@ -18,8 +18,13 @@ def fetch_earthquakes(
     days_lookback: int = 30,
     timeout: int = 60,
     session: Session | None = None,
-) -> list[Earthquake]:
-    """Fetch recent earthquakes from the USGS FDSN Event Web Service."""
+) -> tuple[list[Earthquake], dict[str, str]]:
+    """Fetch recent earthquakes from the USGS FDSN Event Web Service.
+
+    Returns:
+        (earthquakes, event_types): List of earthquakes and a mapping of
+        event_id -> properties.types string (for ShakeMap availability checks).
+    """
     if session is None:
         session = create_session()
 
@@ -41,19 +46,26 @@ def fetch_earthquakes(
     resp.raise_for_status()
 
     features = resp.json()["features"]
-    return [
-        Earthquake(
-            id=feat["id"],
-            magnitude=feat["properties"]["mag"],
-            latitude=feat["geometry"]["coordinates"][1],
-            longitude=feat["geometry"]["coordinates"][0],
-            depth_km=feat["geometry"]["coordinates"][2],
-            time_ms=feat["properties"]["time"],
-            place=feat["properties"].get("place", ""),
+    earthquakes: list[Earthquake] = []
+    event_types: dict[str, str] = {}
+    for feat in features:
+        if feat["properties"]["mag"] is None:
+            continue
+        types_str = feat["properties"].get("types", "")
+        event_types[feat["id"]] = types_str
+        earthquakes.append(
+            Earthquake(
+                id=feat["id"],
+                magnitude=feat["properties"]["mag"],
+                latitude=feat["geometry"]["coordinates"][1],
+                longitude=feat["geometry"]["coordinates"][0],
+                depth_km=feat["geometry"]["coordinates"][2],
+                time_ms=feat["properties"]["time"],
+                place=feat["properties"].get("place", ""),
+                shakemap_available="shakemap" in types_str.split(","),
+            )
         )
-        for feat in features
-        if feat["properties"]["mag"] is not None
-    ]
+    return earthquakes, event_types
 
 
 def fetch_significant_earthquakes(

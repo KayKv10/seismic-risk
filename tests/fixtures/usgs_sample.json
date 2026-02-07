@@ -16,7 +16,8 @@
         "felt": null,
         "tsunami": 0,
         "sig": 400,
-        "title": "M 5.2 - Near coast of Japan"
+        "title": "M 5.2 - Near coast of Japan",
+        "types": ",dyfi,origin,phase-data,"
       },
       "geometry": {
         "type": "Point",
@@ -34,7 +35,8 @@
         "felt": null,
         "tsunami": 0,
         "sig": 300,
-        "title": "M 4.8 - Central Japan"
+        "title": "M 4.8 - Central Japan",
+        "types": ",dyfi,origin,phase-data,"
       },
       "geometry": {
         "type": "Point",
@@ -52,7 +54,8 @@
         "felt": 1500,
         "tsunami": 0,
         "sig": 800,
-        "title": "M 6.1 - Near Tokyo, Japan"
+        "title": "M 6.1 - Near Tokyo, Japan",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +73,8 @@
         "felt": null,
         "tsunami": 0,
         "sig": 450,
-        "title": "M 5.5 - Offshore Bio-Bio, Chile"
+        "title": "M 5.5 - Offshore Bio-Bio, Chile",
+        "types": ",dyfi,origin,phase-data,"
       },
       "geometry": {
         "type": "Point",
@@ -88,7 +92,8 @@
         "felt": null,
         "tsunami": 0,
         "sig": 250,
-        "title": "M 4.3 - Central Chile"
+        "title": "M 4.3 - Central Chile",
+        "types": ",origin,phase-data,"
       },
       "geometry": {
         "type": "Point",
