@@ -20,14 +20,14 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 18,
-    "avg_magnitude": 5.32,
+    "earthquake_count": 16,
+    "avg_magnitude": 5.25,
     "strongest_earthquake": {
-      "magnitude": 6.4,
-      "date": "2026-01-07",
-      "depth_km": 22,
-      "latitude": 7.3624,
-      "longitude": 126.8585
+      "magnitude": 5.9,
+      "date": "2026-01-28",
+      "depth_km": 10,
+      "latitude": 6.4204,
+      "longitude": 123.7821
     },
     "highest_pager_alert": null,
     "max_felt_reports": 0,
@@ -40,30 +40,8 @@
         "latitude": 7.12552,
         "longitude": 125.646004,
         "municipality": "Davao",
-        "closest_quake_distance_km": 136,
+        "closest_quake_distance_km": 192.8,
         "nearby_quakes": [
-          {
-            "earthquake_id": "us7000rn2z",
-            "magnitude": 6.4,
-            "latitude": 7.3624,
-            "longitude": 126.8585,
-            "depth_km": 22,
-            "time_ms": 1767754973967,
-            "place": "31 km ESE of Baculin, Philippines",
-            "distance_km": 136.3,
-            "exposure_contribution": 11.54
-          },
-          {
-            "earthquake_id": "us7000rn4a",
-            "magnitude": 5.4,
-            "latitude": 7.2164,
-            "longitude": 126.9013,
-            "depth_km": 37.45,
-            "time_ms": 1767759180478,
-            "place": "37 km ESE of Santiago, Philippines",
-            "distance_km": 138.9,
-            "exposure_contribution": 3.58
-          },
           {
             "earthquake_id": "us6000s4yq",
             "magnitude": 5.1,
@@ -76,7 +54,7 @@
             "exposure_contribution": 1.83
           }
         ],
-        "exposure_score": 16.96
+        "exposure_score": 1.83
       },
       {
         "name": "General Santos International Airport",
@@ -84,7 +62,7 @@
         "latitude": 6.057208,
         "longitude": 125.096243,
         "municipality": "General Santos",
-        "closest_quake_distance_km": 130,
+        "closest_quake_distance_km": 130.5,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000s4yq",
@@ -175,17 +153,6 @@
             "exposure_contribution": 5.87
           },
           {
-            "earthquake_id": "us7000rqmd",
-            "magnitude": 5.3,
-            "latitude": 6.3871,
-            "longitude": 123.7579,
-            "depth_km": 10,
-            "time_ms": 1768849221828,
-            "place": "32 km WSW of Sangay, Philippines",
-            "distance_km": 152.4,
-            "exposure_contribution": 2.91
-          },
-          {
             "earthquake_id": "us6000s4uf",
             "magnitude": 5.1,
             "latitude": 6.5558,
@@ -195,6 +162,17 @@
             "place": "28 km W of Bantogon, Philippines",
             "distance_km": 156.1,
             "exposure_contribution": 2.26
+          },
+          {
+            "earthquake_id": "us7000rqmd",
+            "magnitude": 5.4,
+            "latitude": 6.3557,
+            "longitude": 123.7166,
+            "depth_km": 10,
+            "time_ms": 1768849221982,
+            "place": "37 km WSW of Sangay, Philippines",
+            "distance_km": 156.1,
+            "exposure_contribution": 3.19
           },
           {
             "earthquake_id": "us6000s4yl",
@@ -252,7 +230,7 @@
             "exposure_contribution": 3.8
           }
         ],
-        "exposure_score": 43.67
+        "exposure_score": 43.95
       },
       {
         "name": "Laguindingan International Airport",
@@ -260,7 +238,7 @@
         "latitude": 8.612203,
         "longitude": 124.456496,
         "municipality": "Laguindingan",
-        "closest_quake_distance_km": 190,
+        "closest_quake_distance_km": 190.3,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000s6q8",
@@ -282,7 +260,7 @@
         "latitude": 6.92242,
         "longitude": 122.059998,
         "municipality": "Zamboanga",
-        "closest_quake_distance_km": 185,
+        "closest_quake_distance_km": 184.8,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000s4yn",
@@ -340,6 +318,17 @@
             "exposure_contribution": 1.83
           },
           {
+            "earthquake_id": "us7000rqmd",
+            "magnitude": 5.4,
+            "latitude": 6.3557,
+            "longitude": 123.7166,
+            "depth_km": 10,
+            "time_ms": 1768849221982,
+            "place": "37 km WSW of Sangay, Philippines",
+            "distance_km": 193.5,
+            "exposure_contribution": 2.58
+          },
+          {
             "earthquake_id": "us6000s4uf",
             "magnitude": 5.1,
             "latitude": 6.5558,
@@ -349,17 +338,6 @@
             "place": "28 km W of Bantogon, Philippines",
             "distance_km": 193.8,
             "exposure_contribution": 1.82
-          },
-          {
-            "earthquake_id": "us7000rqmd",
-            "magnitude": 5.3,
-            "latitude": 6.3871,
-            "longitude": 123.7579,
-            "depth_km": 10,
-            "time_ms": 1768849221828,
-            "place": "32 km WSW of Sangay, Philippines",
-            "distance_km": 196.7,
-            "exposure_contribution": 2.26
           },
           {
             "earthquake_id": "us6000s4xz",
@@ -406,7 +384,7 @@
             "exposure_contribution": 2.5
           }
         ],
-        "exposure_score": 26.94
+        "exposure_score": 27.26
       },
       {
         "name": "Mactan Cebu International Airport",
@@ -414,7 +392,7 @@
         "latitude": 10.309261,
         "longitude": 123.97974,
         "municipality": "Cebu City/Lapu-Lapu City",
-        "closest_quake_distance_km": 182,
+        "closest_quake_distance_km": 182.1,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000s6q8",
@@ -584,36 +562,16 @@
       },
       {
         "id": "us7000rqmd",
-        "magnitude": 5.3,
-        "latitude": 6.3871,
-        "longitude": 123.7579,
-        "depth_km": 10,
-        "time_ms": 1768849221828,
-        "place": "32 km WSW of Sangay, Philippines",
-        "country_code": "PH"
-      },
-      {
-        "id": "us7000rn4a",
         "magnitude": 5.4,
-        "latitude": 7.2164,
-        "longitude": 126.9013,
-        "depth_km": 37.45,
-        "time_ms": 1767759180478,
-        "place": "37 km ESE of Santiago, Philippines",
-        "country_code": "PH"
-      },
-      {
-        "id": "us7000rn2z",
-        "magnitude": 6.4,
-        "latitude": 7.3624,
-        "longitude": 126.8585,
-        "depth_km": 22,
-        "time_ms": 1767754973967,
-        "place": "31 km ESE of Baculin, Philippines",
+        "latitude": 6.3557,
+        "longitude": 123.7166,
+        "depth_km": 10,
+        "time_ms": 1768849221982,
+        "place": "37 km WSW of Sangay, Philippines",
         "country_code": "PH"
       }
     ],
-    "seismic_hub_risk_score": 90.95
+    "seismic_hub_risk_score": 76.42
   },
   {
     "country": "Indonesia",
@@ -659,7 +617,7 @@
         "latitude": -7.750278,
         "longitude": 111.947222,
         "municipality": "Kediri",
-        "closest_quake_distance_km": 70,
+        "closest_quake_distance_km": 69.8,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000s4mj",
@@ -692,7 +650,7 @@
         "latitude": -2.579627,
         "longitude": 140.519857,
         "municipality": "Sentani",
-        "closest_quake_distance_km": 190,
+        "closest_quake_distance_km": 190.4,
         "nearby_quakes": [
           {
             "earthquake_id": "us7000rqe0",
@@ -714,7 +672,7 @@
         "latitude": 1.548591,
         "longitude": 124.92625,
         "municipality": "Manado",
-        "closest_quake_distance_km": 115,
+        "closest_quake_distance_km": 114.6,
         "nearby_quakes": [
           {
             "earthquake_id": "us7000rqdm",
@@ -747,7 +705,7 @@
         "latitude": -3.71026,
         "longitude": 128.089005,
         "municipality": "Ambon",
-        "closest_quake_distance_km": 77,
+        "closest_quake_distance_km": 77.2,
         "nearby_quakes": [
           {
             "earthquake_id": "us7000rq86",
@@ -769,7 +727,7 @@
         "latitude": -7.78818,
         "longitude": 110.431999,
         "municipality": "Yogyakarta",
-        "closest_quake_distance_km": 107,
+        "closest_quake_distance_km": 107.4,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000s4mj",
@@ -802,7 +760,7 @@
         "latitude": -7.37983,
         "longitude": 112.787003,
         "municipality": "Surabaya",
-        "closest_quake_distance_km": 171,
+        "closest_quake_distance_km": 171.1,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000s4mj",
@@ -824,7 +782,7 @@
         "latitude": -6.970732,
         "longitude": 110.373244,
         "municipality": "Semarang",
-        "closest_quake_distance_km": 161,
+        "closest_quake_distance_km": 161.1,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000s4mj",
@@ -1065,7 +1023,7 @@
         "latitude": 35.76858,
         "longitude": 140.388714,
         "municipality": "Narita",
-        "closest_quake_distance_km": 123,
+        "closest_quake_distance_km": 123.3,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000s63e",
@@ -1087,7 +1045,7 @@
         "latitude": 42.774753,
         "longitude": 141.690414,
         "municipality": "Sapporo",
-        "closest_quake_distance_km": 152,
+        "closest_quake_distance_km": 152.3,
         "nearby_quakes": [
           {
             "earthquake_id": "us7000rqwc",
@@ -1131,7 +1089,7 @@
         "latitude": 41.77,
         "longitude": 140.822006,
         "municipality": "Hakodate",
-        "closest_quake_distance_km": 104,
+        "closest_quake_distance_km": 104.3,
         "nearby_quakes": [
           {
             "earthquake_id": "us7000rqwc",
@@ -1186,7 +1144,7 @@
         "latitude": 34.858398,
         "longitude": 136.804993,
         "municipality": "Tokoname",
-        "closest_quake_distance_km": 170,
+        "closest_quake_distance_km": 169.7,
         "nearby_quakes": [
           {
             "earthquake_id": "us7000rps1",
@@ -1208,7 +1166,7 @@
         "latitude": 36.393407,
         "longitude": 136.406895,
         "municipality": "Kanazawa",
-        "closest_quake_distance_km": 127,
+        "closest_quake_distance_km": 127.1,
         "nearby_quakes": [
           {
             "earthquake_id": "us7000rps1",
@@ -1230,7 +1188,7 @@
         "latitude": 34.795022,
         "longitude": 138.190976,
         "municipality": "Makinohara / Shimada",
-        "closest_quake_distance_km": 155,
+        "closest_quake_distance_km": 155.5,
         "nearby_quakes": [
           {
             "earthquake_id": "us7000rps1",
@@ -1252,7 +1210,7 @@
         "latitude": 40.733777,
         "longitude": 140.689477,
         "municipality": "Aomori",
-        "closest_quake_distance_km": 133,
+        "closest_quake_distance_km": 133.1,
         "nearby_quakes": [
           {
             "earthquake_id": "us7000rqwc",
@@ -1307,7 +1265,7 @@
         "latitude": 38.139702,
         "longitude": 140.917007,
         "municipality": "Natori",
-        "closest_quake_distance_km": 153,
+        "closest_quake_distance_km": 153.1,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000s63e",
@@ -1329,7 +1287,7 @@
         "latitude": 35.549678,
         "longitude": 139.786958,
         "municipality": "Tokyo",
-        "closest_quake_distance_km": 173,
+        "closest_quake_distance_km": 173.2,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000s63e",
@@ -1512,6 +1470,390 @@
     "seismic_hub_risk_score": 45.45
   },
   {
+    "country": "Russia",
+    "iso_alpha2": "RU",
+    "iso_alpha3": "RUS",
+    "capital": "Moscow",
+    "population": 146028325,
+    "area_km2": 17098246.0,
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "currencies": [
+      {
+        "code": "RUB",
+        "name": "Russian ruble"
+      }
+    ],
+    "languages": [
+      "Russian"
+    ],
+    "un_member": true,
+    "bordering_countries": [
+      "AZE",
+      "BLR",
+      "CHN",
+      "EST",
+      "FIN",
+      "GEO",
+      "KAZ",
+      "PRK",
+      "LVA",
+      "LTU",
+      "MNG",
+      "NOR",
+      "POL",
+      "UKR"
+    ],
+    "earthquake_count": 22,
+    "avg_magnitude": 5.19,
+    "strongest_earthquake": {
+      "magnitude": 6.2,
+      "date": "2026-01-22",
+      "depth_km": 52.2,
+      "latitude": 51.7794,
+      "longitude": 158.5523
+    },
+    "highest_pager_alert": null,
+    "max_felt_reports": 0,
+    "tsunami_warning_issued": false,
+    "significant_events_count": 0,
+    "exposed_airports": [
+      {
+        "name": "Yelizovo Airport",
+        "iata_code": "PKC",
+        "latitude": 53.168716,
+        "longitude": 158.451068,
+        "municipality": "Petropavlovsk-Kamchatsky",
+        "closest_quake_distance_km": 94.0,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us6000s6ve",
+            "magnitude": 5.1,
+            "latitude": 53.0471,
+            "longitude": 159.8442,
+            "depth_km": 58.734,
+            "time_ms": 1770351873026,
+            "place": "81 km E of Petropavlovsk-Kamchatsky, Russia",
+            "distance_km": 94.0,
+            "exposure_contribution": 3.74
+          },
+          {
+            "earthquake_id": "us7000rrbj",
+            "magnitude": 6.2,
+            "latitude": 51.7794,
+            "longitude": 158.5523,
+            "depth_km": 52.24,
+            "time_ms": 1769085755165,
+            "place": "128 km S of Vilyuchinsk, Russia",
+            "distance_km": 154.6,
+            "exposure_contribution": 8.09
+          },
+          {
+            "earthquake_id": "us7000rnxj",
+            "magnitude": 5,
+            "latitude": 51.6273,
+            "longitude": 158.534,
+            "depth_km": 57.906,
+            "time_ms": 1768059250567,
+            "place": "141 km E of Ozernovskiy, Russia",
+            "distance_km": 171.5,
+            "exposure_contribution": 1.83
+          },
+          {
+            "earthquake_id": "us7000rnvf",
+            "magnitude": 5.2,
+            "latitude": 52.8269,
+            "longitude": 161.0619,
+            "depth_km": 10,
+            "time_ms": 1768044667960,
+            "place": "165 km E of Petropavlovsk-Kamchatsky, Russia",
+            "distance_km": 178.8,
+            "exposure_contribution": 2.21
+          },
+          {
+            "earthquake_id": "us7000rnuu",
+            "magnitude": 5.3,
+            "latitude": 52.8128,
+            "longitude": 161.08,
+            "depth_km": 13,
+            "time_ms": 1768031866023,
+            "place": "167 km E of Petropavlovsk-Kamchatsky, Russia",
+            "distance_km": 180.3,
+            "exposure_contribution": 2.46
+          },
+          {
+            "earthquake_id": "us7000rq9h",
+            "magnitude": 5.3,
+            "latitude": 52.391,
+            "longitude": 160.877,
+            "depth_km": 23.07,
+            "time_ms": 1768632401001,
+            "place": "169 km ESE of Petropavlovsk-Kamchatsky, Russia",
+            "distance_km": 184.7,
+            "exposure_contribution": 2.41
+          },
+          {
+            "earthquake_id": "us7000rpnf",
+            "magnitude": 5,
+            "latitude": 53.5538,
+            "longitude": 161.2045,
+            "depth_km": 10,
+            "time_ms": 1768411773036,
+            "place": "180 km ENE of Petropavlovsk-Kamchatsky, Russia",
+            "distance_km": 187.6,
+            "exposure_contribution": 1.68
+          },
+          {
+            "earthquake_id": "us7000rs3j",
+            "magnitude": 5.1,
+            "latitude": 51.7668,
+            "longitude": 160.1363,
+            "depth_km": 10,
+            "time_ms": 1769422868726,
+            "place": "175 km SE of Vilyuchinsk, Russia",
+            "distance_km": 193.2,
+            "exposure_contribution": 1.83
+          },
+          {
+            "earthquake_id": "us6000s4yu",
+            "magnitude": 5.2,
+            "latitude": 51.4364,
+            "longitude": 159.177,
+            "depth_km": 37.58,
+            "time_ms": 1769591644015,
+            "place": "174 km SSE of Vilyuchinsk, Russia",
+            "distance_km": 198.8,
+            "exposure_contribution": 1.99
+          }
+        ],
+        "exposure_score": 26.24
+      }
+    ],
+    "earthquakes": [
+      {
+        "id": "us6000s6ve",
+        "magnitude": 5.1,
+        "latitude": 53.0471,
+        "longitude": 159.8442,
+        "depth_km": 58.734,
+        "time_ms": 1770351873026,
+        "place": "81 km E of Petropavlovsk-Kamchatsky, Russia",
+        "country_code": "RU"
+      },
+      {
+        "id": "us6000s628",
+        "magnitude": 5,
+        "latitude": 56.1712,
+        "longitude": 161.6441,
+        "depth_km": 72.245,
+        "time_ms": 1770078803258,
+        "place": "52 km W of Ust’-Kamchatsk Staryy, Russia",
+        "country_code": "RU"
+      },
+      {
+        "id": "us6000s4yu",
+        "magnitude": 5.2,
+        "latitude": 51.4364,
+        "longitude": 159.177,
+        "depth_km": 37.58,
+        "time_ms": 1769591644015,
+        "place": "174 km SSE of Vilyuchinsk, Russia",
+        "country_code": "RU"
+      },
+      {
+        "id": "us6000s4yk",
+        "magnitude": 5.1,
+        "latitude": 51.6656,
+        "longitude": 160.0786,
+        "depth_km": 10,
+        "time_ms": 1769588662090,
+        "place": "181 km SE of Vilyuchinsk, Russia",
+        "country_code": "RU"
+      },
+      {
+        "id": "us6000s4yg",
+        "magnitude": 5,
+        "latitude": 51.3609,
+        "longitude": 159.3213,
+        "depth_km": 35,
+        "time_ms": 1769587060135,
+        "place": "185 km SSE of Vilyuchinsk, Russia",
+        "country_code": "RU"
+      },
+      {
+        "id": "us6000s4nn",
+        "magnitude": 5.1,
+        "latitude": 50.4718,
+        "longitude": 159.8124,
+        "depth_km": 10,
+        "time_ms": 1769488163515,
+        "place": "258 km ESE of Ozernovskiy, Russia",
+        "country_code": "RU"
+      },
+      {
+        "id": "us7000rs4q",
+        "magnitude": 5.2,
+        "latitude": 50.3211,
+        "longitude": 158.0134,
+        "depth_km": 10,
+        "time_ms": 1769438694165,
+        "place": "139 km ESE of Severo-Kuril’sk, Russia",
+        "country_code": "RU"
+      },
+      {
+        "id": "us7000rs3j",
+        "magnitude": 5.1,
+        "latitude": 51.7668,
+        "longitude": 160.1363,
+        "depth_km": 10,
+        "time_ms": 1769422868726,
+        "place": "175 km SE of Vilyuchinsk, Russia",
+        "country_code": "RU"
+      },
+      {
+        "id": "us7000rrjh",
+        "magnitude": 5,
+        "latitude": 52.1462,
+        "longitude": 177.3554,
+        "depth_km": 10,
+        "time_ms": 1769156741298,
+        "place": "293 km ESE of Attu Station, Alaska",
+        "country_code": "RU"
+      },
+      {
+        "id": "us7000rrbj",
+        "magnitude": 6.2,
+        "latitude": 51.7794,
+        "longitude": 158.5523,
+        "depth_km": 52.24,
+        "time_ms": 1769085755165,
+        "place": "128 km S of Vilyuchinsk, Russia",
+        "country_code": "RU"
+      },
+      {
+        "id": "us7000rq9h",
+        "magnitude": 5.3,
+        "latitude": 52.391,
+        "longitude": 160.877,
+        "depth_km": 23.07,
+        "time_ms": 1768632401001,
+        "place": "169 km ESE of Petropavlovsk-Kamchatsky, Russia",
+        "country_code": "RU"
+      },
+      {
+        "id": "us7000rq84",
+        "magnitude": 5.2,
+        "latitude": 56.5336,
+        "longitude": 163.1539,
+        "depth_km": 35,
+        "time_ms": 1768605744948,
+        "place": "53 km NE of Ust’-Kamchatsk Staryy, Russia",
+        "country_code": "RU"
+      },
+      {
+        "id": "us7000rptl",
+        "magnitude": 5.9,
+        "latitude": 51.7477,
+        "longitude": 176.7452,
+        "depth_km": 41.324,
+        "time_ms": 1768467166751,
+        "place": "271 km ESE of Attu Station, Alaska",
+        "country_code": "RU"
+      },
+      {
+        "id": "us7000rpp8",
+        "magnitude": 5,
+        "latitude": 48.094,
+        "longitude": 154.5422,
+        "depth_km": 35,
+        "time_ms": 1768422980416,
+        "place": "Kuril Islands",
+        "country_code": "RU"
+      },
+      {
+        "id": "us7000rpnf",
+        "magnitude": 5,
+        "latitude": 53.5538,
+        "longitude": 161.2045,
+        "depth_km": 10,
+        "time_ms": 1768411773036,
+        "place": "180 km ENE of Petropavlovsk-Kamchatsky, Russia",
+        "country_code": "RU"
+      },
+      {
+        "id": "us7000rpaq",
+        "magnitude": 5.2,
+        "latitude": 49.0845,
+        "longitude": 156.4212,
+        "depth_km": 10,
+        "time_ms": 1768264455158,
+        "place": "178 km S of Severo-Kuril’sk, Russia",
+        "country_code": "RU"
+      },
+      {
+        "id": "us7000rp2k",
+        "magnitude": 5.1,
+        "latitude": 49.3211,
+        "longitude": 156.102,
+        "depth_km": 52.957,
+        "time_ms": 1768160276480,
+        "place": "150 km S of Severo-Kuril’sk, Russia",
+        "country_code": "RU"
+      },
+      {
+        "id": "us7000rnxj",
+        "magnitude": 5,
+        "latitude": 51.6273,
+        "longitude": 158.534,
+        "depth_km": 57.906,
+        "time_ms": 1768059250567,
+        "place": "141 km E of Ozernovskiy, Russia",
+        "country_code": "RU"
+      },
+      {
+        "id": "us7000rnvf",
+        "magnitude": 5.2,
+        "latitude": 52.8269,
+        "longitude": 161.0619,
+        "depth_km": 10,
+        "time_ms": 1768044667960,
+        "place": "165 km E of Petropavlovsk-Kamchatsky, Russia",
+        "country_code": "RU"
+      },
+      {
+        "id": "us7000rnuu",
+        "magnitude": 5.3,
+        "latitude": 52.8128,
+        "longitude": 161.08,
+        "depth_km": 13,
+        "time_ms": 1768031866023,
+        "place": "167 km E of Petropavlovsk-Kamchatsky, Russia",
+        "country_code": "RU"
+      },
+      {
+        "id": "us7000rnu0",
+        "magnitude": 5,
+        "latitude": 49.2009,
+        "longitude": 156.1209,
+        "depth_km": 67.966,
+        "time_ms": 1768016350390,
+        "place": "163 km S of Severo-Kuril’sk, Russia",
+        "country_code": "RU"
+      },
+      {
+        "id": "us7000rnmi",
+        "magnitude": 5,
+        "latitude": 49.1314,
+        "longitude": 156.1887,
+        "depth_km": 10,
+        "time_ms": 1767961330845,
+        "place": "171 km S of Severo-Kuril’sk, Russia",
+        "country_code": "RU"
+      }
+    ],
+    "seismic_hub_risk_score": 26.24
+  },
+  {
     "country": "Tonga",
     "iso_alpha2": "TO",
     "iso_alpha3": "TON",
@@ -1532,8 +1874,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 20,
-    "avg_magnitude": 5.3,
+    "earthquake_count": 19,
+    "avg_magnitude": 5.29,
     "strongest_earthquake": {
       "magnitude": 6.1,
       "date": "2026-02-04",
@@ -1552,7 +1894,7 @@
         "latitude": -21.241438,
         "longitude": -175.149164,
         "municipality": "Nuku'alofa",
-        "closest_quake_distance_km": 73,
+        "closest_quake_distance_km": 72.6,
         "nearby_quakes": [
           {
             "earthquake_id": "us7000rs4b",
@@ -1803,382 +2145,9 @@
         "time_ms": 1767960816173,
         "place": "Kermadec Islands region",
         "country_code": "TO"
-      },
-      {
-        "id": "us7000rnbi",
-        "magnitude": 5.5,
-        "latitude": -23.4215,
-        "longitude": -179.921,
-        "depth_km": 538.866,
-        "time_ms": 1767823212599,
-        "place": "south of the Fiji Islands",
-        "country_code": "TO"
       }
     ],
     "seismic_hub_risk_score": 25.35
-  },
-  {
-    "country": "Russia",
-    "iso_alpha2": "RU",
-    "iso_alpha3": "RUS",
-    "capital": "Moscow",
-    "population": 146028325,
-    "area_km2": 17098246.0,
-    "region": "Europe",
-    "subregion": "Eastern Europe",
-    "currencies": [
-      {
-        "code": "RUB",
-        "name": "Russian ruble"
-      }
-    ],
-    "languages": [
-      "Russian"
-    ],
-    "un_member": true,
-    "bordering_countries": [
-      "AZE",
-      "BLR",
-      "CHN",
-      "EST",
-      "FIN",
-      "GEO",
-      "KAZ",
-      "PRK",
-      "LVA",
-      "LTU",
-      "MNG",
-      "NOR",
-      "POL",
-      "UKR"
-    ],
-    "earthquake_count": 21,
-    "avg_magnitude": 5.2,
-    "strongest_earthquake": {
-      "magnitude": 6.2,
-      "date": "2026-01-22",
-      "depth_km": 52.2,
-      "latitude": 51.7794,
-      "longitude": 158.5523
-    },
-    "highest_pager_alert": null,
-    "max_felt_reports": 0,
-    "tsunami_warning_issued": false,
-    "significant_events_count": 0,
-    "exposed_airports": [
-      {
-        "name": "Yelizovo Airport",
-        "iata_code": "PKC",
-        "latitude": 53.168716,
-        "longitude": 158.451068,
-        "municipality": "Petropavlovsk-Kamchatsky",
-        "closest_quake_distance_km": 155,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us7000rrbj",
-            "magnitude": 6.2,
-            "latitude": 51.7794,
-            "longitude": 158.5523,
-            "depth_km": 52.24,
-            "time_ms": 1769085755165,
-            "place": "128 km S of Vilyuchinsk, Russia",
-            "distance_km": 154.6,
-            "exposure_contribution": 8.09
-          },
-          {
-            "earthquake_id": "us7000rnxj",
-            "magnitude": 5,
-            "latitude": 51.6273,
-            "longitude": 158.534,
-            "depth_km": 57.906,
-            "time_ms": 1768059250567,
-            "place": "141 km E of Ozernovskiy, Russia",
-            "distance_km": 171.5,
-            "exposure_contribution": 1.83
-          },
-          {
-            "earthquake_id": "us7000rnvf",
-            "magnitude": 5.2,
-            "latitude": 52.8269,
-            "longitude": 161.0619,
-            "depth_km": 10,
-            "time_ms": 1768044667960,
-            "place": "165 km E of Petropavlovsk-Kamchatsky, Russia",
-            "distance_km": 178.8,
-            "exposure_contribution": 2.21
-          },
-          {
-            "earthquake_id": "us7000rnuu",
-            "magnitude": 5.3,
-            "latitude": 52.8128,
-            "longitude": 161.08,
-            "depth_km": 13,
-            "time_ms": 1768031866023,
-            "place": "167 km E of Petropavlovsk-Kamchatsky, Russia",
-            "distance_km": 180.3,
-            "exposure_contribution": 2.46
-          },
-          {
-            "earthquake_id": "us7000rq9h",
-            "magnitude": 5.3,
-            "latitude": 52.391,
-            "longitude": 160.877,
-            "depth_km": 23.07,
-            "time_ms": 1768632401001,
-            "place": "169 km ESE of Petropavlovsk-Kamchatsky, Russia",
-            "distance_km": 184.7,
-            "exposure_contribution": 2.41
-          },
-          {
-            "earthquake_id": "us7000rpnf",
-            "magnitude": 5,
-            "latitude": 53.5538,
-            "longitude": 161.2045,
-            "depth_km": 10,
-            "time_ms": 1768411773036,
-            "place": "180 km ENE of Petropavlovsk-Kamchatsky, Russia",
-            "distance_km": 187.6,
-            "exposure_contribution": 1.68
-          },
-          {
-            "earthquake_id": "us7000rs3j",
-            "magnitude": 5.1,
-            "latitude": 51.7668,
-            "longitude": 160.1363,
-            "depth_km": 10,
-            "time_ms": 1769422868726,
-            "place": "175 km SE of Vilyuchinsk, Russia",
-            "distance_km": 193.2,
-            "exposure_contribution": 1.83
-          },
-          {
-            "earthquake_id": "us6000s4yu",
-            "magnitude": 5.2,
-            "latitude": 51.4364,
-            "longitude": 159.177,
-            "depth_km": 37.58,
-            "time_ms": 1769591644015,
-            "place": "174 km SSE of Vilyuchinsk, Russia",
-            "distance_km": 198.8,
-            "exposure_contribution": 1.99
-          }
-        ],
-        "exposure_score": 22.5
-      }
-    ],
-    "earthquakes": [
-      {
-        "id": "us6000s628",
-        "magnitude": 5,
-        "latitude": 56.1712,
-        "longitude": 161.6441,
-        "depth_km": 72.245,
-        "time_ms": 1770078803258,
-        "place": "52 km W of Ust’-Kamchatsk Staryy, Russia",
-        "country_code": "RU"
-      },
-      {
-        "id": "us6000s4yu",
-        "magnitude": 5.2,
-        "latitude": 51.4364,
-        "longitude": 159.177,
-        "depth_km": 37.58,
-        "time_ms": 1769591644015,
-        "place": "174 km SSE of Vilyuchinsk, Russia",
-        "country_code": "RU"
-      },
-      {
-        "id": "us6000s4yk",
-        "magnitude": 5.1,
-        "latitude": 51.6656,
-        "longitude": 160.0786,
-        "depth_km": 10,
-        "time_ms": 1769588662090,
-        "place": "181 km SE of Vilyuchinsk, Russia",
-        "country_code": "RU"
-      },
-      {
-        "id": "us6000s4yg",
-        "magnitude": 5,
-        "latitude": 51.3609,
-        "longitude": 159.3213,
-        "depth_km": 35,
-        "time_ms": 1769587060135,
-        "place": "185 km SSE of Vilyuchinsk, Russia",
-        "country_code": "RU"
-      },
-      {
-        "id": "us6000s4nn",
-        "magnitude": 5.1,
-        "latitude": 50.4718,
-        "longitude": 159.8124,
-        "depth_km": 10,
-        "time_ms": 1769488163515,
-        "place": "258 km ESE of Ozernovskiy, Russia",
-        "country_code": "RU"
-      },
-      {
-        "id": "us7000rs4q",
-        "magnitude": 5.2,
-        "latitude": 50.3211,
-        "longitude": 158.0134,
-        "depth_km": 10,
-        "time_ms": 1769438694165,
-        "place": "139 km ESE of Severo-Kuril’sk, Russia",
-        "country_code": "RU"
-      },
-      {
-        "id": "us7000rs3j",
-        "magnitude": 5.1,
-        "latitude": 51.7668,
-        "longitude": 160.1363,
-        "depth_km": 10,
-        "time_ms": 1769422868726,
-        "place": "175 km SE of Vilyuchinsk, Russia",
-        "country_code": "RU"
-      },
-      {
-        "id": "us7000rrjh",
-        "magnitude": 5,
-        "latitude": 52.1462,
-        "longitude": 177.3554,
-        "depth_km": 10,
-        "time_ms": 1769156741298,
-        "place": "293 km ESE of Attu Station, Alaska",
-        "country_code": "RU"
-      },
-      {
-        "id": "us7000rrbj",
-        "magnitude": 6.2,
-        "latitude": 51.7794,
-        "longitude": 158.5523,
-        "depth_km": 52.24,
-        "time_ms": 1769085755165,
-        "place": "128 km S of Vilyuchinsk, Russia",
-        "country_code": "RU"
-      },
-      {
-        "id": "us7000rq9h",
-        "magnitude": 5.3,
-        "latitude": 52.391,
-        "longitude": 160.877,
-        "depth_km": 23.07,
-        "time_ms": 1768632401001,
-        "place": "169 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "country_code": "RU"
-      },
-      {
-        "id": "us7000rq84",
-        "magnitude": 5.2,
-        "latitude": 56.5336,
-        "longitude": 163.1539,
-        "depth_km": 35,
-        "time_ms": 1768605744948,
-        "place": "53 km NE of Ust’-Kamchatsk Staryy, Russia",
-        "country_code": "RU"
-      },
-      {
-        "id": "us7000rptl",
-        "magnitude": 5.9,
-        "latitude": 51.7477,
-        "longitude": 176.7452,
-        "depth_km": 41.324,
-        "time_ms": 1768467166751,
-        "place": "271 km ESE of Attu Station, Alaska",
-        "country_code": "RU"
-      },
-      {
-        "id": "us7000rpp8",
-        "magnitude": 5,
-        "latitude": 48.094,
-        "longitude": 154.5422,
-        "depth_km": 35,
-        "time_ms": 1768422980416,
-        "place": "Kuril Islands",
-        "country_code": "RU"
-      },
-      {
-        "id": "us7000rpnf",
-        "magnitude": 5,
-        "latitude": 53.5538,
-        "longitude": 161.2045,
-        "depth_km": 10,
-        "time_ms": 1768411773036,
-        "place": "180 km ENE of Petropavlovsk-Kamchatsky, Russia",
-        "country_code": "RU"
-      },
-      {
-        "id": "us7000rpaq",
-        "magnitude": 5.2,
-        "latitude": 49.0845,
-        "longitude": 156.4212,
-        "depth_km": 10,
-        "time_ms": 1768264455158,
-        "place": "178 km S of Severo-Kuril’sk, Russia",
-        "country_code": "RU"
-      },
-      {
-        "id": "us7000rp2k",
-        "magnitude": 5.1,
-        "latitude": 49.3211,
-        "longitude": 156.102,
-        "depth_km": 52.957,
-        "time_ms": 1768160276480,
-        "place": "150 km S of Severo-Kuril’sk, Russia",
-        "country_code": "RU"
-      },
-      {
-        "id": "us7000rnxj",
-        "magnitude": 5,
-        "latitude": 51.6273,
-        "longitude": 158.534,
-        "depth_km": 57.906,
-        "time_ms": 1768059250567,
-        "place": "141 km E of Ozernovskiy, Russia",
-        "country_code": "RU"
-      },
-      {
-        "id": "us7000rnvf",
-        "magnitude": 5.2,
-        "latitude": 52.8269,
-        "longitude": 161.0619,
-        "depth_km": 10,
-        "time_ms": 1768044667960,
-        "place": "165 km E of Petropavlovsk-Kamchatsky, Russia",
-        "country_code": "RU"
-      },
-      {
-        "id": "us7000rnuu",
-        "magnitude": 5.3,
-        "latitude": 52.8128,
-        "longitude": 161.08,
-        "depth_km": 13,
-        "time_ms": 1768031866023,
-        "place": "167 km E of Petropavlovsk-Kamchatsky, Russia",
-        "country_code": "RU"
-      },
-      {
-        "id": "us7000rnu0",
-        "magnitude": 5,
-        "latitude": 49.2009,
-        "longitude": 156.1209,
-        "depth_km": 67.966,
-        "time_ms": 1768016350390,
-        "place": "163 km S of Severo-Kuril’sk, Russia",
-        "country_code": "RU"
-      },
-      {
-        "id": "us7000rnmi",
-        "magnitude": 5,
-        "latitude": 49.1314,
-        "longitude": 156.1887,
-        "depth_km": 10,
-        "time_ms": 1767961330845,
-        "place": "171 km S of Severo-Kuril’sk, Russia",
-        "country_code": "RU"
-      }
-    ],
-    "seismic_hub_risk_score": 22.5
   },
   {
     "country": "Papua New Guinea",
@@ -2224,7 +2193,7 @@
         "latitude": -6.567995,
         "longitude": 146.726544,
         "municipality": "Lae",
-        "closest_quake_distance_km": 100,
+        "closest_quake_distance_km": 99.9,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000s692",
@@ -2348,7 +2317,7 @@
         "latitude": -41.327202,
         "longitude": 174.804993,
         "municipality": "Wellington",
-        "closest_quake_distance_km": 163,
+        "closest_quake_distance_km": 162.7,
         "nearby_quakes": [
           {
             "earthquake_id": "us7000rnii",

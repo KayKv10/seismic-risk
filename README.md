@@ -54,17 +54,17 @@ seismic-risk --version
 *Updated daily by [GitHub Actions](https://github.com/KayKv10/seismic-risk/actions/workflows/daily-report.yml). View the [interactive map](https://kaykv10.github.io/seismic-risk/latest.html).*
 
 <!-- LATEST_RESULTS_START -->
-*Last updated: 2026-02-06 07:39 UTC*
+*Last updated: 2026-02-07 06:32 UTC*
 
-| # | Country | ISO | Score | Quakes | Airports | Alert |
-|--:|:--------|:----|------:|-------:|---------:|:------|
-| 1 | Philippines | PHL | 91.0 | 18 | 5 | - |
-| 2 | Indonesia | IDN | 47.2 | 18 | 7 | green |
-| 3 | Japan | JPN | 45.5 | 15 | 9 | - |
-| 4 | Tonga | TON | 25.4 | 20 | 1 | - |
-| 5 | Russia | RUS | 22.5 | 21 | 1 | - |
-| 6 | Papua New Guinea | PNG | 9.3 | 5 | 1 | - |
-| 7 | New Zealand | NZL | 1.9 | 3 | 1 | - |
+| # | Country | ISO | Score | Trend | Quakes | Airports | Alert |
+|--:|:--------|:----|------:|:------|-------:|---------:|:------|
+| 1 | Philippines | PHL | 76.4 |  | 16 | 5 | - |
+| 2 | Indonesia | IDN | 47.2 |  | 18 | 7 | green |
+| 3 | Japan | JPN | 45.5 |  | 15 | 9 | - |
+| 4 | Russia | RUS | 26.2 |  | 22 | 1 | - |
+| 5 | Tonga | TON | 25.4 |  | 19 | 1 | - |
+| 6 | Papua New Guinea | PNG | 9.3 |  | 5 | 1 | - |
+| 7 | New Zealand | NZL | 1.9 |  | 3 | 1 | - |
 <!-- LATEST_RESULTS_END -->
 
 ## How It Works
