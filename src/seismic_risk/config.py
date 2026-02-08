@@ -59,3 +59,11 @@ class SeismicRiskConfig(BaseSettings):
         default=None,
         description="Directory for daily snapshot history. Enables trend tracking when set.",
     )
+    starttime: str | None = Field(
+        default=None,
+        description="Override earthquake query start date (YYYY-MM-DD). Internal use.",
+    )
+    endtime: str | None = Field(
+        default=None,
+        description="Override earthquake query end date (YYYY-MM-DD). Internal use.",
+    )

@@ -76,6 +76,8 @@ def run_pipeline(config: SeismicRiskConfig) -> list[CountryRiskResult]:
         days_lookback=config.days_lookback,
         timeout=config.request_timeout,
         session=session,
+        starttime=config.starttime,
+        endtime=config.endtime,
     )
     logger.info("Retrieved %d earthquakes", len(earthquakes))
 

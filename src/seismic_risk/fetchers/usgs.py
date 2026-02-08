@@ -18,8 +18,13 @@ def fetch_earthquakes(
     days_lookback: int = 30,
     timeout: int = 60,
     session: Session | None = None,
+    starttime: str | None = None,
+    endtime: str | None = None,
 ) -> tuple[list[Earthquake], dict[str, str]]:
     """Fetch recent earthquakes from the USGS FDSN Event Web Service.
+
+    When *starttime* and *endtime* are provided (as ``"YYYY-MM-DD"`` strings),
+    they override the *days_lookback* calculation.
 
     Returns:
         (earthquakes, event_types): List of earthquakes and a mapping of
@@ -28,14 +33,20 @@ def fetch_earthquakes(
     if session is None:
         session = create_session()
 
-    end_date = datetime.now(timezone.utc)
-    start_date = end_date - timedelta(days=days_lookback)
+    if starttime is not None and endtime is not None:
+        start_str = starttime
+        end_str = endtime
+    else:
+        end_date = datetime.now(timezone.utc)
+        start_date = end_date - timedelta(days=days_lookback)
+        start_str = start_date.strftime("%Y-%m-%d")
+        end_str = end_date.strftime("%Y-%m-%d")
 
     params: dict[str, str | float] = {
         "format": "geojson",
         "minmagnitude": min_magnitude,
-        "starttime": start_date.strftime("%Y-%m-%d"),
-        "endtime": end_date.strftime("%Y-%m-%d"),
+        "starttime": start_str,
+        "endtime": end_str,
         "orderby": "time",
     }
     resp = session.get(

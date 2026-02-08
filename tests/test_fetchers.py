@@ -286,3 +286,39 @@ class TestFetchCountryMetadata:
     def test_empty_country_codes_returns_empty(self):
         result = fetch_country_metadata(set(), use_cache=False)
         assert result == {}
+
+
+class TestFetchEarthquakesDateOverride:
+    @responses.activate
+    def test_starttime_endtime_override(self, sample_usgs_response):
+        """When starttime/endtime are provided, they override days_lookback."""
+        responses.add(
+            responses.GET,
+            "https://earthquake.usgs.gov/fdsnws/event/1/query",
+            json=sample_usgs_response,
+            status=200,
+        )
+        fetch_earthquakes(
+            min_magnitude=5.0,
+            days_lookback=30,
+            starttime="2023-06-01",
+            endtime="2023-06-30",
+        )
+        request = responses.calls[0].request
+        assert "starttime=2023-06-01" in request.url
+        assert "endtime=2023-06-30" in request.url
+
+    @responses.activate
+    def test_none_starttime_uses_days_lookback(self, sample_usgs_response):
+        """Default behavior (starttime=None) calculates from days_lookback."""
+        responses.add(
+            responses.GET,
+            "https://earthquake.usgs.gov/fdsnws/event/1/query",
+            json=sample_usgs_response,
+            status=200,
+        )
+        fetch_earthquakes(min_magnitude=5.0, days_lookback=7)
+        request = responses.calls[0].request
+        assert "starttime=" in request.url
+        # Should not contain the fixed test dates
+        assert "2023-06" not in request.url
