@@ -181,7 +181,7 @@ jupyter notebook examples/notebook_demo.ipynb
 
 ## Trend Tracking
 
-The `output/history/` directory contains monthly snapshots back to January 2020 and daily snapshots going forward, updated automatically by the [daily report workflow](https://github.com/KayKv10/seismic-risk/actions/workflows/daily-report.yml). The HTML map shows SVG sparkline charts for each country's risk score history.
+The `output/history/` directory contains monthly snapshots back to January 2020 and daily snapshots going forward, updated automatically by the [daily report workflow](https://github.com/KayKv10/seismic-risk/actions/workflows/daily-report.yml). The HTML map shows SVG sparkline charts for each country's risk score history, and per-airport exposure sparklines in airport popups.
 
 ```bash
 # Run with trend sparklines
@@ -212,7 +212,7 @@ src/seismic_risk/
 ├── pipeline.py      # Pipeline orchestrator
 ├── geo.py           # Haversine distance, reverse geocoding, felt radius
 ├── scoring.py       # Risk score calculation, airport exposure
-├── history.py       # Daily snapshot storage & trend computation
+├── history.py       # Daily snapshot storage, per-airport exposure tracking & trends
 ├── http.py          # Shared requests.Session with retry/backoff
 ├── cache.py         # File-based disk cache with TTL
 ├── fetchers/        # Data fetchers (USGS, ShakeMap, airports, countries)
@@ -246,7 +246,7 @@ docker run -v $(pwd)/output:/app/output seismic-risk run --format html -o /app/o
 # Install all dependencies
 uv sync --all-extras
 
-# Run tests (214 tests)
+# Run tests (235 tests)
 uv run pytest
 
 # Lint & type check
