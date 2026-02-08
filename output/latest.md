@@ -1,16 +1,16 @@
 # Seismic Risk Report
-Generated: 2026-02-08 04:13 UTC
+Generated: 2026-02-08 04:15 UTC
 
 ## Country Summary
 
-| Country | ISO | Region | Score | Trend | Avg Mag | Strongest | Quakes | Airports | Alert | Tsunami | Sig. Events |
-|:--------|:----|:-------|------:|:------|--------:|:----------|-------:|---------:|:------|:--------|------------:|
-| Philippines | PHL | Asia | 16.3 | -60.2 | 5.2 | M5.9 (2026-01-28) | 16 | 5 | - | No | 0 |
-| Japan | JPN | Asia | 9.6 | -35.8 | 5.3 | M6.2 (2026-01-13) | 15 | 9 | - | No | 0 |
-| Indonesia | IDN | Asia | 8.2 | -39.0 | 5.2 | M6.4 (2026-01-10) | 18 | 7 | green | Yes | 1 |
-| Tonga | TON | Oceania | 7.4 | -17.9 | 5.3 | M6.1 (2026-02-04) | 19 | 1 | - | No | 0 |
-| Russia | RUS | Europe | 5.4 | -20.8 | 5.2 | M6.2 (2026-01-22) | 22 | 1 | - | No | 0 |
-| Papua New Guinea | PNG | Oceania | 1.8 | -7.5 | 5.4 | M5.9 (2026-01-20) | 5 | 1 | - | No | 0 |
+| Country | ISO | Region | Score | Avg Mag | Strongest | Quakes | Airports | Alert | Tsunami | Sig. Events |
+|:--------|:----|:-------|------:|--------:|:----------|-------:|---------:|:------|:--------|------------:|
+| Philippines | PHL | Asia | 16.3 | 5.2 | M5.9 (2026-01-28) | 16 | 5 | - | No | 0 |
+| Japan | JPN | Asia | 9.6 | 5.3 | M6.2 (2026-01-13) | 15 | 9 | - | No | 0 |
+| Indonesia | IDN | Asia | 8.2 | 5.2 | M6.4 (2026-01-10) | 18 | 7 | green | Yes | 1 |
+| Tonga | TON | Oceania | 7.4 | 5.3 | M6.1 (2026-02-04) | 19 | 1 | - | No | 0 |
+| Russia | RUS | Europe | 5.4 | 5.2 | M6.2 (2026-01-22) | 22 | 1 | - | No | 0 |
+| Papua New Guinea | PNG | Oceania | 1.8 | 5.4 | M5.9 (2026-01-20) | 5 | 1 | - | No | 0 |
 
 ## Airport Details
 
