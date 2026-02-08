@@ -1,9 +1,9 @@
 # Seismic Risk Report
-Generated: 2026-02-08 06:40 UTC
+Generated: 2026-02-08 06:45 UTC
 
 ## Trend Summary
 
-Based on 73 days of tracking history.
+Based on 73 snapshots (2020-01-31 to 2026-02-08).
 
 **Dropped off**: Vanuatu
 
