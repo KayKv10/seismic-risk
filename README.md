@@ -20,10 +20,10 @@ pip install seismic-risk
 ```bash
 git clone https://github.com/KayKv10/seismic-risk.git
 cd seismic-risk
-pip install -e ".[dev]"
+uv sync --all-extras   # or: pip install -e ".[dev,api]"
 ```
 
-### Usage
+### CLI Usage
 
 ```bash
 # Run with defaults (M5.0+, 30 days, 200km radius)
@@ -36,17 +36,39 @@ seismic-risk run \
   --distance 300 \
   -o results.json
 
-# Export interactive HTML map
-seismic-risk run --format html -o dashboard.html
+# Export interactive HTML map with trend sparklines
+seismic-risk run --format html --history-dir output/history -o dashboard.html
 
 # Export CSV for spreadsheets
 seismic-risk run --format csv -o results.csv
 
 # Verbose output
 seismic-risk run -v
+```
 
-# Show version
-seismic-risk --version
+### REST API
+
+Install with the `api` extra, then start the server:
+
+```bash
+pip install "seismic-risk[api]"
+uvicorn seismic_risk.api:app --reload
+```
+
+| Endpoint | Description |
+|----------|-------------|
+| `GET /health` | Server status, uptime, version, run count |
+| `GET /risk` | Run pipeline (JSON by default) |
+| `GET /risk?format=html` | Interactive Leaflet map |
+| `GET /risk?format=csv` | CSV export |
+| `GET /docs` | OpenAPI interactive docs |
+
+```bash
+# Fetch current risk scores
+curl "http://localhost:8000/risk"
+
+# Custom parameters
+curl "http://localhost:8000/risk?min_magnitude=4.0&days=14&format=csv"
 ```
 
 ## Latest Results
@@ -54,16 +76,16 @@ seismic-risk --version
 *Updated daily by [GitHub Actions](https://github.com/KayKv10/seismic-risk/actions/workflows/daily-report.yml). View the [interactive map](https://kaykv10.github.io/seismic-risk/latest.html).*
 
 <!-- LATEST_RESULTS_START -->
-*Last updated: 2026-02-08 04:15 UTC*
+*Last updated: 2026-02-08 06:08 UTC*
 
 | # | Country | ISO | Score | Trend | Quakes | Airports | Alert |
 |--:|:--------|:----|------:|:------|-------:|---------:|:------|
-| 1 | Philippines | PHL | 16.3 |  | 16 | 5 | - |
-| 2 | Japan | JPN | 9.6 |  | 15 | 9 | - |
-| 3 | Indonesia | IDN | 8.2 |  | 18 | 7 | green |
-| 4 | Tonga | TON | 7.4 |  | 19 | 1 | - |
-| 5 | Russia | RUS | 5.4 |  | 22 | 1 | - |
-| 6 | Papua New Guinea | PNG | 1.8 |  | 5 | 1 | - |
+| 1 | Philippines | PHL | 16.3 | -3.7 | 16 | 5 | - |
+| 2 | Japan | JPN | 9.6 | -8.6 | 15 | 9 | - |
+| 3 | Indonesia | IDN | 8.2 | +2.6 | 18 | 7 | green |
+| 4 | Tonga | TON | 7.4 | +2.0 | 19 | 1 | - |
+| 5 | Russia | RUS | 5.4 | ~ | 22 | 1 | - |
+| 6 | Papua New Guinea | PNG | 1.8 | +0.6 | 5 | 1 | - |
 <!-- LATEST_RESULTS_END -->
 
 ## How It Works
@@ -90,26 +112,23 @@ seismic-risk --version
 9. Calculate Seismic Hub Risk Score per country
 10. Sort and export results
 
-### Risk Score Formula (Default: Distance-Weighted Exposure)
+### Risk Score Formula
 
-The default scoring method sums the "threat" from each earthquake to each airport:
+The tool supports three scoring methods (`--scorer`):
 
+**ShakeMap (default)** — Uses real USGS ShakeMap ground-motion data when available. Downloads ShakeMap grid.xml files for significant earthquakes and performs bilinear interpolation of Peak Ground Acceleration (PGA) at each airport's coordinates. Falls back to a GMPE-calibrated heuristic (Atkinson & Wald 2007 IPE) for earthquakes without ShakeMap data.
+
+**Heuristic** (`--scorer heuristic`) — Distance-weighted exposure without ShakeMap:
 ```
 exposure = sum( 10^(0.5 * magnitude) / (distance_km + 1) )
 ```
 
-This weights by:
-- **Inverse distance**: closer earthquakes contribute more
-- **Exponential magnitude**: a M6 quake contributes ~3.16x more than a M5 at the same distance
-
-The country score is the total exposure across all airports.
-
-**Legacy scoring** (use `--scorer legacy`):
+**Legacy** (`--scorer legacy`) — Simple ratio:
 ```
 score = (earthquake_count x avg_magnitude) / exposed_airport_count
 ```
 
-> **Note**: Both are heuristic metrics for portfolio/educational purposes. They do not incorporate ground motion modeling, soil conditions, or structural vulnerability. See the project plan for discussion of limitations.
+The country score is the sum of all airport exposure scores. Higher scores indicate more seismically exposed aviation infrastructure.
 
 ## Configuration
 
@@ -122,8 +141,10 @@ All parameters can be set via CLI flags or environment variables:
 | Min quakes/country | `--min-quakes` | `SEISMIC_RISK_MIN_QUAKES_PER_COUNTRY` | 3 |
 | Exposure radius (km) | `--distance` | `SEISMIC_RISK_MAX_AIRPORT_DISTANCE_KM` | 200.0 |
 | Airport type | `--airport-type` | `SEISMIC_RISK_AIRPORT_TYPE` | large_airport |
-| Scoring method | `--scorer` | `SEISMIC_RISK_SCORING_METHOD` | exposure |
+| Scoring method | `--scorer` | `SEISMIC_RISK_SCORING_METHOD` | shakemap |
 | Output format | `--format` | `SEISMIC_RISK_OUTPUT_FORMAT` | json |
+| History dir | `--history-dir` | — | *(disabled)* |
+| Disable cache | `--no-cache` | `SEISMIC_RISK_CACHE_ENABLED` | false |
 
 ## Output Formats
 
@@ -158,22 +179,51 @@ pip install -e ".[jupyter]"
 jupyter notebook examples/notebook_demo.ipynb
 ```
 
+## Trend Tracking
+
+Enable `--history-dir` to save daily snapshots and visualize risk trends over time:
+
+```bash
+# Save daily snapshots
+seismic-risk run --history-dir output/history --format html -o dashboard.html
+```
+
+The HTML map shows SVG sparkline charts for each country's risk score history. The Markdown exporter adds a Trend Summary section and per-country trend indicators.
+
+### Historical Backfill
+
+Populate trend history back to 2020 using archived USGS data:
+
+```bash
+uv run python scripts/backfill.py --history-dir output/history
+```
+
+This queries the USGS FDSN API month-by-month (Jan 2020 to present), generating ~73 monthly snapshots. Uses heuristic scoring since ShakeMap data is only available for the most recent 30 days.
+
 ## Project Structure
 
 ```
 src/seismic_risk/
+├── api.py           # FastAPI REST API (optional [api] extra)
 ├── cli.py           # Typer CLI interface
-├── config.py        # Pydantic settings
-├── models.py        # Data models (dataclasses)
+├── config.py        # Pydantic settings & type definitions
+├── models.py        # Data models (frozen dataclasses)
+├── pipeline.py      # Pipeline orchestrator
 ├── geo.py           # Haversine distance, reverse geocoding, felt radius
 ├── scoring.py       # Risk score calculation, airport exposure
-├── pipeline.py      # Pipeline orchestrator
-├── fetchers/        # Data fetchers (USGS, airports, countries)
+├── history.py       # Daily snapshot storage & trend computation
+├── http.py          # Shared requests.Session with retry/backoff
+├── cache.py         # File-based disk cache with TTL
+├── fetchers/        # Data fetchers (USGS, ShakeMap, airports, countries)
 ├── data/            # Static data (airport movements)
 └── exporters/       # Output formatters (JSON, GeoJSON, HTML, CSV, Markdown)
 
+scripts/
+├── backfill.py         # Historical backfill (2020–present)
+└── update_readme.py    # Auto-update Latest Results table
+
 examples/
-└── notebook_demo.ipynb  # Jupyter notebook with folium visualization
+└── notebook_demo.ipynb # Jupyter notebook with folium visualization
 ```
 
 ## Docker
@@ -192,20 +242,18 @@ docker run -v $(pwd)/output:/app/output seismic-risk run --format html -o /app/o
 ## Development
 
 ```bash
-# Install dev dependencies
-pip install -e ".[dev]"
+# Install all dependencies
+uv sync --all-extras
 
-# Run tests
-pytest
+# Run tests (214 tests)
+uv run pytest
 
-# Run tests with coverage
-pytest --cov=seismic_risk
+# Lint & type check
+uv run ruff check src/ tests/
+uv run mypy src/
 
-# Lint
-ruff check src/ tests/
-
-# Type check
-mypy src/
+# Run with coverage
+uv run pytest --cov=seismic_risk
 ```
 
 ## License

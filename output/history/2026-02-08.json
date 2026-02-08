@@ -13,7 +13,7 @@
     {
       "iso_alpha3": "JPN",
       "country": "Japan",
-      "score": 9.64,
+      "score": 9.3,
       "earthquake_count": 15,
       "exposed_airport_count": 9,
       "avg_magnitude": 5.26
@@ -40,7 +40,7 @@
       "score": 5.44,
       "earthquake_count": 22,
       "exposed_airport_count": 1,
-      "avg_magnitude": 5.19
+      "avg_magnitude": 5.2
     },
     {
       "iso_alpha3": "PNG",
