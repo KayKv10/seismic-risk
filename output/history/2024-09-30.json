@@ -1,0 +1,62 @@
+{
+  "date": "2024-09-30",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 6.99,
+      "earthquake_count": 7,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.41
+    },
+    {
+      "iso_alpha3": "PHL",
+      "country": "Philippines",
+      "score": 3.88,
+      "earthquake_count": 4,
+      "exposed_airport_count": 4,
+      "avg_magnitude": 5.08
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 2.35,
+      "earthquake_count": 14,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.19
+    },
+    {
+      "iso_alpha3": "TON",
+      "country": "Tonga",
+      "score": 2.08,
+      "earthquake_count": 11,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.24
+    },
+    {
+      "iso_alpha3": "USA",
+      "country": "United States",
+      "score": 0.61,
+      "earthquake_count": 4,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.15
+    },
+    {
+      "iso_alpha3": "CHL",
+      "country": "Chile",
+      "score": 0.42,
+      "earthquake_count": 13,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.22
+    },
+    {
+      "iso_alpha3": "PNG",
+      "country": "Papua New Guinea",
+      "score": 0.39,
+      "earthquake_count": 6,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.77
+    }
+  ]
+}

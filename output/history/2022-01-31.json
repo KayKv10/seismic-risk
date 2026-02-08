@@ -1,0 +1,94 @@
+{
+  "date": "2022-01-31",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 18.89,
+      "earthquake_count": 3,
+      "exposed_airport_count": 9,
+      "avg_magnitude": 5.7
+    },
+    {
+      "iso_alpha3": "TWN",
+      "country": "Taiwan",
+      "score": 18.51,
+      "earthquake_count": 3,
+      "exposed_airport_count": 4,
+      "avg_magnitude": 5.47
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 8.66,
+      "earthquake_count": 17,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.35
+    },
+    {
+      "iso_alpha3": "TON",
+      "country": "Tonga",
+      "score": 8.36,
+      "earthquake_count": 23,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.27
+    },
+    {
+      "iso_alpha3": "CHN",
+      "country": "China",
+      "score": 5.68,
+      "earthquake_count": 8,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.39
+    },
+    {
+      "iso_alpha3": "PNG",
+      "country": "Papua New Guinea",
+      "score": 2.24,
+      "earthquake_count": 9,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.31
+    },
+    {
+      "iso_alpha3": "VUT",
+      "country": "Vanuatu",
+      "score": 2.09,
+      "earthquake_count": 8,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.35
+    },
+    {
+      "iso_alpha3": "MEX",
+      "country": "Mexico",
+      "score": 1.94,
+      "earthquake_count": 3,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.2
+    },
+    {
+      "iso_alpha3": "AFG",
+      "country": "Afghanistan",
+      "score": 1.42,
+      "earthquake_count": 4,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.2
+    },
+    {
+      "iso_alpha3": "PHL",
+      "country": "Philippines",
+      "score": 1.16,
+      "earthquake_count": 4,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.17
+    },
+    {
+      "iso_alpha3": "USA",
+      "country": "United States",
+      "score": 0.34,
+      "earthquake_count": 9,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.7
+    }
+  ]
+}

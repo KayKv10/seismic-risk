@@ -1,0 +1,78 @@
+{
+  "date": "2022-07-31",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "IRN",
+      "country": "Iran",
+      "score": 40.13,
+      "earthquake_count": 6,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.62
+    },
+    {
+      "iso_alpha3": "PHL",
+      "country": "Philippines",
+      "score": 13.64,
+      "earthquake_count": 5,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.44
+    },
+    {
+      "iso_alpha3": "TON",
+      "country": "Tonga",
+      "score": 10.06,
+      "earthquake_count": 17,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.29
+    },
+    {
+      "iso_alpha3": "PER",
+      "country": "Peru",
+      "score": 6.33,
+      "earthquake_count": 3,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.17
+    },
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 6.19,
+      "earthquake_count": 10,
+      "exposed_airport_count": 5,
+      "avg_magnitude": 5.17
+    },
+    {
+      "iso_alpha3": "VUT",
+      "country": "Vanuatu",
+      "score": 6.06,
+      "earthquake_count": 6,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.58
+    },
+    {
+      "iso_alpha3": "PNG",
+      "country": "Papua New Guinea",
+      "score": 5.37,
+      "earthquake_count": 3,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.37
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 2.0,
+      "earthquake_count": 13,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.19
+    },
+    {
+      "iso_alpha3": "CHL",
+      "country": "Chile",
+      "score": 1.31,
+      "earthquake_count": 10,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.78
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "date": "2025-08-31",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "RUS",
+      "country": "Russia",
+      "score": 28.44,
+      "earthquake_count": 109,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.25
+    },
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 11.7,
+      "earthquake_count": 8,
+      "exposed_airport_count": 9,
+      "avg_magnitude": 5.38
+    },
+    {
+      "iso_alpha3": "GUM",
+      "country": "Guam",
+      "score": 4.21,
+      "earthquake_count": 3,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.37
+    },
+    {
+      "iso_alpha3": "TON",
+      "country": "Tonga",
+      "score": 3.67,
+      "earthquake_count": 16,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.27
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 3.1,
+      "earthquake_count": 14,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.31
+    },
+    {
+      "iso_alpha3": "USA",
+      "country": "United States",
+      "score": 1.37,
+      "earthquake_count": 3,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.2
+    },
+    {
+      "iso_alpha3": "GTM",
+      "country": "Guatemala",
+      "score": 1.06,
+      "earthquake_count": 3,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.47
+    },
+    {
+      "iso_alpha3": "SLB",
+      "country": "Solomon Islands",
+      "score": 0.9,
+      "earthquake_count": 4,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.47
+    },
+    {
+      "iso_alpha3": "VUT",
+      "country": "Vanuatu",
+      "score": 0.74,
+      "earthquake_count": 3,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.27
+    },
+    {
+      "iso_alpha3": "AFG",
+      "country": "Afghanistan",
+      "score": 0.26,
+      "earthquake_count": 3,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.07
+    }
+  ]
+}

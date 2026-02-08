@@ -1,0 +1,70 @@
+{
+  "date": "2025-04-30",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "MNP",
+      "country": "Northern Mariana Islands",
+      "score": 9.41,
+      "earthquake_count": 4,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.1
+    },
+    {
+      "iso_alpha3": "PHL",
+      "country": "Philippines",
+      "score": 9.05,
+      "earthquake_count": 7,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.44
+    },
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 7.5,
+      "earthquake_count": 5,
+      "exposed_airport_count": 4,
+      "avg_magnitude": 5.46
+    },
+    {
+      "iso_alpha3": "USA",
+      "country": "United States",
+      "score": 5.52,
+      "earthquake_count": 4,
+      "exposed_airport_count": 7,
+      "avg_magnitude": 5.13
+    },
+    {
+      "iso_alpha3": "PNG",
+      "country": "Papua New Guinea",
+      "score": 3.51,
+      "earthquake_count": 38,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.21
+    },
+    {
+      "iso_alpha3": "TON",
+      "country": "Tonga",
+      "score": 2.66,
+      "earthquake_count": 19,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.25
+    },
+    {
+      "iso_alpha3": "AUS",
+      "country": "Australia",
+      "score": 2.2,
+      "earthquake_count": 9,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.6
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 1.49,
+      "earthquake_count": 11,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.45
+    }
+  ]
+}

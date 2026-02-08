@@ -1,0 +1,54 @@
+{
+  "date": "2024-11-30",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 11.52,
+      "earthquake_count": 15,
+      "exposed_airport_count": 6,
+      "avg_magnitude": 5.25
+    },
+    {
+      "iso_alpha3": "TON",
+      "country": "Tonga",
+      "score": 6.09,
+      "earthquake_count": 12,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.16
+    },
+    {
+      "iso_alpha3": "PHL",
+      "country": "Philippines",
+      "score": 2.98,
+      "earthquake_count": 4,
+      "exposed_airport_count": 5,
+      "avg_magnitude": 5.22
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 1.34,
+      "earthquake_count": 10,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.08
+    },
+    {
+      "iso_alpha3": "MNP",
+      "country": "Northern Mariana Islands",
+      "score": 1.0,
+      "earthquake_count": 3,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.2
+    },
+    {
+      "iso_alpha3": "RUS",
+      "country": "Russia",
+      "score": 0.79,
+      "earthquake_count": 4,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.2
+    }
+  ]
+}

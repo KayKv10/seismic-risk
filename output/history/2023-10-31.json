@@ -1,0 +1,110 @@
+{
+  "date": "2023-10-31",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "AFG",
+      "country": "Afghanistan",
+      "score": 74.23,
+      "earthquake_count": 11,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.65
+    },
+    {
+      "iso_alpha3": "IRN",
+      "country": "Iran",
+      "score": 18.15,
+      "earthquake_count": 6,
+      "exposed_airport_count": 5,
+      "avg_magnitude": 5.22
+    },
+    {
+      "iso_alpha3": "PNG",
+      "country": "Papua New Guinea",
+      "score": 16.39,
+      "earthquake_count": 14,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.62
+    },
+    {
+      "iso_alpha3": "PHL",
+      "country": "Philippines",
+      "score": 8.6,
+      "earthquake_count": 4,
+      "exposed_airport_count": 6,
+      "avg_magnitude": 5.75
+    },
+    {
+      "iso_alpha3": "NPL",
+      "country": "Nepal",
+      "score": 4.18,
+      "earthquake_count": 3,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.3
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 3.96,
+      "earthquake_count": 13,
+      "exposed_airport_count": 4,
+      "avg_magnitude": 5.14
+    },
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 3.52,
+      "earthquake_count": 51,
+      "exposed_airport_count": 4,
+      "avg_magnitude": 5.29
+    },
+    {
+      "iso_alpha3": "TON",
+      "country": "Tonga",
+      "score": 2.71,
+      "earthquake_count": 12,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.31
+    },
+    {
+      "iso_alpha3": "USA",
+      "country": "United States",
+      "score": 1.5,
+      "earthquake_count": 4,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.6
+    },
+    {
+      "iso_alpha3": "VUT",
+      "country": "Vanuatu",
+      "score": 0.9,
+      "earthquake_count": 3,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.63
+    },
+    {
+      "iso_alpha3": "RUS",
+      "country": "Russia",
+      "score": 0.72,
+      "earthquake_count": 4,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.3
+    },
+    {
+      "iso_alpha3": "ARG",
+      "country": "Argentina",
+      "score": 0.45,
+      "earthquake_count": 3,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.53
+    },
+    {
+      "iso_alpha3": "WLF",
+      "country": "Wallis and Futuna",
+      "score": 0.1,
+      "earthquake_count": 3,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.23
+    }
+  ]
+}

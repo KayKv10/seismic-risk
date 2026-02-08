@@ -206,8 +206,9 @@ cython_debug/
 PROJECT_PLAN.md
 CLAUDE.md
 
-# Pipeline output (generated)
-output/
+# Pipeline output (generated, except history snapshots)
+output/*
+!output/history/
 dashboard.html
 seismic_risk_output.*
 test_output.*

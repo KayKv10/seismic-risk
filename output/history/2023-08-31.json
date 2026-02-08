@@ -1,0 +1,62 @@
+{
+  "date": "2023-08-31",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "COL",
+      "country": "Colombia",
+      "score": 10.25,
+      "earthquake_count": 5,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.5
+    },
+    {
+      "iso_alpha3": "PHL",
+      "country": "Philippines",
+      "score": 5.72,
+      "earthquake_count": 4,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.28
+    },
+    {
+      "iso_alpha3": "USA",
+      "country": "United States",
+      "score": 4.89,
+      "earthquake_count": 5,
+      "exposed_airport_count": 6,
+      "avg_magnitude": 5.2
+    },
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 4.11,
+      "earthquake_count": 6,
+      "exposed_airport_count": 4,
+      "avg_magnitude": 5.37
+    },
+    {
+      "iso_alpha3": "VUT",
+      "country": "Vanuatu",
+      "score": 2.24,
+      "earthquake_count": 4,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.45
+    },
+    {
+      "iso_alpha3": "IND",
+      "country": "India",
+      "score": 1.27,
+      "earthquake_count": 4,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.2
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 1.1,
+      "earthquake_count": 16,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.47
+    }
+  ]
+}

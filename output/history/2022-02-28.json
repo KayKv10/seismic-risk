@@ -1,0 +1,78 @@
+{
+  "date": "2022-02-28",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 9.67,
+      "earthquake_count": 9,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.21
+    },
+    {
+      "iso_alpha3": "TON",
+      "country": "Tonga",
+      "score": 8.55,
+      "earthquake_count": 24,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.2
+    },
+    {
+      "iso_alpha3": "PHL",
+      "country": "Philippines",
+      "score": 5.48,
+      "earthquake_count": 6,
+      "exposed_airport_count": 6,
+      "avg_magnitude": 5.32
+    },
+    {
+      "iso_alpha3": "GUM",
+      "country": "Guam",
+      "score": 2.39,
+      "earthquake_count": 5,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.28
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 2.07,
+      "earthquake_count": 8,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.46
+    },
+    {
+      "iso_alpha3": "NZL",
+      "country": "New Zealand",
+      "score": 0.96,
+      "earthquake_count": 5,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.12
+    },
+    {
+      "iso_alpha3": "ARG",
+      "country": "Argentina",
+      "score": 0.93,
+      "earthquake_count": 3,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.33
+    },
+    {
+      "iso_alpha3": "PNG",
+      "country": "Papua New Guinea",
+      "score": 0.46,
+      "earthquake_count": 13,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.21
+    },
+    {
+      "iso_alpha3": "USA",
+      "country": "United States",
+      "score": 0.39,
+      "earthquake_count": 5,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.22
+    }
+  ]
+}

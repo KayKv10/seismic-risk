@@ -1,0 +1,46 @@
+{
+  "date": "2023-09-30",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "MEX",
+      "country": "Mexico",
+      "score": 2.79,
+      "earthquake_count": 4,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.47
+    },
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 2.52,
+      "earthquake_count": 12,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.41
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 1.42,
+      "earthquake_count": 13,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.34
+    },
+    {
+      "iso_alpha3": "VUT",
+      "country": "Vanuatu",
+      "score": 0.25,
+      "earthquake_count": 5,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.52
+    },
+    {
+      "iso_alpha3": "TON",
+      "country": "Tonga",
+      "score": 0.2,
+      "earthquake_count": 10,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.15
+    }
+  ]
+}

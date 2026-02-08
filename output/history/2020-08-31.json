@@ -1,0 +1,78 @@
+{
+  "date": "2020-08-31",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "PHL",
+      "country": "Philippines",
+      "score": 8.71,
+      "earthquake_count": 5,
+      "exposed_airport_count": 7,
+      "avg_magnitude": 5.74
+    },
+    {
+      "iso_alpha3": "TZA",
+      "country": "Tanzania",
+      "score": 7.25,
+      "earthquake_count": 3,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.37
+    },
+    {
+      "iso_alpha3": "TON",
+      "country": "Tonga",
+      "score": 3.38,
+      "earthquake_count": 10,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.22
+    },
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 2.93,
+      "earthquake_count": 5,
+      "exposed_airport_count": 8,
+      "avg_magnitude": 5.16
+    },
+    {
+      "iso_alpha3": "PER",
+      "country": "Peru",
+      "score": 2.1,
+      "earthquake_count": 5,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.18
+    },
+    {
+      "iso_alpha3": "USA",
+      "country": "United States",
+      "score": 1.92,
+      "earthquake_count": 12,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.27
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 0.95,
+      "earthquake_count": 21,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.37
+    },
+    {
+      "iso_alpha3": "VUT",
+      "country": "Vanuatu",
+      "score": 0.94,
+      "earthquake_count": 4,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.67
+    },
+    {
+      "iso_alpha3": "PNG",
+      "country": "Papua New Guinea",
+      "score": 0.29,
+      "earthquake_count": 16,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.45
+    }
+  ]
+}

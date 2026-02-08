@@ -1,0 +1,102 @@
+{
+  "date": "2020-06-30",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "TUR",
+      "country": "Turkey",
+      "score": 10.16,
+      "earthquake_count": 6,
+      "exposed_airport_count": 7,
+      "avg_magnitude": 5.42
+    },
+    {
+      "iso_alpha3": "MEX",
+      "country": "Mexico",
+      "score": 9.28,
+      "earthquake_count": 3,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.93
+    },
+    {
+      "iso_alpha3": "ISL",
+      "country": "Iceland",
+      "score": 8.83,
+      "earthquake_count": 3,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.7
+    },
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 5.83,
+      "earthquake_count": 10,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.4
+    },
+    {
+      "iso_alpha3": "VUT",
+      "country": "Vanuatu",
+      "score": 3.31,
+      "earthquake_count": 3,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.07
+    },
+    {
+      "iso_alpha3": "PHL",
+      "country": "Philippines",
+      "score": 3.25,
+      "earthquake_count": 4,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.17
+    },
+    {
+      "iso_alpha3": "USA",
+      "country": "United States",
+      "score": 3.16,
+      "earthquake_count": 5,
+      "exposed_airport_count": 4,
+      "avg_magnitude": 5.32
+    },
+    {
+      "iso_alpha3": "IRN",
+      "country": "Iran",
+      "score": 2.63,
+      "earthquake_count": 4,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.35
+    },
+    {
+      "iso_alpha3": "TON",
+      "country": "Tonga",
+      "score": 1.79,
+      "earthquake_count": 8,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.33
+    },
+    {
+      "iso_alpha3": "NZL",
+      "country": "New Zealand",
+      "score": 1.62,
+      "earthquake_count": 11,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.5
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 1.37,
+      "earthquake_count": 11,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.44
+    },
+    {
+      "iso_alpha3": "CHL",
+      "country": "Chile",
+      "score": 0.58,
+      "earthquake_count": 4,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.53
+    }
+  ]
+}

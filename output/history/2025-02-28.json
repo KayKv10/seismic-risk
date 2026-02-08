@@ -1,0 +1,70 @@
+{
+  "date": "2025-02-28",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "GRC",
+      "country": "Greece",
+      "score": 69.78,
+      "earthquake_count": 10,
+      "exposed_airport_count": 4,
+      "avg_magnitude": 5.11
+    },
+    {
+      "iso_alpha3": "VUT",
+      "country": "Vanuatu",
+      "score": 14.75,
+      "earthquake_count": 7,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.26
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 4.84,
+      "earthquake_count": 19,
+      "exposed_airport_count": 6,
+      "avg_magnitude": 5.24
+    },
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 3.54,
+      "earthquake_count": 6,
+      "exposed_airport_count": 9,
+      "avg_magnitude": 5.25
+    },
+    {
+      "iso_alpha3": "TON",
+      "country": "Tonga",
+      "score": 2.59,
+      "earthquake_count": 9,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.19
+    },
+    {
+      "iso_alpha3": "PHL",
+      "country": "Philippines",
+      "score": 1.48,
+      "earthquake_count": 4,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.08
+    },
+    {
+      "iso_alpha3": "SLB",
+      "country": "Solomon Islands",
+      "score": 0.77,
+      "earthquake_count": 5,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.44
+    },
+    {
+      "iso_alpha3": "CHL",
+      "country": "Chile",
+      "score": 0.44,
+      "earthquake_count": 9,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.3
+    }
+  ]
+}

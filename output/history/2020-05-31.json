@@ -1,0 +1,62 @@
+{
+  "date": "2020-05-31",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 23.45,
+      "earthquake_count": 15,
+      "exposed_airport_count": 13,
+      "avg_magnitude": 5.28
+    },
+    {
+      "iso_alpha3": "VUT",
+      "country": "Vanuatu",
+      "score": 16.29,
+      "earthquake_count": 8,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.39
+    },
+    {
+      "iso_alpha3": "GRC",
+      "country": "Greece",
+      "score": 12.45,
+      "earthquake_count": 10,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.42
+    },
+    {
+      "iso_alpha3": "PHL",
+      "country": "Philippines",
+      "score": 5.56,
+      "earthquake_count": 4,
+      "exposed_airport_count": 5,
+      "avg_magnitude": 5.15
+    },
+    {
+      "iso_alpha3": "TON",
+      "country": "Tonga",
+      "score": 3.53,
+      "earthquake_count": 15,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.3
+    },
+    {
+      "iso_alpha3": "PER",
+      "country": "Peru",
+      "score": 1.47,
+      "earthquake_count": 3,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.33
+    },
+    {
+      "iso_alpha3": "CHL",
+      "country": "Chile",
+      "score": 0.33,
+      "earthquake_count": 6,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.28
+    }
+  ]
+}

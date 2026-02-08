@@ -1,0 +1,70 @@
+{
+  "date": "2021-05-31",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 18.14,
+      "earthquake_count": 13,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.41
+    },
+    {
+      "iso_alpha3": "PHL",
+      "country": "Philippines",
+      "score": 9.3,
+      "earthquake_count": 5,
+      "exposed_airport_count": 5,
+      "avg_magnitude": 5.24
+    },
+    {
+      "iso_alpha3": "VUT",
+      "country": "Vanuatu",
+      "score": 6.45,
+      "earthquake_count": 8,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.16
+    },
+    {
+      "iso_alpha3": "TON",
+      "country": "Tonga",
+      "score": 5.86,
+      "earthquake_count": 14,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.24
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 5.69,
+      "earthquake_count": 15,
+      "exposed_airport_count": 5,
+      "avg_magnitude": 5.37
+    },
+    {
+      "iso_alpha3": "SLB",
+      "country": "Solomon Islands",
+      "score": 4.3,
+      "earthquake_count": 4,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.17
+    },
+    {
+      "iso_alpha3": "IRN",
+      "country": "Iran",
+      "score": 0.3,
+      "earthquake_count": 3,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.23
+    },
+    {
+      "iso_alpha3": "PNG",
+      "country": "Papua New Guinea",
+      "score": 0.29,
+      "earthquake_count": 5,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.14
+    }
+  ]
+}

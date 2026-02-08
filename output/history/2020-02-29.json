@@ -1,0 +1,86 @@
+{
+  "date": "2020-02-29",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "TON",
+      "country": "Tonga",
+      "score": 7.76,
+      "earthquake_count": 9,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.23
+    },
+    {
+      "iso_alpha3": "PHL",
+      "country": "Philippines",
+      "score": 3.64,
+      "earthquake_count": 5,
+      "exposed_airport_count": 4,
+      "avg_magnitude": 5.36
+    },
+    {
+      "iso_alpha3": "PER",
+      "country": "Peru",
+      "score": 2.4,
+      "earthquake_count": 4,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.12
+    },
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 2.36,
+      "earthquake_count": 6,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.48
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 1.37,
+      "earthquake_count": 15,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.36
+    },
+    {
+      "iso_alpha3": "CHL",
+      "country": "Chile",
+      "score": 1.22,
+      "earthquake_count": 10,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.18
+    },
+    {
+      "iso_alpha3": "TUR",
+      "country": "Turkey",
+      "score": 1.21,
+      "earthquake_count": 3,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.6
+    },
+    {
+      "iso_alpha3": "RUS",
+      "country": "Russia",
+      "score": 1.08,
+      "earthquake_count": 3,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.33
+    },
+    {
+      "iso_alpha3": "PNG",
+      "country": "Papua New Guinea",
+      "score": 0.85,
+      "earthquake_count": 5,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.46
+    },
+    {
+      "iso_alpha3": "NZL",
+      "country": "New Zealand",
+      "score": 0.12,
+      "earthquake_count": 4,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.38
+    }
+  ]
+}

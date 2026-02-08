@@ -1,0 +1,70 @@
+{
+  "date": "2024-07-31",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "PAN",
+      "country": "Panama",
+      "score": 22.14,
+      "earthquake_count": 4,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.5
+    },
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 10.22,
+      "earthquake_count": 10,
+      "exposed_airport_count": 13,
+      "avg_magnitude": 5.36
+    },
+    {
+      "iso_alpha3": "MEX",
+      "country": "Mexico",
+      "score": 4.99,
+      "earthquake_count": 3,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.27
+    },
+    {
+      "iso_alpha3": "TON",
+      "country": "Tonga",
+      "score": 4.19,
+      "earthquake_count": 11,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.33
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 2.19,
+      "earthquake_count": 14,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.16
+    },
+    {
+      "iso_alpha3": "PHL",
+      "country": "Philippines",
+      "score": 2.03,
+      "earthquake_count": 6,
+      "exposed_airport_count": 4,
+      "avg_magnitude": 5.45
+    },
+    {
+      "iso_alpha3": "PER",
+      "country": "Peru",
+      "score": 0.44,
+      "earthquake_count": 5,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.44
+    },
+    {
+      "iso_alpha3": "CHL",
+      "country": "Chile",
+      "score": 0.37,
+      "earthquake_count": 3,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.9
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "date": "2025-05-31",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "GRC",
+      "country": "Greece",
+      "score": 15.32,
+      "earthquake_count": 3,
+      "exposed_airport_count": 6,
+      "avg_magnitude": 5.73
+    },
+    {
+      "iso_alpha3": "VUT",
+      "country": "Vanuatu",
+      "score": 5.36,
+      "earthquake_count": 5,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.5
+    },
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 5.21,
+      "earthquake_count": 6,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.3
+    },
+    {
+      "iso_alpha3": "TON",
+      "country": "Tonga",
+      "score": 4.34,
+      "earthquake_count": 10,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.35
+    },
+    {
+      "iso_alpha3": "GUM",
+      "country": "Guam",
+      "score": 4.21,
+      "earthquake_count": 3,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.27
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 2.32,
+      "earthquake_count": 10,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.32
+    },
+    {
+      "iso_alpha3": "ARG",
+      "country": "Argentina",
+      "score": 1.31,
+      "earthquake_count": 23,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.37
+    },
+    {
+      "iso_alpha3": "PER",
+      "country": "Peru",
+      "score": 1.19,
+      "earthquake_count": 7,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.27
+    },
+    {
+      "iso_alpha3": "MEX",
+      "country": "Mexico",
+      "score": 0.76,
+      "earthquake_count": 6,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.65
+    }
+  ]
+}

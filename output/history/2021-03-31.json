@@ -1,0 +1,62 @@
+{
+  "date": "2021-03-31",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "ISL",
+      "country": "Iceland",
+      "score": 23.68,
+      "earthquake_count": 3,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.23
+    },
+    {
+      "iso_alpha3": "GRC",
+      "country": "Greece",
+      "score": 16.22,
+      "earthquake_count": 7,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.51
+    },
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 15.01,
+      "earthquake_count": 6,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.62
+    },
+    {
+      "iso_alpha3": "VUT",
+      "country": "Vanuatu",
+      "score": 6.72,
+      "earthquake_count": 12,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.22
+    },
+    {
+      "iso_alpha3": "PNG",
+      "country": "Papua New Guinea",
+      "score": 1.43,
+      "earthquake_count": 7,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.13
+    },
+    {
+      "iso_alpha3": "MNP",
+      "country": "Northern Mariana Islands",
+      "score": 0.23,
+      "earthquake_count": 10,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.19
+    },
+    {
+      "iso_alpha3": "SLB",
+      "country": "Solomon Islands",
+      "score": 0.03,
+      "earthquake_count": 5,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.18
+    }
+  ]
+}

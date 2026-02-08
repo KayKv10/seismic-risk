@@ -1,0 +1,62 @@
+{
+  "date": "2024-01-31",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 43.06,
+      "earthquake_count": 20,
+      "exposed_airport_count": 5,
+      "avg_magnitude": 5.46
+    },
+    {
+      "iso_alpha3": "VUT",
+      "country": "Vanuatu",
+      "score": 15.55,
+      "earthquake_count": 5,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.44
+    },
+    {
+      "iso_alpha3": "TON",
+      "country": "Tonga",
+      "score": 5.88,
+      "earthquake_count": 13,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.38
+    },
+    {
+      "iso_alpha3": "PHL",
+      "country": "Philippines",
+      "score": 1.59,
+      "earthquake_count": 4,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.17
+    },
+    {
+      "iso_alpha3": "PNG",
+      "country": "Papua New Guinea",
+      "score": 1.55,
+      "earthquake_count": 5,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.18
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 0.66,
+      "earthquake_count": 13,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.28
+    },
+    {
+      "iso_alpha3": "ARG",
+      "country": "Argentina",
+      "score": 0.39,
+      "earthquake_count": 5,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.26
+    }
+  ]
+}

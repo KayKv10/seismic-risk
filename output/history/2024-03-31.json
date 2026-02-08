@@ -1,0 +1,54 @@
+{
+  "date": "2024-03-31",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 7.66,
+      "earthquake_count": 5,
+      "exposed_airport_count": 4,
+      "avg_magnitude": 5.34
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 4.53,
+      "earthquake_count": 17,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.28
+    },
+    {
+      "iso_alpha3": "TON",
+      "country": "Tonga",
+      "score": 3.86,
+      "earthquake_count": 16,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.21
+    },
+    {
+      "iso_alpha3": "PNG",
+      "country": "Papua New Guinea",
+      "score": 1.46,
+      "earthquake_count": 12,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.39
+    },
+    {
+      "iso_alpha3": "PHL",
+      "country": "Philippines",
+      "score": 1.1,
+      "earthquake_count": 5,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.32
+    },
+    {
+      "iso_alpha3": "CHL",
+      "country": "Chile",
+      "score": 0.45,
+      "earthquake_count": 5,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.08
+    }
+  ]
+}

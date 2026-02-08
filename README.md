@@ -181,24 +181,25 @@ jupyter notebook examples/notebook_demo.ipynb
 
 ## Trend Tracking
 
-Enable `--history-dir` to save daily snapshots and visualize risk trends over time:
+The `output/history/` directory contains monthly snapshots back to January 2020 and daily snapshots going forward, updated automatically by the [daily report workflow](https://github.com/KayKv10/seismic-risk/actions/workflows/daily-report.yml). The HTML map shows SVG sparkline charts for each country's risk score history.
 
 ```bash
-# Save daily snapshots
-seismic-risk run --history-dir output/history --format html -o dashboard.html
+# Run with trend sparklines
+seismic-risk run --format html --history-dir output/history -o dashboard.html
 ```
-
-The HTML map shows SVG sparkline charts for each country's risk score history. The Markdown exporter adds a Trend Summary section and per-country trend indicators.
 
 ### Historical Backfill
 
-Populate trend history back to 2020 using archived USGS data:
+The history was bootstrapped by querying the USGS FDSN API month-by-month from January 2020 to the present:
 
 ```bash
 uv run python scripts/backfill.py --history-dir output/history
 ```
 
-This queries the USGS FDSN API month-by-month (Jan 2020 to present), generating ~73 monthly snapshots. Uses heuristic scoring since ShakeMap data is only available for the most recent 30 days.
+**Caveats:**
+- **Historical snapshots (2020–present) use heuristic scoring only.** ShakeMap ground-motion data is only available for the most recent 30 days via the USGS significant-earthquakes feed, so PGA-based scoring cannot be applied retroactively. Daily snapshots from February 2026 onward use the default ShakeMap scorer.
+- **Airport data reflects current OurAirports state**, not historical operational dates. Large airports are mostly stable post-2015, but early snapshots may include airports that were not yet operational.
+- **Monthly vs daily granularity.** Historical snapshots are one per month (dated to the last day of each month). Live snapshots are one per day. The sparkline charts display both seamlessly.
 
 ## Project Structure
 

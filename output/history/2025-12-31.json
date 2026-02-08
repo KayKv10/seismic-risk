@@ -1,0 +1,78 @@
+{
+  "date": "2025-12-31",
+  "scoring_method": "heuristic",
+  "countries": [
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 41.52,
+      "earthquake_count": 26,
+      "exposed_airport_count": 7,
+      "avg_magnitude": 5.47
+    },
+    {
+      "iso_alpha3": "TWN",
+      "country": "Taiwan",
+      "score": 38.84,
+      "earthquake_count": 3,
+      "exposed_airport_count": 6,
+      "avg_magnitude": 5.93
+    },
+    {
+      "iso_alpha3": "RUS",
+      "country": "Russia",
+      "score": 2.85,
+      "earthquake_count": 17,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.24
+    },
+    {
+      "iso_alpha3": "PNG",
+      "country": "Papua New Guinea",
+      "score": 2.02,
+      "earthquake_count": 8,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.34
+    },
+    {
+      "iso_alpha3": "GUM",
+      "country": "Guam",
+      "score": 1.91,
+      "earthquake_count": 3,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.3
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 1.84,
+      "earthquake_count": 14,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.16
+    },
+    {
+      "iso_alpha3": "WLF",
+      "country": "Wallis and Futuna",
+      "score": 0.82,
+      "earthquake_count": 5,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.38
+    },
+    {
+      "iso_alpha3": "VUT",
+      "country": "Vanuatu",
+      "score": 0.62,
+      "earthquake_count": 5,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.3
+    },
+    {
+      "iso_alpha3": "MEX",
+      "country": "Mexico",
+      "score": 0.46,
+      "earthquake_count": 3,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.33
+    }
+  ]
+}
