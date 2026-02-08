@@ -287,8 +287,7 @@ _HTML_TEMPLATE = """<!DOCTYPE html>
             <h4>Score Trends</h4>
             <div id="trend-list"></div>
             <p style="font-size:10px;color:#999;margin-top:4px;">
-                Based on <span id="trend-days">0</span> days
-                of history
+                <span id="trend-range"></span>
             </p>
         </div>
         <p style="margin-top: 10px; font-size: 11px; color: #999;">
@@ -459,8 +458,9 @@ _HTML_TEMPLATE = """<!DOCTYPE html>
         if (trendData !== null) {
             document.getElementById('trend-section')
                 .style.display = '';
-            document.getElementById('trend-days')
-                .textContent = trendData.history_days;
+            document.getElementById('trend-range')
+                .textContent = trendData.history_start + ' to ' + trendData.date
+                    + ' (' + trendData.history_days + ' snapshots)';
             var seen = {};
             var trendEntries = [];
             airports.forEach(function(f) {
@@ -899,6 +899,7 @@ def _build_trend_data(trends: TrendSummary) -> dict[str, Any]:
     return {
         "date": trends.date,
         "history_days": trends.history_days,
+        "history_start": trends.history_start,
         "countries": {
             iso3: {
                 "scores": ct.scores,

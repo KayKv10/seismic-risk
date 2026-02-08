@@ -699,7 +699,7 @@ class TestMarkdownExport:
 
         content = output.read_text()
         assert "## Trend Summary" in content
-        assert "7 days" in content
+        assert "7 snapshots" in content
 
     def test_with_trends_has_trend_column(self, sample_results, sample_trends, tmp_path):
         output = tmp_path / "test.md"
@@ -723,6 +723,7 @@ class TestMarkdownExport:
         trends_with_new = TrendSummary(
             date="2026-02-06",
             history_days=3,
+            history_start="2026-02-04",
             country_trends={
                 "JPN": CountryTrend(
                     iso_alpha3="JPN",
@@ -754,6 +755,7 @@ class TestMarkdownExport:
         trends_with_gone = TrendSummary(
             date="2026-02-06",
             history_days=3,
+            history_start="2026-02-04",
             country_trends={
                 "JPN": CountryTrend(
                     iso_alpha3="JPN",

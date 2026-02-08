@@ -257,6 +257,7 @@ def sample_trends() -> TrendSummary:
     return TrendSummary(
         date="2026-02-06",
         history_days=7,
+        history_start="2026-01-31",
         country_trends={
             "JPN": CountryTrend(
                 iso_alpha3="JPN",

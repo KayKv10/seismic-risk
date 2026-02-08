@@ -40,7 +40,7 @@ def export_markdown(
         lines.extend([
             "## Trend Summary",
             "",
-            f"Based on {trends.history_days} days of tracking history.",
+            f"Based on {trends.history_days} snapshots ({trends.history_start} to {trends.date}).",
             "",
         ])
 

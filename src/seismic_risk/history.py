@@ -57,6 +57,7 @@ class TrendSummary:
 
     date: str
     history_days: int
+    history_start: str  # date of earliest snapshot (YYYY-MM-DD)
     country_trends: dict[str, CountryTrend]  # keyed by iso_alpha3
     new_countries: list[str]  # iso_alpha3 codes
     gone_countries: list[str]
@@ -244,6 +245,7 @@ def compute_trends(
     return TrendSummary(
         date=today,
         history_days=len(history),
+        history_start=history[0].date if history else today,
         country_trends=country_trends,
         new_countries=new_countries,
         gone_countries=gone_countries,
