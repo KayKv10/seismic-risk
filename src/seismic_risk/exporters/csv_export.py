@@ -30,6 +30,8 @@ FIELDNAMES = [
     "nearby_quake_count",
     "strongest_quake_mag",
     "strongest_quake_date",
+    "max_pga_g",
+    "max_mmi",
 ]
 
 
@@ -49,6 +51,8 @@ def export_csv(
                 key=lambda a: a.exposure_score,
                 reverse=True,
             ):
+                pga_vals = [nq.pga_g for nq in airport.nearby_quakes if nq.pga_g is not None]
+                mmi_vals = [nq.mmi for nq in airport.nearby_quakes if nq.mmi is not None]
                 writer.writerow({
                     "country": result.country,
                     "iso_alpha3": result.iso_alpha3,
@@ -72,6 +76,8 @@ def export_csv(
                     "nearby_quake_count": len(airport.nearby_quakes),
                     "strongest_quake_mag": strongest.magnitude if strongest else "",
                     "strongest_quake_date": strongest.date if strongest else "",
+                    "max_pga_g": max(pga_vals) if pga_vals else "",
+                    "max_mmi": max(mmi_vals) if mmi_vals else "",
                 })
 
     return output_path

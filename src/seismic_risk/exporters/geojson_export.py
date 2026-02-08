@@ -88,6 +88,8 @@ def _make_connection_feature(
             "earthquake_id": nq.earthquake_id,
             "distance_km": nq.distance_km,
             "exposure_contribution": nq.exposure_contribution,
+            "pga_g": nq.pga_g,
+            "mmi": nq.mmi,
         },
     }
 

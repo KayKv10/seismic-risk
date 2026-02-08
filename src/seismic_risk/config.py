@@ -8,7 +8,7 @@ from typing import Literal
 from pydantic import Field
 from pydantic_settings import BaseSettings
 
-ScoringMethod = Literal["exposure", "legacy"]
+ScoringMethod = Literal["shakemap", "heuristic", "exposure", "legacy"]
 OutputFormat = Literal["json", "geojson", "html", "csv", "markdown"]
 
 
@@ -46,8 +46,11 @@ class SeismicRiskConfig(BaseSettings):
         default="json", description="Output format: json, geojson, html, csv, or markdown."
     )
     scoring_method: ScoringMethod = Field(
-        default="exposure",
-        description="Scoring method: 'exposure' (distance-weighted) or 'legacy'.",
+        default="shakemap",
+        description=(
+            "Scoring method: 'shakemap' (PGA-based hybrid, default), "
+            "'heuristic' (distance-weighted), or 'legacy'."
+        ),
     )
     cache_enabled: bool = Field(
         default=True, description="Enable disk caching for airports and country data."

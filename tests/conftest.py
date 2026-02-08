@@ -5,9 +5,11 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+import numpy as np
 import pytest
 
 from seismic_risk.config import SeismicRiskConfig
+from seismic_risk.fetchers.shakemap import ShakeMapGrid
 from seismic_risk.history import CountryTrend, TrendSummary
 from seismic_risk.models import (
     Airport,
@@ -272,4 +274,42 @@ def sample_trends() -> TrendSummary:
         },
         new_countries=[],
         gone_countries=[],
+    )
+
+
+@pytest.fixture
+def sample_shakemap_grid() -> ShakeMapGrid:
+    """5x5 ShakeMap grid covering 139–140E, 35–36N (Tokyo area)."""
+    pga = np.array(
+        [
+            [2.0, 3.0, 4.0, 3.0, 2.0],
+            [3.0, 5.0, 8.0, 5.0, 3.0],
+            [4.0, 8.0, 15.0, 8.0, 4.0],
+            [3.0, 5.0, 8.0, 5.0, 3.0],
+            [2.0, 3.0, 4.0, 3.0, 2.0],
+        ],
+        dtype=np.float64,
+    )
+    mmi = np.array(
+        [
+            [3.0, 3.5, 4.0, 3.5, 3.0],
+            [3.5, 4.5, 5.5, 4.5, 3.5],
+            [4.0, 5.5, 7.0, 5.5, 4.0],
+            [3.5, 4.5, 5.5, 4.5, 3.5],
+            [3.0, 3.5, 4.0, 3.5, 3.0],
+        ],
+        dtype=np.float64,
+    )
+    return ShakeMapGrid(
+        event_id="us2025abc3",
+        lon_min=139.0,
+        lat_min=35.0,
+        lon_max=140.0,
+        lat_max=36.0,
+        lon_spacing=0.25,
+        lat_spacing=0.25,
+        nlon=5,
+        nlat=5,
+        pga=pga,
+        mmi=mmi,
     )

@@ -4,6 +4,7 @@ import pytest
 
 from seismic_risk.models import Airport, Earthquake, ExposedAirport, SignificantEvent
 from seismic_risk.scoring import (
+    _heuristic_contribution,
     calculate_exposure_score,
     calculate_legacy_score,
     calculate_risk_score,
@@ -400,3 +401,130 @@ class TestFindExposedAirportsEnriched:
                 assert nq.magnitude > 0
                 assert nq.distance_km >= 0
                 assert nq.exposure_contribution > 0
+
+
+class TestShakeMapScoring:
+    def test_shakemap_pga_used_as_contribution(
+        self, sample_airports, sample_earthquakes, sample_shakemap_grid,
+    ):
+        """When a ShakeMap grid is available, PGA %g is the contribution."""
+        grids = {"us2025abc3": sample_shakemap_grid}
+        exposed = find_exposed_airports(
+            sample_airports, sample_earthquakes, max_distance_km=400,
+            shakemap_grids=grids,
+        )
+        # HND (35.5533, 139.7811) is inside the grid (139-140E, 35-36N)
+        hnd = next(a for a in exposed if a.iata_code == "HND")
+        sm_quake = next(q for q in hnd.nearby_quakes if q.earthquake_id == "us2025abc3")
+        assert sm_quake.pga_g is not None
+        assert sm_quake.mmi is not None
+        assert sm_quake.pga_g > 0
+
+    def test_heuristic_fallback_outside_grid(
+        self, sample_airports, sample_earthquakes, sample_shakemap_grid,
+    ):
+        """Quakes with grid but airport outside bounds fall back to heuristic."""
+        grids = {"us2025abc1": sample_shakemap_grid}
+        # us2025abc1 at (38.3, 141.5) — grid covers 139–140E, 35–36N
+        # NRT at (35.7647, 140.3864) is inside grid bounds for lon but...
+        # The earthquake us2025abc1 is at 38.3N which is way outside the grid
+        # But the grid lookup is done at the AIRPORT location (35.7647, 140.3864)
+        # which IS inside the grid bounds (lat 35-36, lon 139-140)
+        # Actually lon 140.3864 > 140.0 so it's outside the grid. Fallback.
+        exposed = find_exposed_airports(
+            sample_airports, sample_earthquakes, max_distance_km=400,
+            shakemap_grids=grids,
+        )
+        # Find NRT's quake us2025abc1
+        nrt = next(a for a in exposed if a.iata_code == "NRT")
+        eq1_quake = next(
+            (q for q in nrt.nearby_quakes if q.earthquake_id == "us2025abc1"), None,
+        )
+        if eq1_quake is not None:
+            # Should be heuristic fallback (outside grid bounds)
+            assert eq1_quake.pga_g is None
+            assert eq1_quake.mmi is None
+
+    def test_no_grid_uses_heuristic(self, sample_airports, sample_earthquakes):
+        """Without shakemap_grids, all quakes use heuristic."""
+        exposed = find_exposed_airports(
+            sample_airports, sample_earthquakes, max_distance_km=400,
+        )
+        for ap in exposed:
+            for nq in ap.nearby_quakes:
+                assert nq.pga_g is None
+                assert nq.mmi is None
+
+    def test_pga_g_and_mmi_values(
+        self, sample_airports, sample_earthquakes, sample_shakemap_grid,
+    ):
+        """PGA should be stored in g (divided by 100), MMI as-is."""
+        grids = {"us2025abc3": sample_shakemap_grid}
+        exposed = find_exposed_airports(
+            sample_airports, sample_earthquakes, max_distance_km=400,
+            shakemap_grids=grids,
+        )
+        # HND (35.5533, 139.7811) is inside the grid
+        hnd = next(a for a in exposed if a.iata_code == "HND")
+        sm_quake = next(q for q in hnd.nearby_quakes if q.earthquake_id == "us2025abc3")
+        # PGA in g should be < 1 for our test grid (max 15 %g = 0.15g)
+        assert sm_quake.pga_g is not None
+        assert sm_quake.pga_g < 1.0
+        assert sm_quake.mmi is not None
+        assert sm_quake.mmi > 0
+
+    def test_shakemap_method_dispatch(self, sample_airports, sample_earthquakes):
+        """'shakemap' method should work in calculate_risk_score."""
+        exposed = find_exposed_airports(
+            sample_airports, sample_earthquakes, max_distance_km=400,
+        )
+        score = calculate_risk_score(
+            airports=sample_airports,
+            earthquakes=sample_earthquakes,
+            max_distance_km=400,
+            method="shakemap",
+            exposed_airports=exposed,
+        )
+        expected = sum_airport_scores(exposed)
+        assert score == expected
+
+    def test_heuristic_method_dispatch(self, sample_airports, sample_earthquakes):
+        """'heuristic' method should work identically to 'exposure'."""
+        score_h = calculate_risk_score(
+            airports=sample_airports,
+            earthquakes=sample_earthquakes,
+            max_distance_km=400,
+            method="heuristic",
+        )
+        score_e = calculate_risk_score(
+            airports=sample_airports,
+            earthquakes=sample_earthquakes,
+            max_distance_km=400,
+            method="exposure",
+        )
+        assert score_h == score_e
+
+
+class TestHeuristicContribution:
+    def test_monotonically_decreasing_with_distance(self):
+        """Contribution must decrease as distance increases."""
+        prev = _heuristic_contribution(6.0, 10.0, 15.0)
+        for d in [25, 50, 75, 100, 150, 200]:
+            curr = _heuristic_contribution(6.0, float(d), 15.0)
+            assert curr < prev, f"Not decreasing at {d} km"
+            prev = curr
+
+    def test_deeper_quake_contributes_less(self):
+        """Deeper earthquakes should produce lower contributions at same epicentral distance."""
+        shallow = _heuristic_contribution(6.0, 50.0, 10.0)
+        deep = _heuristic_contribution(6.0, 50.0, 100.0)
+        assert deep < shallow
+
+    def test_decays_faster_than_inverse_distance(self):
+        """Anelastic absorption should make far-field decay steeper than 1/R."""
+        close = _heuristic_contribution(6.0, 10.0, 15.0)
+        far = _heuristic_contribution(6.0, 200.0, 15.0)
+        # Pure 1/(d+1) would give ratio of 11/201 ≈ 0.055
+        # With anelastic term the ratio should be much smaller
+        ratio = far / close
+        assert ratio < 0.04

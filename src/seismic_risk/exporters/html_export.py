@@ -20,6 +20,7 @@ def _build_geojson_data(results: list[CountryRiskResult]) -> dict[str, Any]:
     for result in results:
         # Add airport features
         for airport in result.exposed_airports:
+            pga_vals = [nq.pga_g for nq in airport.nearby_quakes if nq.pga_g is not None]
             features.append({
                 "type": "Feature",
                 "geometry": {
@@ -41,6 +42,7 @@ def _build_geojson_data(results: list[CountryRiskResult]) -> dict[str, Any]:
                     "aircraft_movements_k": AIRPORT_MOVEMENTS.get(
                         airport.iata_code, DEFAULT_MOVEMENTS
                     ),
+                    "max_pga_g": max(pga_vals) if pga_vals else None,
                 },
             })
 
@@ -61,6 +63,8 @@ def _build_geojson_data(results: list[CountryRiskResult]) -> dict[str, Any]:
                         "earthquake_id": nq.earthquake_id,
                         "distance_km": nq.distance_km,
                         "exposure_contribution": nq.exposure_contribution,
+                        "pga_g": nq.pga_g,
+                        "mmi": nq.mmi,
                     },
                 })
 
@@ -674,6 +678,12 @@ _HTML_TEMPLATE = """<!DOCTYPE html>
                         + '<div class="popup-row">'
                         + 'Country score: '
                         + p.country_risk_score + '</div>'
+                        + (p.max_pga_g !== null
+                            ? '<div class="popup-row">'
+                                + 'ShakeMap PGA: '
+                                + p.max_pga_g.toFixed(4)
+                                + 'g</div>'
+                            : '')
                         + (function() {
                             if (!trendData
                                 || !trendData.countries[

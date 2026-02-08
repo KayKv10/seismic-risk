@@ -128,15 +128,34 @@ def export_markdown(
             )
 
     # -- Airport Details table --
-    lines.extend([
-        "",
-        "## Airport Details",
-        "",
-        "| Airport | IATA | Municipality | Country | Exposure"
-        " | Closest Quake (km) | Nearby Quakes |",
-        "|:--------|:-----|:-------------|:--------|--------:"
-        "|-------------------:|--------------:|",
-    ])
+    # Check if any airport has ShakeMap PGA data
+    has_pga = any(
+        nq.pga_g is not None
+        for r in results
+        for ap in r.exposed_airports
+        for nq in ap.nearby_quakes
+    )
+
+    if has_pga:
+        lines.extend([
+            "",
+            "## Airport Details",
+            "",
+            "| Airport | IATA | Municipality | Country | Exposure"
+            " | Max PGA (g) | Closest Quake (km) | Nearby Quakes |",
+            "|:--------|:-----|:-------------|:--------|--------:"
+            "|------------:|-------------------:|--------------:|",
+        ])
+    else:
+        lines.extend([
+            "",
+            "## Airport Details",
+            "",
+            "| Airport | IATA | Municipality | Country | Exposure"
+            " | Closest Quake (km) | Nearby Quakes |",
+            "|:--------|:-----|:-------------|:--------|--------:"
+            "|-------------------:|--------------:|",
+        ])
 
     for r in results:
         for airport in sorted(
@@ -144,13 +163,25 @@ def export_markdown(
             key=lambda a: a.exposure_score,
             reverse=True,
         ):
-            lines.append(
-                f"| {airport.name} | {airport.iata_code}"
-                f" | {airport.municipality} | {r.country}"
-                f" | {airport.exposure_score:.1f}"
-                f" | {airport.closest_quake_distance_km}"
-                f" | {len(airport.nearby_quakes)} |"
-            )
+            if has_pga:
+                pga_vals = [nq.pga_g for nq in airport.nearby_quakes if nq.pga_g is not None]
+                pga_str = f"{max(pga_vals):.4f}" if pga_vals else "-"
+                lines.append(
+                    f"| {airport.name} | {airport.iata_code}"
+                    f" | {airport.municipality} | {r.country}"
+                    f" | {airport.exposure_score:.1f}"
+                    f" | {pga_str}"
+                    f" | {airport.closest_quake_distance_km}"
+                    f" | {len(airport.nearby_quakes)} |"
+                )
+            else:
+                lines.append(
+                    f"| {airport.name} | {airport.iata_code}"
+                    f" | {airport.municipality} | {r.country}"
+                    f" | {airport.exposure_score:.1f}"
+                    f" | {airport.closest_quake_distance_km}"
+                    f" | {len(airport.nearby_quakes)} |"
+                )
 
     lines.append("")  # trailing newline
 

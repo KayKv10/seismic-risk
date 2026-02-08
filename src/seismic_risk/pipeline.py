@@ -9,6 +9,7 @@ from dataclasses import replace
 from seismic_risk.config import SeismicRiskConfig
 from seismic_risk.fetchers.airports import fetch_airports
 from seismic_risk.fetchers.countries import fetch_country_metadata
+from seismic_risk.fetchers.shakemap import ShakeMapGrid, fetch_shakemap_grids
 from seismic_risk.fetchers.usgs import fetch_earthquakes, fetch_significant_earthquakes
 from seismic_risk.geo import reverse_geocode_batch
 from seismic_risk.http import create_session
@@ -113,6 +114,21 @@ def run_pipeline(config: SeismicRiskConfig) -> list[CountryRiskResult]:
     )
     logger.info("Significant earthquakes: %d", len(significant_quakes))
 
+    # Step 4b: Fetch ShakeMap grids (only for "shakemap" scoring method)
+    shakemap_grids: dict[str, ShakeMapGrid] = {}
+    if config.scoring_method == "shakemap":
+        eq_ids = {eq.id for eq in earthquakes}
+        target_ids = set(significant_quakes.keys()) & eq_ids
+        if target_ids:
+            shakemap_grids = fetch_shakemap_grids(
+                earthquake_ids=target_ids,
+                event_types=event_types,
+                session=session,
+                timeout=config.request_timeout,
+                use_cache=config.cache_enabled,
+            )
+            logger.info("ShakeMap grids loaded: %d", len(shakemap_grids))
+
     # Step 5: Fetch airports for qualifying countries
     logger.info("Fetching airports (type=%s)...", config.airport_type)
     all_airports = fetch_airports(
@@ -151,6 +167,7 @@ def run_pipeline(config: SeismicRiskConfig) -> list[CountryRiskResult]:
             airports=cc_airports,
             earthquakes=cc_quakes,
             max_distance_km=config.max_airport_distance_km,
+            shakemap_grids=shakemap_grids if config.scoring_method == "shakemap" else None,
         )
         if not exposed:
             continue

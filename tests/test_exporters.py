@@ -520,9 +520,9 @@ class TestCSVExport:
         with open(output) as f:
             reader = csv.reader(f)
             header = next(reader)
-            assert len(header) == 22
+            assert len(header) == 24
             for row in reader:
-                assert len(row) == 22
+                assert len(row) == 24
 
     def test_header_names(self, sample_results, tmp_path):
         import csv
@@ -541,6 +541,7 @@ class TestCSVExport:
             "airport_name", "iata_code", "municipality", "latitude",
             "longitude", "closest_quake_km", "exposure_score",
             "nearby_quake_count", "strongest_quake_mag", "strongest_quake_date",
+            "max_pga_g", "max_mmi",
         ]
 
     def test_correct_row_count(self, sample_results, tmp_path):
@@ -789,3 +790,82 @@ class TestMarkdownExport:
 
         content = output.read_text()
         assert "**Dropped off**: Philippines" in content
+
+
+class TestPGAExporterIntegration:
+    """Tests for PGA/MMI display in exporters when ShakeMap data is present."""
+
+    def _make_results_with_pga(self, sample_results):
+        """Create results with PGA/MMI data on one nearby quake."""
+        results = copy.deepcopy(sample_results)
+        # Replace first nearby quake on NRT with one that has pga_g/mmi
+        nrt = results[0].exposed_airports[0]
+        nrt.nearby_quakes[0] = replace(
+            nrt.nearby_quakes[0],
+            pga_g=0.0523,
+            mmi=5.2,
+        )
+        return results
+
+    def test_geojson_connection_has_pga(self, sample_results, tmp_path):
+        results = self._make_results_with_pga(sample_results)
+        output = tmp_path / "test.geojson"
+        export_geojson(results, output)
+
+        with open(output) as f:
+            data = json.load(f)
+
+        connections = [
+            f for f in data["features"]
+            if f["properties"]["feature_type"] == "connection"
+        ]
+        pga_conns = [c for c in connections if c["properties"]["pga_g"] is not None]
+        assert len(pga_conns) >= 1
+        assert pga_conns[0]["properties"]["pga_g"] == 0.0523
+        assert pga_conns[0]["properties"]["mmi"] == 5.2
+
+    def test_html_contains_shakemap_pga(self, sample_results, tmp_path):
+        results = self._make_results_with_pga(sample_results)
+        output = tmp_path / "test.html"
+        export_html(results, output)
+
+        content = output.read_text()
+        assert "ShakeMap PGA" in content
+        assert "max_pga_g" in content
+
+    def test_csv_has_pga_columns(self, sample_results, tmp_path):
+        import csv
+
+        results = self._make_results_with_pga(sample_results)
+        output = tmp_path / "test.csv"
+        export_csv(results, output)
+
+        with open(output) as f:
+            reader = csv.DictReader(f)
+            rows = list(reader)
+
+        assert "max_pga_g" in rows[0]
+        assert "max_mmi" in rows[0]
+        # NRT has PGA data (first row, highest exposure)
+        pga_row = next(r for r in rows if r["iata_code"] == "NRT")
+        assert pga_row["max_pga_g"] == "0.0523"
+        assert pga_row["max_mmi"] == "5.2"
+        # HND has no PGA data
+        hnd_row = next(r for r in rows if r["iata_code"] == "HND")
+        assert hnd_row["max_pga_g"] == ""
+
+    def test_markdown_has_pga_column_when_present(self, sample_results, tmp_path):
+        results = self._make_results_with_pga(sample_results)
+        output = tmp_path / "test.md"
+        export_markdown(results, output)
+
+        content = output.read_text()
+        assert "| Max PGA (g) |" in content
+        assert "0.0523" in content
+
+    def test_markdown_no_pga_column_without_data(self, sample_results, tmp_path):
+        output = tmp_path / "test.md"
+        export_markdown(sample_results, output)
+
+        content = output.read_text()
+        assert "| Max PGA (g) |" not in content

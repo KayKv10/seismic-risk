@@ -97,9 +97,9 @@ def run(
         ScoringMethod,
         typer.Option(
             "--scorer",
-            help="Scoring method: 'exposure' (distance-weighted) or 'legacy'.",
+            help="Scoring method: 'shakemap' (PGA-based hybrid), 'heuristic', or 'legacy'.",
         ),
-    ] = "exposure",
+    ] = "shakemap",
     verbose: Annotated[
         bool,
         typer.Option("--verbose", "-v", help="Enable verbose logging."),

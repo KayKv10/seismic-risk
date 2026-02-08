@@ -2,9 +2,11 @@
 
 from __future__ import annotations
 
+import math
 from datetime import datetime, timezone
 
 from seismic_risk.config import ScoringMethod
+from seismic_risk.fetchers.shakemap import ShakeMapGrid, interpolate_pga
 from seismic_risk.geo import haversine
 from seismic_risk.models import (
     Airport,
@@ -18,14 +20,31 @@ from seismic_risk.models import (
 ALERT_ORDER: dict[str, int] = {"green": 1, "yellow": 2, "orange": 3, "red": 4}
 
 
+def _heuristic_contribution(magnitude: float, distance_km: float, depth_km: float) -> float:
+    """Distance-weighted exposure contribution using GMPE-calibrated attenuation.
+
+    Uses hypocentral distance, geometric spreading (R^-1.2), and anelastic
+    absorption (e^-0.003R) to approximate real ground-motion decay.
+    """
+    r = math.sqrt(distance_km ** 2 + depth_km ** 2)
+    energy = math.pow(10, 0.5 * magnitude)
+    return energy / math.pow(r + 1, 1.2) * math.exp(-0.003 * r)
+
+
 def find_exposed_airports(
     airports: list[Airport],
     earthquakes: list[Earthquake],
     max_distance_km: float = 200.0,
+    shakemap_grids: dict[str, ShakeMapGrid] | None = None,
 ) -> list[ExposedAirport]:
     """Find airports within the exposure radius of at least one earthquake.
 
     Populates per-airport nearby_quakes and exposure_score.
+
+    When *shakemap_grids* is provided, PGA from the ShakeMap grid is used
+    as the exposure contribution (in %g) for quakes with available grids.
+    Falls back to the heuristic formula for quakes without a grid or for
+    airport locations outside the grid bounds.
     """
     exposed: list[ExposedAirport] = []
     for ap in airports:
@@ -36,8 +55,25 @@ def find_exposed_airports(
         for eq in earthquakes:
             d = haversine(ap.latitude, ap.longitude, eq.latitude, eq.longitude)
             if d <= max_distance_km:
-                energy_factor = 10 ** (0.5 * eq.magnitude)
-                contribution = energy_factor / (d + 1)
+                pga_g_val: float | None = None
+                mmi_val: float | None = None
+
+                if shakemap_grids and eq.id in shakemap_grids:
+                    result = interpolate_pga(
+                        shakemap_grids[eq.id], ap.latitude, ap.longitude,
+                    )
+                    if result is not None:
+                        pga_pctg, mmi_interp = result
+                        pga_g_val = round(pga_pctg / 100, 6)
+                        mmi_val = round(mmi_interp, 1)
+                        contribution = pga_pctg  # PGA in %g as contribution
+                    else:
+                        # Airport outside grid bounds — heuristic fallback
+                        contribution = _heuristic_contribution(eq.magnitude, d, eq.depth_km)
+                else:
+                    # No grid for this quake — heuristic
+                    contribution = _heuristic_contribution(eq.magnitude, d, eq.depth_km)
+
                 score += contribution
                 nearby.append(
                     NearbyQuake(
@@ -50,6 +86,8 @@ def find_exposed_airports(
                         place=eq.place,
                         distance_km=round(d, 1),
                         exposure_contribution=round(contribution, 2),
+                        pga_g=pga_g_val,
+                        mmi=mmi_val,
                     )
                 )
                 best = min(best, d)
@@ -136,13 +174,12 @@ def calculate_exposure_score(
 ) -> float:
     """Calculate distance-weighted exposure score.
 
-    For each airport, sums exposure from all nearby earthquakes:
-        exposure = sum( 10^(0.5 * magnitude) / (distance_km + 1) )
+    For each airport, sums exposure from all nearby earthquakes using
+    GMPE-calibrated attenuation (see ``_heuristic_contribution``):
 
-    This weights by:
-    - Inverse distance: closer quakes contribute more
-    - Exponential magnitude: reflects actual energy release (10^1.5 per unit,
-      but we use 10^0.5 to keep scores reasonable)
+        exposure = sum( 10^(0.5 * mag) / (R + 1)^1.2 * e^(-0.003 * R) )
+
+    where R = hypocentral distance (sqrt(epicentral² + depth²)).
 
     Returns the total exposure across all airports in the country.
     """
@@ -152,11 +189,9 @@ def calculate_exposure_score(
         for eq in earthquakes:
             distance = haversine(ap.latitude, ap.longitude, eq.latitude, eq.longitude)
             if distance <= max_distance_km:
-                # 10^(0.5 * mag) gives ~3.16x increase per magnitude unit
-                # +1 in denominator prevents division by zero for very close quakes
-                energy_factor = 10 ** (0.5 * eq.magnitude)
-                exposure = energy_factor / (distance + 1)
-                total_exposure += exposure
+                total_exposure += _heuristic_contribution(
+                    eq.magnitude, distance, eq.depth_km,
+                )
 
     return round(total_exposure, 2)
 
@@ -181,7 +216,7 @@ def calculate_risk_score(
     airports: list[Airport],
     earthquakes: list[Earthquake],
     max_distance_km: float = 200.0,
-    method: ScoringMethod = "exposure",
+    method: ScoringMethod = "shakemap",
     # Legacy params (only used when method="legacy")
     earthquake_count: int | None = None,
     avg_magnitude: float | None = None,
@@ -195,7 +230,7 @@ def calculate_risk_score(
         airports: List of airports to evaluate
         earthquakes: List of earthquakes in the country
         max_distance_km: Maximum distance for exposure calculation
-        method: Scoring method - "exposure" (default) or "legacy"
+        method: Scoring method - "shakemap", "heuristic"/"exposure", or "legacy"
         earthquake_count: Required for legacy method
         avg_magnitude: Required for legacy method
         exposed_airport_count: Required for legacy method
@@ -204,7 +239,7 @@ def calculate_risk_score(
     Returns:
         Risk score (higher = more risk)
     """
-    if method == "exposure":
+    if method in ("shakemap", "exposure", "heuristic"):
         if exposed_airports is not None:
             return sum_airport_scores(exposed_airports)
         return calculate_exposure_score(airports, earthquakes, max_distance_km)
