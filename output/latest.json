@@ -824,23 +824,23 @@
         "latitude": 34.858398,
         "longitude": 136.804993,
         "municipality": "Tokoname",
-        "closest_quake_distance_km": 169.7,
+        "closest_quake_distance_km": 173.6,
         "nearby_quakes": [
           {
             "earthquake_id": "us7000rps1",
             "magnitude": 5.1,
-            "latitude": 36.1555,
-            "longitude": 137.7938,
-            "depth_km": 6.739,
-            "time_ms": 1768456085023,
-            "place": "16 km WNW of Shiojiri, Japan",
-            "distance_km": 169.7,
-            "exposure_contribution": 0.45,
+            "latitude": 36.2405,
+            "longitude": 137.6972,
+            "depth_km": 2.286,
+            "time_ms": 1768456084538,
+            "place": "19 km WSW of Toyoshina, Japan",
+            "distance_km": 173.6,
+            "exposure_contribution": 0.43,
             "pga_g": null,
             "mmi": null
           }
         ],
-        "exposure_score": 0.45
+        "exposure_score": 0.43
       },
       {
         "name": "Komatsu Airport / JASDF Komatsu Air Base",
@@ -848,23 +848,23 @@
         "latitude": 36.393407,
         "longitude": 136.406895,
         "municipality": "Kanazawa",
-        "closest_quake_distance_km": 127.1,
+        "closest_quake_distance_km": 116.8,
         "nearby_quakes": [
           {
             "earthquake_id": "us7000rps1",
             "magnitude": 5.1,
-            "latitude": 36.1555,
-            "longitude": 137.7938,
-            "depth_km": 6.739,
-            "time_ms": 1768456085023,
-            "place": "16 km WNW of Shiojiri, Japan",
-            "distance_km": 127.1,
-            "exposure_contribution": 0.72,
+            "latitude": 36.2405,
+            "longitude": 137.6972,
+            "depth_km": 2.286,
+            "time_ms": 1768456084538,
+            "place": "19 km WSW of Toyoshina, Japan",
+            "distance_km": 116.8,
+            "exposure_contribution": 0.82,
             "pga_g": null,
             "mmi": null
           }
         ],
-        "exposure_score": 0.72
+        "exposure_score": 0.82
       },
       {
         "name": "Mount Fuji Shizuoka Airport",
@@ -872,23 +872,23 @@
         "latitude": 34.795022,
         "longitude": 138.190976,
         "municipality": "Makinohara / Shimada",
-        "closest_quake_distance_km": 155.5,
+        "closest_quake_distance_km": 166.8,
         "nearby_quakes": [
           {
             "earthquake_id": "us7000rps1",
             "magnitude": 5.1,
-            "latitude": 36.1555,
-            "longitude": 137.7938,
-            "depth_km": 6.739,
-            "time_ms": 1768456085023,
-            "place": "16 km WNW of Shiojiri, Japan",
-            "distance_km": 155.5,
-            "exposure_contribution": 0.52,
+            "latitude": 36.2405,
+            "longitude": 137.6972,
+            "depth_km": 2.286,
+            "time_ms": 1768456084538,
+            "place": "19 km WSW of Toyoshina, Japan",
+            "distance_km": 166.8,
+            "exposure_contribution": 0.46,
             "pga_g": null,
             "mmi": null
           }
         ],
-        "exposure_score": 0.52
+        "exposure_score": 0.46
       },
       {
         "name": "Aomori Airport",
@@ -997,22 +997,9 @@
             "exposure_contribution": 0.35,
             "pga_g": null,
             "mmi": null
-          },
-          {
-            "earthquake_id": "us7000rps1",
-            "magnitude": 5.1,
-            "latitude": 36.1555,
-            "longitude": 137.7938,
-            "depth_km": 6.739,
-            "time_ms": 1768456085023,
-            "place": "16 km WNW of Shiojiri, Japan",
-            "distance_km": 191.8,
-            "exposure_contribution": 0.36,
-            "pga_g": null,
-            "mmi": null
           }
         ],
-        "exposure_score": 0.71
+        "exposure_score": 0.35
       }
     ],
     "earthquakes": [
@@ -1140,11 +1127,11 @@
       {
         "id": "us7000rps1",
         "magnitude": 5.1,
-        "latitude": 36.1555,
-        "longitude": 137.7938,
-        "depth_km": 6.739,
-        "time_ms": 1768456085023,
-        "place": "16 km WNW of Shiojiri, Japan",
+        "latitude": 36.2405,
+        "longitude": 137.6972,
+        "depth_km": 2.286,
+        "time_ms": 1768456084538,
+        "place": "19 km WSW of Toyoshina, Japan",
         "country_code": "JP",
         "shakemap_available": false
       },
@@ -1182,7 +1169,7 @@
         "shakemap_available": true
       }
     ],
-    "seismic_hub_risk_score": 9.64
+    "seismic_hub_risk_score": 9.3
   },
   {
     "country": "Indonesia",
@@ -1993,7 +1980,7 @@
       "UKR"
     ],
     "earthquake_count": 22,
-    "avg_magnitude": 5.19,
+    "avg_magnitude": 5.2,
     "strongest_earthquake": {
       "magnitude": 6.2,
       "date": "2026-01-22",
@@ -2226,11 +2213,11 @@
       },
       {
         "id": "us7000rrjh",
-        "magnitude": 5,
-        "latitude": 52.1462,
-        "longitude": 177.3554,
+        "magnitude": 5.1,
+        "latitude": 52.1792,
+        "longitude": 177.3723,
         "depth_km": 10,
-        "time_ms": 1769156741298,
+        "time_ms": 1769156741388,
         "place": "293 km ESE of Attu Station, Alaska",
         "country_code": "RU",
         "shakemap_available": true
