@@ -44,6 +44,11 @@ dev = [
     "mypy>=1.5.0",
     "types-requests>=2.31.0",
     "pandas-stubs>=2.0.0",
+    "httpx>=0.27.0",
+]
+api = [
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.27.0",
 ]
 jupyter = [
     "notebook>=7.0.0",
@@ -71,7 +76,7 @@ select = ["E", "F", "I", "N", "W", "UP", "B", "SIM"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["src"]
+pythonpath = ["src", "scripts"]
 
 [tool.mypy]
 python_version = "3.10"
