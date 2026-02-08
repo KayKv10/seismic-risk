@@ -711,6 +711,41 @@ _HTML_TEMPLATE = """<!DOCTYPE html>
                                 + '</span> vs previous'
                                 + '</div>';
                         })()
+                        + (function() {
+                            if (!trendData
+                                || !trendData.airports
+                                || !trendData.airports[
+                                    p.iata_code])
+                                return '';
+                            var at = trendData.airports[
+                                p.iata_code];
+                            var svg = buildSparkline(at.scores);
+                            if (!svg) return '';
+                            var cls2 = at.direction === 'up'
+                                ? 'trend-up'
+                                : at.direction === 'down'
+                                ? 'trend-down'
+                                : 'trend-stable';
+                            var dtxt = at.direction === 'new'
+                                ? 'NEW'
+                                : at.direction === 'stable'
+                                ? '~'
+                                : (at.delta > 0 ? '+' : '')
+                                    + at.delta.toFixed(1);
+                            return '<div class="popup-row"'
+                                + ' style="margin-top:6px;'
+                                + 'border-top:1px solid #eee;'
+                                + 'padding-top:4px;">'
+                                + '<div style="font-size:11px;'
+                                + 'color:#888;margin-bottom:'
+                                + '2px;">Exposure trend ('
+                                + at.days_tracked
+                                + ' snapshots)</div>'
+                                + svg
+                                + ' <span class="' + cls2
+                                + '">' + dtxt + '</span>'
+                                + '</div>';
+                        })()
                     );
                     layer.on('click', function() {
                         justSelected = true;
@@ -913,6 +948,20 @@ def _build_trend_data(trends: TrendSummary) -> dict[str, Any]:
             }
             for iso3, ct in trends.country_trends.items()
             if not ct.is_gone
+        },
+        "airports": {
+            iata: {
+                "scores": at.scores,
+                "dates": at.dates,
+                "current": at.current_score,
+                "previous": at.previous_score,
+                "delta": at.score_delta,
+                "direction": at.trend_direction,
+                "is_new": at.is_new,
+                "days_tracked": at.days_tracked,
+            }
+            for iata, at in trends.airport_trends.items()
+            if not at.is_gone
         },
     }
 

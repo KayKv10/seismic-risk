@@ -463,6 +463,56 @@ class TestHTMLExport:
         trend_block = content[trend_start:trend_end]
         assert "</script>" not in trend_block
 
+    def test_trend_data_includes_airports(self, sample_results, sample_trends, tmp_path):
+        output = tmp_path / "test.html"
+        export_html(sample_results, output, trends=sample_trends)
+
+        content = output.read_text()
+        assert '"airports"' in content
+        assert '"NRT"' in content
+
+    def test_airport_sparkline_in_popup(self, sample_results, sample_trends, tmp_path):
+        output = tmp_path / "test.html"
+        export_html(sample_results, output, trends=sample_trends)
+
+        content = output.read_text()
+        assert "trendData.airports" in content
+        assert "Exposure trend" in content
+
+    def test_trend_data_airports_empty_without_airport_trends(
+        self, sample_results, tmp_path
+    ):
+        from seismic_risk.history import CountryTrend, TrendSummary
+
+        trends_no_airports = TrendSummary(
+            date="2026-02-06",
+            history_days=3,
+            history_start="2026-02-04",
+            country_trends={
+                "JPN": CountryTrend(
+                    iso_alpha3="JPN",
+                    country="Japan",
+                    scores=[42.85],
+                    dates=["2026-02-06"],
+                    current_score=42.85,
+                    previous_score=None,
+                    score_delta=0.0,
+                    trend_direction="new",
+                    is_new=True,
+                    is_gone=False,
+                    days_tracked=1,
+                ),
+            },
+            airport_trends={},
+            new_countries=["JPN"],
+            gone_countries=[],
+        )
+        output = tmp_path / "test.html"
+        export_html(sample_results, output, trends=trends_no_airports)
+
+        content = output.read_text()
+        assert '"airports": {}' in content
+
 
 class TestAirportMovementsData:
     def test_movements_data_structure(self):
@@ -739,6 +789,7 @@ class TestMarkdownExport:
                     days_tracked=1,
                 ),
             },
+            airport_trends={},
             new_countries=["JPN"],
             gone_countries=[],
         )
@@ -784,6 +835,7 @@ class TestMarkdownExport:
                     days_tracked=2,
                 ),
             },
+            airport_trends={},
             new_countries=[],
             gone_countries=["PHL"],
         )
@@ -792,6 +844,41 @@ class TestMarkdownExport:
 
         content = output.read_text()
         assert "**Dropped off**: Philippines" in content
+
+    def test_markdown_airport_trend_column_present(
+        self, sample_results, sample_trends, tmp_path
+    ):
+        output = tmp_path / "test.md"
+        export_markdown(sample_results, output, trends=sample_trends)
+
+        content = output.read_text()
+        assert "| Trend" in content
+        # Airport details section should have trend values
+        assert "## Airport Details" in content
+
+    def test_markdown_airport_trend_column_absent(self, sample_results, tmp_path):
+        output = tmp_path / "test.md"
+        export_markdown(sample_results, output)
+
+        content = output.read_text()
+        # Airport Details should exist but without Trend column
+        assert "## Airport Details" in content
+        # Extract just the airport details section
+        details_start = content.index("## Airport Details")
+        details_section = content[details_start:]
+        # The first header line should not have "Trend" between "Exposure" and "Closest"
+        header_line = details_section.split("\n")[2]  # first non-empty line after ##
+        assert "| Trend" not in header_line
+
+    def test_markdown_airport_movers_in_summary(
+        self, sample_results, sample_trends, tmp_path
+    ):
+        output = tmp_path / "test.md"
+        export_markdown(sample_results, output, trends=sample_trends)
+
+        content = output.read_text()
+        assert "**Top airport exposure changes**:" in content
+        assert "NRT" in content
 
 
 class TestPGAExporterIntegration:

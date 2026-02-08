@@ -21,6 +21,18 @@ def _trend_cell(iso3: str, trends: TrendSummary) -> str:
     return "~"
 
 
+def _airport_trend_cell(iata: str, trends: TrendSummary) -> str:
+    """Return a trend indicator string for the given airport."""
+    at = trends.airport_trends.get(iata)
+    if at is None or at.is_new:
+        return "NEW"
+    if at.score_delta > 0.5:
+        return f"+{at.score_delta:.1f}"
+    if at.score_delta < -0.5:
+        return f"{at.score_delta:.1f}"
+    return "~"
+
+
 def export_markdown(
     results: list[CountryRiskResult],
     output_path: Path,
@@ -74,6 +86,24 @@ def export_markdown(
                     f"- {ct.country} ({ct.iso_alpha3}):"
                     f" {arrow}{ct.score_delta:.1f}"
                 )
+
+        if trends.airport_trends:
+            airport_movers = sorted(
+                [
+                    at for at in trends.airport_trends.values()
+                    if not at.is_gone and not at.is_new
+                ],
+                key=lambda at: abs(at.score_delta),
+                reverse=True,
+            )[:5]
+            if airport_movers:
+                lines.extend(["", "**Top airport exposure changes**:", ""])
+                for at in airport_movers:
+                    arrow = "+" if at.score_delta > 0 else ""
+                    lines.append(
+                        f"- {at.name} ({at.iata_code}, {at.country_iso3}):"
+                        f" {arrow}{at.score_delta:.1f}"
+                    )
 
         lines.append("")
 
@@ -135,27 +165,27 @@ def export_markdown(
         for ap in r.exposed_airports
         for nq in ap.nearby_quakes
     )
+    has_airport_trends = trends is not None and bool(trends.airport_trends)
 
+    # Build header parts
+    header_base = "| Airport | IATA | Municipality | Country | Exposure"
+    sep_base = "|:--------|:-----|:-------------|:--------|--------:"
+    trend_col = " | Trend" if has_airport_trends else ""
+    trend_sep = "|:------" if has_airport_trends else ""
     if has_pga:
-        lines.extend([
-            "",
-            "## Airport Details",
-            "",
-            "| Airport | IATA | Municipality | Country | Exposure"
-            " | Max PGA (g) | Closest Quake (km) | Nearby Quakes |",
-            "|:--------|:-----|:-------------|:--------|--------:"
-            "|------------:|-------------------:|--------------:|",
-        ])
+        header_end = " | Max PGA (g) | Closest Quake (km) | Nearby Quakes |"
+        sep_end = "|------------:|-------------------:|--------------:|"
     else:
-        lines.extend([
-            "",
-            "## Airport Details",
-            "",
-            "| Airport | IATA | Municipality | Country | Exposure"
-            " | Closest Quake (km) | Nearby Quakes |",
-            "|:--------|:-----|:-------------|:--------|--------:"
-            "|-------------------:|--------------:|",
-        ])
+        header_end = " | Closest Quake (km) | Nearby Quakes |"
+        sep_end = "|-------------------:|--------------:|"
+
+    lines.extend([
+        "",
+        "## Airport Details",
+        "",
+        header_base + trend_col + header_end,
+        sep_base + trend_sep + sep_end,
+    ])
 
     for r in results:
         for airport in sorted(
@@ -163,13 +193,21 @@ def export_markdown(
             key=lambda a: a.exposure_score,
             reverse=True,
         ):
+            trend_val = ""
+            if has_airport_trends:
+                assert trends is not None  # for mypy
+                trend_val = f" | {_airport_trend_cell(airport.iata_code, trends)}"
+
             if has_pga:
-                pga_vals = [nq.pga_g for nq in airport.nearby_quakes if nq.pga_g is not None]
+                pga_vals = [
+                    nq.pga_g for nq in airport.nearby_quakes if nq.pga_g is not None
+                ]
                 pga_str = f"{max(pga_vals):.4f}" if pga_vals else "-"
                 lines.append(
                     f"| {airport.name} | {airport.iata_code}"
                     f" | {airport.municipality} | {r.country}"
                     f" | {airport.exposure_score:.1f}"
+                    f"{trend_val}"
                     f" | {pga_str}"
                     f" | {airport.closest_quake_distance_km}"
                     f" | {len(airport.nearby_quakes)} |"
@@ -179,6 +217,7 @@ def export_markdown(
                     f"| {airport.name} | {airport.iata_code}"
                     f" | {airport.municipality} | {r.country}"
                     f" | {airport.exposure_score:.1f}"
+                    f"{trend_val}"
                     f" | {airport.closest_quake_distance_km}"
                     f" | {len(airport.nearby_quakes)} |"
                 )

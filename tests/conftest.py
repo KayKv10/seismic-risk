@@ -10,7 +10,7 @@ import pytest
 
 from seismic_risk.config import SeismicRiskConfig
 from seismic_risk.fetchers.shakemap import ShakeMapGrid
-from seismic_risk.history import CountryTrend, TrendSummary
+from seismic_risk.history import AirportTrend, CountryTrend, TrendSummary
 from seismic_risk.models import (
     Airport,
     CountryRiskResult,
@@ -267,6 +267,22 @@ def sample_trends() -> TrendSummary:
                 current_score=42.85,
                 previous_score=40.1,
                 score_delta=2.75,
+                trend_direction="up",
+                is_new=False,
+                is_gone=False,
+                days_tracked=3,
+            ),
+        },
+        airport_trends={
+            "NRT": AirportTrend(
+                iata_code="NRT",
+                name="Narita International Airport",
+                country_iso3="JPN",
+                scores=[20.0, 22.0, 24.85],
+                dates=["2026-02-04", "2026-02-05", "2026-02-06"],
+                current_score=24.85,
+                previous_score=22.0,
+                score_delta=2.85,
                 trend_direction="up",
                 is_new=False,
                 is_gone=False,
