@@ -1094,10 +1094,10 @@
       {
         "id": "us7000rq8a",
         "magnitude": 5,
-        "latitude": 29.971,
-        "longitude": 142.2037,
+        "latitude": 29.8969,
+        "longitude": 142.1796,
         "depth_km": 10,
-        "time_ms": 1768608977005,
+        "time_ms": 1768608977313,
         "place": "Izu Islands, Japan region",
         "country_code": "JP",
         "shakemap_available": false
@@ -1313,23 +1313,23 @@
         "latitude": -3.71026,
         "longitude": 128.089005,
         "municipality": "Ambon",
-        "closest_quake_distance_km": 77.2,
+        "closest_quake_distance_km": 73.7,
         "nearby_quakes": [
           {
             "earthquake_id": "us7000rq86",
             "magnitude": 5.1,
-            "latitude": -3.3473,
-            "longitude": 128.6818,
-            "depth_km": 68.695,
-            "time_ms": 1768607444895,
-            "place": "26 km W of Amahai, Indonesia",
-            "distance_km": 77.2,
-            "exposure_contribution": 0.98,
+            "latitude": -3.3817,
+            "longitude": 128.6661,
+            "depth_km": 66.013,
+            "time_ms": 1768607444852,
+            "place": "28 km W of Amahai, Indonesia",
+            "distance_km": 73.7,
+            "exposure_contribution": 1.05,
             "pga_g": null,
             "mmi": null
           }
         ],
-        "exposure_score": 0.98
+        "exposure_score": 1.05
       },
       {
         "name": "Adisutjipto International Airport",
@@ -1553,11 +1553,11 @@
       {
         "id": "us7000rq86",
         "magnitude": 5.1,
-        "latitude": -3.3473,
-        "longitude": 128.6818,
-        "depth_km": 68.695,
-        "time_ms": 1768607444895,
-        "place": "26 km W of Amahai, Indonesia",
+        "latitude": -3.3817,
+        "longitude": 128.6661,
+        "depth_km": 66.013,
+        "time_ms": 1768607444852,
+        "place": "28 km W of Amahai, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
       },
@@ -1617,7 +1617,7 @@
         "shakemap_available": true
       }
     ],
-    "seismic_hub_risk_score": 8.24
+    "seismic_hub_risk_score": 8.31
   },
   {
     "country": "Tonga",
@@ -1640,8 +1640,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 19,
-    "avg_magnitude": 5.29,
+    "earthquake_count": 18,
+    "avg_magnitude": 5.3,
     "strongest_earthquake": {
       "magnitude": 6.1,
       "date": "2026-02-04",
@@ -1929,17 +1929,6 @@
         "place": "south of the Fiji Islands",
         "country_code": "TO",
         "shakemap_available": true
-      },
-      {
-        "id": "us7000rnmg",
-        "magnitude": 5.1,
-        "latitude": -31.2776,
-        "longitude": -177.9967,
-        "depth_km": 10,
-        "time_ms": 1767960816173,
-        "place": "Kermadec Islands region",
-        "country_code": "TO",
-        "shakemap_available": false
       }
     ],
     "seismic_hub_risk_score": 7.42
@@ -1979,7 +1968,7 @@
       "POL",
       "UKR"
     ],
-    "earthquake_count": 22,
+    "earthquake_count": 21,
     "avg_magnitude": 5.2,
     "strongest_earthquake": {
       "magnitude": 6.2,
@@ -2069,13 +2058,13 @@
           {
             "earthquake_id": "us7000rq9h",
             "magnitude": 5.3,
-            "latitude": 52.391,
-            "longitude": 160.877,
-            "depth_km": 23.07,
-            "time_ms": 1768632401001,
-            "place": "169 km ESE of Petropavlovsk-Kamchatsky, Russia",
-            "distance_km": 184.7,
-            "exposure_contribution": 0.48,
+            "latitude": 52.4708,
+            "longitude": 160.8818,
+            "depth_km": 17.173,
+            "time_ms": 1768632400334,
+            "place": "165 km ESE of Petropavlovsk-Kamchatsky, Russia",
+            "distance_km": 180.8,
+            "exposure_contribution": 0.5,
             "pga_g": null,
             "mmi": null
           },
@@ -2119,7 +2108,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 5.44
+        "exposure_score": 5.46
       }
     ],
     "earthquakes": [
@@ -2236,33 +2225,33 @@
       {
         "id": "us7000rq9h",
         "magnitude": 5.3,
-        "latitude": 52.391,
-        "longitude": 160.877,
-        "depth_km": 23.07,
-        "time_ms": 1768632401001,
-        "place": "169 km ESE of Petropavlovsk-Kamchatsky, Russia",
+        "latitude": 52.4708,
+        "longitude": 160.8818,
+        "depth_km": 17.173,
+        "time_ms": 1768632400334,
+        "place": "165 km ESE of Petropavlovsk-Kamchatsky, Russia",
         "country_code": "RU",
         "shakemap_available": false
       },
       {
         "id": "us7000rq84",
         "magnitude": 5.2,
-        "latitude": 56.5336,
-        "longitude": 163.1539,
-        "depth_km": 35,
-        "time_ms": 1768605744948,
-        "place": "53 km NE of Ust’-Kamchatsk Staryy, Russia",
+        "latitude": 56.4004,
+        "longitude": 163.286,
+        "depth_km": 32.727,
+        "time_ms": 1768605744574,
+        "place": "53 km ENE of Ust’-Kamchatsk Staryy, Russia",
         "country_code": "RU",
         "shakemap_available": false
       },
       {
         "id": "us7000rptl",
         "magnitude": 5.9,
-        "latitude": 51.7477,
-        "longitude": 176.7452,
-        "depth_km": 41.324,
-        "time_ms": 1768467166751,
-        "place": "271 km ESE of Attu Station, Alaska",
+        "latitude": 51.5801,
+        "longitude": 176.6969,
+        "depth_km": 41.164,
+        "time_ms": 1768467165850,
+        "place": "278 km ESE of Attu Station, Alaska",
         "country_code": "RU",
         "shakemap_available": true
       },
@@ -2353,20 +2342,9 @@
         "place": "163 km S of Severo-Kuril’sk, Russia",
         "country_code": "RU",
         "shakemap_available": false
-      },
-      {
-        "id": "us7000rnmi",
-        "magnitude": 5,
-        "latitude": 49.1314,
-        "longitude": 156.1887,
-        "depth_km": 10,
-        "time_ms": 1767961330845,
-        "place": "171 km S of Severo-Kuril’sk, Russia",
-        "country_code": "RU",
-        "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 5.44
+    "seismic_hub_risk_score": 5.46
   },
   {
     "country": "Papua New Guinea",
