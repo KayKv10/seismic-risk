@@ -1195,19 +1195,19 @@
       "MYS",
       "PNG"
     ],
-    "earthquake_count": 18,
-    "avg_magnitude": 5.25,
+    "earthquake_count": 16,
+    "avg_magnitude": 5.15,
     "strongest_earthquake": {
-      "magnitude": 6.4,
-      "date": "2026-01-10",
-      "depth_km": 31,
-      "latitude": 3.7768,
-      "longitude": 126.9922
+      "magnitude": 5.8,
+      "date": "2026-02-05",
+      "depth_km": 40,
+      "latitude": -8.7865,
+      "longitude": 111.2264
     },
-    "highest_pager_alert": "green",
-    "max_felt_reports": 11,
-    "tsunami_warning_issued": true,
-    "significant_events_count": 1,
+    "highest_pager_alert": null,
+    "max_felt_reports": 0,
+    "tsunami_warning_issued": false,
+    "significant_events_count": 0,
     "exposed_airports": [
       {
         "name": "Dhoho International Airport",
@@ -1419,6 +1419,17 @@
     ],
     "earthquakes": [
       {
+        "id": "us6000s7es",
+        "magnitude": 5,
+        "latitude": 2.3162,
+        "longitude": 126.7988,
+        "depth_km": 44.944,
+        "time_ms": 1770625852410,
+        "place": "149 km WNW of Tobelo, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
         "id": "us6000s6ne",
         "magnitude": 5.8,
         "latitude": -8.7865,
@@ -1582,39 +1593,6 @@
         "place": "206 km NW of Tobelo, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
-      },
-      {
-        "id": "us7000rnx4",
-        "magnitude": 5.2,
-        "latitude": 3.6772,
-        "longitude": 127.0133,
-        "depth_km": 45.122,
-        "time_ms": 1768058113595,
-        "place": "242 km NNW of Tobelo, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s52c",
-        "magnitude": 5.5,
-        "latitude": 3.6285,
-        "longitude": 126.9375,
-        "depth_km": 57.236,
-        "time_ms": 1768057611094,
-        "place": "241 km NNW of Tobelo, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": true
-      },
-      {
-        "id": "us7000rnwd",
-        "magnitude": 6.4,
-        "latitude": 3.7768,
-        "longitude": 126.9922,
-        "depth_km": 31,
-        "time_ms": 1768057103805,
-        "place": "247 km SE of Sarangani, Philippines",
-        "country_code": "ID",
-        "shakemap_available": true
       }
     ],
     "seismic_hub_risk_score": 8.31
@@ -1641,7 +1619,7 @@
     "un_member": true,
     "bordering_countries": [],
     "earthquake_count": 18,
-    "avg_magnitude": 5.3,
+    "avg_magnitude": 5.27,
     "strongest_earthquake": {
       "magnitude": 6.1,
       "date": "2026-02-04",
@@ -1732,6 +1710,17 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000s7hn",
+        "magnitude": 5,
+        "latitude": -16.107,
+        "longitude": -173.5346,
+        "depth_km": 32.263,
+        "time_ms": 1770663177982,
+        "place": "32 km ESE of Hihifo, Tonga",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
       {
         "id": "us6000s6cx",
         "magnitude": 6.1,
@@ -1918,17 +1907,6 @@
         "place": "Kermadec Islands, New Zealand",
         "country_code": "TO",
         "shakemap_available": false
-      },
-      {
-        "id": "us7000rnsx",
-        "magnitude": 5.6,
-        "latitude": -26.2752,
-        "longitude": -177.5712,
-        "depth_km": 145.989,
-        "time_ms": 1768003563948,
-        "place": "south of the Fiji Islands",
-        "country_code": "TO",
-        "shakemap_available": true
       }
     ],
     "seismic_hub_risk_score": 7.42
@@ -1968,8 +1946,8 @@
       "POL",
       "UKR"
     ],
-    "earthquake_count": 21,
-    "avg_magnitude": 5.2,
+    "earthquake_count": 18,
+    "avg_magnitude": 5.23,
     "strongest_earthquake": {
       "magnitude": 6.2,
       "date": "2026-01-22",
@@ -2013,45 +1991,6 @@
             "place": "128 km S of Vilyuchinsk, Russia",
             "distance_km": 154.6,
             "exposure_contribution": 1.69,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
-            "earthquake_id": "us7000rnxj",
-            "magnitude": 5,
-            "latitude": 51.6273,
-            "longitude": 158.534,
-            "depth_km": 57.906,
-            "time_ms": 1768059250567,
-            "place": "141 km E of Ozernovskiy, Russia",
-            "distance_km": 171.5,
-            "exposure_contribution": 0.36,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
-            "earthquake_id": "us7000rnvf",
-            "magnitude": 5.2,
-            "latitude": 52.8269,
-            "longitude": 161.0619,
-            "depth_km": 10,
-            "time_ms": 1768044667960,
-            "place": "165 km E of Petropavlovsk-Kamchatsky, Russia",
-            "distance_km": 178.8,
-            "exposure_contribution": 0.46,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
-            "earthquake_id": "us7000rnuu",
-            "magnitude": 5.3,
-            "latitude": 52.8128,
-            "longitude": 161.08,
-            "depth_km": 13,
-            "time_ms": 1768031866023,
-            "place": "167 km E of Petropavlovsk-Kamchatsky, Russia",
-            "distance_km": 180.3,
-            "exposure_contribution": 0.5,
             "pga_g": null,
             "mmi": null
           },
@@ -2108,10 +2047,21 @@
             "mmi": null
           }
         ],
-        "exposure_score": 5.46
+        "exposure_score": 4.14
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000s7e3",
+        "magnitude": 5.3,
+        "latitude": 51.3672,
+        "longitude": 159.6802,
+        "depth_km": 10,
+        "time_ms": 1770613781077,
+        "place": "194 km SSE of Vilyuchinsk, Russia",
+        "country_code": "RU",
+        "shakemap_available": false
+      },
       {
         "id": "us6000s6ve",
         "magnitude": 5.1,
@@ -2298,53 +2248,9 @@
         "place": "150 km S of Severo-Kuril’sk, Russia",
         "country_code": "RU",
         "shakemap_available": false
-      },
-      {
-        "id": "us7000rnxj",
-        "magnitude": 5,
-        "latitude": 51.6273,
-        "longitude": 158.534,
-        "depth_km": 57.906,
-        "time_ms": 1768059250567,
-        "place": "141 km E of Ozernovskiy, Russia",
-        "country_code": "RU",
-        "shakemap_available": false
-      },
-      {
-        "id": "us7000rnvf",
-        "magnitude": 5.2,
-        "latitude": 52.8269,
-        "longitude": 161.0619,
-        "depth_km": 10,
-        "time_ms": 1768044667960,
-        "place": "165 km E of Petropavlovsk-Kamchatsky, Russia",
-        "country_code": "RU",
-        "shakemap_available": false
-      },
-      {
-        "id": "us7000rnuu",
-        "magnitude": 5.3,
-        "latitude": 52.8128,
-        "longitude": 161.08,
-        "depth_km": 13,
-        "time_ms": 1768031866023,
-        "place": "167 km E of Petropavlovsk-Kamchatsky, Russia",
-        "country_code": "RU",
-        "shakemap_available": true
-      },
-      {
-        "id": "us7000rnu0",
-        "magnitude": 5,
-        "latitude": 49.2009,
-        "longitude": 156.1209,
-        "depth_km": 67.966,
-        "time_ms": 1768016350390,
-        "place": "163 km S of Severo-Kuril’sk, Russia",
-        "country_code": "RU",
-        "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 5.46
+    "seismic_hub_risk_score": 4.14
   },
   {
     "country": "Papua New Guinea",
@@ -2390,17 +2296,17 @@
         "latitude": -6.567995,
         "longitude": 146.726544,
         "municipality": "Lae",
-        "closest_quake_distance_km": 99.9,
+        "closest_quake_distance_km": 101.9,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000s692",
             "magnitude": 5.2,
-            "latitude": -6.215,
-            "longitude": 147.5575,
-            "depth_km": 72.189,
-            "time_ms": 1770146496973,
-            "place": "49 km NW of Finschhafen, Papua New Guinea",
-            "distance_km": 99.9,
+            "latitude": -6.2352,
+            "longitude": 147.5856,
+            "depth_km": 70.182,
+            "time_ms": 1770146496785,
+            "place": "45 km NW of Finschhafen, Papua New Guinea",
+            "distance_km": 101.9,
             "exposure_contribution": 0.84,
             "pga_g": null,
             "mmi": null
@@ -2419,7 +2325,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 1.79
+        "exposure_score": 1.78
       }
     ],
     "earthquakes": [
@@ -2437,11 +2343,11 @@
       {
         "id": "us6000s692",
         "magnitude": 5.2,
-        "latitude": -6.215,
-        "longitude": 147.5575,
-        "depth_km": 72.189,
-        "time_ms": 1770146496973,
-        "place": "49 km NW of Finschhafen, Papua New Guinea",
+        "latitude": -6.2352,
+        "longitude": 147.5856,
+        "depth_km": 70.182,
+        "time_ms": 1770146496785,
+        "place": "45 km NW of Finschhafen, Papua New Guinea",
         "country_code": "PG",
         "shakemap_available": false
       },
@@ -2479,6 +2385,6 @@
         "shakemap_available": true
       }
     ],
-    "seismic_hub_risk_score": 1.79
+    "seismic_hub_risk_score": 1.78
   }
 ]
