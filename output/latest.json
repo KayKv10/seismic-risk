@@ -1531,11 +1531,11 @@
       {
         "id": "us7000rqjg",
         "magnitude": 5,
-        "latitude": -2.6159,
-        "longitude": 102.1725,
-        "depth_km": 168.23,
-        "time_ms": 1768820569203,
-        "place": "102 km NNW of Curup, Indonesia",
+        "latitude": -2.5876,
+        "longitude": 102.194,
+        "depth_km": 166.679,
+        "time_ms": 1768820569367,
+        "place": "104 km NNW of Curup, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
       },
@@ -1618,14 +1618,14 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 18,
-    "avg_magnitude": 5.27,
+    "earthquake_count": 19,
+    "avg_magnitude": 5.34,
     "strongest_earthquake": {
-      "magnitude": 6.1,
-      "date": "2026-02-04",
-      "depth_km": 184.2,
-      "latitude": -29.5951,
-      "longitude": -178.5952
+      "magnitude": 6.2,
+      "date": "2026-02-10",
+      "depth_km": 510.9,
+      "latitude": -21.0396,
+      "longitude": -178.3348
     },
     "highest_pager_alert": null,
     "max_felt_reports": 0,
@@ -1695,21 +1695,43 @@
           {
             "earthquake_id": "us7000rqf7",
             "magnitude": 5.3,
-            "latitude": -22.3776,
-            "longitude": -174.436,
+            "latitude": -22.3569,
+            "longitude": -174.4852,
             "depth_km": 10,
-            "time_ms": 1768739502049,
-            "place": "126 km SSE of ‘Ohonua, Tonga",
-            "distance_km": 146.2,
-            "exposure_contribution": 0.72,
+            "time_ms": 1768739502238,
+            "place": "122 km SSE of ‘Ohonua, Tonga",
+            "distance_km": 141.7,
+            "exposure_contribution": 0.76,
             "pga_g": null,
             "mmi": null
           }
         ],
-        "exposure_score": 7.42
+        "exposure_score": 7.45
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000s7pk",
+        "magnitude": 5.6,
+        "latitude": -14.97,
+        "longitude": -172.9395,
+        "depth_km": 10,
+        "time_ms": 1770758082327,
+        "place": "142 km NE of Hihifo, Tonga",
+        "country_code": "TO",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000s7p7",
+        "magnitude": 6.2,
+        "latitude": -21.0396,
+        "longitude": -178.3348,
+        "depth_km": 510.944,
+        "time_ms": 1770756292774,
+        "place": "Fiji region",
+        "country_code": "TO",
+        "shakemap_available": true
+      },
       {
         "id": "us6000s7hn",
         "magnitude": 5,
@@ -1865,17 +1887,6 @@
         "shakemap_available": false
       },
       {
-        "id": "us7000rqqz",
-        "magnitude": 5.1,
-        "latitude": -15.0334,
-        "longitude": -173.2153,
-        "depth_km": 102.942,
-        "time_ms": 1768887546776,
-        "place": "119 km NNE of Hihifo, Tonga",
-        "country_code": "TO",
-        "shakemap_available": false
-      },
-      {
         "id": "us7000rqit",
         "magnitude": 5.1,
         "latitude": -16.223,
@@ -1889,11 +1900,11 @@
       {
         "id": "us7000rqf7",
         "magnitude": 5.3,
-        "latitude": -22.3776,
-        "longitude": -174.436,
+        "latitude": -22.3569,
+        "longitude": -174.4852,
         "depth_km": 10,
-        "time_ms": 1768739502049,
-        "place": "126 km SSE of ‘Ohonua, Tonga",
+        "time_ms": 1768739502238,
+        "place": "122 km SSE of ‘Ohonua, Tonga",
         "country_code": "TO",
         "shakemap_available": false
       },
@@ -1909,7 +1920,7 @@
         "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 7.42
+    "seismic_hub_risk_score": 7.45
   },
   {
     "country": "Russia",
@@ -1995,6 +2006,19 @@
             "mmi": null
           },
           {
+            "earthquake_id": "us6000s7m0",
+            "magnitude": 5.1,
+            "latitude": 51.9126,
+            "longitude": 159.6355,
+            "depth_km": 49.073,
+            "time_ms": 1770716690859,
+            "place": "140 km SE of Vilyuchinsk, Russia",
+            "distance_km": 161.0,
+            "exposure_contribution": 0.45,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
             "earthquake_id": "us7000rq9h",
             "magnitude": 5.3,
             "latitude": 52.4708,
@@ -2047,10 +2071,21 @@
             "mmi": null
           }
         ],
-        "exposure_score": 4.14
+        "exposure_score": 4.59
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000s7m0",
+        "magnitude": 5.1,
+        "latitude": 51.9126,
+        "longitude": 159.6355,
+        "depth_km": 49.073,
+        "time_ms": 1770716690859,
+        "place": "140 km SE of Vilyuchinsk, Russia",
+        "country_code": "RU",
+        "shakemap_available": false
+      },
       {
         "id": "us6000s7e3",
         "magnitude": 5.3,
@@ -2237,20 +2272,9 @@
         "place": "178 km S of Severo-Kuril’sk, Russia",
         "country_code": "RU",
         "shakemap_available": false
-      },
-      {
-        "id": "us7000rp2k",
-        "magnitude": 5.1,
-        "latitude": 49.3211,
-        "longitude": 156.102,
-        "depth_km": 52.957,
-        "time_ms": 1768160276480,
-        "place": "150 km S of Severo-Kuril’sk, Russia",
-        "country_code": "RU",
-        "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 4.14
+    "seismic_hub_risk_score": 4.59
   },
   {
     "country": "Papua New Guinea",
@@ -2281,9 +2305,9 @@
     "strongest_earthquake": {
       "magnitude": 5.9,
       "date": "2026-01-20",
-      "depth_km": 90.0,
-      "latitude": -5.2807,
-      "longitude": 145.9951
+      "depth_km": 103,
+      "latitude": -5.3293,
+      "longitude": 145.9777
     },
     "highest_pager_alert": null,
     "max_felt_reports": 0,
@@ -2314,18 +2338,18 @@
           {
             "earthquake_id": "us7000rqrt",
             "magnitude": 5.9,
-            "latitude": -5.2807,
-            "longitude": 145.9951,
-            "depth_km": 89.957,
-            "time_ms": 1768893718634,
-            "place": "23 km ESE of Madang, Papua New Guinea",
-            "distance_km": 164.4,
-            "exposure_contribution": 0.95,
+            "latitude": -5.3293,
+            "longitude": 145.9777,
+            "depth_km": 103,
+            "time_ms": 1768893719848,
+            "place": "24 km ESE of Madang, Papua New Guinea",
+            "distance_km": 160.7,
+            "exposure_contribution": 0.92,
             "pga_g": null,
             "mmi": null
           }
         ],
-        "exposure_score": 1.78
+        "exposure_score": 1.75
       }
     ],
     "earthquakes": [
@@ -2376,15 +2400,15 @@
       {
         "id": "us7000rqrt",
         "magnitude": 5.9,
-        "latitude": -5.2807,
-        "longitude": 145.9951,
-        "depth_km": 89.957,
-        "time_ms": 1768893718634,
-        "place": "23 km ESE of Madang, Papua New Guinea",
+        "latitude": -5.3293,
+        "longitude": 145.9777,
+        "depth_km": 103,
+        "time_ms": 1768893719848,
+        "place": "24 km ESE of Madang, Papua New Guinea",
         "country_code": "PG",
         "shakemap_available": true
       }
     ],
-    "seismic_hub_risk_score": 1.78
+    "seismic_hub_risk_score": 1.75
   }
 ]

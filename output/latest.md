@@ -1,26 +1,26 @@
 # Seismic Risk Report
-Generated: 2026-02-10 06:56 UTC
+Generated: 2026-02-11 06:53 UTC
 
 ## Trend Summary
 
-Based on 75 snapshots (2020-01-31 to 2026-02-10).
+Based on 76 snapshots (2020-01-31 to 2026-02-11).
 
 
 **Top score changes**:
 
-- Russia (RUS): -1.3
+- Russia (RUS): +0.5
+- Tonga (TON): +0.0
 - Papua New Guinea (PNG): -0.0
 - Philippines (PHL): 0.0
 - Japan (JPN): 0.0
-- Indonesia (IDN): 0.0
 
 **Top airport exposure changes**:
 
-- Yelizovo Airport (PKC, RUS): -1.3
+- Yelizovo Airport (PKC, RUS): +0.5
+- Fua'amotu International Airport (TBU, TON): +0.0
 - Nadzab Tomodachi International Airport (LAE, PNG): -0.0
 - Francisco Bangoy International Airport (DVO, PHL): 0.0
 - General Santos International Airport (GES, PHL): 0.0
-- Laguindingan International Airport (CGY, PHL): 0.0
 
 ## Country Summary
 
@@ -29,8 +29,8 @@ Based on 75 snapshots (2020-01-31 to 2026-02-10).
 | Philippines | PHL | Asia | 16.3 | ~ | 5.2 | M5.9 (2026-01-28) | 16 | 5 | - | No | 0 |
 | Japan | JPN | Asia | 9.3 | ~ | 5.3 | M6.2 (2026-01-13) | 15 | 9 | - | No | 0 |
 | Indonesia | IDN | Asia | 8.3 | ~ | 5.2 | M5.8 (2026-02-05) | 16 | 7 | - | No | 0 |
-| Tonga | TON | Oceania | 7.4 | ~ | 5.3 | M6.1 (2026-02-04) | 18 | 1 | - | No | 0 |
-| Russia | RUS | Europe | 4.1 | -1.3 | 5.2 | M6.2 (2026-01-22) | 18 | 1 | - | No | 0 |
+| Tonga | TON | Oceania | 7.5 | ~ | 5.3 | M6.2 (2026-02-10) | 19 | 1 | - | No | 0 |
+| Russia | RUS | Europe | 4.6 | ~ | 5.2 | M6.2 (2026-01-22) | 18 | 1 | - | No | 0 |
 | Papua New Guinea | PNG | Oceania | 1.8 | ~ | 5.4 | M5.9 (2026-01-20) | 5 | 1 | - | No | 0 |
 
 ## Airport Details
@@ -58,6 +58,6 @@ Based on 75 snapshots (2020-01-31 to 2026-02-10).
 | Jenderal Ahmad Yani Airport | SRG | Semarang | Indonesia | 0.6 | ~ | 161.1 | 1 |
 | Juanda International Airport | SUB | Surabaya | Indonesia | 0.6 | ~ | 171.1 | 1 |
 | Dortheys Hiyo Eluay International Airport | DJJ | Sentani | Indonesia | 0.3 | ~ | 190.4 | 1 |
-| Fua'amotu International Airport | TBU | Nuku'alofa | Tonga | 7.4 | ~ | 72.6 | 5 |
-| Yelizovo Airport | PKC | Petropavlovsk-Kamchatsky | Russia | 4.1 | -1.3 | 94.0 | 6 |
+| Fua'amotu International Airport | TBU | Nuku'alofa | Tonga | 7.5 | ~ | 72.6 | 5 |
+| Yelizovo Airport | PKC | Petropavlovsk-Kamchatsky | Russia | 4.6 | ~ | 94.0 | 7 |
 | Nadzab Tomodachi International Airport | LAE | Lae | Papua New Guinea | 1.8 | ~ | 101.9 | 2 |
