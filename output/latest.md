@@ -1,43 +1,43 @@
 # Seismic Risk Report
-Generated: 2026-02-11 06:53 UTC
+Generated: 2026-02-12 06:53 UTC
 
 ## Trend Summary
 
-Based on 76 snapshots (2020-01-31 to 2026-02-11).
+Based on 77 snapshots (2020-01-31 to 2026-02-12).
 
 
 **Top score changes**:
 
-- Russia (RUS): +0.5
-- Tonga (TON): +0.0
-- Papua New Guinea (PNG): -0.0
-- Philippines (PHL): 0.0
+- Russia (RUS): -0.4
+- Philippines (PHL): -0.0
 - Japan (JPN): 0.0
+- Indonesia (IDN): 0.0
+- Tonga (TON): 0.0
 
 **Top airport exposure changes**:
 
-- Yelizovo Airport (PKC, RUS): +0.5
-- Fua'amotu International Airport (TBU, TON): +0.0
-- Nadzab Tomodachi International Airport (LAE, PNG): -0.0
+- Yelizovo Airport (PKC, RUS): -0.4
+- General Santos International Airport (GES, PHL): -0.0
+- Zamboanga International Airport (ZAM, PHL): +0.0
 - Francisco Bangoy International Airport (DVO, PHL): 0.0
-- General Santos International Airport (GES, PHL): 0.0
+- Laguindingan International Airport (CGY, PHL): 0.0
 
 ## Country Summary
 
 | Country | ISO | Region | Score | Trend | Avg Mag | Strongest | Quakes | Airports | Alert | Tsunami | Sig. Events |
 |:--------|:----|:-------|------:|:------|--------:|:----------|-------:|---------:|:------|:--------|------------:|
-| Philippines | PHL | Asia | 16.3 | ~ | 5.2 | M5.9 (2026-01-28) | 16 | 5 | - | No | 0 |
-| Japan | JPN | Asia | 9.3 | ~ | 5.3 | M6.2 (2026-01-13) | 15 | 9 | - | No | 0 |
+| Philippines | PHL | Asia | 16.2 | ~ | 5.2 | M5.9 (2026-01-28) | 16 | 5 | - | No | 0 |
+| Japan | JPN | Asia | 9.3 | ~ | 5.2 | M6.2 (2026-01-13) | 14 | 9 | - | No | 0 |
 | Indonesia | IDN | Asia | 8.3 | ~ | 5.2 | M5.8 (2026-02-05) | 16 | 7 | - | No | 0 |
 | Tonga | TON | Oceania | 7.5 | ~ | 5.3 | M6.2 (2026-02-10) | 19 | 1 | - | No | 0 |
-| Russia | RUS | Europe | 4.6 | ~ | 5.2 | M6.2 (2026-01-22) | 18 | 1 | - | No | 0 |
-| Papua New Guinea | PNG | Oceania | 1.8 | ~ | 5.4 | M5.9 (2026-01-20) | 5 | 1 | - | No | 0 |
+| Russia | RUS | Europe | 4.2 | ~ | 5.2 | M6.2 (2026-01-22) | 20 | 1 | - | No | 0 |
+| Papua New Guinea | PNG | Oceania | 1.8 | ~ | 5.3 | M5.9 (2026-01-20) | 6 | 1 | - | No | 0 |
 
 ## Airport Details
 
 | Airport | IATA | Municipality | Country | Exposure | Trend | Closest Quake (km) | Nearby Quakes |
 |:--------|:-----|:-------------|:--------|--------:|:------|-------------------:|--------------:|
-| General Santos International Airport | GES | General Santos | Philippines | 10.2 | ~ | 130.5 | 15 |
+| General Santos International Airport | GES | General Santos | Philippines | 10.1 | ~ | 130.5 | 15 |
 | Zamboanga International Airport | ZAM | Zamboanga | Philippines | 5.3 | ~ | 184.8 | 11 |
 | Francisco Bangoy International Airport | DVO | Davao | Philippines | 0.4 | ~ | 192.8 | 1 |
 | Mactan Cebu International Airport | CEB | Cebu City/Lapu-Lapu City | Philippines | 0.2 | ~ | 182.1 | 1 |
@@ -59,5 +59,5 @@ Based on 76 snapshots (2020-01-31 to 2026-02-11).
 | Juanda International Airport | SUB | Surabaya | Indonesia | 0.6 | ~ | 171.1 | 1 |
 | Dortheys Hiyo Eluay International Airport | DJJ | Sentani | Indonesia | 0.3 | ~ | 190.4 | 1 |
 | Fua'amotu International Airport | TBU | Nuku'alofa | Tonga | 7.5 | ~ | 72.6 | 5 |
-| Yelizovo Airport | PKC | Petropavlovsk-Kamchatsky | Russia | 4.6 | ~ | 94.0 | 7 |
+| Yelizovo Airport | PKC | Petropavlovsk-Kamchatsky | Russia | 4.2 | ~ | 94.0 | 6 |
 | Nadzab Tomodachi International Airport | LAE | Lae | Papua New Guinea | 1.8 | ~ | 101.9 | 2 |
