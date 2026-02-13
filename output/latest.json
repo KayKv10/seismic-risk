@@ -21,7 +21,7 @@
     "un_member": true,
     "bordering_countries": [],
     "earthquake_count": 16,
-    "avg_magnitude": 5.25,
+    "avg_magnitude": 5.24,
     "strongest_earthquake": {
       "magnitude": 5.9,
       "date": "2026-01-28",
@@ -120,14 +120,14 @@
           },
           {
             "earthquake_id": "us6000s4rf",
-            "magnitude": 5.3,
-            "latitude": 6.4359,
-            "longitude": 123.7916,
+            "magnitude": 5.2,
+            "latitude": 6.4232,
+            "longitude": 123.801,
             "depth_km": 10,
-            "time_ms": 1769533509776,
+            "time_ms": 1769533509429,
             "place": "27 km W of Sangay, Philippines",
-            "distance_km": 150.2,
-            "exposure_contribution": 0.69,
+            "distance_km": 148.8,
+            "exposure_contribution": 0.62,
             "pga_g": null,
             "mmi": null
           },
@@ -262,7 +262,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 10.13
+        "exposure_score": 10.07
       },
       {
         "name": "Laguindingan International Airport",
@@ -414,19 +414,6 @@
             "mmi": null
           },
           {
-            "earthquake_id": "us6000s4rf",
-            "magnitude": 5.3,
-            "latitude": 6.4359,
-            "longitude": 123.7916,
-            "depth_km": 10,
-            "time_ms": 1769533509776,
-            "place": "27 km W of Sangay, Philippines",
-            "distance_km": 198.7,
-            "exposure_contribution": 0.43,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
             "earthquake_id": "us6000s543",
             "magnitude": 5,
             "latitude": 6.3239,
@@ -440,7 +427,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 5.32
+        "exposure_score": 4.89
       },
       {
         "name": "Mactan Cebu International Airport",
@@ -602,11 +589,11 @@
       },
       {
         "id": "us6000s4rf",
-        "magnitude": 5.3,
-        "latitude": 6.4359,
-        "longitude": 123.7916,
+        "magnitude": 5.2,
+        "latitude": 6.4232,
+        "longitude": 123.801,
         "depth_km": 10,
-        "time_ms": 1769533509776,
+        "time_ms": 1769533509429,
         "place": "27 km W of Sangay, Philippines",
         "country_code": "PH",
         "shakemap_available": false
@@ -645,7 +632,7 @@
         "shakemap_available": true
       }
     ],
-    "seismic_hub_risk_score": 16.24
+    "seismic_hub_risk_score": 15.75
   },
   {
     "country": "Japan",
@@ -667,14 +654,14 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 14,
-    "avg_magnitude": 5.24,
+    "earthquake_count": 15,
+    "avg_magnitude": 5.2,
     "strongest_earthquake": {
-      "magnitude": 6.2,
-      "date": "2026-01-13",
-      "depth_km": 50.9,
-      "latitude": 44.5699,
-      "longitude": 149.2744
+      "magnitude": 5.5,
+      "date": "2026-02-12",
+      "depth_km": 10,
+      "latitude": 25.7653,
+      "longitude": 128.6169
     },
     "highest_pager_alert": null,
     "max_felt_reports": 0,
@@ -1000,9 +987,90 @@
           }
         ],
         "exposure_score": 0.35
+      },
+      {
+        "name": "Naha International Airport",
+        "iata_code": "OKA",
+        "latitude": 26.192437,
+        "longitude": 127.639804,
+        "municipality": "Naha",
+        "closest_quake_distance_km": 108.6,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us6000s8l6",
+            "magnitude": 5.5,
+            "latitude": 25.7653,
+            "longitude": 128.6169,
+            "depth_km": 10,
+            "time_ms": 1770932893290,
+            "place": "97 km SE of Katsuren-haebaru, Japan",
+            "distance_km": 108.6,
+            "exposure_contribution": 1.44,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 1.44
+      },
+      {
+        "name": "Kadena Air Base",
+        "iata_code": "DNA",
+        "latitude": 26.351667,
+        "longitude": 127.769444,
+        "municipality": "Okinawa",
+        "closest_quake_distance_km": 106.9,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us6000s8l6",
+            "magnitude": 5.5,
+            "latitude": 25.7653,
+            "longitude": 128.6169,
+            "depth_km": 10,
+            "time_ms": 1770932893290,
+            "place": "97 km SE of Katsuren-haebaru, Japan",
+            "distance_km": 106.9,
+            "exposure_contribution": 1.47,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 1.47
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000s8l6",
+        "magnitude": 5.5,
+        "latitude": 25.7653,
+        "longitude": 128.6169,
+        "depth_km": 10,
+        "time_ms": 1770932893290,
+        "place": "97 km SE of Katsuren-haebaru, Japan",
+        "country_code": "JP",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000s8l3",
+        "magnitude": 5,
+        "latitude": 43.9991,
+        "longitude": 148.9281,
+        "depth_km": 10,
+        "time_ms": 1770931928993,
+        "place": "159 km SSE of Kuril’sk, Russia",
+        "country_code": "JP",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s8i0",
+        "magnitude": 5.4,
+        "latitude": 43.9926,
+        "longitude": 148.844,
+        "depth_km": 10,
+        "time_ms": 1770914700527,
+        "place": "157 km SSE of Kuril’sk, Russia",
+        "country_code": "JP",
+        "shakemap_available": true
+      },
       {
         "id": "us6000s6gs",
         "magnitude": 5.5,
@@ -1044,17 +1112,6 @@
         "depth_km": 34.218,
         "time_ms": 1769482050079,
         "place": "72 km SE of Nemuro, Japan",
-        "country_code": "JP",
-        "shakemap_available": false
-      },
-      {
-        "id": "us7000rrx6",
-        "magnitude": 5,
-        "latitude": 27.6907,
-        "longitude": 139.9252,
-        "depth_km": 490.378,
-        "time_ms": 1769323763152,
-        "place": "Bonin Islands, Japan region",
         "country_code": "JP",
         "shakemap_available": false
       },
@@ -1145,20 +1202,9 @@
         "place": "63 km ESE of Akkeshi, Japan",
         "country_code": "JP",
         "shakemap_available": true
-      },
-      {
-        "id": "us7000rpcg",
-        "magnitude": 6.2,
-        "latitude": 44.5699,
-        "longitude": 149.2744,
-        "depth_km": 50.906,
-        "time_ms": 1768289650175,
-        "place": "132 km SE of Kuril’sk, Russia",
-        "country_code": "JP",
-        "shakemap_available": true
       }
     ],
-    "seismic_hub_risk_score": 9.3
+    "seismic_hub_risk_score": 12.21
   },
   {
     "country": "Indonesia",
@@ -1184,8 +1230,8 @@
       "MYS",
       "PNG"
     ],
-    "earthquake_count": 16,
-    "avg_magnitude": 5.15,
+    "earthquake_count": 14,
+    "avg_magnitude": 5.16,
     "strongest_earthquake": {
       "magnitude": 5.8,
       "date": "2026-02-05",
@@ -1204,18 +1250,18 @@
         "latitude": -7.750278,
         "longitude": 111.947222,
         "municipality": "Kediri",
-        "closest_quake_distance_km": 69.8,
+        "closest_quake_distance_km": 58.6,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000s4mj",
             "magnitude": 5.7,
-            "latitude": -8.0239,
-            "longitude": 111.3773,
+            "latitude": -7.8988,
+            "longitude": 111.4371,
             "depth_km": 127,
-            "time_ms": 1769476842515,
-            "place": "19 km SSW of Ponorogo, Indonesia",
-            "distance_km": 69.8,
-            "exposure_contribution": 1.16,
+            "time_ms": 1769476842675,
+            "place": "4 km SW of Ponorogo, Indonesia",
+            "distance_km": 58.6,
+            "exposure_contribution": 1.23,
             "pga_g": null,
             "mmi": null
           },
@@ -1233,7 +1279,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 2.45
+        "exposure_score": 2.52
       },
       {
         "name": "Dortheys Hiyo Eluay International Airport",
@@ -1279,22 +1325,9 @@
             "exposure_contribution": 0.61,
             "pga_g": null,
             "mmi": null
-          },
-          {
-            "earthquake_id": "us7000rph2",
-            "magnitude": 5,
-            "latitude": 1.107,
-            "longitude": 126.2359,
-            "depth_km": 45.645,
-            "time_ms": 1768330690154,
-            "place": "128 km ESE of Bitung, Indonesia",
-            "distance_km": 153.6,
-            "exposure_contribution": 0.44,
-            "pga_g": null,
-            "mmi": null
           }
         ],
-        "exposure_score": 1.05
+        "exposure_score": 0.61
       },
       {
         "name": "Pattimura International Airport",
@@ -1326,18 +1359,18 @@
         "latitude": -7.78818,
         "longitude": 110.431999,
         "municipality": "Yogyakarta",
-        "closest_quake_distance_km": 107.4,
+        "closest_quake_distance_km": 111.4,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000s4mj",
             "magnitude": 5.7,
-            "latitude": -8.0239,
-            "longitude": 111.3773,
+            "latitude": -7.8988,
+            "longitude": 111.4371,
             "depth_km": 127,
-            "time_ms": 1769476842515,
-            "place": "19 km SSW of Ponorogo, Indonesia",
-            "distance_km": 107.4,
-            "exposure_contribution": 0.92,
+            "time_ms": 1769476842675,
+            "place": "4 km SW of Ponorogo, Indonesia",
+            "distance_km": 111.4,
+            "exposure_contribution": 0.9,
             "pga_g": null,
             "mmi": null
           },
@@ -1355,7 +1388,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 2.2
+        "exposure_score": 2.17
       },
       {
         "name": "Juanda International Airport",
@@ -1363,23 +1396,23 @@
         "latitude": -7.37983,
         "longitude": 112.787003,
         "municipality": "Surabaya",
-        "closest_quake_distance_km": 171.1,
+        "closest_quake_distance_km": 159.6,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000s4mj",
             "magnitude": 5.7,
-            "latitude": -8.0239,
-            "longitude": 111.3773,
+            "latitude": -7.8988,
+            "longitude": 111.4371,
             "depth_km": 127,
-            "time_ms": 1769476842515,
-            "place": "19 km SSW of Ponorogo, Indonesia",
-            "distance_km": 171.1,
-            "exposure_contribution": 0.6,
+            "time_ms": 1769476842675,
+            "place": "4 km SW of Ponorogo, Indonesia",
+            "distance_km": 159.6,
+            "exposure_contribution": 0.65,
             "pga_g": null,
             "mmi": null
           }
         ],
-        "exposure_score": 0.6
+        "exposure_score": 0.65
       },
       {
         "name": "Jenderal Ahmad Yani Airport",
@@ -1387,23 +1420,23 @@
         "latitude": -6.970732,
         "longitude": 110.373244,
         "municipality": "Semarang",
-        "closest_quake_distance_km": 161.1,
+        "closest_quake_distance_km": 156.2,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000s4mj",
             "magnitude": 5.7,
-            "latitude": -8.0239,
-            "longitude": 111.3773,
+            "latitude": -7.8988,
+            "longitude": 111.4371,
             "depth_km": 127,
-            "time_ms": 1769476842515,
-            "place": "19 km SSW of Ponorogo, Indonesia",
-            "distance_km": 161.1,
-            "exposure_contribution": 0.64,
+            "time_ms": 1769476842675,
+            "place": "4 km SW of Ponorogo, Indonesia",
+            "distance_km": 156.2,
+            "exposure_contribution": 0.66,
             "pga_g": null,
             "mmi": null
           }
         ],
-        "exposure_score": 0.64
+        "exposure_score": 0.66
       }
     ],
     "earthquakes": [
@@ -1487,22 +1520,22 @@
       {
         "id": "us6000s4mj",
         "magnitude": 5.7,
-        "latitude": -8.0239,
-        "longitude": 111.3773,
+        "latitude": -7.8988,
+        "longitude": 111.4371,
         "depth_km": 127,
-        "time_ms": 1769476842515,
-        "place": "19 km SSW of Ponorogo, Indonesia",
+        "time_ms": 1769476842675,
+        "place": "4 km SW of Ponorogo, Indonesia",
         "country_code": "ID",
         "shakemap_available": true
       },
       {
         "id": "us7000rrx3",
         "magnitude": 5.1,
-        "latitude": -6.2073,
-        "longitude": 130.5569,
-        "depth_km": 125.127,
-        "time_ms": 1769322152996,
-        "place": "251 km WSW of Tual, Indonesia",
+        "latitude": -6.1987,
+        "longitude": 130.5864,
+        "depth_km": 136.694,
+        "time_ms": 1769322154142,
+        "place": "247 km WSW of Tual, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
       },
@@ -1560,31 +1593,9 @@
         "place": "28 km W of Amahai, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
-      },
-      {
-        "id": "us7000rph2",
-        "magnitude": 5,
-        "latitude": 1.107,
-        "longitude": 126.2359,
-        "depth_km": 45.645,
-        "time_ms": 1768330690154,
-        "place": "128 km ESE of Bitung, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us7000rpaw",
-        "magnitude": 5.2,
-        "latitude": 2.8493,
-        "longitude": 126.5209,
-        "depth_km": 52.11,
-        "time_ms": 1768267635997,
-        "place": "206 km NW of Tobelo, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 8.31
+    "seismic_hub_risk_score": 7.98
   },
   {
     "country": "Tonga",
@@ -1607,8 +1618,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 19,
-    "avg_magnitude": 5.34,
+    "earthquake_count": 18,
+    "avg_magnitude": 5.35,
     "strongest_earthquake": {
       "magnitude": 6.2,
       "date": "2026-02-10",
@@ -1627,18 +1638,31 @@
         "latitude": -21.241438,
         "longitude": -175.149164,
         "municipality": "Nuku'alofa",
-        "closest_quake_distance_km": 72.6,
+        "closest_quake_distance_km": 74.4,
         "nearby_quakes": [
+          {
+            "earthquake_id": "us7000rs1z",
+            "magnitude": 5.4,
+            "latitude": -21.8789,
+            "longitude": -174.9315,
+            "depth_km": 10,
+            "time_ms": 1769398306014,
+            "place": "59 km S of ‘Ohonua, Tonga",
+            "distance_km": 74.4,
+            "exposure_contribution": 2.21,
+            "pga_g": null,
+            "mmi": null
+          },
           {
             "earthquake_id": "us7000rs4b",
             "magnitude": 5.1,
-            "latitude": -21.7021,
-            "longitude": -174.6513,
+            "latitude": -21.8553,
+            "longitude": -174.7776,
             "depth_km": 10,
-            "time_ms": 1769432537968,
-            "place": "50 km SE of ‘Ohonua, Tonga",
-            "distance_km": 72.6,
-            "exposure_contribution": 1.62,
+            "time_ms": 1769432537584,
+            "place": "59 km SSE of ‘Ohonua, Tonga",
+            "distance_km": 78.3,
+            "exposure_contribution": 1.46,
             "pga_g": null,
             "mmi": null
           },
@@ -1652,19 +1676,6 @@
             "place": "66 km SSE of ‘Ohonua, Tonga",
             "distance_km": 84.8,
             "exposure_contribution": 1.32,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
-            "earthquake_id": "us7000rs1z",
-            "magnitude": 5.4,
-            "latitude": -22.0106,
-            "longitude": -174.917,
-            "depth_km": 10,
-            "time_ms": 1769398305751,
-            "place": "74 km S of ‘Ohonua, Tonga",
-            "distance_km": 88.8,
-            "exposure_contribution": 1.72,
             "pga_g": null,
             "mmi": null
           },
@@ -1695,7 +1706,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 7.45
+        "exposure_score": 7.78
       }
     ],
     "earthquakes": [
@@ -1810,24 +1821,13 @@
         "shakemap_available": true
       },
       {
-        "id": "us6000s4iv",
-        "magnitude": 5.2,
-        "latitude": -29.5533,
-        "longitude": -177.069,
-        "depth_km": 10,
-        "time_ms": 1769444976689,
-        "place": "Kermadec Islands, New Zealand",
-        "country_code": "TO",
-        "shakemap_available": false
-      },
-      {
         "id": "us7000rs4b",
         "magnitude": 5.1,
-        "latitude": -21.7021,
-        "longitude": -174.6513,
+        "latitude": -21.8553,
+        "longitude": -174.7776,
         "depth_km": 10,
-        "time_ms": 1769432537968,
-        "place": "50 km SE of ‘Ohonua, Tonga",
+        "time_ms": 1769432537584,
+        "place": "59 km SSE of ‘Ohonua, Tonga",
         "country_code": "TO",
         "shakemap_available": false
       },
@@ -1856,21 +1856,21 @@
       {
         "id": "us7000rs1z",
         "magnitude": 5.4,
-        "latitude": -22.0106,
-        "longitude": -174.917,
+        "latitude": -21.8789,
+        "longitude": -174.9315,
         "depth_km": 10,
-        "time_ms": 1769398305751,
-        "place": "74 km S of ‘Ohonua, Tonga",
+        "time_ms": 1769398306014,
+        "place": "59 km S of ‘Ohonua, Tonga",
         "country_code": "TO",
         "shakemap_available": true
       },
       {
         "id": "us7000rrsg",
         "magnitude": 5,
-        "latitude": -21.0722,
-        "longitude": -178.7583,
-        "depth_km": 587.326,
-        "time_ms": 1769249153405,
+        "latitude": -21.0582,
+        "longitude": -178.7822,
+        "depth_km": 589.434,
+        "time_ms": 1769249153647,
         "place": "Fiji region",
         "country_code": "TO",
         "shakemap_available": false
@@ -1878,11 +1878,11 @@
       {
         "id": "us7000rqit",
         "magnitude": 5.1,
-        "latitude": -16.223,
-        "longitude": -173.7599,
-        "depth_km": 94.191,
-        "time_ms": 1768804927663,
-        "place": "29 km S of Hihifo, Tonga",
+        "latitude": -16.3651,
+        "longitude": -173.9302,
+        "depth_km": 107.219,
+        "time_ms": 1768804928172,
+        "place": "47 km SSW of Hihifo, Tonga",
         "country_code": "TO",
         "shakemap_available": false
       },
@@ -1909,7 +1909,7 @@
         "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 7.45
+    "seismic_hub_risk_score": 7.78
   },
   {
     "country": "Russia",
@@ -1946,8 +1946,8 @@
       "POL",
       "UKR"
     ],
-    "earthquake_count": 20,
-    "avg_magnitude": 5.24,
+    "earthquake_count": 21,
+    "avg_magnitude": 5.21,
     "strongest_earthquake": {
       "magnitude": 6.2,
       "date": "2026-01-22",
@@ -2021,6 +2021,19 @@
             "mmi": null
           },
           {
+            "earthquake_id": "us7000rs26",
+            "magnitude": 5,
+            "latitude": 51.7554,
+            "longitude": 159.9598,
+            "depth_km": 23.161,
+            "time_ms": 1769402584560,
+            "place": "168 km SE of Vilyuchinsk, Russia",
+            "distance_km": 187.5,
+            "exposure_contribution": 0.33,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
             "earthquake_id": "us7000rpnf",
             "magnitude": 5,
             "latitude": 53.5538,
@@ -2047,7 +2060,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 4.22
+        "exposure_score": 4.55
       }
     ],
     "earthquakes": [
@@ -2162,13 +2175,24 @@
         "shakemap_available": false
       },
       {
-        "id": "us7000rs4q",
-        "magnitude": 5.2,
-        "latitude": 50.3211,
-        "longitude": 158.0134,
+        "id": "us6000s4me",
+        "magnitude": 5,
+        "latitude": 51.4104,
+        "longitude": 159.2617,
         "depth_km": 10,
-        "time_ms": 1769438694165,
-        "place": "139 km ESE of Severo-Kuril’sk, Russia",
+        "time_ms": 1769474941647,
+        "place": "179 km SSE of Vilyuchinsk, Russia",
+        "country_code": "RU",
+        "shakemap_available": false
+      },
+      {
+        "id": "us7000rs4q",
+        "magnitude": 5,
+        "latitude": 50.2772,
+        "longitude": 158.1085,
+        "depth_km": 10,
+        "time_ms": 1769438693933,
+        "place": "147 km ESE of Severo-Kuril’sk, Russia",
         "country_code": "RU",
         "shakemap_available": false
       },
@@ -2180,6 +2204,17 @@
         "depth_km": 10,
         "time_ms": 1769422868726,
         "place": "175 km SE of Vilyuchinsk, Russia",
+        "country_code": "RU",
+        "shakemap_available": false
+      },
+      {
+        "id": "us7000rs26",
+        "magnitude": 5,
+        "latitude": 51.7554,
+        "longitude": 159.9598,
+        "depth_km": 23.161,
+        "time_ms": 1769402584560,
+        "place": "168 km SE of Vilyuchinsk, Russia",
         "country_code": "RU",
         "shakemap_available": false
       },
@@ -2259,20 +2294,9 @@
         "place": "180 km ENE of Petropavlovsk-Kamchatsky, Russia",
         "country_code": "RU",
         "shakemap_available": false
-      },
-      {
-        "id": "us7000rpaq",
-        "magnitude": 5.2,
-        "latitude": 49.0845,
-        "longitude": 156.4212,
-        "depth_km": 10,
-        "time_ms": 1768264455158,
-        "place": "178 km S of Severo-Kuril’sk, Russia",
-        "country_code": "RU",
-        "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 4.22
+    "seismic_hub_risk_score": 4.55
   },
   {
     "country": "Papua New Guinea",
