@@ -1,0 +1,274 @@
+{
+  "date": "2026-02-14",
+  "scoring_method": "shakemap",
+  "countries": [
+    {
+      "iso_alpha3": "PHL",
+      "country": "Philippines",
+      "score": 15.75,
+      "earthquake_count": 16,
+      "exposed_airport_count": 5,
+      "avg_magnitude": 5.24,
+      "airports": [
+        {
+          "iata_code": "DVO",
+          "name": "Francisco Bangoy International Airport",
+          "exposure_score": 0.36,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 192.8,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "GES",
+          "name": "General Santos International Airport",
+          "exposure_score": 10.07,
+          "nearby_quake_count": 15,
+          "closest_quake_km": 130.5,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "CGY",
+          "name": "Laguindingan International Airport",
+          "exposure_score": 0.21,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 190.3,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "ZAM",
+          "name": "Zamboanga International Airport",
+          "exposure_score": 4.89,
+          "nearby_quake_count": 10,
+          "closest_quake_km": 184.8,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "CEB",
+          "name": "Mactan Cebu International Airport",
+          "exposure_score": 0.22,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 182.1,
+          "max_pga_g": null
+        }
+      ]
+    },
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 12.21,
+      "earthquake_count": 14,
+      "exposed_airport_count": 11,
+      "avg_magnitude": 5.18,
+      "airports": [
+        {
+          "iata_code": "NRT",
+          "name": "Narita International Airport",
+          "exposure_score": 0.57,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 123.3,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "CTS",
+          "name": "New Chitose Airport",
+          "exposure_score": 1.5,
+          "nearby_quake_count": 3,
+          "closest_quake_km": 152.3,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "HKD",
+          "name": "Hakodate Airport",
+          "exposure_score": 2.53,
+          "nearby_quake_count": 4,
+          "closest_quake_km": 104.3,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "NGO",
+          "name": "Chubu Centrair International Airport",
+          "exposure_score": 0.43,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 173.6,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "KMQ",
+          "name": "Komatsu Airport / JASDF Komatsu Air Base",
+          "exposure_score": 0.82,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 116.8,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "FSZ",
+          "name": "Mount Fuji Shizuoka Airport",
+          "exposure_score": 0.46,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 166.8,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "AOJ",
+          "name": "Aomori Airport",
+          "exposure_score": 2.22,
+          "nearby_quake_count": 4,
+          "closest_quake_km": 133.1,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "SDJ",
+          "name": "Sendai Airport",
+          "exposure_score": 0.42,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 153.1,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "HND",
+          "name": "Tokyo Haneda International Airport",
+          "exposure_score": 0.35,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 173.2,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "OKA",
+          "name": "Naha International Airport",
+          "exposure_score": 1.44,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 108.6,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "DNA",
+          "name": "Kadena Air Base",
+          "exposure_score": 1.47,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 106.9,
+          "max_pga_g": null
+        }
+      ]
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 7.98,
+      "earthquake_count": 15,
+      "exposed_airport_count": 7,
+      "avg_magnitude": 5.19,
+      "airports": [
+        {
+          "iata_code": "DHX",
+          "name": "Dhoho International Airport",
+          "exposure_score": 2.52,
+          "nearby_quake_count": 2,
+          "closest_quake_km": 58.6,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "DJJ",
+          "name": "Dortheys Hiyo Eluay International Airport",
+          "exposure_score": 0.32,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 190.4,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "MDC",
+          "name": "Sam Ratulangi International Airport",
+          "exposure_score": 0.61,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 114.6,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "AMQ",
+          "name": "Pattimura International Airport",
+          "exposure_score": 1.05,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 73.7,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "JOG",
+          "name": "Adisutjipto International Airport",
+          "exposure_score": 2.17,
+          "nearby_quake_count": 2,
+          "closest_quake_km": 111.4,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "SUB",
+          "name": "Juanda International Airport",
+          "exposure_score": 0.65,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 159.6,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "SRG",
+          "name": "Jenderal Ahmad Yani Airport",
+          "exposure_score": 0.66,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 156.2,
+          "max_pga_g": null
+        }
+      ]
+    },
+    {
+      "iso_alpha3": "TON",
+      "country": "Tonga",
+      "score": 7.78,
+      "earthquake_count": 19,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.33,
+      "airports": [
+        {
+          "iata_code": "TBU",
+          "name": "Fua'amotu International Airport",
+          "exposure_score": 7.78,
+          "nearby_quake_count": 5,
+          "closest_quake_km": 74.4,
+          "max_pga_g": null
+        }
+      ]
+    },
+    {
+      "iso_alpha3": "RUS",
+      "country": "Russia",
+      "score": 3.92,
+      "earthquake_count": 19,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.23,
+      "airports": [
+        {
+          "iata_code": "PKC",
+          "name": "Yelizovo Airport",
+          "exposure_score": 3.92,
+          "nearby_quake_count": 5,
+          "closest_quake_km": 94.0,
+          "max_pga_g": null
+        }
+      ]
+    },
+    {
+      "iso_alpha3": "PNG",
+      "country": "Papua New Guinea",
+      "score": 1.75,
+      "earthquake_count": 6,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.32,
+      "airports": [
+        {
+          "iata_code": "LAE",
+          "name": "Nadzab Tomodachi International Airport",
+          "exposure_score": 1.75,
+          "nearby_quake_count": 2,
+          "closest_quake_km": 101.9,
+          "max_pga_g": null
+        }
+      ]
+    }
+  ]
+}
