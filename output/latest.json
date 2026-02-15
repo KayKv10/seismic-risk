@@ -20,8 +20,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 16,
-    "avg_magnitude": 5.24,
+    "earthquake_count": 17,
+    "avg_magnitude": 5.25,
     "strongest_earthquake": {
       "magnitude": 5.9,
       "date": "2026-01-28",
@@ -80,27 +80,27 @@
             "mmi": null
           },
           {
-            "earthquake_id": "us6000s4x4",
+            "earthquake_id": "us6000s5d3",
             "magnitude": 5.1,
-            "latitude": 6.5071,
-            "longitude": 123.9335,
+            "latitude": 6.4372,
+            "longitude": 123.9181,
             "depth_km": 10,
-            "time_ms": 1769570667955,
-            "place": "11 km WSW of Bantogon, Philippines",
-            "distance_km": 137.9,
+            "time_ms": 1769734157041,
+            "place": "14 km W of Sangay, Philippines",
+            "distance_km": 136.9,
             "exposure_contribution": 0.63,
             "pga_g": null,
             "mmi": null
           },
           {
-            "earthquake_id": "us6000s5d3",
+            "earthquake_id": "us6000s4x4",
             "magnitude": 5.1,
-            "latitude": 6.4915,
-            "longitude": 123.8572,
+            "latitude": 6.5648,
+            "longitude": 123.8961,
             "depth_km": 10,
-            "time_ms": 1769734156888,
-            "place": "20 km WSW of Bantogon, Philippines",
-            "distance_km": 145.2,
+            "time_ms": 1769570667814,
+            "place": "15 km WNW of Bantogon, Philippines",
+            "distance_km": 144.1,
             "exposure_contribution": 0.58,
             "pga_g": null,
             "mmi": null
@@ -115,6 +115,19 @@
             "place": "24 km WSW of Sangay, Philippines",
             "distance_km": 145.3,
             "exposure_contribution": 0.58,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
+            "earthquake_id": "us6000s4ws",
+            "magnitude": 5.4,
+            "latitude": 6.511,
+            "longitude": 123.8484,
+            "depth_km": 10,
+            "time_ms": 1769564509103,
+            "place": "20 km W of Bantogon, Philippines",
+            "distance_km": 146.9,
+            "exposure_contribution": 0.8,
             "pga_g": null,
             "mmi": null
           },
@@ -224,27 +237,14 @@
           },
           {
             "earthquake_id": "us6000s51a",
-            "magnitude": 5.1,
-            "latitude": 6.4245,
-            "longitude": 123.7029,
+            "magnitude": 5,
+            "latitude": 6.4524,
+            "longitude": 123.6886,
             "depth_km": 10,
-            "time_ms": 1769615884094,
-            "place": "37 km W of Sangay, Philippines",
-            "distance_km": 159.3,
-            "exposure_contribution": 0.5,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
-            "earthquake_id": "us6000s4ws",
-            "magnitude": 5.3,
-            "latitude": 6.3989,
-            "longitude": 123.6582,
-            "depth_km": 10,
-            "time_ms": 1769564509381,
-            "place": "43 km W of Sangay, Philippines",
-            "distance_km": 163.4,
-            "exposure_contribution": 0.6,
+            "time_ms": 1769615884003,
+            "place": "39 km WSW of Bantogon, Philippines",
+            "distance_km": 161.7,
+            "exposure_contribution": 0.43,
             "pga_g": null,
             "mmi": null
           },
@@ -262,7 +262,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 10.07
+        "exposure_score": 10.22
       },
       {
         "name": "Laguindingan International Airport",
@@ -310,28 +310,15 @@
             "mmi": null
           },
           {
-            "earthquake_id": "us6000s4ws",
-            "magnitude": 5.3,
-            "latitude": 6.3989,
-            "longitude": 123.6582,
-            "depth_km": 10,
-            "time_ms": 1769564509381,
-            "place": "43 km W of Sangay, Philippines",
-            "distance_km": 185.9,
-            "exposure_contribution": 0.48,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
             "earthquake_id": "us6000s51a",
-            "magnitude": 5.1,
-            "latitude": 6.4245,
-            "longitude": 123.7029,
+            "magnitude": 5,
+            "latitude": 6.4524,
+            "longitude": 123.6886,
             "depth_km": 10,
-            "time_ms": 1769615884094,
-            "place": "37 km W of Sangay, Philippines",
-            "distance_km": 189.7,
-            "exposure_contribution": 0.37,
+            "time_ms": 1769615884003,
+            "place": "39 km WSW of Bantogon, Philippines",
+            "distance_km": 187.3,
+            "exposure_contribution": 0.34,
             "pga_g": null,
             "mmi": null
           },
@@ -427,7 +414,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 4.89
+        "exposure_score": 4.38
       },
       {
         "name": "Mactan Cebu International Airport",
@@ -456,6 +443,17 @@
     ],
     "earthquakes": [
       {
+        "id": "us6000s98c",
+        "magnitude": 5.3,
+        "latitude": 5.6166,
+        "longitude": 127.0728,
+        "depth_km": 74.531,
+        "time_ms": 1771089782450,
+        "place": "128 km SE of Pondaguitan, Philippines",
+        "country_code": "PH",
+        "shakemap_available": false
+      },
+      {
         "id": "us6000s6q8",
         "magnitude": 5,
         "latitude": 9.9051,
@@ -469,11 +467,11 @@
       {
         "id": "us6000s5d3",
         "magnitude": 5.1,
-        "latitude": 6.4915,
-        "longitude": 123.8572,
+        "latitude": 6.4372,
+        "longitude": 123.9181,
         "depth_km": 10,
-        "time_ms": 1769734156888,
-        "place": "20 km WSW of Bantogon, Philippines",
+        "time_ms": 1769734157041,
+        "place": "14 km W of Sangay, Philippines",
         "country_code": "PH",
         "shakemap_available": false
       },
@@ -490,12 +488,12 @@
       },
       {
         "id": "us6000s51a",
-        "magnitude": 5.1,
-        "latitude": 6.4245,
-        "longitude": 123.7029,
+        "magnitude": 5,
+        "latitude": 6.4524,
+        "longitude": 123.6886,
         "depth_km": 10,
-        "time_ms": 1769615884094,
-        "place": "37 km W of Sangay, Philippines",
+        "time_ms": 1769615884003,
+        "place": "39 km WSW of Bantogon, Philippines",
         "country_code": "PH",
         "shakemap_available": false
       },
@@ -557,24 +555,24 @@
       {
         "id": "us6000s4x4",
         "magnitude": 5.1,
-        "latitude": 6.5071,
-        "longitude": 123.9335,
+        "latitude": 6.5648,
+        "longitude": 123.8961,
         "depth_km": 10,
-        "time_ms": 1769570667955,
-        "place": "11 km WSW of Bantogon, Philippines",
+        "time_ms": 1769570667814,
+        "place": "15 km WNW of Bantogon, Philippines",
         "country_code": "PH",
         "shakemap_available": false
       },
       {
         "id": "us6000s4ws",
-        "magnitude": 5.3,
-        "latitude": 6.3989,
-        "longitude": 123.6582,
+        "magnitude": 5.4,
+        "latitude": 6.511,
+        "longitude": 123.8484,
         "depth_km": 10,
-        "time_ms": 1769564509381,
-        "place": "43 km W of Sangay, Philippines",
+        "time_ms": 1769564509103,
+        "place": "20 km W of Bantogon, Philippines",
         "country_code": "PH",
-        "shakemap_available": false
+        "shakemap_available": true
       },
       {
         "id": "us6000s4uf",
@@ -632,7 +630,7 @@
         "shakemap_available": true
       }
     ],
-    "seismic_hub_risk_score": 15.75
+    "seismic_hub_risk_score": 15.39
   },
   {
     "country": "Japan",
@@ -654,7 +652,7 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 14,
+    "earthquake_count": 13,
     "avg_magnitude": 5.18,
     "strongest_earthquake": {
       "magnitude": 5.5,
@@ -804,78 +802,6 @@
           }
         ],
         "exposure_score": 2.53
-      },
-      {
-        "name": "Chubu Centrair International Airport",
-        "iata_code": "NGO",
-        "latitude": 34.858398,
-        "longitude": 136.804993,
-        "municipality": "Tokoname",
-        "closest_quake_distance_km": 173.6,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us7000rps1",
-            "magnitude": 5.1,
-            "latitude": 36.2405,
-            "longitude": 137.6972,
-            "depth_km": 2.286,
-            "time_ms": 1768456084538,
-            "place": "19 km WSW of Toyoshina, Japan",
-            "distance_km": 173.6,
-            "exposure_contribution": 0.43,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 0.43
-      },
-      {
-        "name": "Komatsu Airport / JASDF Komatsu Air Base",
-        "iata_code": "KMQ",
-        "latitude": 36.393407,
-        "longitude": 136.406895,
-        "municipality": "Kanazawa",
-        "closest_quake_distance_km": 116.8,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us7000rps1",
-            "magnitude": 5.1,
-            "latitude": 36.2405,
-            "longitude": 137.6972,
-            "depth_km": 2.286,
-            "time_ms": 1768456084538,
-            "place": "19 km WSW of Toyoshina, Japan",
-            "distance_km": 116.8,
-            "exposure_contribution": 0.82,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 0.82
-      },
-      {
-        "name": "Mount Fuji Shizuoka Airport",
-        "iata_code": "FSZ",
-        "latitude": 34.795022,
-        "longitude": 138.190976,
-        "municipality": "Makinohara / Shimada",
-        "closest_quake_distance_km": 166.8,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us7000rps1",
-            "magnitude": 5.1,
-            "latitude": 36.2405,
-            "longitude": 137.6972,
-            "depth_km": 2.286,
-            "time_ms": 1768456084538,
-            "place": "19 km WSW of Toyoshina, Japan",
-            "distance_km": 166.8,
-            "exposure_contribution": 0.46,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 0.46
       },
       {
         "name": "Aomori Airport",
@@ -1180,20 +1106,9 @@
         "place": "97 km SSW of Honchō, Japan",
         "country_code": "JP",
         "shakemap_available": true
-      },
-      {
-        "id": "us7000rps1",
-        "magnitude": 5.1,
-        "latitude": 36.2405,
-        "longitude": 137.6972,
-        "depth_km": 2.286,
-        "time_ms": 1768456084538,
-        "place": "19 km WSW of Toyoshina, Japan",
-        "country_code": "JP",
-        "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 12.21
+    "seismic_hub_risk_score": 10.5
   },
   {
     "country": "Indonesia",
@@ -1958,7 +1873,7 @@
       "UKR"
     ],
     "earthquake_count": 19,
-    "avg_magnitude": 5.23,
+    "avg_magnitude": 5.18,
     "strongest_earthquake": {
       "magnitude": 6.2,
       "date": "2026-01-22",
@@ -2050,6 +1965,17 @@
     ],
     "earthquakes": [
       {
+        "id": "us6000s96i",
+        "magnitude": 5,
+        "latitude": 51.9921,
+        "longitude": 178.3977,
+        "depth_km": 111.268,
+        "time_ms": 1771053002429,
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "country_code": "RU",
+        "shakemap_available": true
+      },
+      {
         "id": "us6000s7vd",
         "magnitude": 5.1,
         "latitude": 44.2631,
@@ -2118,11 +2044,11 @@
       {
         "id": "us6000s4yu",
         "magnitude": 5.2,
-        "latitude": 51.4113,
-        "longitude": 159.2109,
-        "depth_km": 42.332,
-        "time_ms": 1769591644391,
-        "place": "177 km SSE of Vilyuchinsk, Russia",
+        "latitude": 51.2858,
+        "longitude": 159.3527,
+        "depth_km": 35,
+        "time_ms": 1769591643009,
+        "place": "194 km SSE of Vilyuchinsk, Russia",
         "country_code": "RU",
         "shakemap_available": false
       },
@@ -2246,17 +2172,6 @@
         "place": "53 km ENE of Ust’-Kamchatsk Staryy, Russia",
         "country_code": "RU",
         "shakemap_available": false
-      },
-      {
-        "id": "us7000rptl",
-        "magnitude": 5.9,
-        "latitude": 51.5801,
-        "longitude": 176.6969,
-        "depth_km": 41.164,
-        "time_ms": 1768467165850,
-        "place": "278 km ESE of Attu Station, Alaska",
-        "country_code": "RU",
-        "shakemap_available": true
       }
     ],
     "seismic_hub_risk_score": 3.92
