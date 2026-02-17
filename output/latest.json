@@ -26,8 +26,8 @@
       "magnitude": 5.9,
       "date": "2026-01-28",
       "depth_km": 10,
-      "latitude": 6.4204,
-      "longitude": 123.7821
+      "latitude": 6.4272,
+      "longitude": 123.796
     },
     "highest_pager_alert": null,
     "max_felt_reports": 0,
@@ -145,19 +145,6 @@
             "mmi": null
           },
           {
-            "earthquake_id": "us6000s4xy",
-            "magnitude": 5.1,
-            "latitude": 6.3984,
-            "longitude": 123.8277,
-            "depth_km": 10,
-            "time_ms": 1769581879868,
-            "place": "24 km WSW of Sangay, Philippines",
-            "distance_km": 145.3,
-            "exposure_contribution": 0.58,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
             "earthquake_id": "us6000s4ws",
             "magnitude": 5.4,
             "latitude": 6.511,
@@ -186,13 +173,26 @@
           {
             "earthquake_id": "us6000s4xz",
             "magnitude": 5.9,
-            "latitude": 6.4204,
-            "longitude": 123.7821,
+            "latitude": 6.4272,
+            "longitude": 123.796,
             "depth_km": 10,
-            "time_ms": 1769582820859,
-            "place": "29 km W of Sangay, Philippines",
-            "distance_km": 150.8,
-            "exposure_contribution": 1.36,
+            "time_ms": 1769582820584,
+            "place": "27 km W of Sangay, Philippines",
+            "distance_km": 149.5,
+            "exposure_contribution": 1.38,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
+            "earthquake_id": "us6000s4xy",
+            "magnitude": 5.1,
+            "latitude": 6.3936,
+            "longitude": 123.7702,
+            "depth_km": 10,
+            "time_ms": 1769581879816,
+            "place": "30 km W of Sangay, Philippines",
+            "distance_km": 151.3,
+            "exposure_contribution": 0.54,
             "pga_g": null,
             "mmi": null
           },
@@ -236,19 +236,6 @@
             "mmi": null
           },
           {
-            "earthquake_id": "us6000s4yl",
-            "magnitude": 5.4,
-            "latitude": 6.4453,
-            "longitude": 123.7338,
-            "depth_km": 10,
-            "time_ms": 1769589271889,
-            "place": "34 km W of Sangay, Philippines",
-            "distance_km": 156.7,
-            "exposure_contribution": 0.72,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
             "earthquake_id": "us6000s4qp",
             "magnitude": 5.1,
             "latitude": 6.5145,
@@ -258,6 +245,19 @@
             "place": "30 km W of Bantogon, Philippines",
             "distance_km": 156.7,
             "exposure_contribution": 0.51,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
+            "earthquake_id": "us6000s4yl",
+            "magnitude": 5.4,
+            "latitude": 6.5076,
+            "longitude": 123.7366,
+            "depth_km": 10,
+            "time_ms": 1769589271956,
+            "place": "32 km W of Bantogon, Philippines",
+            "distance_km": 158.4,
+            "exposure_contribution": 0.71,
             "pga_g": null,
             "mmi": null
           },
@@ -288,7 +288,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 10.73
+        "exposure_score": 10.7
       },
       {
         "name": "Laguindingan International Airport",
@@ -351,12 +351,12 @@
           {
             "earthquake_id": "us6000s4yl",
             "magnitude": 5.4,
-            "latitude": 6.4453,
-            "longitude": 123.7338,
+            "latitude": 6.5076,
+            "longitude": 123.7366,
             "depth_km": 10,
-            "time_ms": 1769589271889,
-            "place": "34 km W of Sangay, Philippines",
-            "distance_km": 192.3,
+            "time_ms": 1769589271956,
+            "place": "32 km W of Bantogon, Philippines",
+            "distance_km": 190.8,
             "exposure_contribution": 0.51,
             "pga_g": null,
             "mmi": null
@@ -401,15 +401,15 @@
             "mmi": null
           },
           {
-            "earthquake_id": "us6000s4xz",
-            "magnitude": 5.9,
-            "latitude": 6.4204,
-            "longitude": 123.7821,
+            "earthquake_id": "us6000s4xy",
+            "magnitude": 5.1,
+            "latitude": 6.3936,
+            "longitude": 123.7702,
             "depth_km": 10,
-            "time_ms": 1769582820859,
-            "place": "29 km W of Sangay, Philippines",
-            "distance_km": 198.2,
-            "exposure_contribution": 0.85,
+            "time_ms": 1769581879816,
+            "place": "30 km W of Sangay, Philippines",
+            "distance_km": 197.8,
+            "exposure_contribution": 0.34,
             "pga_g": null,
             "mmi": null
           },
@@ -425,9 +425,22 @@
             "exposure_contribution": 0.34,
             "pga_g": null,
             "mmi": null
+          },
+          {
+            "earthquake_id": "us6000s4xz",
+            "magnitude": 5.9,
+            "latitude": 6.4272,
+            "longitude": 123.796,
+            "depth_km": 10,
+            "time_ms": 1769582820584,
+            "place": "27 km W of Sangay, Philippines",
+            "distance_km": 199.5,
+            "exposure_contribution": 0.84,
+            "pga_g": null,
+            "mmi": null
           }
         ],
-        "exposure_score": 4.07
+        "exposure_score": 4.4
       },
       {
         "name": "Mactan Cebu International Airport",
@@ -535,33 +548,33 @@
       {
         "id": "us6000s4yl",
         "magnitude": 5.4,
-        "latitude": 6.4453,
-        "longitude": 123.7338,
+        "latitude": 6.5076,
+        "longitude": 123.7366,
         "depth_km": 10,
-        "time_ms": 1769589271889,
-        "place": "34 km W of Sangay, Philippines",
+        "time_ms": 1769589271956,
+        "place": "32 km W of Bantogon, Philippines",
         "country_code": "PH",
         "shakemap_available": true
       },
       {
         "id": "us6000s4xz",
         "magnitude": 5.9,
-        "latitude": 6.4204,
-        "longitude": 123.7821,
+        "latitude": 6.4272,
+        "longitude": 123.796,
         "depth_km": 10,
-        "time_ms": 1769582820859,
-        "place": "29 km W of Sangay, Philippines",
+        "time_ms": 1769582820584,
+        "place": "27 km W of Sangay, Philippines",
         "country_code": "PH",
         "shakemap_available": true
       },
       {
         "id": "us6000s4xy",
         "magnitude": 5.1,
-        "latitude": 6.3984,
-        "longitude": 123.8277,
+        "latitude": 6.3936,
+        "longitude": 123.7702,
         "depth_km": 10,
-        "time_ms": 1769581879868,
-        "place": "24 km WSW of Sangay, Philippines",
+        "time_ms": 1769581879816,
+        "place": "30 km W of Sangay, Philippines",
         "country_code": "PH",
         "shakemap_available": false
       },
@@ -654,7 +667,7 @@
         "shakemap_available": true
       }
     ],
-    "seismic_hub_risk_score": 15.86
+    "seismic_hub_risk_score": 16.16
   },
   {
     "country": "Japan",
@@ -676,8 +689,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 11,
-    "avg_magnitude": 5.21,
+    "earthquake_count": 9,
+    "avg_magnitude": 5.26,
     "strongest_earthquake": {
       "magnitude": 5.5,
       "date": "2026-02-12",
@@ -1021,28 +1034,6 @@
         "place": "66 km ENE of Mutsu, Japan",
         "country_code": "JP",
         "shakemap_available": false
-      },
-      {
-        "id": "us7000rq95",
-        "magnitude": 5,
-        "latitude": 23.9423,
-        "longitude": 122.5068,
-        "depth_km": 10,
-        "time_ms": 1768623491603,
-        "place": "76 km SW of Yonakuni, Japan",
-        "country_code": "JP",
-        "shakemap_available": false
-      },
-      {
-        "id": "us7000rq8a",
-        "magnitude": 5,
-        "latitude": 29.8969,
-        "longitude": 142.1796,
-        "depth_km": 10,
-        "time_ms": 1768608977313,
-        "place": "Izu Islands, Japan region",
-        "country_code": "JP",
-        "shakemap_available": false
       }
     ],
     "seismic_hub_risk_score": 8.23
@@ -1160,6 +1151,17 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000s9g0",
+        "magnitude": 5.2,
+        "latitude": -25.365,
+        "longitude": -178.0749,
+        "depth_km": 270.983,
+        "time_ms": 1771210962408,
+        "place": "south of the Fiji Islands",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
       {
         "id": "us6000s9f6",
         "magnitude": 5.3,
@@ -1368,17 +1370,6 @@
         "place": "122 km SSE of ‘Ohonua, Tonga",
         "country_code": "TO",
         "shakemap_available": false
-      },
-      {
-        "id": "us7000rq8y",
-        "magnitude": 5.2,
-        "latitude": -30.4272,
-        "longitude": -178.2765,
-        "depth_km": 57.768,
-        "time_ms": 1768620841299,
-        "place": "Kermadec Islands, New Zealand",
-        "country_code": "TO",
-        "shakemap_available": false
       }
     ],
     "seismic_hub_risk_score": 7.78
@@ -1407,8 +1398,8 @@
       "MYS",
       "PNG"
     ],
-    "earthquake_count": 15,
-    "avg_magnitude": 5.18,
+    "earthquake_count": 17,
+    "avg_magnitude": 5.16,
     "strongest_earthquake": {
       "magnitude": 5.8,
       "date": "2026-02-05",
@@ -1593,6 +1584,28 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000s9mt",
+        "magnitude": 5.1,
+        "latitude": -5.5874,
+        "longitude": 133.7968,
+        "depth_km": 10,
+        "time_ms": 1771285641263,
+        "place": "115 km E of Tual, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s9gm",
+        "magnitude": 5,
+        "latitude": -0.4327,
+        "longitude": 99.2638,
+        "depth_km": 59.563,
+        "time_ms": 1771221639462,
+        "place": "97 km WNW of Pariaman, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
       {
         "id": "us6000s9ci",
         "magnitude": 5,
@@ -1797,7 +1810,7 @@
       "UKR"
     ],
     "earthquake_count": 19,
-    "avg_magnitude": 5.22,
+    "avg_magnitude": 5.26,
     "strongest_earthquake": {
       "magnitude": 6.2,
       "date": "2026-01-22",
@@ -1858,19 +1871,6 @@
             "mmi": null
           },
           {
-            "earthquake_id": "us7000rq9h",
-            "magnitude": 5.3,
-            "latitude": 52.4708,
-            "longitude": 160.8818,
-            "depth_km": 17.173,
-            "time_ms": 1768632400334,
-            "place": "165 km ESE of Petropavlovsk-Kamchatsky, Russia",
-            "distance_km": 180.8,
-            "exposure_contribution": 0.5,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
             "earthquake_id": "us7000rs26",
             "magnitude": 5,
             "latitude": 51.7554,
@@ -1882,12 +1882,36 @@
             "exposure_contribution": 0.33,
             "pga_g": null,
             "mmi": null
+          },
+          {
+            "earthquake_id": "us6000s4yk",
+            "magnitude": 5.1,
+            "latitude": 51.7714,
+            "longitude": 160.0751,
+            "depth_km": 10,
+            "time_ms": 1769588662482,
+            "place": "172 km SE of Vilyuchinsk, Russia",
+            "distance_km": 190.4,
+            "exposure_contribution": 0.37,
+            "pga_g": null,
+            "mmi": null
           }
         ],
-        "exposure_score": 3.92
+        "exposure_score": 3.78
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000s9l2",
+        "magnitude": 6,
+        "latitude": 51.2724,
+        "longitude": 157.6862,
+        "depth_km": 43,
+        "time_ms": 1771278172597,
+        "place": "86 km ESE of Ozernovskiy, Russia",
+        "country_code": "RU",
+        "shakemap_available": true
+      },
       {
         "id": "us6000s9ei",
         "magnitude": 6,
@@ -1990,22 +2014,22 @@
       {
         "id": "us6000s4yk",
         "magnitude": 5.1,
-        "latitude": 51.6656,
-        "longitude": 160.0786,
+        "latitude": 51.7714,
+        "longitude": 160.0751,
         "depth_km": 10,
-        "time_ms": 1769588662090,
-        "place": "181 km SE of Vilyuchinsk, Russia",
+        "time_ms": 1769588662482,
+        "place": "172 km SE of Vilyuchinsk, Russia",
         "country_code": "RU",
         "shakemap_available": false
       },
       {
         "id": "us6000s4yg",
         "magnitude": 5,
-        "latitude": 51.3609,
-        "longitude": 159.3213,
+        "latitude": 51.3321,
+        "longitude": 159.4121,
         "depth_km": 35,
-        "time_ms": 1769587060135,
-        "place": "185 km SSE of Vilyuchinsk, Russia",
+        "time_ms": 1769587059874,
+        "place": "190 km SSE of Vilyuchinsk, Russia",
         "country_code": "RU",
         "shakemap_available": false
       },
@@ -2085,20 +2109,9 @@
         "place": "127 km S of Vilyuchinsk, Russia",
         "country_code": "RU",
         "shakemap_available": true
-      },
-      {
-        "id": "us7000rq9h",
-        "magnitude": 5.3,
-        "latitude": 52.4708,
-        "longitude": 160.8818,
-        "depth_km": 17.173,
-        "time_ms": 1768632400334,
-        "place": "165 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "country_code": "RU",
-        "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 3.92
+    "seismic_hub_risk_score": 3.78
   },
   {
     "country": "Papua New Guinea",
@@ -2245,5 +2258,149 @@
       }
     ],
     "seismic_hub_risk_score": 1.75
+  },
+  {
+    "country": "Chile",
+    "iso_alpha2": "CL",
+    "iso_alpha3": "CHL",
+    "capital": "Santiago",
+    "population": 20206953,
+    "area_km2": 756102.0,
+    "region": "Americas",
+    "subregion": "South America",
+    "currencies": [
+      {
+        "code": "CLP",
+        "name": "Chilean peso"
+      }
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "un_member": true,
+    "bordering_countries": [
+      "ARG",
+      "BOL",
+      "PER"
+    ],
+    "earthquake_count": 7,
+    "avg_magnitude": 5.37,
+    "strongest_earthquake": {
+      "magnitude": 6.2,
+      "date": "2026-02-12",
+      "depth_km": 36.9,
+      "latitude": -30.8012,
+      "longitude": -71.4451
+    },
+    "highest_pager_alert": "green",
+    "max_felt_reports": 124,
+    "tsunami_warning_issued": false,
+    "significant_events_count": 1,
+    "exposed_airports": [
+      {
+        "name": "Andrés Sabella Gálvez International Airport",
+        "iata_code": "ANF",
+        "latitude": -23.445274,
+        "longitude": -70.445232,
+        "municipality": "Antofagasta",
+        "closest_quake_distance_km": 195.0,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us6000s9kw",
+            "magnitude": 5,
+            "latitude": -22.2285,
+            "longitude": -69.0753,
+            "depth_km": 103.375,
+            "time_ms": 1771277097425,
+            "place": "29 km NNW of Calama, Chile",
+            "distance_km": 195.0,
+            "exposure_contribution": 0.25,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 0.25
+      }
+    ],
+    "earthquakes": [
+      {
+        "id": "us6000s9kw",
+        "magnitude": 5,
+        "latitude": -22.2285,
+        "longitude": -69.0753,
+        "depth_km": 103.375,
+        "time_ms": 1771277097425,
+        "place": "29 km NNW of Calama, Chile",
+        "country_code": "CL",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s9g6",
+        "magnitude": 5.1,
+        "latitude": -35.2327,
+        "longitude": -111.5735,
+        "depth_km": 10,
+        "time_ms": 1771214289491,
+        "place": "southern East Pacific Rise",
+        "country_code": "CL",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s8gw",
+        "magnitude": 6.2,
+        "latitude": -30.8012,
+        "longitude": -71.4451,
+        "depth_km": 36.885,
+        "time_ms": 1770903271114,
+        "place": "32 km SW of Ovalle, Chile",
+        "country_code": "CL",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000s7ab",
+        "magnitude": 5.7,
+        "latitude": -20.0999,
+        "longitude": -68.9642,
+        "depth_km": 118.978,
+        "time_ms": 1770567837266,
+        "place": "76 km ENE of La Tirana, Chile",
+        "country_code": "CL",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000s6us",
+        "magnitude": 5,
+        "latitude": -20.5738,
+        "longitude": -70.1359,
+        "depth_km": 35,
+        "time_ms": 1770344843605,
+        "place": "32 km S of La Tirana, Chile",
+        "country_code": "CL",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s5e4",
+        "magnitude": 5.4,
+        "latitude": -34.4039,
+        "longitude": -109.5013,
+        "depth_km": 10,
+        "time_ms": 1769740498564,
+        "place": "southern East Pacific Rise",
+        "country_code": "CL",
+        "shakemap_available": true
+      },
+      {
+        "id": "us7000rqg0",
+        "magnitude": 5.2,
+        "latitude": -42.4987,
+        "longitude": -82.217,
+        "depth_km": 10,
+        "time_ms": 1768752392297,
+        "place": "West Chile Rise",
+        "country_code": "CL",
+        "shakemap_available": false
+      }
+    ],
+    "seismic_hub_risk_score": 0.25
   }
 ]
