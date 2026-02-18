@@ -20,8 +20,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 18,
-    "avg_magnitude": 5.23,
+    "earthquake_count": 19,
+    "avg_magnitude": 5.22,
     "strongest_earthquake": {
       "magnitude": 5.9,
       "date": "2026-01-28",
@@ -40,21 +40,8 @@
         "latitude": 7.12552,
         "longitude": 125.646004,
         "municipality": "Davao",
-        "closest_quake_distance_km": 192.8,
+        "closest_quake_distance_km": 198.1,
         "nearby_quakes": [
-          {
-            "earthquake_id": "us6000s4yq",
-            "magnitude": 5.1,
-            "latitude": 6.5177,
-            "longitude": 124.0105,
-            "depth_km": 10,
-            "time_ms": 1769589825427,
-            "place": "3 km SW of Bantogon, Philippines",
-            "distance_km": 192.8,
-            "exposure_contribution": 0.36,
-            "pga_g": null,
-            "mmi": null
-          },
           {
             "earthquake_id": "us6000s8in",
             "magnitude": 5,
@@ -69,7 +56,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 0.63
+        "exposure_score": 0.27
       },
       {
         "name": "General Santos International Airport",
@@ -77,21 +64,8 @@
         "latitude": 6.057208,
         "longitude": 125.096243,
         "municipality": "General Santos",
-        "closest_quake_distance_km": 130.5,
+        "closest_quake_distance_km": 136.9,
         "nearby_quakes": [
-          {
-            "earthquake_id": "us6000s4yq",
-            "magnitude": 5.1,
-            "latitude": 6.5177,
-            "longitude": 124.0105,
-            "depth_km": 10,
-            "time_ms": 1769589825427,
-            "place": "3 km SW of Bantogon, Philippines",
-            "distance_km": 130.5,
-            "exposure_contribution": 0.68,
-            "pga_g": null,
-            "mmi": null
-          },
           {
             "earthquake_id": "us6000s5d3",
             "magnitude": 5.1,
@@ -115,6 +89,19 @@
             "place": "9 km WNW of Bantogon, Philippines",
             "distance_km": 138.5,
             "exposure_contribution": 0.45,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
+            "earthquake_id": "us6000s4yq",
+            "magnitude": 5.1,
+            "latitude": 6.5456,
+            "longitude": 123.8911,
+            "depth_km": 10,
+            "time_ms": 1769589825744,
+            "place": "15 km W of Bantogon, Philippines",
+            "distance_km": 143.8,
+            "exposure_contribution": 0.59,
             "pga_g": null,
             "mmi": null
           },
@@ -277,18 +264,31 @@
           {
             "earthquake_id": "us6000s4yn",
             "magnitude": 5.6,
-            "latitude": 6.5738,
-            "longitude": 123.6966,
+            "latitude": 6.5064,
+            "longitude": 123.6429,
             "depth_km": 10,
-            "time_ms": 1769589527943,
-            "place": "37 km W of Bantogon, Philippines",
-            "distance_km": 165.0,
-            "exposure_contribution": 0.83,
+            "time_ms": 1769589527432,
+            "place": "43 km W of Bantogon, Philippines",
+            "distance_km": 168.2,
+            "exposure_contribution": 0.8,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
+            "earthquake_id": "us6000s4y2",
+            "magnitude": 5,
+            "latitude": 6.5523,
+            "longitude": 123.5458,
+            "depth_km": 10,
+            "time_ms": 1769583153522,
+            "place": "53 km W of Bantogon, Philippines",
+            "distance_km": 180.0,
+            "exposure_contribution": 0.36,
             "pga_g": null,
             "mmi": null
           }
         ],
-        "exposure_score": 10.7
+        "exposure_score": 10.93
       },
       {
         "name": "Laguindingan International Airport",
@@ -320,18 +320,31 @@
         "latitude": 6.92242,
         "longitude": 122.059998,
         "municipality": "Zamboanga",
-        "closest_quake_distance_km": 184.8,
+        "closest_quake_distance_km": 169.2,
         "nearby_quakes": [
+          {
+            "earthquake_id": "us6000s4y2",
+            "magnitude": 5,
+            "latitude": 6.5523,
+            "longitude": 123.5458,
+            "depth_km": 10,
+            "time_ms": 1769583153522,
+            "place": "53 km W of Bantogon, Philippines",
+            "distance_km": 169.2,
+            "exposure_contribution": 0.4,
+            "pga_g": null,
+            "mmi": null
+          },
           {
             "earthquake_id": "us6000s4yn",
             "magnitude": 5.6,
-            "latitude": 6.5738,
-            "longitude": 123.6966,
+            "latitude": 6.5064,
+            "longitude": 123.6429,
             "depth_km": 10,
-            "time_ms": 1769589527943,
-            "place": "37 km W of Bantogon, Philippines",
-            "distance_km": 184.8,
-            "exposure_contribution": 0.68,
+            "time_ms": 1769589527432,
+            "place": "43 km W of Bantogon, Philippines",
+            "distance_km": 180.8,
+            "exposure_contribution": 0.71,
             "pga_g": null,
             "mmi": null
           },
@@ -440,7 +453,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 4.4
+        "exposure_score": 4.83
       },
       {
         "name": "Mactan Cebu International Airport",
@@ -470,12 +483,12 @@
     "earthquakes": [
       {
         "id": "us6000s98c",
-        "magnitude": 5.3,
-        "latitude": 5.6166,
-        "longitude": 127.0728,
-        "depth_km": 74.531,
-        "time_ms": 1771089782450,
-        "place": "128 km SE of Pondaguitan, Philippines",
+        "magnitude": 5.2,
+        "latitude": 5.6698,
+        "longitude": 127.1203,
+        "depth_km": 78.851,
+        "time_ms": 1771089783156,
+        "place": "129 km SE of Pondaguitan, Philippines",
         "country_code": "PH",
         "shakemap_available": false
       },
@@ -526,22 +539,22 @@
       {
         "id": "us6000s4yq",
         "magnitude": 5.1,
-        "latitude": 6.5177,
-        "longitude": 124.0105,
+        "latitude": 6.5456,
+        "longitude": 123.8911,
         "depth_km": 10,
-        "time_ms": 1769589825427,
-        "place": "3 km SW of Bantogon, Philippines",
+        "time_ms": 1769589825744,
+        "place": "15 km W of Bantogon, Philippines",
         "country_code": "PH",
         "shakemap_available": false
       },
       {
         "id": "us6000s4yn",
         "magnitude": 5.6,
-        "latitude": 6.5738,
-        "longitude": 123.6966,
+        "latitude": 6.5064,
+        "longitude": 123.6429,
         "depth_km": 10,
-        "time_ms": 1769589527943,
-        "place": "37 km W of Bantogon, Philippines",
+        "time_ms": 1769589527432,
+        "place": "43 km W of Bantogon, Philippines",
         "country_code": "PH",
         "shakemap_available": true
       },
@@ -555,6 +568,17 @@
         "place": "32 km W of Bantogon, Philippines",
         "country_code": "PH",
         "shakemap_available": true
+      },
+      {
+        "id": "us6000s4y2",
+        "magnitude": 5,
+        "latitude": 6.5523,
+        "longitude": 123.5458,
+        "depth_km": 10,
+        "time_ms": 1769583153522,
+        "place": "53 km W of Bantogon, Philippines",
+        "country_code": "PH",
+        "shakemap_available": false
       },
       {
         "id": "us6000s4xz",
@@ -667,7 +691,7 @@
         "shakemap_available": true
       }
     ],
-    "seismic_hub_risk_score": 16.16
+    "seismic_hub_risk_score": 16.46
   },
   {
     "country": "Japan",
@@ -1059,7 +1083,7 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 20,
+    "earthquake_count": 19,
     "avg_magnitude": 5.33,
     "strongest_earthquake": {
       "magnitude": 6.2,
@@ -1132,22 +1156,9 @@
             "exposure_contribution": 2.04,
             "pga_g": null,
             "mmi": null
-          },
-          {
-            "earthquake_id": "us7000rqf7",
-            "magnitude": 5.3,
-            "latitude": -22.3569,
-            "longitude": -174.4852,
-            "depth_km": 10,
-            "time_ms": 1768739502238,
-            "place": "122 km SSE of ‘Ohonua, Tonga",
-            "distance_km": 141.7,
-            "exposure_contribution": 0.76,
-            "pga_g": null,
-            "mmi": null
           }
         ],
-        "exposure_score": 7.78
+        "exposure_score": 7.03
       }
     ],
     "earthquakes": [
@@ -1286,10 +1297,10 @@
       {
         "id": "us6000s4m2",
         "magnitude": 5.2,
-        "latitude": -29.3754,
-        "longitude": -177.068,
+        "latitude": -29.3397,
+        "longitude": -177.026,
         "depth_km": 10,
-        "time_ms": 1769470372995,
+        "time_ms": 1769470372830,
         "place": "Kermadec Islands, New Zealand",
         "country_code": "TO",
         "shakemap_available": true
@@ -1359,20 +1370,9 @@
         "place": "47 km SSW of Hihifo, Tonga",
         "country_code": "TO",
         "shakemap_available": false
-      },
-      {
-        "id": "us7000rqf7",
-        "magnitude": 5.3,
-        "latitude": -22.3569,
-        "longitude": -174.4852,
-        "depth_km": 10,
-        "time_ms": 1768739502238,
-        "place": "122 km SSE of ‘Ohonua, Tonga",
-        "country_code": "TO",
-        "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 7.78
+    "seismic_hub_risk_score": 7.03
   },
   {
     "country": "Indonesia",
@@ -1398,8 +1398,8 @@
       "MYS",
       "PNG"
     ],
-    "earthquake_count": 17,
-    "avg_magnitude": 5.16,
+    "earthquake_count": 16,
+    "avg_magnitude": 5.17,
     "strongest_earthquake": {
       "magnitude": 5.8,
       "date": "2026-02-05",
@@ -1448,54 +1448,6 @@
           }
         ],
         "exposure_score": 2.52
-      },
-      {
-        "name": "Dortheys Hiyo Eluay International Airport",
-        "iata_code": "DJJ",
-        "latitude": -2.579627,
-        "longitude": 140.519857,
-        "municipality": "Sentani",
-        "closest_quake_distance_km": 190.4,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us7000rqe0",
-            "magnitude": 5,
-            "latitude": -2.3049,
-            "longitude": 138.8285,
-            "depth_km": 30.9,
-            "time_ms": 1768718336603,
-            "place": "203 km W of Abepura, Indonesia",
-            "distance_km": 190.4,
-            "exposure_contribution": 0.32,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 0.32
-      },
-      {
-        "name": "Sam Ratulangi International Airport",
-        "iata_code": "MDC",
-        "latitude": 1.548591,
-        "longitude": 124.92625,
-        "municipality": "Manado",
-        "closest_quake_distance_km": 114.6,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us7000rqdm",
-            "magnitude": 5,
-            "latitude": 0.5812,
-            "longitude": 125.2815,
-            "depth_km": 63.203,
-            "time_ms": 1768709806470,
-            "place": "89 km SSE of Tondano, Indonesia",
-            "distance_km": 114.6,
-            "exposure_contribution": 0.61,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 0.61
       },
       {
         "name": "Adisutjipto International Airport",
@@ -1584,6 +1536,17 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000s9u1",
+        "magnitude": 5,
+        "latitude": -8.2889,
+        "longitude": 108.1016,
+        "depth_km": 83.7,
+        "time_ms": 1771351252572,
+        "place": "101 km S of Kawalu, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
       {
         "id": "us6000s9mt",
         "magnitude": 5.1,
@@ -1748,31 +1711,9 @@
         "place": "104 km NNW of Curup, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
-      },
-      {
-        "id": "us7000rqe0",
-        "magnitude": 5,
-        "latitude": -2.3049,
-        "longitude": 138.8285,
-        "depth_km": 30.9,
-        "time_ms": 1768718336603,
-        "place": "203 km W of Abepura, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us7000rqdm",
-        "magnitude": 5,
-        "latitude": 0.5812,
-        "longitude": 125.2815,
-        "depth_km": 63.203,
-        "time_ms": 1768709806470,
-        "place": "89 km SSE of Tondano, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 6.93
+    "seismic_hub_risk_score": 6.0
   },
   {
     "country": "Russia",
@@ -2284,7 +2225,7 @@
       "PER"
     ],
     "earthquake_count": 7,
-    "avg_magnitude": 5.37,
+    "avg_magnitude": 5.34,
     "strongest_earthquake": {
       "magnitude": 6.2,
       "date": "2026-02-12",
@@ -2346,6 +2287,17 @@
         "shakemap_available": false
       },
       {
+        "id": "us6000s98p",
+        "magnitude": 5,
+        "latitude": -37.2153,
+        "longitude": -94.2173,
+        "depth_km": 10,
+        "time_ms": 1771093549659,
+        "place": "West Chile Rise",
+        "country_code": "CL",
+        "shakemap_available": false
+      },
+      {
         "id": "us6000s8gw",
         "magnitude": 6.2,
         "latitude": -30.8012,
@@ -2388,17 +2340,6 @@
         "place": "southern East Pacific Rise",
         "country_code": "CL",
         "shakemap_available": true
-      },
-      {
-        "id": "us7000rqg0",
-        "magnitude": 5.2,
-        "latitude": -42.4987,
-        "longitude": -82.217,
-        "depth_km": 10,
-        "time_ms": 1768752392297,
-        "place": "West Chile Rise",
-        "country_code": "CL",
-        "shakemap_available": false
       }
     ],
     "seismic_hub_risk_score": 0.25

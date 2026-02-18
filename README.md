@@ -76,17 +76,17 @@ curl "http://localhost:8000/risk?min_magnitude=4.0&days=14&format=csv"
 *Updated daily by [GitHub Actions](https://github.com/KayKv10/seismic-risk/actions/workflows/daily-report.yml). View the [interactive map](https://kaykv10.github.io/seismic-risk/latest.html).*
 
 <!-- LATEST_RESULTS_START -->
-*Last updated: 2026-02-17 06:48 UTC*
+*Last updated: 2026-02-18 06:53 UTC*
 
 | # | Country | ISO | Score | Trend | Quakes | Airports | Alert |
 |--:|:--------|:----|------:|:------|-------:|---------:|:------|
-| 1 | Philippines | PHL | 16.2 | ~ | 18 | 5 | - |
+| 1 | Philippines | PHL | 16.5 | ~ | 19 | 5 | - |
 | 2 | Japan | JPN | 8.2 | ~ | 9 | 8 | - |
-| 3 | Tonga | TON | 7.8 | ~ | 20 | 1 | - |
-| 4 | Indonesia | IDN | 6.9 | ~ | 17 | 6 | - |
+| 3 | Tonga | TON | 7.0 | -0.8 | 19 | 1 | - |
+| 4 | Indonesia | IDN | 6.0 | -0.9 | 16 | 4 | - |
 | 5 | Russia | RUS | 3.8 | ~ | 19 | 1 | - |
 | 6 | Papua New Guinea | PNG | 1.8 | ~ | 6 | 1 | - |
-| 7 | Chile | CHL | 0.2 | NEW | 7 | 1 | green |
+| 7 | Chile | CHL | 0.2 | ~ | 7 | 1 | green |
 <!-- LATEST_RESULTS_END -->
 
 ## How It Works
