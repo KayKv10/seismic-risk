@@ -21,7 +21,7 @@
     "un_member": true,
     "bordering_countries": [],
     "earthquake_count": 19,
-    "avg_magnitude": 5.22,
+    "avg_magnitude": 5.21,
     "strongest_earthquake": {
       "magnitude": 5.9,
       "date": "2026-01-28",
@@ -210,27 +210,14 @@
             "mmi": null
           },
           {
-            "earthquake_id": "us7000rqmd",
-            "magnitude": 5.4,
-            "latitude": 6.3557,
-            "longitude": 123.7166,
-            "depth_km": 10,
-            "time_ms": 1768849221982,
-            "place": "37 km WSW of Sangay, Philippines",
-            "distance_km": 156.1,
-            "exposure_contribution": 0.72,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
             "earthquake_id": "us6000s4qp",
             "magnitude": 5.1,
-            "latitude": 6.5145,
-            "longitude": 123.7553,
+            "latitude": 6.4883,
+            "longitude": 123.7403,
             "depth_km": 10,
-            "time_ms": 1769529037632,
-            "place": "30 km W of Bantogon, Philippines",
-            "distance_km": 156.7,
+            "time_ms": 1769529037554,
+            "place": "32 km W of Bantogon, Philippines",
+            "distance_km": 157.4,
             "exposure_contribution": 0.51,
             "pga_g": null,
             "mmi": null
@@ -262,6 +249,19 @@
             "mmi": null
           },
           {
+            "earthquake_id": "us6000s8yj",
+            "magnitude": 5.3,
+            "latitude": 6.3923,
+            "longitude": 123.6213,
+            "depth_km": 10,
+            "time_ms": 1769589321867,
+            "place": "47 km W of Sangay, Philippines",
+            "distance_km": 167.2,
+            "exposure_contribution": 0.57,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
             "earthquake_id": "us6000s4yn",
             "magnitude": 5.6,
             "latitude": 6.5064,
@@ -288,7 +288,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 10.93
+        "exposure_score": 10.78
       },
       {
         "name": "Laguindingan International Airport",
@@ -349,6 +349,19 @@
             "mmi": null
           },
           {
+            "earthquake_id": "us6000s8yj",
+            "magnitude": 5.3,
+            "latitude": 6.3923,
+            "longitude": 123.6213,
+            "depth_km": 10,
+            "time_ms": 1769589321867,
+            "place": "47 km W of Sangay, Philippines",
+            "distance_km": 182.2,
+            "exposure_contribution": 0.5,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
             "earthquake_id": "us6000s51a",
             "magnitude": 5,
             "latitude": 6.4524,
@@ -377,26 +390,13 @@
           {
             "earthquake_id": "us6000s4qp",
             "magnitude": 5.1,
-            "latitude": 6.5145,
-            "longitude": 123.7553,
+            "latitude": 6.4883,
+            "longitude": 123.7403,
             "depth_km": 10,
-            "time_ms": 1769529037632,
-            "place": "30 km W of Bantogon, Philippines",
-            "distance_km": 192.6,
+            "time_ms": 1769529037554,
+            "place": "32 km W of Bantogon, Philippines",
+            "distance_km": 191.7,
             "exposure_contribution": 0.36,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
-            "earthquake_id": "us7000rqmd",
-            "magnitude": 5.4,
-            "latitude": 6.3557,
-            "longitude": 123.7166,
-            "depth_km": 10,
-            "time_ms": 1768849221982,
-            "place": "37 km WSW of Sangay, Philippines",
-            "distance_km": 193.5,
-            "exposure_contribution": 0.5,
             "pga_g": null,
             "mmi": null
           },
@@ -559,6 +559,17 @@
         "shakemap_available": true
       },
       {
+        "id": "us6000s8yj",
+        "magnitude": 5.3,
+        "latitude": 6.3923,
+        "longitude": 123.6213,
+        "depth_km": 10,
+        "time_ms": 1769589321867,
+        "place": "47 km W of Sangay, Philippines",
+        "country_code": "PH",
+        "shakemap_available": false
+      },
+      {
         "id": "us6000s4yl",
         "magnitude": 5.4,
         "latitude": 6.5076,
@@ -660,11 +671,11 @@
       {
         "id": "us6000s4qp",
         "magnitude": 5.1,
-        "latitude": 6.5145,
-        "longitude": 123.7553,
+        "latitude": 6.4883,
+        "longitude": 123.7403,
         "depth_km": 10,
-        "time_ms": 1769529037632,
-        "place": "30 km W of Bantogon, Philippines",
+        "time_ms": 1769529037554,
+        "place": "32 km W of Bantogon, Philippines",
         "country_code": "PH",
         "shakemap_available": false
       },
@@ -678,20 +689,9 @@
         "place": "39 km WSW of Sangay, Philippines",
         "country_code": "PH",
         "shakemap_available": true
-      },
-      {
-        "id": "us7000rqmd",
-        "magnitude": 5.4,
-        "latitude": 6.3557,
-        "longitude": 123.7166,
-        "depth_km": 10,
-        "time_ms": 1768849221982,
-        "place": "37 km WSW of Sangay, Philippines",
-        "country_code": "PH",
-        "shakemap_available": true
       }
     ],
-    "seismic_hub_risk_score": 16.46
+    "seismic_hub_risk_score": 16.31
   },
   {
     "country": "Japan",
@@ -713,8 +713,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 9,
-    "avg_magnitude": 5.26,
+    "earthquake_count": 10,
+    "avg_magnitude": 5.23,
     "strongest_earthquake": {
       "magnitude": 5.5,
       "date": "2026-02-12",
@@ -961,6 +961,17 @@
     ],
     "earthquakes": [
       {
+        "id": "us6000s9wt",
+        "magnitude": 5,
+        "latitude": 29.2111,
+        "longitude": 130.6669,
+        "depth_km": 22.742,
+        "time_ms": 1771381666663,
+        "place": "114 km S of Koshima, Japan",
+        "country_code": "JP",
+        "shakemap_available": false
+      },
+      {
         "id": "us6000s8l6",
         "magnitude": 5.5,
         "latitude": 25.7653,
@@ -1083,8 +1094,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 19,
-    "avg_magnitude": 5.33,
+    "earthquake_count": 18,
+    "avg_magnitude": 5.34,
     "strongest_earthquake": {
       "magnitude": 6.2,
       "date": "2026-02-10",
@@ -1359,17 +1370,6 @@
         "place": "Fiji region",
         "country_code": "TO",
         "shakemap_available": false
-      },
-      {
-        "id": "us7000rqit",
-        "magnitude": 5.1,
-        "latitude": -16.3651,
-        "longitude": -173.9302,
-        "depth_km": 107.219,
-        "time_ms": 1768804928172,
-        "place": "47 km SSW of Hihifo, Tonga",
-        "country_code": "TO",
-        "shakemap_available": false
       }
     ],
     "seismic_hub_risk_score": 7.03
@@ -1399,7 +1399,7 @@
       "PNG"
     ],
     "earthquake_count": 16,
-    "avg_magnitude": 5.17,
+    "avg_magnitude": 5.19,
     "strongest_earthquake": {
       "magnitude": 5.8,
       "date": "2026-02-05",
@@ -1536,6 +1536,17 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000s9wr",
+        "magnitude": 5.2,
+        "latitude": -6.2086,
+        "longitude": 131.2032,
+        "depth_km": 61.659,
+        "time_ms": 1771380927208,
+        "place": "183 km WSW of Tual, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
       {
         "id": "us6000s9u1",
         "magnitude": 5,
@@ -1698,17 +1709,6 @@
         "depth_km": 87.962,
         "time_ms": 1769035483499,
         "place": "83 km N of Luwuk, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us7000rqjg",
-        "magnitude": 5,
-        "latitude": -2.5876,
-        "longitude": 102.194,
-        "depth_km": 166.679,
-        "time_ms": 1768820569367,
-        "place": "104 km NNW of Curup, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
       }
