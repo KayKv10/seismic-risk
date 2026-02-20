@@ -694,6 +694,659 @@
     "seismic_hub_risk_score": 16.31
   },
   {
+    "country": "Tonga",
+    "iso_alpha2": "TO",
+    "iso_alpha3": "TON",
+    "capital": "Nuku'alofa",
+    "population": 100179,
+    "area_km2": 747.0,
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "currencies": [
+      {
+        "code": "TOP",
+        "name": "Tongan paʻanga"
+      }
+    ],
+    "languages": [
+      "English",
+      "Tongan"
+    ],
+    "un_member": true,
+    "bordering_countries": [],
+    "earthquake_count": 18,
+    "avg_magnitude": 5.34,
+    "strongest_earthquake": {
+      "magnitude": 6.2,
+      "date": "2026-02-10",
+      "depth_km": 510.9,
+      "latitude": -21.0396,
+      "longitude": -178.3348
+    },
+    "highest_pager_alert": null,
+    "max_felt_reports": 0,
+    "tsunami_warning_issued": false,
+    "significant_events_count": 0,
+    "exposed_airports": [
+      {
+        "name": "Fua'amotu International Airport",
+        "iata_code": "TBU",
+        "latitude": -21.241438,
+        "longitude": -175.149164,
+        "municipality": "Nuku'alofa",
+        "closest_quake_distance_km": 74.4,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us7000rs1z",
+            "magnitude": 5.4,
+            "latitude": -21.8789,
+            "longitude": -174.9315,
+            "depth_km": 10,
+            "time_ms": 1769398306014,
+            "place": "59 km S of ‘Ohonua, Tonga",
+            "distance_km": 74.4,
+            "exposure_contribution": 2.21,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
+            "earthquake_id": "us7000rs4b",
+            "magnitude": 5.1,
+            "latitude": -21.8553,
+            "longitude": -174.7776,
+            "depth_km": 10,
+            "time_ms": 1769432537584,
+            "place": "59 km SSE of ‘Ohonua, Tonga",
+            "distance_km": 78.3,
+            "exposure_contribution": 1.46,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
+            "earthquake_id": "us7000rs3s",
+            "magnitude": 5.2,
+            "latitude": -21.8621,
+            "longitude": -174.6532,
+            "depth_km": 35,
+            "time_ms": 1769424779440,
+            "place": "65 km SSE of ‘Ohonua, Tonga",
+            "distance_km": 86.0,
+            "exposure_contribution": 1.29,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
+            "earthquake_id": "us6000s5s7",
+            "magnitude": 5.8,
+            "latitude": -21.019,
+            "longitude": -174.1337,
+            "depth_km": 12,
+            "time_ms": 1769893171307,
+            "place": "92 km ENE of ‘Ohonua, Tonga",
+            "distance_km": 108.2,
+            "exposure_contribution": 2.04,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 7.0
+      }
+    ],
+    "earthquakes": [
+      {
+        "id": "us6000s9g0",
+        "magnitude": 5.2,
+        "latitude": -25.365,
+        "longitude": -178.0749,
+        "depth_km": 270.983,
+        "time_ms": 1771210962408,
+        "place": "south of the Fiji Islands",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s9f6",
+        "magnitude": 5.3,
+        "latitude": -15.1196,
+        "longitude": -173.3102,
+        "depth_km": 10,
+        "time_ms": 1771188877098,
+        "place": "106 km NNE of Hihifo, Tonga",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s8mg",
+        "magnitude": 5,
+        "latitude": -15.3591,
+        "longitude": -173.2848,
+        "depth_km": 35,
+        "time_ms": 1770943288911,
+        "place": "85 km NE of Hihifo, Tonga",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s7pk",
+        "magnitude": 5.6,
+        "latitude": -14.97,
+        "longitude": -172.9395,
+        "depth_km": 10,
+        "time_ms": 1770758082327,
+        "place": "142 km NE of Hihifo, Tonga",
+        "country_code": "TO",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000s7p7",
+        "magnitude": 6.2,
+        "latitude": -21.0396,
+        "longitude": -178.3348,
+        "depth_km": 510.944,
+        "time_ms": 1770756292774,
+        "place": "Fiji region",
+        "country_code": "TO",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000s7hn",
+        "magnitude": 5,
+        "latitude": -16.107,
+        "longitude": -173.5346,
+        "depth_km": 32.263,
+        "time_ms": 1770663177982,
+        "place": "32 km ESE of Hihifo, Tonga",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s6cx",
+        "magnitude": 6.1,
+        "latitude": -29.563,
+        "longitude": -178.5808,
+        "depth_km": 167,
+        "time_ms": 1770201568476,
+        "place": "Kermadec Islands, New Zealand",
+        "country_code": "TO",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000s6bf",
+        "magnitude": 5.3,
+        "latitude": -26.8574,
+        "longitude": -176.3379,
+        "depth_km": 10,
+        "time_ms": 1770170864865,
+        "place": "south of the Fiji Islands",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s694",
+        "magnitude": 5.2,
+        "latitude": -15.3996,
+        "longitude": -173.1534,
+        "depth_km": 10,
+        "time_ms": 1770147241851,
+        "place": "92 km NE of Hihifo, Tonga",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s5s7",
+        "magnitude": 5.8,
+        "latitude": -21.019,
+        "longitude": -174.1337,
+        "depth_km": 12,
+        "time_ms": 1769893171307,
+        "place": "92 km ENE of ‘Ohonua, Tonga",
+        "country_code": "TO",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000s5h4",
+        "magnitude": 5,
+        "latitude": -28.7586,
+        "longitude": -176.7306,
+        "depth_km": 10,
+        "time_ms": 1769774642215,
+        "place": "Kermadec Islands region",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s5de",
+        "magnitude": 5.2,
+        "latitude": -29.1576,
+        "longitude": -177.1841,
+        "depth_km": 35,
+        "time_ms": 1769736483210,
+        "place": "Kermadec Islands, New Zealand",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s4m2",
+        "magnitude": 5.2,
+        "latitude": -29.3397,
+        "longitude": -177.026,
+        "depth_km": 10,
+        "time_ms": 1769470372830,
+        "place": "Kermadec Islands, New Zealand",
+        "country_code": "TO",
+        "shakemap_available": true
+      },
+      {
+        "id": "us7000rs4b",
+        "magnitude": 5.1,
+        "latitude": -21.8553,
+        "longitude": -174.7776,
+        "depth_km": 10,
+        "time_ms": 1769432537584,
+        "place": "59 km SSE of ‘Ohonua, Tonga",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
+      {
+        "id": "us7000rs3x",
+        "magnitude": 5.4,
+        "latitude": -29.4953,
+        "longitude": -177.2429,
+        "depth_km": 14.061,
+        "time_ms": 1769426746260,
+        "place": "Kermadec Islands, New Zealand",
+        "country_code": "TO",
+        "shakemap_available": true
+      },
+      {
+        "id": "us7000rs3s",
+        "magnitude": 5.2,
+        "latitude": -21.8621,
+        "longitude": -174.6532,
+        "depth_km": 35,
+        "time_ms": 1769424779440,
+        "place": "65 km SSE of ‘Ohonua, Tonga",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
+      {
+        "id": "us7000rs1z",
+        "magnitude": 5.4,
+        "latitude": -21.8789,
+        "longitude": -174.9315,
+        "depth_km": 10,
+        "time_ms": 1769398306014,
+        "place": "59 km S of ‘Ohonua, Tonga",
+        "country_code": "TO",
+        "shakemap_available": true
+      },
+      {
+        "id": "us7000rrsg",
+        "magnitude": 5,
+        "latitude": -21.0582,
+        "longitude": -178.7822,
+        "depth_km": 589.434,
+        "time_ms": 1769249153647,
+        "place": "Fiji region",
+        "country_code": "TO",
+        "shakemap_available": false
+      }
+    ],
+    "seismic_hub_risk_score": 7.0
+  },
+  {
+    "country": "Indonesia",
+    "iso_alpha2": "ID",
+    "iso_alpha3": "IDN",
+    "capital": "Jakarta",
+    "population": 284438782,
+    "area_km2": 1904569.0,
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "currencies": [
+      {
+        "code": "IDR",
+        "name": "Indonesian rupiah"
+      }
+    ],
+    "languages": [
+      "Indonesian"
+    ],
+    "un_member": true,
+    "bordering_countries": [
+      "TLS",
+      "MYS",
+      "PNG"
+    ],
+    "earthquake_count": 17,
+    "avg_magnitude": 5.21,
+    "strongest_earthquake": {
+      "magnitude": 5.8,
+      "date": "2026-02-05",
+      "depth_km": 40,
+      "latitude": -8.7865,
+      "longitude": 111.2264
+    },
+    "highest_pager_alert": null,
+    "max_felt_reports": 0,
+    "tsunami_warning_issued": false,
+    "significant_events_count": 0,
+    "exposed_airports": [
+      {
+        "name": "Dhoho International Airport",
+        "iata_code": "DHX",
+        "latitude": -7.750278,
+        "longitude": 111.947222,
+        "municipality": "Kediri",
+        "closest_quake_distance_km": 58.6,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us6000s4mj",
+            "magnitude": 5.7,
+            "latitude": -7.8988,
+            "longitude": 111.4371,
+            "depth_km": 127,
+            "time_ms": 1769476842675,
+            "place": "4 km SW of Ponorogo, Indonesia",
+            "distance_km": 58.6,
+            "exposure_contribution": 1.23,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
+            "earthquake_id": "us6000s6ne",
+            "magnitude": 5.8,
+            "latitude": -8.7865,
+            "longitude": 111.2264,
+            "depth_km": 40,
+            "time_ms": 1770314770382,
+            "place": "94 km SW of Trenggalek, Indonesia",
+            "distance_km": 139.9,
+            "exposure_contribution": 1.29,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 2.52
+      },
+      {
+        "name": "Adisutjipto International Airport",
+        "iata_code": "JOG",
+        "latitude": -7.78818,
+        "longitude": 110.431999,
+        "municipality": "Yogyakarta",
+        "closest_quake_distance_km": 111.4,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us6000s4mj",
+            "magnitude": 5.7,
+            "latitude": -7.8988,
+            "longitude": 111.4371,
+            "depth_km": 127,
+            "time_ms": 1769476842675,
+            "place": "4 km SW of Ponorogo, Indonesia",
+            "distance_km": 111.4,
+            "exposure_contribution": 0.9,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
+            "earthquake_id": "us6000s6ne",
+            "magnitude": 5.8,
+            "latitude": -8.7865,
+            "longitude": 111.2264,
+            "depth_km": 40,
+            "time_ms": 1770314770382,
+            "place": "94 km SW of Trenggalek, Indonesia",
+            "distance_km": 141.3,
+            "exposure_contribution": 1.27,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 2.17
+      },
+      {
+        "name": "Juanda International Airport",
+        "iata_code": "SUB",
+        "latitude": -7.37983,
+        "longitude": 112.787003,
+        "municipality": "Surabaya",
+        "closest_quake_distance_km": 159.6,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us6000s4mj",
+            "magnitude": 5.7,
+            "latitude": -7.8988,
+            "longitude": 111.4371,
+            "depth_km": 127,
+            "time_ms": 1769476842675,
+            "place": "4 km SW of Ponorogo, Indonesia",
+            "distance_km": 159.6,
+            "exposure_contribution": 0.65,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 0.65
+      },
+      {
+        "name": "Jenderal Ahmad Yani Airport",
+        "iata_code": "SRG",
+        "latitude": -6.970732,
+        "longitude": 110.373244,
+        "municipality": "Semarang",
+        "closest_quake_distance_km": 156.2,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us6000s4mj",
+            "magnitude": 5.7,
+            "latitude": -7.8988,
+            "longitude": 111.4371,
+            "depth_km": 127,
+            "time_ms": 1769476842675,
+            "place": "4 km SW of Ponorogo, Indonesia",
+            "distance_km": 156.2,
+            "exposure_contribution": 0.66,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 0.66
+      }
+    ],
+    "earthquakes": [
+      {
+        "id": "us6000sa2c",
+        "magnitude": 5.5,
+        "latitude": 1.3709,
+        "longitude": 122.1572,
+        "depth_km": 10,
+        "time_ms": 1771460774231,
+        "place": "136 km NW of Gorontalo, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000s9wr",
+        "magnitude": 5.2,
+        "latitude": -6.2086,
+        "longitude": 131.2032,
+        "depth_km": 61.659,
+        "time_ms": 1771380927208,
+        "place": "183 km WSW of Tual, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s9u1",
+        "magnitude": 5,
+        "latitude": -8.2889,
+        "longitude": 108.1016,
+        "depth_km": 83.7,
+        "time_ms": 1771351252572,
+        "place": "101 km S of Kawalu, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s9mt",
+        "magnitude": 5.1,
+        "latitude": -5.5874,
+        "longitude": 133.7968,
+        "depth_km": 10,
+        "time_ms": 1771285641263,
+        "place": "115 km E of Tual, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s9gm",
+        "magnitude": 5,
+        "latitude": -0.4327,
+        "longitude": 99.2638,
+        "depth_km": 59.563,
+        "time_ms": 1771221639462,
+        "place": "97 km WNW of Pariaman, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s9ci",
+        "magnitude": 5,
+        "latitude": -4.3562,
+        "longitude": 102.3859,
+        "depth_km": 66.131,
+        "time_ms": 1771136082668,
+        "place": "62 km SSE of Bengkulu, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s8rt",
+        "magnitude": 5.6,
+        "latitude": 4.2222,
+        "longitude": 128.2588,
+        "depth_km": 56.368,
+        "time_ms": 1770994624236,
+        "place": "277 km N of Tobelo, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000s7es",
+        "magnitude": 5,
+        "latitude": 2.3162,
+        "longitude": 126.7988,
+        "depth_km": 44.944,
+        "time_ms": 1770625852410,
+        "place": "149 km WNW of Tobelo, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s6ne",
+        "magnitude": 5.8,
+        "latitude": -8.7865,
+        "longitude": 111.2264,
+        "depth_km": 40,
+        "time_ms": 1770314770382,
+        "place": "94 km SW of Trenggalek, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000s6b3",
+        "magnitude": 5.1,
+        "latitude": -6.8211,
+        "longitude": 132.1049,
+        "depth_km": 10.324,
+        "time_ms": 1770165390890,
+        "place": "150 km SSW of Tual, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s62k",
+        "magnitude": 5.2,
+        "latitude": -6.6119,
+        "longitude": 129.9107,
+        "depth_km": 141.538,
+        "time_ms": 1770087046029,
+        "place": "Banda Sea",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s5d8",
+        "magnitude": 5,
+        "latitude": -0.272,
+        "longitude": 124.4803,
+        "depth_km": 91.195,
+        "time_ms": 1769735731911,
+        "place": "80 km S of Modisi, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s52m",
+        "magnitude": 5.1,
+        "latitude": -8.6184,
+        "longitude": 118.2996,
+        "depth_km": 133.558,
+        "time_ms": 1769625015620,
+        "place": "20 km WSW of Dompu, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s51i",
+        "magnitude": 5,
+        "latitude": -7.2698,
+        "longitude": 130.3413,
+        "depth_km": 7.175,
+        "time_ms": 1769620942981,
+        "place": "Pulau Pulau Tanimbar, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s4mj",
+        "magnitude": 5.7,
+        "latitude": -7.8988,
+        "longitude": 111.4371,
+        "depth_km": 127,
+        "time_ms": 1769476842675,
+        "place": "4 km SW of Ponorogo, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": true
+      },
+      {
+        "id": "us7000rrx3",
+        "magnitude": 5.1,
+        "latitude": -6.1987,
+        "longitude": 130.5864,
+        "depth_km": 136.694,
+        "time_ms": 1769322154142,
+        "place": "247 km WSW of Tual, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us7000rr7x",
+        "magnitude": 5.1,
+        "latitude": -0.2053,
+        "longitude": 122.6765,
+        "depth_km": 87.962,
+        "time_ms": 1769035483499,
+        "place": "83 km N of Luwuk, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      }
+    ],
+    "seismic_hub_risk_score": 6.0
+  },
+  {
     "country": "Japan",
     "iso_alpha2": "JP",
     "iso_alpha3": "JPN",
@@ -713,8 +1366,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 10,
-    "avg_magnitude": 5.23,
+    "earthquake_count": 9,
+    "avg_magnitude": 5.22,
     "strongest_earthquake": {
       "magnitude": 5.5,
       "date": "2026-02-12",
@@ -757,21 +1410,8 @@
         "latitude": 42.774753,
         "longitude": 141.690414,
         "municipality": "Sapporo",
-        "closest_quake_distance_km": 152.3,
+        "closest_quake_distance_km": 190.4,
         "nearby_quakes": [
-          {
-            "earthquake_id": "us7000rqwc",
-            "magnitude": 5.3,
-            "latitude": 41.4231,
-            "longitude": 141.9872,
-            "depth_km": 62.109,
-            "time_ms": 1768931501403,
-            "place": "66 km ENE of Mutsu, Japan",
-            "distance_km": 152.3,
-            "exposure_contribution": 0.59,
-            "pga_g": null,
-            "mmi": null
-          },
           {
             "earthquake_id": "us7000rrc5",
             "magnitude": 5.3,
@@ -786,7 +1426,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 1.02
+        "exposure_score": 0.43
       },
       {
         "name": "Hakodate Airport",
@@ -794,21 +1434,8 @@
         "latitude": 41.77,
         "longitude": 140.822006,
         "municipality": "Hakodate",
-        "closest_quake_distance_km": 104.3,
+        "closest_quake_distance_km": 146.9,
         "nearby_quakes": [
-          {
-            "earthquake_id": "us7000rqwc",
-            "magnitude": 5.3,
-            "latitude": 41.4231,
-            "longitude": 141.9872,
-            "depth_km": 62.109,
-            "time_ms": 1768931501403,
-            "place": "66 km ENE of Mutsu, Japan",
-            "distance_km": 104.3,
-            "exposure_contribution": 0.97,
-            "pga_g": null,
-            "mmi": null
-          },
           {
             "earthquake_id": "us7000rrc5",
             "magnitude": 5.3,
@@ -823,7 +1450,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 1.61
+        "exposure_score": 0.64
       },
       {
         "name": "Aomori Airport",
@@ -831,21 +1458,8 @@
         "latitude": 40.733777,
         "longitude": 140.689477,
         "municipality": "Aomori",
-        "closest_quake_distance_km": 133.1,
+        "closest_quake_distance_km": 148.1,
         "nearby_quakes": [
-          {
-            "earthquake_id": "us7000rqwc",
-            "magnitude": 5.3,
-            "latitude": 41.4231,
-            "longitude": 141.9872,
-            "depth_km": 62.109,
-            "time_ms": 1768931501403,
-            "place": "66 km ENE of Mutsu, Japan",
-            "distance_km": 133.1,
-            "exposure_contribution": 0.72,
-            "pga_g": null,
-            "mmi": null
-          },
           {
             "earthquake_id": "us7000rrc5",
             "magnitude": 5.3,
@@ -860,7 +1474,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 1.35
+        "exposure_score": 0.63
       },
       {
         "name": "Sendai Airport",
@@ -1007,11 +1621,11 @@
       {
         "id": "us6000s6gs",
         "magnitude": 5.5,
-        "latitude": 29.1198,
-        "longitude": 130.3779,
+        "latitude": 29.1114,
+        "longitude": 130.441,
         "depth_km": 29,
-        "time_ms": 1770229243659,
-        "place": "106 km NE of Tatsugō, Japan",
+        "time_ms": 1770229243514,
+        "place": "110 km NE of Tatsugō, Japan",
         "country_code": "JP",
         "shakemap_available": true
       },
@@ -1058,662 +1672,9 @@
         "place": "94 km E of Yokohama, Japan",
         "country_code": "JP",
         "shakemap_available": false
-      },
-      {
-        "id": "us7000rqwc",
-        "magnitude": 5.3,
-        "latitude": 41.4231,
-        "longitude": 141.9872,
-        "depth_km": 62.109,
-        "time_ms": 1768931501403,
-        "place": "66 km ENE of Mutsu, Japan",
-        "country_code": "JP",
-        "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 8.23
-  },
-  {
-    "country": "Tonga",
-    "iso_alpha2": "TO",
-    "iso_alpha3": "TON",
-    "capital": "Nuku'alofa",
-    "population": 100179,
-    "area_km2": 747.0,
-    "region": "Oceania",
-    "subregion": "Polynesia",
-    "currencies": [
-      {
-        "code": "TOP",
-        "name": "Tongan paʻanga"
-      }
-    ],
-    "languages": [
-      "English",
-      "Tongan"
-    ],
-    "un_member": true,
-    "bordering_countries": [],
-    "earthquake_count": 18,
-    "avg_magnitude": 5.34,
-    "strongest_earthquake": {
-      "magnitude": 6.2,
-      "date": "2026-02-10",
-      "depth_km": 510.9,
-      "latitude": -21.0396,
-      "longitude": -178.3348
-    },
-    "highest_pager_alert": null,
-    "max_felt_reports": 0,
-    "tsunami_warning_issued": false,
-    "significant_events_count": 0,
-    "exposed_airports": [
-      {
-        "name": "Fua'amotu International Airport",
-        "iata_code": "TBU",
-        "latitude": -21.241438,
-        "longitude": -175.149164,
-        "municipality": "Nuku'alofa",
-        "closest_quake_distance_km": 74.4,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us7000rs1z",
-            "magnitude": 5.4,
-            "latitude": -21.8789,
-            "longitude": -174.9315,
-            "depth_km": 10,
-            "time_ms": 1769398306014,
-            "place": "59 km S of ‘Ohonua, Tonga",
-            "distance_km": 74.4,
-            "exposure_contribution": 2.21,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
-            "earthquake_id": "us7000rs4b",
-            "magnitude": 5.1,
-            "latitude": -21.8553,
-            "longitude": -174.7776,
-            "depth_km": 10,
-            "time_ms": 1769432537584,
-            "place": "59 km SSE of ‘Ohonua, Tonga",
-            "distance_km": 78.3,
-            "exposure_contribution": 1.46,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
-            "earthquake_id": "us7000rs3s",
-            "magnitude": 5.2,
-            "latitude": -21.906,
-            "longitude": -174.7478,
-            "depth_km": 35,
-            "time_ms": 1769424779016,
-            "place": "66 km SSE of ‘Ohonua, Tonga",
-            "distance_km": 84.8,
-            "exposure_contribution": 1.32,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
-            "earthquake_id": "us6000s5s7",
-            "magnitude": 5.8,
-            "latitude": -21.019,
-            "longitude": -174.1337,
-            "depth_km": 12,
-            "time_ms": 1769893171307,
-            "place": "92 km ENE of ‘Ohonua, Tonga",
-            "distance_km": 108.2,
-            "exposure_contribution": 2.04,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 7.03
-      }
-    ],
-    "earthquakes": [
-      {
-        "id": "us6000s9g0",
-        "magnitude": 5.2,
-        "latitude": -25.365,
-        "longitude": -178.0749,
-        "depth_km": 270.983,
-        "time_ms": 1771210962408,
-        "place": "south of the Fiji Islands",
-        "country_code": "TO",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s9f6",
-        "magnitude": 5.3,
-        "latitude": -15.1196,
-        "longitude": -173.3102,
-        "depth_km": 10,
-        "time_ms": 1771188877098,
-        "place": "106 km NNE of Hihifo, Tonga",
-        "country_code": "TO",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s8mg",
-        "magnitude": 5,
-        "latitude": -15.3591,
-        "longitude": -173.2848,
-        "depth_km": 35,
-        "time_ms": 1770943288911,
-        "place": "85 km NE of Hihifo, Tonga",
-        "country_code": "TO",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s7pk",
-        "magnitude": 5.6,
-        "latitude": -14.97,
-        "longitude": -172.9395,
-        "depth_km": 10,
-        "time_ms": 1770758082327,
-        "place": "142 km NE of Hihifo, Tonga",
-        "country_code": "TO",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000s7p7",
-        "magnitude": 6.2,
-        "latitude": -21.0396,
-        "longitude": -178.3348,
-        "depth_km": 510.944,
-        "time_ms": 1770756292774,
-        "place": "Fiji region",
-        "country_code": "TO",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000s7hn",
-        "magnitude": 5,
-        "latitude": -16.107,
-        "longitude": -173.5346,
-        "depth_km": 32.263,
-        "time_ms": 1770663177982,
-        "place": "32 km ESE of Hihifo, Tonga",
-        "country_code": "TO",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s6cx",
-        "magnitude": 6.1,
-        "latitude": -29.5951,
-        "longitude": -178.5952,
-        "depth_km": 184.162,
-        "time_ms": 1770201569988,
-        "place": "Kermadec Islands, New Zealand",
-        "country_code": "TO",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000s6bf",
-        "magnitude": 5.3,
-        "latitude": -26.9354,
-        "longitude": -176.2788,
-        "depth_km": 10,
-        "time_ms": 1770170864796,
-        "place": "south of the Fiji Islands",
-        "country_code": "TO",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s694",
-        "magnitude": 5.2,
-        "latitude": -15.3423,
-        "longitude": -173.0865,
-        "depth_km": 10,
-        "time_ms": 1770147241908,
-        "place": "101 km NE of Hihifo, Tonga",
-        "country_code": "TO",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s5s7",
-        "magnitude": 5.8,
-        "latitude": -21.019,
-        "longitude": -174.1337,
-        "depth_km": 12,
-        "time_ms": 1769893171307,
-        "place": "92 km ENE of ‘Ohonua, Tonga",
-        "country_code": "TO",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000s5h4",
-        "magnitude": 5,
-        "latitude": -28.7586,
-        "longitude": -176.7306,
-        "depth_km": 10,
-        "time_ms": 1769774642215,
-        "place": "Kermadec Islands region",
-        "country_code": "TO",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s5de",
-        "magnitude": 5.2,
-        "latitude": -29.1576,
-        "longitude": -177.1841,
-        "depth_km": 35,
-        "time_ms": 1769736483210,
-        "place": "Kermadec Islands, New Zealand",
-        "country_code": "TO",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s4m2",
-        "magnitude": 5.2,
-        "latitude": -29.3397,
-        "longitude": -177.026,
-        "depth_km": 10,
-        "time_ms": 1769470372830,
-        "place": "Kermadec Islands, New Zealand",
-        "country_code": "TO",
-        "shakemap_available": true
-      },
-      {
-        "id": "us7000rs4b",
-        "magnitude": 5.1,
-        "latitude": -21.8553,
-        "longitude": -174.7776,
-        "depth_km": 10,
-        "time_ms": 1769432537584,
-        "place": "59 km SSE of ‘Ohonua, Tonga",
-        "country_code": "TO",
-        "shakemap_available": false
-      },
-      {
-        "id": "us7000rs3x",
-        "magnitude": 5.4,
-        "latitude": -29.4953,
-        "longitude": -177.2429,
-        "depth_km": 14.061,
-        "time_ms": 1769426746260,
-        "place": "Kermadec Islands, New Zealand",
-        "country_code": "TO",
-        "shakemap_available": true
-      },
-      {
-        "id": "us7000rs3s",
-        "magnitude": 5.2,
-        "latitude": -21.906,
-        "longitude": -174.7478,
-        "depth_km": 35,
-        "time_ms": 1769424779016,
-        "place": "66 km SSE of ‘Ohonua, Tonga",
-        "country_code": "TO",
-        "shakemap_available": false
-      },
-      {
-        "id": "us7000rs1z",
-        "magnitude": 5.4,
-        "latitude": -21.8789,
-        "longitude": -174.9315,
-        "depth_km": 10,
-        "time_ms": 1769398306014,
-        "place": "59 km S of ‘Ohonua, Tonga",
-        "country_code": "TO",
-        "shakemap_available": true
-      },
-      {
-        "id": "us7000rrsg",
-        "magnitude": 5,
-        "latitude": -21.0582,
-        "longitude": -178.7822,
-        "depth_km": 589.434,
-        "time_ms": 1769249153647,
-        "place": "Fiji region",
-        "country_code": "TO",
-        "shakemap_available": false
-      }
-    ],
-    "seismic_hub_risk_score": 7.03
-  },
-  {
-    "country": "Indonesia",
-    "iso_alpha2": "ID",
-    "iso_alpha3": "IDN",
-    "capital": "Jakarta",
-    "population": 284438782,
-    "area_km2": 1904569.0,
-    "region": "Asia",
-    "subregion": "South-Eastern Asia",
-    "currencies": [
-      {
-        "code": "IDR",
-        "name": "Indonesian rupiah"
-      }
-    ],
-    "languages": [
-      "Indonesian"
-    ],
-    "un_member": true,
-    "bordering_countries": [
-      "TLS",
-      "MYS",
-      "PNG"
-    ],
-    "earthquake_count": 16,
-    "avg_magnitude": 5.19,
-    "strongest_earthquake": {
-      "magnitude": 5.8,
-      "date": "2026-02-05",
-      "depth_km": 40,
-      "latitude": -8.7865,
-      "longitude": 111.2264
-    },
-    "highest_pager_alert": null,
-    "max_felt_reports": 0,
-    "tsunami_warning_issued": false,
-    "significant_events_count": 0,
-    "exposed_airports": [
-      {
-        "name": "Dhoho International Airport",
-        "iata_code": "DHX",
-        "latitude": -7.750278,
-        "longitude": 111.947222,
-        "municipality": "Kediri",
-        "closest_quake_distance_km": 58.6,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us6000s4mj",
-            "magnitude": 5.7,
-            "latitude": -7.8988,
-            "longitude": 111.4371,
-            "depth_km": 127,
-            "time_ms": 1769476842675,
-            "place": "4 km SW of Ponorogo, Indonesia",
-            "distance_km": 58.6,
-            "exposure_contribution": 1.23,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
-            "earthquake_id": "us6000s6ne",
-            "magnitude": 5.8,
-            "latitude": -8.7865,
-            "longitude": 111.2264,
-            "depth_km": 40,
-            "time_ms": 1770314770382,
-            "place": "94 km SW of Trenggalek, Indonesia",
-            "distance_km": 139.9,
-            "exposure_contribution": 1.29,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 2.52
-      },
-      {
-        "name": "Adisutjipto International Airport",
-        "iata_code": "JOG",
-        "latitude": -7.78818,
-        "longitude": 110.431999,
-        "municipality": "Yogyakarta",
-        "closest_quake_distance_km": 111.4,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us6000s4mj",
-            "magnitude": 5.7,
-            "latitude": -7.8988,
-            "longitude": 111.4371,
-            "depth_km": 127,
-            "time_ms": 1769476842675,
-            "place": "4 km SW of Ponorogo, Indonesia",
-            "distance_km": 111.4,
-            "exposure_contribution": 0.9,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
-            "earthquake_id": "us6000s6ne",
-            "magnitude": 5.8,
-            "latitude": -8.7865,
-            "longitude": 111.2264,
-            "depth_km": 40,
-            "time_ms": 1770314770382,
-            "place": "94 km SW of Trenggalek, Indonesia",
-            "distance_km": 141.3,
-            "exposure_contribution": 1.27,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 2.17
-      },
-      {
-        "name": "Juanda International Airport",
-        "iata_code": "SUB",
-        "latitude": -7.37983,
-        "longitude": 112.787003,
-        "municipality": "Surabaya",
-        "closest_quake_distance_km": 159.6,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us6000s4mj",
-            "magnitude": 5.7,
-            "latitude": -7.8988,
-            "longitude": 111.4371,
-            "depth_km": 127,
-            "time_ms": 1769476842675,
-            "place": "4 km SW of Ponorogo, Indonesia",
-            "distance_km": 159.6,
-            "exposure_contribution": 0.65,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 0.65
-      },
-      {
-        "name": "Jenderal Ahmad Yani Airport",
-        "iata_code": "SRG",
-        "latitude": -6.970732,
-        "longitude": 110.373244,
-        "municipality": "Semarang",
-        "closest_quake_distance_km": 156.2,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us6000s4mj",
-            "magnitude": 5.7,
-            "latitude": -7.8988,
-            "longitude": 111.4371,
-            "depth_km": 127,
-            "time_ms": 1769476842675,
-            "place": "4 km SW of Ponorogo, Indonesia",
-            "distance_km": 156.2,
-            "exposure_contribution": 0.66,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 0.66
-      }
-    ],
-    "earthquakes": [
-      {
-        "id": "us6000s9wr",
-        "magnitude": 5.2,
-        "latitude": -6.2086,
-        "longitude": 131.2032,
-        "depth_km": 61.659,
-        "time_ms": 1771380927208,
-        "place": "183 km WSW of Tual, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s9u1",
-        "magnitude": 5,
-        "latitude": -8.2889,
-        "longitude": 108.1016,
-        "depth_km": 83.7,
-        "time_ms": 1771351252572,
-        "place": "101 km S of Kawalu, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s9mt",
-        "magnitude": 5.1,
-        "latitude": -5.5874,
-        "longitude": 133.7968,
-        "depth_km": 10,
-        "time_ms": 1771285641263,
-        "place": "115 km E of Tual, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s9gm",
-        "magnitude": 5,
-        "latitude": -0.4327,
-        "longitude": 99.2638,
-        "depth_km": 59.563,
-        "time_ms": 1771221639462,
-        "place": "97 km WNW of Pariaman, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s9ci",
-        "magnitude": 5,
-        "latitude": -4.3562,
-        "longitude": 102.3859,
-        "depth_km": 66.131,
-        "time_ms": 1771136082668,
-        "place": "62 km SSE of Bengkulu, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s8rt",
-        "magnitude": 5.6,
-        "latitude": 4.2222,
-        "longitude": 128.2588,
-        "depth_km": 56.368,
-        "time_ms": 1770994624236,
-        "place": "277 km N of Tobelo, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000s7es",
-        "magnitude": 5,
-        "latitude": 2.3162,
-        "longitude": 126.7988,
-        "depth_km": 44.944,
-        "time_ms": 1770625852410,
-        "place": "149 km WNW of Tobelo, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s6ne",
-        "magnitude": 5.8,
-        "latitude": -8.7865,
-        "longitude": 111.2264,
-        "depth_km": 40,
-        "time_ms": 1770314770382,
-        "place": "94 km SW of Trenggalek, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000s6b3",
-        "magnitude": 5.1,
-        "latitude": -6.8285,
-        "longitude": 132.0522,
-        "depth_km": 11.096,
-        "time_ms": 1770165391113,
-        "place": "153 km SSW of Tual, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s62k",
-        "magnitude": 5.2,
-        "latitude": -6.6119,
-        "longitude": 129.9107,
-        "depth_km": 141.538,
-        "time_ms": 1770087046029,
-        "place": "Banda Sea",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s5d8",
-        "magnitude": 5,
-        "latitude": -0.272,
-        "longitude": 124.4803,
-        "depth_km": 91.195,
-        "time_ms": 1769735731911,
-        "place": "80 km S of Modisi, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s52m",
-        "magnitude": 5.1,
-        "latitude": -8.6184,
-        "longitude": 118.2996,
-        "depth_km": 133.558,
-        "time_ms": 1769625015620,
-        "place": "20 km WSW of Dompu, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s51i",
-        "magnitude": 5,
-        "latitude": -7.2698,
-        "longitude": 130.3413,
-        "depth_km": 7.175,
-        "time_ms": 1769620942981,
-        "place": "Pulau Pulau Tanimbar, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s4mj",
-        "magnitude": 5.7,
-        "latitude": -7.8988,
-        "longitude": 111.4371,
-        "depth_km": 127,
-        "time_ms": 1769476842675,
-        "place": "4 km SW of Ponorogo, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": true
-      },
-      {
-        "id": "us7000rrx3",
-        "magnitude": 5.1,
-        "latitude": -6.1987,
-        "longitude": 130.5864,
-        "depth_km": 136.694,
-        "time_ms": 1769322154142,
-        "place": "247 km WSW of Tual, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us7000rr7x",
-        "magnitude": 5.1,
-        "latitude": -0.2053,
-        "longitude": 122.6765,
-        "depth_km": 87.962,
-        "time_ms": 1769035483499,
-        "place": "83 km N of Luwuk, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      }
-    ],
-    "seismic_hub_risk_score": 6.0
+    "seismic_hub_risk_score": 5.95
   },
   {
     "country": "Russia",
@@ -1933,11 +1894,11 @@
       {
         "id": "us6000s628",
         "magnitude": 5,
-        "latitude": 56.1712,
-        "longitude": 161.6441,
-        "depth_km": 72.245,
-        "time_ms": 1770078803258,
-        "place": "52 km W of Ust’-Kamchatsk Staryy, Russia",
+        "latitude": 56.2055,
+        "longitude": 161.5624,
+        "depth_km": 77.682,
+        "time_ms": 1770078803615,
+        "place": "46 km ESE of Klyuchi, Russia",
         "country_code": "RU",
         "shakemap_available": false
       },
@@ -2078,14 +2039,14 @@
     "bordering_countries": [
       "IDN"
     ],
-    "earthquake_count": 6,
-    "avg_magnitude": 5.32,
+    "earthquake_count": 5,
+    "avg_magnitude": 5.2,
     "strongest_earthquake": {
-      "magnitude": 5.9,
-      "date": "2026-01-20",
-      "depth_km": 103,
-      "latitude": -5.3293,
-      "longitude": 145.9777
+      "magnitude": 5.6,
+      "date": "2026-01-26",
+      "depth_km": 19,
+      "latitude": -6.5616,
+      "longitude": 143.5656
     },
     "highest_pager_alert": null,
     "max_felt_reports": 0,
@@ -2098,36 +2059,23 @@
         "latitude": -6.567995,
         "longitude": 146.726544,
         "municipality": "Lae",
-        "closest_quake_distance_km": 101.9,
+        "closest_quake_distance_km": 104.2,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000s692",
             "magnitude": 5.2,
-            "latitude": -6.2352,
-            "longitude": 147.5856,
-            "depth_km": 70.182,
-            "time_ms": 1770146496785,
-            "place": "45 km NW of Finschhafen, Papua New Guinea",
-            "distance_km": 101.9,
+            "latitude": -6.2328,
+            "longitude": 147.6073,
+            "depth_km": 66.674,
+            "time_ms": 1770146496375,
+            "place": "44 km NW of Finschhafen, Papua New Guinea",
+            "distance_km": 104.2,
             "exposure_contribution": 0.84,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
-            "earthquake_id": "us7000rqrt",
-            "magnitude": 5.9,
-            "latitude": -5.3293,
-            "longitude": 145.9777,
-            "depth_km": 103,
-            "time_ms": 1768893719848,
-            "place": "24 km ESE of Madang, Papua New Guinea",
-            "distance_km": 160.7,
-            "exposure_contribution": 0.92,
             "pga_g": null,
             "mmi": null
           }
         ],
-        "exposure_score": 1.75
+        "exposure_score": 0.84
       }
     ],
     "earthquakes": [
@@ -2156,11 +2104,11 @@
       {
         "id": "us6000s692",
         "magnitude": 5.2,
-        "latitude": -6.2352,
-        "longitude": 147.5856,
-        "depth_km": 70.182,
-        "time_ms": 1770146496785,
-        "place": "45 km NW of Finschhafen, Papua New Guinea",
+        "latitude": -6.2328,
+        "longitude": 147.6073,
+        "depth_km": 66.674,
+        "time_ms": 1770146496375,
+        "place": "44 km NW of Finschhafen, Papua New Guinea",
         "country_code": "PG",
         "shakemap_available": false
       },
@@ -2185,20 +2133,9 @@
         "place": "46 km SSW of Mendi, Papua New Guinea",
         "country_code": "PG",
         "shakemap_available": true
-      },
-      {
-        "id": "us7000rqrt",
-        "magnitude": 5.9,
-        "latitude": -5.3293,
-        "longitude": 145.9777,
-        "depth_km": 103,
-        "time_ms": 1768893719848,
-        "place": "24 km ESE of Madang, Papua New Guinea",
-        "country_code": "PG",
-        "shakemap_available": true
       }
     ],
-    "seismic_hub_risk_score": 1.75
+    "seismic_hub_risk_score": 0.84
   },
   {
     "country": "Chile",
@@ -2224,8 +2161,8 @@
       "BOL",
       "PER"
     ],
-    "earthquake_count": 7,
-    "avg_magnitude": 5.34,
+    "earthquake_count": 8,
+    "avg_magnitude": 5.33,
     "strongest_earthquake": {
       "magnitude": 6.2,
       "date": "2026-02-12",
@@ -2327,6 +2264,17 @@
         "depth_km": 35,
         "time_ms": 1770344843605,
         "place": "32 km S of La Tirana, Chile",
+        "country_code": "CL",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s6cr",
+        "magnitude": 5.2,
+        "latitude": -41.0962,
+        "longitude": -91.3066,
+        "depth_km": 10,
+        "time_ms": 1770158345977,
+        "place": "southeast of Easter Island",
         "country_code": "CL",
         "shakemap_available": false
       },
