@@ -76,17 +76,17 @@ curl "http://localhost:8000/risk?min_magnitude=4.0&days=14&format=csv"
 *Updated daily by [GitHub Actions](https://github.com/KayKv10/seismic-risk/actions/workflows/daily-report.yml). View the [interactive map](https://kaykv10.github.io/seismic-risk/latest.html).*
 
 <!-- LATEST_RESULTS_START -->
-*Last updated: 2026-02-20 06:44 UTC*
+*Last updated: 2026-02-21 06:32 UTC*
 
 | # | Country | ISO | Score | Trend | Quakes | Airports | Alert |
 |--:|:--------|:----|------:|:------|-------:|---------:|:------|
-| 1 | Philippines | PHL | 16.3 | ~ | 19 | 5 | - |
-| 2 | Tonga | TON | 7.0 | ~ | 18 | 1 | - |
-| 3 | Indonesia | IDN | 6.0 | ~ | 17 | 4 | - |
-| 4 | Japan | JPN | 6.0 | -2.3 | 9 | 8 | - |
+| 1 | Philippines | PHL | 15.1 | -1.2 | 18 | 5 | - |
+| 2 | Japan | JPN | 8.2 | +2.3 | 10 | 8 | - |
+| 3 | Tonga | TON | 7.0 | ~ | 18 | 1 | - |
+| 4 | Indonesia | IDN | 6.0 | ~ | 16 | 4 | - |
 | 5 | Russia | RUS | 3.8 | ~ | 19 | 1 | - |
-| 6 | Papua New Guinea | PNG | 0.8 | -0.9 | 5 | 1 | - |
-| 7 | Chile | CHL | 0.2 | ~ | 8 | 1 | green |
+| 6 | Papua New Guinea | PNG | 0.8 | ~ | 5 | 1 | - |
+| 7 | Chile | CHL | 0.2 | ~ | 9 | 1 | green |
 <!-- LATEST_RESULTS_END -->
 
 ## How It Works
