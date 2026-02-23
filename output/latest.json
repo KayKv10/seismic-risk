@@ -20,8 +20,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 18,
-    "avg_magnitude": 5.2,
+    "earthquake_count": 19,
+    "avg_magnitude": 5.19,
     "strongest_earthquake": {
       "magnitude": 5.9,
       "date": "2026-01-28",
@@ -34,6 +34,30 @@
     "tsunami_warning_issued": false,
     "significant_events_count": 0,
     "exposed_airports": [
+      {
+        "name": "Laoag International Airport",
+        "iata_code": "LAO",
+        "latitude": 18.175089,
+        "longitude": 120.531006,
+        "municipality": "Laoag City",
+        "closest_quake_distance_km": 149.7,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us6000sas0",
+            "magnitude": 5.1,
+            "latitude": 19.3715,
+            "longitude": 121.1835,
+            "depth_km": 39.544,
+            "time_ms": 1771756843486,
+            "place": "84 km N of Namuac, Philippines",
+            "distance_km": 149.7,
+            "exposure_contribution": 0.52,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 0.52
+      },
       {
         "name": "Francisco Bangoy International Airport",
         "iata_code": "DVO",
@@ -456,6 +480,17 @@
     ],
     "earthquakes": [
       {
+        "id": "us6000sas0",
+        "magnitude": 5.1,
+        "latitude": 19.3715,
+        "longitude": 121.1835,
+        "depth_km": 39.544,
+        "time_ms": 1771756843486,
+        "place": "84 km N of Namuac, Philippines",
+        "country_code": "PH",
+        "shakemap_available": false
+      },
+      {
         "id": "us6000s98c",
         "magnitude": 5.2,
         "latitude": 5.6698,
@@ -654,7 +689,7 @@
         "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 15.08
+    "seismic_hub_risk_score": 15.6
   },
   {
     "country": "Tonga",
@@ -677,8 +712,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 18,
-    "avg_magnitude": 5.34,
+    "earthquake_count": 19,
+    "avg_magnitude": 5.35,
     "strongest_earthquake": {
       "magnitude": 6.2,
       "date": "2026-02-10",
@@ -750,12 +785,36 @@
             "exposure_contribution": 1.86,
             "pga_g": null,
             "mmi": null
+          },
+          {
+            "earthquake_id": "us6000sarm",
+            "magnitude": 5.4,
+            "latitude": -22.1346,
+            "longitude": -176.7387,
+            "depth_km": 174.555,
+            "time_ms": 1771749947764,
+            "place": "183 km SW of Houma, Tonga",
+            "distance_km": 191.9,
+            "exposure_contribution": 0.29,
+            "pga_g": null,
+            "mmi": null
           }
         ],
-        "exposure_score": 6.82
+        "exposure_score": 7.11
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000sarm",
+        "magnitude": 5.4,
+        "latitude": -22.1346,
+        "longitude": -176.7387,
+        "depth_km": 174.555,
+        "time_ms": 1771749947764,
+        "place": "183 km SW of Houma, Tonga",
+        "country_code": "TO",
+        "shakemap_available": true
+      },
       {
         "id": "us6000s9g0",
         "magnitude": 5.2,
@@ -955,7 +1014,7 @@
         "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 6.82
+    "seismic_hub_risk_score": 7.11
   },
   {
     "country": "Japan",
@@ -1311,8 +1370,8 @@
       "MYS",
       "PNG"
     ],
-    "earthquake_count": 16,
-    "avg_magnitude": 5.21,
+    "earthquake_count": 17,
+    "avg_magnitude": 5.2,
     "strongest_earthquake": {
       "magnitude": 5.8,
       "date": "2026-02-05",
@@ -1449,6 +1508,17 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000sasp",
+        "magnitude": 5,
+        "latitude": -0.6712,
+        "longitude": 99.2601,
+        "depth_km": 50.055,
+        "time_ms": 1771774541512,
+        "place": "95 km W of Pariaman, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
       {
         "id": "us6000sa2c",
         "magnitude": 5.5,
@@ -1629,6 +1699,182 @@
     "seismic_hub_risk_score": 6.0
   },
   {
+    "country": "Peru",
+    "iso_alpha2": "PE",
+    "iso_alpha3": "PER",
+    "capital": "Lima",
+    "population": 34350244,
+    "area_km2": 1285216.0,
+    "region": "Americas",
+    "subregion": "South America",
+    "currencies": [
+      {
+        "code": "PEN",
+        "name": "Peruvian sol"
+      }
+    ],
+    "languages": [
+      "Aymara",
+      "Quechua",
+      "Spanish"
+    ],
+    "un_member": true,
+    "bordering_countries": [
+      "BOL",
+      "BRA",
+      "CHL",
+      "COL",
+      "ECU"
+    ],
+    "earthquake_count": 3,
+    "avg_magnitude": 5.1,
+    "strongest_earthquake": {
+      "magnitude": 5.3,
+      "date": "2026-02-22",
+      "depth_km": 35,
+      "latitude": -13.5581,
+      "longitude": -76.7385
+    },
+    "highest_pager_alert": null,
+    "max_felt_reports": 0,
+    "tsunami_warning_issued": false,
+    "significant_events_count": 0,
+    "exposed_airports": [
+      {
+        "name": "Jorge Chávez International Airport",
+        "iata_code": "LIM",
+        "latitude": -12.0219,
+        "longitude": -77.114305,
+        "municipality": "Lima",
+        "closest_quake_distance_km": 175.6,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us6000saww",
+            "magnitude": 5.3,
+            "latitude": -13.5581,
+            "longitude": -76.7385,
+            "depth_km": 35,
+            "time_ms": 1771799777004,
+            "place": "60 km WNW of Pisco, Peru",
+            "distance_km": 175.6,
+            "exposure_contribution": 0.51,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 0.51
+      },
+      {
+        "name": "Inca Manco Capac International Airport",
+        "iata_code": "JUL",
+        "latitude": -15.467689,
+        "longitude": -70.15653,
+        "municipality": "Juliaca",
+        "closest_quake_distance_km": 177.7,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us6000s9ch",
+            "magnitude": 5,
+            "latitude": -16.2291,
+            "longitude": -71.6166,
+            "depth_km": 130.55,
+            "time_ms": 1771135394818,
+            "place": "7 km ENE of Yura, Peru",
+            "distance_km": 177.7,
+            "exposure_contribution": 0.25,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 0.25
+      },
+      {
+        "name": "Rodríguez Ballón International Airport",
+        "iata_code": "AQP",
+        "latitude": -16.340786,
+        "longitude": -71.569485,
+        "municipality": "Arequipa",
+        "closest_quake_distance_km": 13.4,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us6000s9ch",
+            "magnitude": 5,
+            "latitude": -16.2291,
+            "longitude": -71.6166,
+            "depth_km": 130.55,
+            "time_ms": 1771135394818,
+            "place": "7 km ENE of Yura, Peru",
+            "distance_km": 13.4,
+            "exposure_contribution": 0.61,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 0.61
+      },
+      {
+        "name": "Captain Renán Elías Olivera International Airport",
+        "iata_code": "PIO",
+        "latitude": -13.7449,
+        "longitude": -76.220299,
+        "municipality": "Pisco",
+        "closest_quake_distance_km": 59.7,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us6000saww",
+            "magnitude": 5.3,
+            "latitude": -13.5581,
+            "longitude": -76.7385,
+            "depth_km": 35,
+            "time_ms": 1771799777004,
+            "place": "60 km WNW of Pisco, Peru",
+            "distance_km": 59.7,
+            "exposure_contribution": 2.21,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 2.21
+      }
+    ],
+    "earthquakes": [
+      {
+        "id": "us6000saww",
+        "magnitude": 5.3,
+        "latitude": -13.5581,
+        "longitude": -76.7385,
+        "depth_km": 35,
+        "time_ms": 1771799777004,
+        "place": "60 km WNW of Pisco, Peru",
+        "country_code": "PE",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000sara",
+        "magnitude": 5,
+        "latitude": -4.641,
+        "longitude": -76.4488,
+        "depth_km": 115.023,
+        "time_ms": 1771742632678,
+        "place": "32 km NE of Barranca, Peru",
+        "country_code": "PE",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s9ch",
+        "magnitude": 5,
+        "latitude": -16.2291,
+        "longitude": -71.6166,
+        "depth_km": 130.55,
+        "time_ms": 1771135394818,
+        "place": "7 km ENE of Yura, Peru",
+        "country_code": "PE",
+        "shakemap_available": false
+      }
+    ],
+    "seismic_hub_risk_score": 3.58
+  },
+  {
     "country": "Russia",
     "iso_alpha2": "RU",
     "iso_alpha3": "RUS",
@@ -1664,7 +1910,7 @@
       "UKR"
     ],
     "earthquake_count": 18,
-    "avg_magnitude": 5.21,
+    "avg_magnitude": 5.24,
     "strongest_earthquake": {
       "magnitude": 6,
       "date": "2026-02-16",
@@ -1742,6 +1988,17 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000sare",
+        "magnitude": 5.8,
+        "latitude": 46.8791,
+        "longitude": 153.57,
+        "depth_km": 10,
+        "time_ms": 1771745128114,
+        "place": "Kuril Islands",
+        "country_code": "RU",
+        "shakemap_available": true
+      },
       {
         "id": "us6000s9l2",
         "magnitude": 6,
@@ -1928,17 +2185,6 @@
         "place": "168 km SE of Vilyuchinsk, Russia",
         "country_code": "RU",
         "shakemap_available": false
-      },
-      {
-        "id": "us7000rrjh",
-        "magnitude": 5.1,
-        "latitude": 52.1792,
-        "longitude": 177.3723,
-        "depth_km": 10,
-        "time_ms": 1769156741388,
-        "place": "293 km ESE of Attu Station, Alaska",
-        "country_code": "RU",
-        "shakemap_available": true
       }
     ],
     "seismic_hub_risk_score": 2.04
@@ -2219,7 +2465,7 @@
       "longitude": -71.4451
     },
     "highest_pager_alert": "green",
-    "max_felt_reports": 124,
+    "max_felt_reports": 125,
     "tsunami_warning_issued": false,
     "significant_events_count": 1,
     "exposed_airports": [
