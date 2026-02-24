@@ -1,23 +1,23 @@
 # Seismic Risk Report
-Generated: 2026-02-23 06:55 UTC
+Generated: 2026-02-24 06:51 UTC
 
 ## Trend Summary
 
-Based on 88 snapshots (2020-01-31 to 2026-02-23).
+Based on 89 snapshots (2020-01-31 to 2026-02-24).
 
-**New entries**: Peru
+**New entries**: Vanuatu
 
 **Top score changes**:
 
-- Philippines (PHL): +0.5
-- Tonga (TON): +0.3
+- Philippines (PHL): 0.0
+- Tonga (TON): 0.0
 - Japan (JPN): 0.0
 - Indonesia (IDN): 0.0
-- Russia (RUS): 0.0
+- Peru (PER): 0.0
 
 **Top airport exposure changes**:
 
-- Fua'amotu International Airport (TBU, TON): +0.3
+- Laoag International Airport (LAO, PHL): 0.0
 - Francisco Bangoy International Airport (DVO, PHL): 0.0
 - General Santos International Airport (GES, PHL): 0.0
 - Laguindingan International Airport (CGY, PHL): 0.0
@@ -27,15 +27,16 @@ Based on 88 snapshots (2020-01-31 to 2026-02-23).
 
 | Country | ISO | Region | Score | Trend | Avg Mag | Strongest | Quakes | Airports | Alert | Tsunami | Sig. Events |
 |:--------|:----|:-------|------:|:------|--------:|:----------|-------:|---------:|:------|:--------|------------:|
-| Philippines | PHL | Asia | 15.6 | +0.5 | 5.2 | M5.9 (2026-01-28) | 19 | 6 | - | No | 0 |
+| Philippines | PHL | Asia | 15.6 | ~ | 5.2 | M5.9 (2026-01-28) | 20 | 6 | - | No | 0 |
 | Tonga | TON | Oceania | 7.1 | ~ | 5.3 | M6.2 (2026-02-10) | 19 | 1 | - | No | 0 |
 | Japan | JPN | Asia | 6.5 | ~ | 5.2 | M5.5 (2026-02-12) | 9 | 8 | - | No | 0 |
 | Indonesia | IDN | Asia | 6.0 | ~ | 5.2 | M5.8 (2026-02-05) | 17 | 4 | - | No | 0 |
-| Peru | PER | Americas | 3.6 | NEW | 5.1 | M5.3 (2026-02-22) | 3 | 4 | - | No | 0 |
+| Peru | PER | Americas | 3.6 | ~ | 5.1 | M5.3 (2026-02-22) | 3 | 4 | - | No | 0 |
 | Russia | RUS | Europe | 2.0 | ~ | 5.2 | M6 (2026-02-16) | 18 | 1 | - | No | 0 |
 | Solomon Islands | SLB | Oceania | 1.7 | ~ | 5.6 | M6 (2026-02-21) | 3 | 1 | - | No | 0 |
 | Papua New Guinea | PNG | Oceania | 1.6 | ~ | 5.3 | M5.7 (2026-02-21) | 6 | 1 | - | No | 0 |
 | Chile | CHL | Americas | 0.2 | ~ | 5.3 | M6.2 (2026-02-12) | 9 | 1 | green | No | 1 |
+| Vanuatu | VUT | Oceania | 0.2 | NEW | 5.4 | M6.4 (2026-02-14) | 5 | 1 | green | Yes | 1 |
 
 ## Airport Details
 
@@ -43,7 +44,7 @@ Based on 88 snapshots (2020-01-31 to 2026-02-23).
 |:--------|:-----|:-------------|:--------|--------:|:------|-------------------:|--------------:|
 | General Santos International Airport | GES | General Santos | Philippines | 10.0 | ~ | 136.9 | 16 |
 | Zamboanga International Airport | ZAM | Zamboanga | Philippines | 4.3 | ~ | 169.2 | 9 |
-| Laoag International Airport | LAO | Laoag City | Philippines | 0.5 | NEW | 149.7 | 1 |
+| Laoag International Airport | LAO | Laoag City | Philippines | 0.5 | ~ | 149.7 | 1 |
 | Francisco Bangoy International Airport | DVO | Davao | Philippines | 0.3 | ~ | 198.1 | 1 |
 | Mactan Cebu International Airport | CEB | Cebu City/Lapu-Lapu City | Philippines | 0.2 | ~ | 182.1 | 1 |
 | Laguindingan International Airport | CGY | Laguindingan | Philippines | 0.2 | ~ | 190.3 | 1 |
@@ -60,11 +61,12 @@ Based on 88 snapshots (2020-01-31 to 2026-02-23).
 | Adisutjipto International Airport | JOG | Yogyakarta | Indonesia | 2.2 | ~ | 111.4 | 2 |
 | Jenderal Ahmad Yani Airport | SRG | Semarang | Indonesia | 0.7 | ~ | 156.2 | 1 |
 | Juanda International Airport | SUB | Surabaya | Indonesia | 0.7 | ~ | 159.6 | 1 |
-| Captain Renán Elías Olivera International Airport | PIO | Pisco | Peru | 2.2 | NEW | 59.7 | 1 |
-| Rodríguez Ballón International Airport | AQP | Arequipa | Peru | 0.6 | NEW | 13.4 | 1 |
-| Jorge Chávez International Airport | LIM | Lima | Peru | 0.5 | NEW | 175.6 | 1 |
-| Inca Manco Capac International Airport | JUL | Juliaca | Peru | 0.2 | NEW | 177.7 | 1 |
+| Captain Renán Elías Olivera International Airport | PIO | Pisco | Peru | 2.2 | ~ | 59.7 | 1 |
+| Rodríguez Ballón International Airport | AQP | Arequipa | Peru | 0.6 | ~ | 13.4 | 1 |
+| Jorge Chávez International Airport | LIM | Lima | Peru | 0.5 | ~ | 175.6 | 1 |
+| Inca Manco Capac International Airport | JUL | Juliaca | Peru | 0.2 | ~ | 177.7 | 1 |
 | Yelizovo Airport | PKC | Petropavlovsk-Kamchatsky | Russia | 2.0 | ~ | 94.0 | 4 |
 | Honiara International Airport | HIR | Honiara | Solomon Islands | 1.7 | ~ | 71.0 | 1 |
 | Nadzab Tomodachi International Airport | LAE | Lae | Papua New Guinea | 1.6 | ~ | 104.2 | 2 |
 | Andrés Sabella Gálvez International Airport | ANF | Antofagasta | Chile | 0.2 | ~ | 195.0 | 1 |
+| Bauerfield International Airport | VLI | Port Vila | Vanuatu | 0.2 | NEW | 174.8 | 1 |

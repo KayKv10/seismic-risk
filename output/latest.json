@@ -20,7 +20,7 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 19,
+    "earthquake_count": 20,
     "avg_magnitude": 5.19,
     "strongest_earthquake": {
       "magnitude": 5.9,
@@ -513,6 +513,17 @@
         "shakemap_available": false
       },
       {
+        "id": "us6000s6c6",
+        "magnitude": 5,
+        "latitude": 9.3364,
+        "longitude": 126.5066,
+        "depth_km": 10,
+        "time_ms": 1770189086051,
+        "place": "35 km E of Cortes, Philippines",
+        "country_code": "PH",
+        "shakemap_available": false
+      },
+      {
         "id": "us6000s5d3",
         "magnitude": 5.1,
         "latitude": 6.4372,
@@ -805,6 +816,17 @@
     ],
     "earthquakes": [
       {
+        "id": "us6000sb07",
+        "magnitude": 5,
+        "latitude": -20.1016,
+        "longitude": -177.6036,
+        "depth_km": 393.607,
+        "time_ms": 1771838104339,
+        "place": "267 km WNW of Houma, Tonga",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
+      {
         "id": "us6000sarm",
         "magnitude": 5.4,
         "latitude": -22.1346,
@@ -971,11 +993,11 @@
       },
       {
         "id": "us7000rs3x",
-        "magnitude": 5.4,
-        "latitude": -29.4953,
-        "longitude": -177.2429,
-        "depth_km": 14.061,
-        "time_ms": 1769426746260,
+        "magnitude": 5.5,
+        "latitude": -29.5583,
+        "longitude": -177.174,
+        "depth_km": 10,
+        "time_ms": 1769426745469,
         "place": "Kermadec Islands, New Zealand",
         "country_code": "TO",
         "shakemap_available": true
@@ -1001,17 +1023,6 @@
         "place": "59 km S of ‘Ohonua, Tonga",
         "country_code": "TO",
         "shakemap_available": true
-      },
-      {
-        "id": "us7000rrsg",
-        "magnitude": 5,
-        "latitude": -21.0582,
-        "longitude": -178.7822,
-        "depth_km": 589.434,
-        "time_ms": 1769249153647,
-        "place": "Fiji region",
-        "country_code": "TO",
-        "shakemap_available": false
       }
     ],
     "seismic_hub_risk_score": 7.11
@@ -2596,5 +2607,125 @@
       }
     ],
     "seismic_hub_risk_score": 0.25
+  },
+  {
+    "country": "Vanuatu",
+    "iso_alpha2": "VU",
+    "iso_alpha3": "VUT",
+    "capital": "Port Vila",
+    "population": 321409,
+    "area_km2": 12189.0,
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "currencies": [
+      {
+        "code": "VUV",
+        "name": "Vanuatu vatu"
+      }
+    ],
+    "languages": [
+      "Bislama",
+      "English",
+      "French"
+    ],
+    "un_member": true,
+    "bordering_countries": [],
+    "earthquake_count": 5,
+    "avg_magnitude": 5.38,
+    "strongest_earthquake": {
+      "magnitude": 6.4,
+      "date": "2026-02-14",
+      "depth_km": 10,
+      "latitude": -14.8934,
+      "longitude": 166.6013
+    },
+    "highest_pager_alert": "green",
+    "max_felt_reports": 1,
+    "tsunami_warning_issued": true,
+    "significant_events_count": 1,
+    "exposed_airports": [
+      {
+        "name": "Bauerfield International Airport",
+        "iata_code": "VLI",
+        "latitude": -17.699301,
+        "longitude": 168.320007,
+        "municipality": "Port Vila",
+        "closest_quake_distance_km": 174.8,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us6000say0",
+            "magnitude": 5,
+            "latitude": -16.184,
+            "longitude": 167.8834,
+            "depth_km": 186.816,
+            "time_ms": 1771816354535,
+            "place": "50 km E of Lakatoro, Vanuatu",
+            "distance_km": 174.8,
+            "exposure_contribution": 0.19,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 0.19
+      }
+    ],
+    "earthquakes": [
+      {
+        "id": "us6000say0",
+        "magnitude": 5,
+        "latitude": -16.184,
+        "longitude": 167.8834,
+        "depth_km": 186.816,
+        "time_ms": 1771816354535,
+        "place": "50 km E of Lakatoro, Vanuatu",
+        "country_code": "VU",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000saq6",
+        "magnitude": 5.1,
+        "latitude": -15.4434,
+        "longitude": 166.6076,
+        "depth_km": 10,
+        "time_ms": 1771723373812,
+        "place": "60 km W of Luganville, Vanuatu",
+        "country_code": "VU",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000saef",
+        "magnitude": 5.4,
+        "latitude": -13.8873,
+        "longitude": 172.4032,
+        "depth_km": 608.731,
+        "time_ms": 1771599461646,
+        "place": "Vanuatu region",
+        "country_code": "VU",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000s9we",
+        "magnitude": 5,
+        "latitude": -14.2467,
+        "longitude": 166.6113,
+        "depth_km": 10,
+        "time_ms": 1771375529130,
+        "place": "101 km NNW of Port-Olry, Vanuatu",
+        "country_code": "VU",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s94q",
+        "magnitude": 6.4,
+        "latitude": -14.8934,
+        "longitude": 166.6013,
+        "depth_km": 10,
+        "time_ms": 1771036057951,
+        "place": "53 km WNW of Port-Olry, Vanuatu",
+        "country_code": "VU",
+        "shakemap_available": true
+      }
+    ],
+    "seismic_hub_risk_score": 0.19
   }
 ]
