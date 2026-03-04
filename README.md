@@ -76,18 +76,18 @@ curl "http://localhost:8000/risk?min_magnitude=4.0&days=14&format=csv"
 *Updated daily by [GitHub Actions](https://github.com/KayKv10/seismic-risk/actions/workflows/daily-report.yml). View the [interactive map](https://kaykv10.github.io/seismic-risk/latest.html).*
 
 <!-- LATEST_RESULTS_START -->
-*Last updated: 2026-03-03 06:40 UTC*
+*Last updated: 2026-03-04 06:37 UTC*
 
 | # | Country | ISO | Score | Trend | Quakes | Airports | Alert |
 |--:|:--------|:----|------:|:------|-------:|---------:|:------|
-| 1 | Japan | JPN | 9.6 | ~ | 16 | 10 | - |
+| 1 | Japan | JPN | 9.6 | ~ | 17 | 10 | - |
 | 2 | Chile | CHL | 4.6 | ~ | 8 | 1 | green |
-| 3 | Indonesia | IDN | 3.0 | ~ | 15 | 3 | - |
-| 4 | Russia | RUS | 2.4 | ~ | 16 | 1 | - |
+| 3 | Indonesia | IDN | 3.0 | ~ | 16 | 3 | - |
+| 4 | Russia | RUS | 2.4 | ~ | 18 | 1 | - |
 | 5 | Papua New Guinea | PNG | 2.2 | ~ | 6 | 1 | - |
 | 6 | Solomon Islands | SLB | 1.7 | ~ | 4 | 1 | - |
 | 7 | Philippines | PHL | 1.5 | ~ | 5 | 4 | - |
-| 8 | Tonga | TON | 0.5 | -1.9 | 13 | 1 | green |
+| 8 | Tonga | TON | 0.5 | ~ | 13 | 1 | green |
 | 9 | Myanmar | MMR | 0.3 | ~ | 4 | 1 | - |
 | 10 | Vanuatu | VUT | 0.2 | ~ | 5 | 1 | green |
 <!-- LATEST_RESULTS_END -->

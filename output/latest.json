@@ -19,8 +19,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 16,
-    "avg_magnitude": 5.24,
+    "earthquake_count": 17,
+    "avg_magnitude": 5.22,
     "strongest_earthquake": {
       "magnitude": 5.6,
       "date": "2026-03-02",
@@ -314,6 +314,17 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us7000s1k2",
+        "magnitude": 5,
+        "latitude": 25.2893,
+        "longitude": 124.8906,
+        "depth_km": 10,
+        "time_ms": 1772496703467,
+        "place": "67 km NW of Hirara, Japan",
+        "country_code": "JP",
+        "shakemap_available": false
+      },
       {
         "id": "us7000s1en",
         "magnitude": 5.6,
@@ -685,14 +696,14 @@
       "MYS",
       "PNG"
     ],
-    "earthquake_count": 15,
-    "avg_magnitude": 5.19,
+    "earthquake_count": 16,
+    "avg_magnitude": 5.25,
     "strongest_earthquake": {
-      "magnitude": 5.8,
-      "date": "2026-02-05",
-      "depth_km": 40,
-      "latitude": -8.8557,
-      "longitude": 111.1897
+      "magnitude": 6.2,
+      "date": "2026-03-03",
+      "depth_km": 18,
+      "latitude": 2.042,
+      "longitude": 96.7387
     },
     "highest_pager_alert": null,
     "max_felt_reports": 0,
@@ -773,6 +784,17 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us7000s1ln",
+        "magnitude": 6.2,
+        "latitude": 2.042,
+        "longitude": 96.7387,
+        "depth_km": 18,
+        "time_ms": 1772513806093,
+        "place": "62 km SE of Sinabang, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": true
+      },
       {
         "id": "us7000s10h",
         "magnitude": 5.1,
@@ -976,8 +998,8 @@
       "POL",
       "UKR"
     ],
-    "earthquake_count": 16,
-    "avg_magnitude": 5.33,
+    "earthquake_count": 18,
+    "avg_magnitude": 5.31,
     "strongest_earthquake": {
       "magnitude": 6,
       "date": "2026-02-16",
@@ -1055,6 +1077,28 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us7000s1nu",
+        "magnitude": 5.2,
+        "latitude": 52.2167,
+        "longitude": 176.4919,
+        "depth_km": 10,
+        "time_ms": 1772534663505,
+        "place": "235 km ESE of Attu Station, Alaska",
+        "country_code": "RU",
+        "shakemap_available": true
+      },
+      {
+        "id": "us7000s1lc",
+        "magnitude": 5.1,
+        "latitude": 51.0326,
+        "longitude": 158.4253,
+        "depth_km": 41.402,
+        "time_ms": 1772504204453,
+        "place": "143 km ESE of Ozernovskiy, Russia",
+        "country_code": "RU",
+        "shakemap_available": false
+      },
       {
         "id": "us7000s1jn",
         "magnitude": 5.3,
@@ -1856,11 +1900,11 @@
       {
         "id": "us6000s7pk",
         "magnitude": 5.6,
-        "latitude": -14.9377,
-        "longitude": -173.0039,
+        "latitude": -14.9766,
+        "longitude": -172.999,
         "depth_km": 10,
-        "time_ms": 1770758082336,
-        "place": "141 km NE of Hihifo, Tonga",
+        "time_ms": 1770758082380,
+        "place": "137 km NE of Hihifo, Tonga",
         "country_code": "TO",
         "shakemap_available": true
       },
