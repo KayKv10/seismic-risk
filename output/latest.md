@@ -1,9 +1,9 @@
 # Seismic Risk Report
-Generated: 2026-03-04 06:37 UTC
+Generated: 2026-03-05 06:40 UTC
 
 ## Trend Summary
 
-Based on 89 snapshots (2020-09-30 to 2026-03-04).
+Based on 89 snapshots (2020-10-31 to 2026-03-05).
 
 
 **Top score changes**:
@@ -28,8 +28,8 @@ Based on 89 snapshots (2020-09-30 to 2026-03-04).
 |:--------|:----|:-------|------:|:------|--------:|:----------|-------:|---------:|:------|:--------|------------:|
 | Japan | JPN | Asia | 9.6 | ~ | 5.2 | M5.6 (2026-03-02) | 17 | 10 | - | No | 0 |
 | Chile | CHL | Americas | 4.6 | ~ | 5.3 | M6.2 (2026-02-12) | 8 | 1 | green | No | 1 |
-| Indonesia | IDN | Asia | 3.0 | ~ | 5.2 | M6.2 (2026-03-03) | 16 | 3 | - | No | 0 |
-| Russia | RUS | Europe | 2.4 | ~ | 5.3 | M6 (2026-02-16) | 18 | 1 | - | No | 0 |
+| Indonesia | IDN | Asia | 3.0 | ~ | 5.3 | M6.2 (2026-03-03) | 15 | 3 | - | No | 0 |
+| Russia | RUS | Europe | 2.4 | ~ | 5.4 | M6.4 (2026-03-04) | 20 | 1 | green | Yes | 1 |
 | Papua New Guinea | PNG | Oceania | 2.2 | ~ | 5.3 | M5.7 (2026-02-21) | 6 | 1 | - | No | 0 |
 | Solomon Islands | SLB | Oceania | 1.7 | ~ | 5.4 | M5.9 (2026-02-21) | 4 | 1 | - | No | 0 |
 | Philippines | PHL | Asia | 1.5 | ~ | 5.1 | M5.3 (2026-02-28) | 5 | 4 | - | No | 0 |

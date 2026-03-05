@@ -696,8 +696,8 @@
       "MYS",
       "PNG"
     ],
-    "earthquake_count": 16,
-    "avg_magnitude": 5.25,
+    "earthquake_count": 15,
+    "avg_magnitude": 5.27,
     "strongest_earthquake": {
       "magnitude": 6.2,
       "date": "2026-03-03",
@@ -862,17 +862,6 @@
         "shakemap_available": false
       },
       {
-        "id": "us6000s9u1",
-        "magnitude": 5,
-        "latitude": -8.2889,
-        "longitude": 108.1016,
-        "depth_km": 83.7,
-        "time_ms": 1771351252572,
-        "place": "101 km S of Kawalu, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
         "id": "us6000s9mt",
         "magnitude": 5,
         "latitude": -5.6101,
@@ -896,12 +885,12 @@
       },
       {
         "id": "us6000s9ci",
-        "magnitude": 5,
-        "latitude": -4.3562,
-        "longitude": 102.3859,
-        "depth_km": 66.131,
-        "time_ms": 1771136082668,
-        "place": "62 km SSE of Bengkulu, Indonesia",
+        "magnitude": 5.1,
+        "latitude": -4.3166,
+        "longitude": 102.3737,
+        "depth_km": 64.946,
+        "time_ms": 1771136082695,
+        "place": "58 km SSE of Bengkulu, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
       },
@@ -998,19 +987,19 @@
       "POL",
       "UKR"
     ],
-    "earthquake_count": 18,
-    "avg_magnitude": 5.31,
+    "earthquake_count": 20,
+    "avg_magnitude": 5.37,
     "strongest_earthquake": {
-      "magnitude": 6,
-      "date": "2026-02-16",
-      "depth_km": 43,
-      "latitude": 51.2808,
-      "longitude": 157.6376
+      "magnitude": 6.4,
+      "date": "2026-03-04",
+      "depth_km": 10,
+      "latitude": 52.2664,
+      "longitude": 176.3634
     },
-    "highest_pager_alert": null,
+    "highest_pager_alert": "green",
     "max_felt_reports": 0,
-    "tsunami_warning_issued": false,
-    "significant_events_count": 0,
+    "tsunami_warning_issued": true,
+    "significant_events_count": 1,
     "exposed_airports": [
       {
         "name": "Yelizovo Airport",
@@ -1077,6 +1066,28 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us7000s211",
+        "magnitude": 6.4,
+        "latitude": 52.2664,
+        "longitude": 176.3634,
+        "depth_km": 10,
+        "time_ms": 1772646876733,
+        "place": "224 km ESE of Attu Station, Alaska",
+        "country_code": "RU",
+        "shakemap_available": true
+      },
+      {
+        "id": "us7000s1z1",
+        "magnitude": 5.4,
+        "latitude": 52.2374,
+        "longitude": 176.3148,
+        "depth_km": 10,
+        "time_ms": 1772630819753,
+        "place": "222 km ESE of Attu Station, Alaska",
+        "country_code": "RU",
+        "shakemap_available": true
+      },
       {
         "id": "us7000s1nu",
         "magnitude": 5.2,
@@ -2166,11 +2177,11 @@
       {
         "id": "us6000s9we",
         "magnitude": 5,
-        "latitude": -14.2467,
-        "longitude": 166.6113,
+        "latitude": -14.2203,
+        "longitude": 166.6369,
         "depth_km": 10,
-        "time_ms": 1771375529130,
-        "place": "101 km NNW of Port-Olry, Vanuatu",
+        "time_ms": 1771375529075,
+        "place": "102 km NNW of Port-Olry, Vanuatu",
         "country_code": "VU",
         "shakemap_available": false
       },
