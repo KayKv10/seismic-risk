@@ -19,7 +19,7 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 17,
+    "earthquake_count": 18,
     "avg_magnitude": 5.22,
     "strongest_earthquake": {
       "magnitude": 5.6,
@@ -315,6 +315,17 @@
     ],
     "earthquakes": [
       {
+        "id": "us7000s278",
+        "magnitude": 5.2,
+        "latitude": 25.2035,
+        "longitude": 125.0077,
+        "depth_km": 10.156,
+        "time_ms": 1772707701013,
+        "place": "53 km NW of Hirara, Japan",
+        "country_code": "JP",
+        "shakemap_available": false
+      },
+      {
         "id": "us7000s1k2",
         "magnitude": 5,
         "latitude": 25.2893,
@@ -471,11 +482,11 @@
       {
         "id": "us6000s8l3",
         "magnitude": 5,
-        "latitude": 43.9991,
-        "longitude": 148.9281,
+        "latitude": 44.0622,
+        "longitude": 148.7883,
         "depth_km": 10,
-        "time_ms": 1770931928993,
-        "place": "159 km SSE of Kuril’sk, Russia",
+        "time_ms": 1770931929154,
+        "place": "148 km SSE of Kuril’sk, Russia",
         "country_code": "JP",
         "shakemap_available": false
       },
@@ -528,8 +539,8 @@
       "BOL",
       "PER"
     ],
-    "earthquake_count": 8,
-    "avg_magnitude": 5.29,
+    "earthquake_count": 7,
+    "avg_magnitude": 5.3,
     "strongest_earthquake": {
       "magnitude": 6.2,
       "date": "2026-02-12",
@@ -657,17 +668,6 @@
         "place": "31 km S of La Tirana, Chile",
         "country_code": "CL",
         "shakemap_available": false
-      },
-      {
-        "id": "us6000s6cr",
-        "magnitude": 5.2,
-        "latitude": -41.0962,
-        "longitude": -91.3066,
-        "depth_km": 10,
-        "time_ms": 1770158345977,
-        "place": "southeast of Easter Island",
-        "country_code": "CL",
-        "shakemap_available": false
       }
     ],
     "seismic_hub_risk_score": 4.62
@@ -696,8 +696,8 @@
       "MYS",
       "PNG"
     ],
-    "earthquake_count": 15,
-    "avg_magnitude": 5.27,
+    "earthquake_count": 14,
+    "avg_magnitude": 5.29,
     "strongest_earthquake": {
       "magnitude": 6.2,
       "date": "2026-03-03",
@@ -908,11 +908,11 @@
       {
         "id": "us6000s7es",
         "magnitude": 5,
-        "latitude": 2.3162,
-        "longitude": 126.7988,
-        "depth_km": 44.944,
-        "time_ms": 1770625852410,
-        "place": "149 km WNW of Tobelo, Indonesia",
+        "latitude": 2.3512,
+        "longitude": 126.7963,
+        "depth_km": 36.888,
+        "time_ms": 1770625851571,
+        "place": "151 km WNW of Tobelo, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
       },
@@ -935,17 +935,6 @@
         "depth_km": 10.324,
         "time_ms": 1770165390890,
         "place": "150 km SSW of Tual, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s62k",
-        "magnitude": 5,
-        "latitude": -6.528,
-        "longitude": 129.7984,
-        "depth_km": 148.807,
-        "time_ms": 1770087046906,
-        "place": "Banda Sea",
         "country_code": "ID",
         "shakemap_available": false
       }
@@ -987,7 +976,7 @@
       "POL",
       "UKR"
     ],
-    "earthquake_count": 20,
+    "earthquake_count": 19,
     "avg_magnitude": 5.37,
     "strongest_earthquake": {
       "magnitude": 6.4,
@@ -1036,19 +1025,6 @@
             "mmi": null
           },
           {
-            "earthquake_id": "us6000s7m0",
-            "magnitude": 5.1,
-            "latitude": 51.9126,
-            "longitude": 159.6355,
-            "depth_km": 49.073,
-            "time_ms": 1770716690859,
-            "place": "140 km SE of Vilyuchinsk, Russia",
-            "distance_km": 161.0,
-            "exposure_contribution": 0.45,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
             "earthquake_id": "us7000s0dq",
             "magnitude": 5.7,
             "latitude": 51.5562,
@@ -1062,7 +1038,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 2.37
+        "exposure_score": 1.92
       }
     ],
     "earthquakes": [
@@ -1244,23 +1220,23 @@
       },
       {
         "id": "us6000s7m0",
-        "magnitude": 5.1,
-        "latitude": 51.9126,
-        "longitude": 159.6355,
-        "depth_km": 49.073,
-        "time_ms": 1770716690859,
-        "place": "140 km SE of Vilyuchinsk, Russia",
+        "magnitude": 5,
+        "latitude": 51.629,
+        "longitude": 159.9762,
+        "depth_km": 10,
+        "time_ms": 1770716684627,
+        "place": "180 km SE of Vilyuchinsk, Russia",
         "country_code": "RU",
         "shakemap_available": false
       },
       {
         "id": "us6000s7e3",
-        "magnitude": 5.3,
-        "latitude": 51.3672,
-        "longitude": 159.6802,
+        "magnitude": 5.1,
+        "latitude": 51.3933,
+        "longitude": 159.4617,
         "depth_km": 10,
-        "time_ms": 1770613781077,
-        "place": "194 km SSE of Vilyuchinsk, Russia",
+        "time_ms": 1770613780796,
+        "place": "185 km SSE of Vilyuchinsk, Russia",
         "country_code": "RU",
         "shakemap_available": false
       },
@@ -1274,179 +1250,9 @@
         "place": "92 km E of Petropavlovsk-Kamchatsky, Russia",
         "country_code": "RU",
         "shakemap_available": false
-      },
-      {
-        "id": "us6000s628",
-        "magnitude": 5,
-        "latitude": 56.2055,
-        "longitude": 161.5624,
-        "depth_km": 77.682,
-        "time_ms": 1770078803615,
-        "place": "46 km ESE of Klyuchi, Russia",
-        "country_code": "RU",
-        "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 2.37
-  },
-  {
-    "country": "Papua New Guinea",
-    "iso_alpha2": "PG",
-    "iso_alpha3": "PNG",
-    "capital": "Port Moresby",
-    "population": 11781559,
-    "area_km2": 462840.0,
-    "region": "Oceania",
-    "subregion": "Melanesia",
-    "currencies": [
-      {
-        "code": "PGK",
-        "name": "Papua New Guinean kina"
-      }
-    ],
-    "languages": [
-      "English",
-      "Hiri Motu",
-      "Tok Pisin"
-    ],
-    "un_member": true,
-    "bordering_countries": [
-      "IDN"
-    ],
-    "earthquake_count": 6,
-    "avg_magnitude": 5.32,
-    "strongest_earthquake": {
-      "magnitude": 5.7,
-      "date": "2026-02-21",
-      "depth_km": 71.6,
-      "latitude": -5.3681,
-      "longitude": 145.8345
-    },
-    "highest_pager_alert": null,
-    "max_felt_reports": 0,
-    "tsunami_warning_issued": false,
-    "significant_events_count": 0,
-    "exposed_airports": [
-      {
-        "name": "Nadzab Tomodachi International Airport",
-        "iata_code": "LAE",
-        "latitude": -6.567995,
-        "longitude": 146.726544,
-        "municipality": "Lae",
-        "closest_quake_distance_km": 104.2,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us6000s692",
-            "magnitude": 5.2,
-            "latitude": -6.2328,
-            "longitude": 147.6073,
-            "depth_km": 66.674,
-            "time_ms": 1770146496375,
-            "place": "44 km NW of Finschhafen, Papua New Guinea",
-            "distance_km": 104.2,
-            "exposure_contribution": 0.84,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
-            "earthquake_id": "us6000saks",
-            "magnitude": 5.7,
-            "latitude": -5.3681,
-            "longitude": 145.8345,
-            "depth_km": 71.612,
-            "time_ms": 1771654723942,
-            "place": "17 km SSE of Madang, Papua New Guinea",
-            "distance_km": 165.9,
-            "exposure_contribution": 0.8,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
-            "earthquake_id": "us7000s06i",
-            "magnitude": 5.5,
-            "latitude": -5.2615,
-            "longitude": 145.9051,
-            "depth_km": 72.12,
-            "time_ms": 1772018042996,
-            "place": "13 km ESE of Madang, Papua New Guinea",
-            "distance_km": 171.3,
-            "exposure_contribution": 0.61,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 2.24
-      }
-    ],
-    "earthquakes": [
-      {
-        "id": "us7000s106",
-        "magnitude": 5.4,
-        "latitude": -5.5231,
-        "longitude": 151.8702,
-        "depth_km": 41.382,
-        "time_ms": 1772259806154,
-        "place": "137 km SSW of Kokopo, Papua New Guinea",
-        "country_code": "PG",
-        "shakemap_available": true
-      },
-      {
-        "id": "us7000s06i",
-        "magnitude": 5.5,
-        "latitude": -5.2615,
-        "longitude": 145.9051,
-        "depth_km": 72.12,
-        "time_ms": 1772018042996,
-        "place": "13 km ESE of Madang, Papua New Guinea",
-        "country_code": "PG",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000saks",
-        "magnitude": 5.7,
-        "latitude": -5.3681,
-        "longitude": 145.8345,
-        "depth_km": 71.612,
-        "time_ms": 1771654723942,
-        "place": "17 km SSE of Madang, Papua New Guinea",
-        "country_code": "PG",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000s7v9",
-        "magnitude": 5.1,
-        "latitude": -4.224,
-        "longitude": 153.0031,
-        "depth_km": 10,
-        "time_ms": 1770831821434,
-        "place": "82 km E of Kokopo, Papua New Guinea",
-        "country_code": "PG",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s6bp",
-        "magnitude": 5,
-        "latitude": -5.61,
-        "longitude": 150.0798,
-        "depth_km": 138.904,
-        "time_ms": 1770179154310,
-        "place": "9 km SW of Kimbe, Papua New Guinea",
-        "country_code": "PG",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s692",
-        "magnitude": 5.2,
-        "latitude": -6.2328,
-        "longitude": 147.6073,
-        "depth_km": 66.674,
-        "time_ms": 1770146496375,
-        "place": "44 km NW of Finschhafen, Papua New Guinea",
-        "country_code": "PG",
-        "shakemap_available": false
-      }
-    ],
-    "seismic_hub_risk_score": 2.24
+    "seismic_hub_risk_score": 1.92
   },
   {
     "country": "Solomon Islands",
@@ -1747,6 +1553,141 @@
     "seismic_hub_risk_score": 1.5
   },
   {
+    "country": "Papua New Guinea",
+    "iso_alpha2": "PG",
+    "iso_alpha3": "PNG",
+    "capital": "Port Moresby",
+    "population": 11781559,
+    "area_km2": 462840.0,
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "currencies": [
+      {
+        "code": "PGK",
+        "name": "Papua New Guinean kina"
+      }
+    ],
+    "languages": [
+      "English",
+      "Hiri Motu",
+      "Tok Pisin"
+    ],
+    "un_member": true,
+    "bordering_countries": [
+      "IDN"
+    ],
+    "earthquake_count": 5,
+    "avg_magnitude": 5.34,
+    "strongest_earthquake": {
+      "magnitude": 5.7,
+      "date": "2026-02-21",
+      "depth_km": 71.6,
+      "latitude": -5.3681,
+      "longitude": 145.8345
+    },
+    "highest_pager_alert": null,
+    "max_felt_reports": 0,
+    "tsunami_warning_issued": false,
+    "significant_events_count": 0,
+    "exposed_airports": [
+      {
+        "name": "Nadzab Tomodachi International Airport",
+        "iata_code": "LAE",
+        "latitude": -6.567995,
+        "longitude": 146.726544,
+        "municipality": "Lae",
+        "closest_quake_distance_km": 165.9,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us6000saks",
+            "magnitude": 5.7,
+            "latitude": -5.3681,
+            "longitude": 145.8345,
+            "depth_km": 71.612,
+            "time_ms": 1771654723942,
+            "place": "17 km SSE of Madang, Papua New Guinea",
+            "distance_km": 165.9,
+            "exposure_contribution": 0.8,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
+            "earthquake_id": "us7000s06i",
+            "magnitude": 5.5,
+            "latitude": -5.2615,
+            "longitude": 145.9051,
+            "depth_km": 72.12,
+            "time_ms": 1772018042996,
+            "place": "13 km ESE of Madang, Papua New Guinea",
+            "distance_km": 171.3,
+            "exposure_contribution": 0.61,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 1.41
+      }
+    ],
+    "earthquakes": [
+      {
+        "id": "us7000s106",
+        "magnitude": 5.4,
+        "latitude": -5.5231,
+        "longitude": 151.8702,
+        "depth_km": 41.382,
+        "time_ms": 1772259806154,
+        "place": "137 km SSW of Kokopo, Papua New Guinea",
+        "country_code": "PG",
+        "shakemap_available": true
+      },
+      {
+        "id": "us7000s06i",
+        "magnitude": 5.5,
+        "latitude": -5.2615,
+        "longitude": 145.9051,
+        "depth_km": 72.12,
+        "time_ms": 1772018042996,
+        "place": "13 km ESE of Madang, Papua New Guinea",
+        "country_code": "PG",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000saks",
+        "magnitude": 5.7,
+        "latitude": -5.3681,
+        "longitude": 145.8345,
+        "depth_km": 71.612,
+        "time_ms": 1771654723942,
+        "place": "17 km SSE of Madang, Papua New Guinea",
+        "country_code": "PG",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000s7v9",
+        "magnitude": 5.1,
+        "latitude": -4.224,
+        "longitude": 153.0031,
+        "depth_km": 10,
+        "time_ms": 1770831821434,
+        "place": "82 km E of Kokopo, Papua New Guinea",
+        "country_code": "PG",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s6bp",
+        "magnitude": 5,
+        "latitude": -5.61,
+        "longitude": 150.0798,
+        "depth_km": 138.904,
+        "time_ms": 1770179154310,
+        "place": "9 km SW of Kimbe, Papua New Guinea",
+        "country_code": "PG",
+        "shakemap_available": false
+      }
+    ],
+    "seismic_hub_risk_score": 1.41
+  },
+  {
     "country": "Tonga",
     "iso_alpha2": "TO",
     "iso_alpha3": "TON",
@@ -1767,8 +1708,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 13,
-    "avg_magnitude": 5.45,
+    "earthquake_count": 12,
+    "avg_magnitude": 5.47,
     "strongest_earthquake": {
       "magnitude": 6.3,
       "date": "2026-03-01",
@@ -1951,133 +1892,9 @@
         "place": "south of the Fiji Islands",
         "country_code": "TO",
         "shakemap_available": false
-      },
-      {
-        "id": "us6000s694",
-        "magnitude": 5.2,
-        "latitude": -15.3996,
-        "longitude": -173.1534,
-        "depth_km": 10,
-        "time_ms": 1770147241851,
-        "place": "92 km NE of Hihifo, Tonga",
-        "country_code": "TO",
-        "shakemap_available": false
       }
     ],
     "seismic_hub_risk_score": 0.5
-  },
-  {
-    "country": "Myanmar",
-    "iso_alpha2": "MM",
-    "iso_alpha3": "MMR",
-    "capital": "Naypyidaw",
-    "population": 51316756,
-    "area_km2": 676578.0,
-    "region": "Asia",
-    "subregion": "South-Eastern Asia",
-    "currencies": [
-      {
-        "code": "MMK",
-        "name": "Burmese kyat"
-      }
-    ],
-    "languages": [
-      "Burmese"
-    ],
-    "un_member": true,
-    "bordering_countries": [
-      "BGD",
-      "CHN",
-      "IND",
-      "LAO",
-      "THA"
-    ],
-    "earthquake_count": 4,
-    "avg_magnitude": 5.3,
-    "strongest_earthquake": {
-      "magnitude": 5.8,
-      "date": "2026-02-03",
-      "depth_km": 59.0,
-      "latitude": 20.4368,
-      "longitude": 93.9466
-    },
-    "highest_pager_alert": null,
-    "max_felt_reports": 0,
-    "tsunami_warning_issued": false,
-    "significant_events_count": 0,
-    "exposed_airports": [
-      {
-        "name": "Mandalay International Airport",
-        "iata_code": "MDL",
-        "latitude": 21.7022,
-        "longitude": 95.977898,
-        "municipality": "Mandalay",
-        "closest_quake_distance_km": 186.6,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us7000s096",
-            "magnitude": 5.1,
-            "latitude": 22.999,
-            "longitude": 94.8268,
-            "depth_km": 129.684,
-            "time_ms": 1772038309402,
-            "place": "83 km SSE of Mawlaik, Burma (Myanmar)",
-            "distance_km": 186.6,
-            "exposure_contribution": 0.27,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 0.27
-      }
-    ],
-    "earthquakes": [
-      {
-        "id": "us7000s096",
-        "magnitude": 5.1,
-        "latitude": 22.999,
-        "longitude": 94.8268,
-        "depth_km": 129.684,
-        "time_ms": 1772038309402,
-        "place": "83 km SSE of Mawlaik, Burma (Myanmar)",
-        "country_code": "MM",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s6ug",
-        "magnitude": 5.2,
-        "latitude": 23.4869,
-        "longitude": 94.9447,
-        "depth_km": 10,
-        "time_ms": 1770337986470,
-        "place": "57 km ESE of Mawlaik, Burma (Myanmar)",
-        "country_code": "MM",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s65j",
-        "magnitude": 5.1,
-        "latitude": 20.5355,
-        "longitude": 94.0461,
-        "depth_km": 71.545,
-        "time_ms": 1770133891064,
-        "place": "86 km W of Yenangyaung, Burma (Myanmar)",
-        "country_code": "MM",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s65b",
-        "magnitude": 5.8,
-        "latitude": 20.4368,
-        "longitude": 93.9466,
-        "depth_km": 58.953,
-        "time_ms": 1770132841535,
-        "place": "96 km W of Yenangyaung, Burma (Myanmar)",
-        "country_code": "MM",
-        "shakemap_available": true
-      }
-    ],
-    "seismic_hub_risk_score": 0.27
   },
   {
     "country": "Vanuatu",

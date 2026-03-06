@@ -1,40 +1,40 @@
 # Seismic Risk Report
-Generated: 2026-03-05 06:40 UTC
+Generated: 2026-03-06 06:37 UTC
 
 ## Trend Summary
 
-Based on 89 snapshots (2020-10-31 to 2026-03-05).
+Based on 89 snapshots (2020-11-30 to 2026-03-06).
 
+**Dropped off**: Myanmar
 
 **Top score changes**:
 
+- Papua New Guinea (PNG): -0.8
+- Russia (RUS): -0.5
 - Japan (JPN): 0.0
 - Chile (CHL): 0.0
 - Indonesia (IDN): 0.0
-- Russia (RUS): 0.0
-- Papua New Guinea (PNG): 0.0
 
 **Top airport exposure changes**:
 
+- Nadzab Tomodachi International Airport (LAE, PNG): -0.8
+- Yelizovo Airport (PKC, RUS): -0.5
 - New Chitose Airport (CTS, JPN): 0.0
 - Hakodate Airport (HKD, JPN): 0.0
 - Kagoshima Airport (KOJ, JPN): 0.0
-- Miyazaki Airport (KMI, JPN): 0.0
-- Kumamoto Airport (KMJ, JPN): 0.0
 
 ## Country Summary
 
 | Country | ISO | Region | Score | Trend | Avg Mag | Strongest | Quakes | Airports | Alert | Tsunami | Sig. Events |
 |:--------|:----|:-------|------:|:------|--------:|:----------|-------:|---------:|:------|:--------|------------:|
-| Japan | JPN | Asia | 9.6 | ~ | 5.2 | M5.6 (2026-03-02) | 17 | 10 | - | No | 0 |
-| Chile | CHL | Americas | 4.6 | ~ | 5.3 | M6.2 (2026-02-12) | 8 | 1 | green | No | 1 |
-| Indonesia | IDN | Asia | 3.0 | ~ | 5.3 | M6.2 (2026-03-03) | 15 | 3 | - | No | 0 |
-| Russia | RUS | Europe | 2.4 | ~ | 5.4 | M6.4 (2026-03-04) | 20 | 1 | green | Yes | 1 |
-| Papua New Guinea | PNG | Oceania | 2.2 | ~ | 5.3 | M5.7 (2026-02-21) | 6 | 1 | - | No | 0 |
+| Japan | JPN | Asia | 9.6 | ~ | 5.2 | M5.6 (2026-03-02) | 18 | 10 | - | No | 0 |
+| Chile | CHL | Americas | 4.6 | ~ | 5.3 | M6.2 (2026-02-12) | 7 | 1 | green | No | 1 |
+| Indonesia | IDN | Asia | 3.0 | ~ | 5.3 | M6.2 (2026-03-03) | 14 | 3 | - | No | 0 |
+| Russia | RUS | Europe | 1.9 | ~ | 5.4 | M6.4 (2026-03-04) | 19 | 1 | green | Yes | 1 |
 | Solomon Islands | SLB | Oceania | 1.7 | ~ | 5.4 | M5.9 (2026-02-21) | 4 | 1 | - | No | 0 |
 | Philippines | PHL | Asia | 1.5 | ~ | 5.1 | M5.3 (2026-02-28) | 5 | 4 | - | No | 0 |
-| Tonga | TON | Oceania | 0.5 | ~ | 5.5 | M6.3 (2026-03-01) | 13 | 1 | green | No | 1 |
-| Myanmar | MMR | Asia | 0.3 | ~ | 5.3 | M5.8 (2026-02-03) | 4 | 1 | - | No | 0 |
+| Papua New Guinea | PNG | Oceania | 1.4 | -0.8 | 5.3 | M5.7 (2026-02-21) | 5 | 1 | - | No | 0 |
+| Tonga | TON | Oceania | 0.5 | ~ | 5.5 | M6.3 (2026-03-01) | 12 | 1 | green | No | 1 |
 | Vanuatu | VUT | Oceania | 0.2 | ~ | 5.4 | M6.4 (2026-02-14) | 5 | 1 | green | Yes | 1 |
 
 ## Airport Details
@@ -55,13 +55,12 @@ Based on 89 snapshots (2020-10-31 to 2026-03-05).
 | Adisutjipto International Airport | JOG | Yogyakarta | Indonesia | 1.2 | ~ | 145.1 | 1 |
 | Dhoho International Airport | DHX | Kediri | Indonesia | 1.2 | ~ | 148.5 | 1 |
 | Dortheys Hiyo Eluay International Airport | DJJ | Sentani | Indonesia | 0.6 | ~ | 192.7 | 1 |
-| Yelizovo Airport | PKC | Petropavlovsk-Kamchatsky | Russia | 2.4 | ~ | 104.9 | 4 |
-| Nadzab Tomodachi International Airport | LAE | Lae | Papua New Guinea | 2.2 | ~ | 104.2 | 3 |
+| Yelizovo Airport | PKC | Petropavlovsk-Kamchatsky | Russia | 1.9 | ~ | 104.9 | 3 |
 | Honiara International Airport | HIR | Honiara | Solomon Islands | 1.7 | ~ | 70.6 | 1 |
 | General Santos International Airport | GES | General Santos | Philippines | 0.6 | ~ | 149.0 | 1 |
 | Laoag International Airport | LAO | Laoag City | Philippines | 0.5 | ~ | 149.7 | 1 |
 | Mactan Cebu International Airport | CEB | Cebu City/Lapu-Lapu City | Philippines | 0.2 | ~ | 181.0 | 1 |
 | Laguindingan International Airport | CGY | Laguindingan | Philippines | 0.2 | ~ | 195.2 | 1 |
+| Nadzab Tomodachi International Airport | LAE | Lae | Papua New Guinea | 1.4 | -0.8 | 165.9 | 2 |
 | Fua'amotu International Airport | TBU | Nuku'alofa | Tonga | 0.5 | ~ | 138.0 | 2 |
-| Mandalay International Airport | MDL | Mandalay | Myanmar | 0.3 | ~ | 186.6 | 1 |
 | Bauerfield International Airport | VLI | Port Vila | Vanuatu | 0.2 | ~ | 174.8 | 1 |
