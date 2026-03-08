@@ -19,8 +19,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 18,
-    "avg_magnitude": 5.2,
+    "earthquake_count": 17,
+    "avg_magnitude": 5.21,
     "strongest_earthquake": {
       "magnitude": 5.6,
       "date": "2026-03-02",
@@ -265,69 +265,21 @@
         "exposure_score": 0.64
       },
       {
-        "name": "Sendai Airport",
-        "iata_code": "SDJ",
-        "latitude": 38.139702,
-        "longitude": 140.917007,
-        "municipality": "Natori",
-        "closest_quake_distance_km": 145.0,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us7000s2mt",
-            "magnitude": 5,
-            "latitude": 38.849,
-            "longitude": 142.3146,
-            "depth_km": 60.393,
-            "time_ms": 1772829112961,
-            "place": "57 km ESE of Ōfunato, Japan",
-            "distance_km": 145.0,
-            "exposure_contribution": 0.45,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 0.45
-      },
-      {
         "name": "Naha International Airport",
         "iata_code": "OKA",
         "latitude": 26.192437,
         "longitude": 127.639804,
         "municipality": "Naha",
-        "closest_quake_distance_km": 108.6,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us6000s8l6",
-            "magnitude": 5.5,
-            "latitude": 25.7653,
-            "longitude": 128.6169,
-            "depth_km": 10,
-            "time_ms": 1770932893290,
-            "place": "97 km SE of Katsuren-haebaru, Japan",
-            "distance_km": 108.6,
-            "exposure_contribution": 1.44,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 1.44
-      },
-      {
-        "name": "Kadena Air Base",
-        "iata_code": "DNA",
-        "latitude": 26.351667,
-        "longitude": 127.769444,
-        "municipality": "Okinawa",
         "closest_quake_distance_km": 106.9,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000s8l6",
             "magnitude": 5.5,
-            "latitude": 25.7653,
-            "longitude": 128.6169,
+            "latitude": 25.7669,
+            "longitude": 128.5993,
             "depth_km": 10,
-            "time_ms": 1770932893290,
-            "place": "97 km SE of Katsuren-haebaru, Japan",
+            "time_ms": 1770932893273,
+            "place": "95 km SE of Katsuren-haebaru, Japan",
             "distance_km": 106.9,
             "exposure_contribution": 1.47,
             "pga_g": null,
@@ -335,20 +287,33 @@
           }
         ],
         "exposure_score": 1.47
+      },
+      {
+        "name": "Kadena Air Base",
+        "iata_code": "DNA",
+        "latitude": 26.351667,
+        "longitude": 127.769444,
+        "municipality": "Okinawa",
+        "closest_quake_distance_km": 105.4,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us6000s8l6",
+            "magnitude": 5.5,
+            "latitude": 25.7669,
+            "longitude": 128.5993,
+            "depth_km": 10,
+            "time_ms": 1770932893273,
+            "place": "95 km SE of Katsuren-haebaru, Japan",
+            "distance_km": 105.4,
+            "exposure_contribution": 1.51,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 1.51
       }
     ],
     "earthquakes": [
-      {
-        "id": "us7000s2mt",
-        "magnitude": 5,
-        "latitude": 38.849,
-        "longitude": 142.3146,
-        "depth_km": 60.393,
-        "time_ms": 1772829112961,
-        "place": "57 km ESE of Ōfunato, Japan",
-        "country_code": "JP",
-        "shakemap_available": false
-      },
       {
         "id": "us7000s278",
         "magnitude": 5.2,
@@ -506,11 +471,11 @@
       {
         "id": "us6000s8l6",
         "magnitude": 5.5,
-        "latitude": 25.7653,
-        "longitude": 128.6169,
+        "latitude": 25.7669,
+        "longitude": 128.5993,
         "depth_km": 10,
-        "time_ms": 1770932893290,
-        "place": "97 km SE of Katsuren-haebaru, Japan",
+        "time_ms": 1770932893273,
+        "place": "95 km SE of Katsuren-haebaru, Japan",
         "country_code": "JP",
         "shakemap_available": true
       },
@@ -537,7 +502,7 @@
         "shakemap_available": true
       }
     ],
-    "seismic_hub_risk_score": 10.07
+    "seismic_hub_risk_score": 9.69
   },
   {
     "country": "Chile",
@@ -568,12 +533,12 @@
     "strongest_earthquake": {
       "magnitude": 6.2,
       "date": "2026-02-12",
-      "depth_km": 36.9,
-      "latitude": -30.8012,
-      "longitude": -71.4451
+      "depth_km": 40.2,
+      "latitude": -30.7798,
+      "longitude": -71.4214
     },
     "highest_pager_alert": "green",
-    "max_felt_reports": 125,
+    "max_felt_reports": 126,
     "tsunami_warning_issued": false,
     "significant_events_count": 1,
     "exposed_airports": [
@@ -630,11 +595,11 @@
       {
         "id": "us6000sacu",
         "magnitude": 5,
-        "latitude": -36.9701,
-        "longitude": -96.5731,
+        "latitude": -37.0647,
+        "longitude": -96.5435,
         "depth_km": 10,
-        "time_ms": 1771572072487,
-        "place": "West Chile Rise",
+        "time_ms": 1771572072264,
+        "place": "southeast of Easter Island",
         "country_code": "CL",
         "shakemap_available": false
       },
@@ -663,11 +628,11 @@
       {
         "id": "us6000s8gw",
         "magnitude": 6.2,
-        "latitude": -30.8012,
-        "longitude": -71.4451,
-        "depth_km": 36.885,
-        "time_ms": 1770903271114,
-        "place": "32 km SW of Ovalle, Chile",
+        "latitude": -30.7798,
+        "longitude": -71.4214,
+        "depth_km": 40.207,
+        "time_ms": 1770903270696,
+        "place": "29 km SW of Ovalle, Chile",
         "country_code": "CL",
         "shakemap_available": true
       },
@@ -695,286 +660,6 @@
       }
     ],
     "seismic_hub_risk_score": 4.62
-  },
-  {
-    "country": "Indonesia",
-    "iso_alpha2": "ID",
-    "iso_alpha3": "IDN",
-    "capital": "Jakarta",
-    "population": 284438782,
-    "area_km2": 1904569.0,
-    "region": "Asia",
-    "subregion": "South-Eastern Asia",
-    "currencies": [
-      {
-        "code": "IDR",
-        "name": "Indonesian rupiah"
-      }
-    ],
-    "languages": [
-      "Indonesian"
-    ],
-    "un_member": true,
-    "bordering_countries": [
-      "TLS",
-      "MYS",
-      "PNG"
-    ],
-    "earthquake_count": 15,
-    "avg_magnitude": 5.3,
-    "strongest_earthquake": {
-      "magnitude": 6.2,
-      "date": "2026-03-03",
-      "depth_km": 18,
-      "latitude": 2.042,
-      "longitude": 96.7387
-    },
-    "highest_pager_alert": null,
-    "max_felt_reports": 0,
-    "tsunami_warning_issued": false,
-    "significant_events_count": 0,
-    "exposed_airports": [
-      {
-        "name": "Dhoho International Airport",
-        "iata_code": "DHX",
-        "latitude": -7.750278,
-        "longitude": 111.947222,
-        "municipality": "Kediri",
-        "closest_quake_distance_km": 148.5,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us6000s6ne",
-            "magnitude": 5.8,
-            "latitude": -8.8557,
-            "longitude": 111.1897,
-            "depth_km": 40,
-            "time_ms": 1770314770167,
-            "place": "103 km SSW of Trenggalek, Indonesia",
-            "distance_km": 148.5,
-            "exposure_contribution": 1.18,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 1.18
-      },
-      {
-        "name": "Dortheys Hiyo Eluay International Airport",
-        "iata_code": "DJJ",
-        "latitude": -2.579627,
-        "longitude": 140.519857,
-        "municipality": "Sentani",
-        "closest_quake_distance_km": 192.7,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us7000rzxu",
-            "magnitude": 5.5,
-            "latitude": -2.1052,
-            "longitude": 138.8515,
-            "depth_km": 10.633,
-            "time_ms": 1771919208799,
-            "place": "205 km WNW of Abepura, Indonesia",
-            "distance_km": 192.7,
-            "exposure_contribution": 0.57,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 0.57
-      },
-      {
-        "name": "Adisutjipto International Airport",
-        "iata_code": "JOG",
-        "latitude": -7.78818,
-        "longitude": 110.431999,
-        "municipality": "Yogyakarta",
-        "closest_quake_distance_km": 145.1,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us6000s6ne",
-            "magnitude": 5.8,
-            "latitude": -8.8557,
-            "longitude": 111.1897,
-            "depth_km": 40,
-            "time_ms": 1770314770167,
-            "place": "103 km SSW of Trenggalek, Indonesia",
-            "distance_km": 145.1,
-            "exposure_contribution": 1.22,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 1.22
-      }
-    ],
-    "earthquakes": [
-      {
-        "id": "us7000s2m9",
-        "magnitude": 5.4,
-        "latitude": 1.6466,
-        "longitude": 128.6314,
-        "depth_km": 10,
-        "time_ms": 1772819753207,
-        "place": "69 km E of Tobelo, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": true
-      },
-      {
-        "id": "us7000s2ip",
-        "magnitude": 5.1,
-        "latitude": -3.0251,
-        "longitude": 130.1319,
-        "depth_km": 10,
-        "time_ms": 1772810867797,
-        "place": "132 km ENE of Masohi, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us7000s1ln",
-        "magnitude": 6.2,
-        "latitude": 2.042,
-        "longitude": 96.7387,
-        "depth_km": 18,
-        "time_ms": 1772513806093,
-        "place": "62 km SE of Sinabang, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": true
-      },
-      {
-        "id": "us7000s10h",
-        "magnitude": 5.1,
-        "latitude": 1.0569,
-        "longitude": 121.0325,
-        "depth_km": 46.548,
-        "time_ms": 1772261532102,
-        "place": "233 km WNW of Gorontalo, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us7000s09j",
-        "magnitude": 5,
-        "latitude": -0.3152,
-        "longitude": 99.1819,
-        "depth_km": 72.426,
-        "time_ms": 1772041772099,
-        "place": "109 km WNW of Pariaman, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us7000rzxu",
-        "magnitude": 5.5,
-        "latitude": -2.1052,
-        "longitude": 138.8515,
-        "depth_km": 10.633,
-        "time_ms": 1771919208799,
-        "place": "205 km WNW of Abepura, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000sasp",
-        "magnitude": 5,
-        "latitude": -0.6712,
-        "longitude": 99.2601,
-        "depth_km": 50.055,
-        "time_ms": 1771774541512,
-        "place": "95 km W of Pariaman, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000sa2c",
-        "magnitude": 5.5,
-        "latitude": 1.3709,
-        "longitude": 122.1572,
-        "depth_km": 10,
-        "time_ms": 1771460774231,
-        "place": "136 km NW of Gorontalo, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000s9wr",
-        "magnitude": 5.2,
-        "latitude": -6.216,
-        "longitude": 131.2277,
-        "depth_km": 71.316,
-        "time_ms": 1771380927939,
-        "place": "180 km WSW of Tual, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s9mt",
-        "magnitude": 5,
-        "latitude": -5.6101,
-        "longitude": 133.7994,
-        "depth_km": 10,
-        "time_ms": 1771285641153,
-        "place": "116 km E of Tual, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s9gm",
-        "magnitude": 5,
-        "latitude": -0.4327,
-        "longitude": 99.2638,
-        "depth_km": 59.563,
-        "time_ms": 1771221639462,
-        "place": "97 km WNW of Pariaman, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s9ci",
-        "magnitude": 5.1,
-        "latitude": -4.3166,
-        "longitude": 102.3737,
-        "depth_km": 64.946,
-        "time_ms": 1771136082695,
-        "place": "58 km SSE of Bengkulu, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s8rt",
-        "magnitude": 5.6,
-        "latitude": 4.2222,
-        "longitude": 128.2588,
-        "depth_km": 56.368,
-        "time_ms": 1770994624236,
-        "place": "277 km N of Tobelo, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000s7es",
-        "magnitude": 5,
-        "latitude": 2.3512,
-        "longitude": 126.7963,
-        "depth_km": 36.888,
-        "time_ms": 1770625851571,
-        "place": "151 km WNW of Tobelo, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s6ne",
-        "magnitude": 5.8,
-        "latitude": -8.8557,
-        "longitude": 111.1897,
-        "depth_km": 40,
-        "time_ms": 1770314770167,
-        "place": "103 km SSW of Trenggalek, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": true
-      }
-    ],
-    "seismic_hub_risk_score": 2.97
   },
   {
     "country": "China",
@@ -1451,6 +1136,210 @@
     "seismic_hub_risk_score": 2.32
   },
   {
+    "country": "Philippines",
+    "iso_alpha2": "PH",
+    "iso_alpha3": "PHL",
+    "capital": "Manila",
+    "population": 114123600,
+    "area_km2": 342353.0,
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "currencies": [
+      {
+        "code": "PHP",
+        "name": "Philippine peso"
+      }
+    ],
+    "languages": [
+      "English",
+      "Filipino"
+    ],
+    "un_member": true,
+    "bordering_countries": [],
+    "earthquake_count": 4,
+    "avg_magnitude": 5.15,
+    "strongest_earthquake": {
+      "magnitude": 5.3,
+      "date": "2026-02-28",
+      "depth_km": 76.4,
+      "latitude": 5.018,
+      "longitude": 125.9457
+    },
+    "highest_pager_alert": null,
+    "max_felt_reports": 0,
+    "tsunami_warning_issued": false,
+    "significant_events_count": 0,
+    "exposed_airports": [
+      {
+        "name": "Subic Bay International Airport / Naval Air Station Cubi Point",
+        "iata_code": "SFS",
+        "latitude": 14.794833,
+        "longitude": 120.271883,
+        "municipality": "Olongapo",
+        "closest_quake_distance_km": 116.5,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us7000s2tu",
+            "magnitude": 5,
+            "latitude": 13.8523,
+            "longitude": 120.7447,
+            "depth_km": 161.173,
+            "time_ms": 1772899494468,
+            "place": "4 km E of Hukay, Philippines",
+            "distance_km": 116.5,
+            "exposure_contribution": 0.3,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 0.3
+      },
+      {
+        "name": "Clark International Airport / Clark Air Base",
+        "iata_code": "CRK",
+        "latitude": 15.186,
+        "longitude": 120.559998,
+        "municipality": "Mabalacat",
+        "closest_quake_distance_km": 149.6,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us7000s2tu",
+            "magnitude": 5,
+            "latitude": 13.8523,
+            "longitude": 120.7447,
+            "depth_km": 161.173,
+            "time_ms": 1772899494468,
+            "place": "4 km E of Hukay, Philippines",
+            "distance_km": 149.6,
+            "exposure_contribution": 0.25,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 0.25
+      },
+      {
+        "name": "Laoag International Airport",
+        "iata_code": "LAO",
+        "latitude": 18.175089,
+        "longitude": 120.531006,
+        "municipality": "Laoag City",
+        "closest_quake_distance_km": 149.7,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us6000sas0",
+            "magnitude": 5.1,
+            "latitude": 19.3715,
+            "longitude": 121.1835,
+            "depth_km": 39.544,
+            "time_ms": 1771756843486,
+            "place": "84 km N of Namuac, Philippines",
+            "distance_km": 149.7,
+            "exposure_contribution": 0.52,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 0.52
+      },
+      {
+        "name": "Ninoy Aquino International Airport",
+        "iata_code": "MNL",
+        "latitude": 14.5086,
+        "longitude": 121.019997,
+        "municipality": "Manila (Pasay)",
+        "closest_quake_distance_km": 78.8,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us7000s2tu",
+            "magnitude": 5,
+            "latitude": 13.8523,
+            "longitude": 120.7447,
+            "depth_km": 161.173,
+            "time_ms": 1772899494468,
+            "place": "4 km E of Hukay, Philippines",
+            "distance_km": 78.8,
+            "exposure_contribution": 0.36,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 0.36
+      },
+      {
+        "name": "General Santos International Airport",
+        "iata_code": "GES",
+        "latitude": 6.057208,
+        "longitude": 125.096243,
+        "municipality": "General Santos",
+        "closest_quake_distance_km": 149.0,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us7000s135",
+            "magnitude": 5.3,
+            "latitude": 5.018,
+            "longitude": 125.9457,
+            "depth_km": 76.41,
+            "time_ms": 1772299339696,
+            "place": "68 km SE of Sarangani, Philippines",
+            "distance_km": 149.0,
+            "exposure_contribution": 0.58,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 0.58
+      }
+    ],
+    "earthquakes": [
+      {
+        "id": "us7000s2tu",
+        "magnitude": 5,
+        "latitude": 13.8523,
+        "longitude": 120.7447,
+        "depth_km": 161.173,
+        "time_ms": 1772899494468,
+        "place": "4 km E of Hukay, Philippines",
+        "country_code": "PH",
+        "shakemap_available": false
+      },
+      {
+        "id": "us7000s135",
+        "magnitude": 5.3,
+        "latitude": 5.018,
+        "longitude": 125.9457,
+        "depth_km": 76.41,
+        "time_ms": 1772299339696,
+        "place": "68 km SE of Sarangani, Philippines",
+        "country_code": "PH",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000sas0",
+        "magnitude": 5.1,
+        "latitude": 19.3715,
+        "longitude": 121.1835,
+        "depth_km": 39.544,
+        "time_ms": 1771756843486,
+        "place": "84 km N of Namuac, Philippines",
+        "country_code": "PH",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s98c",
+        "magnitude": 5.2,
+        "latitude": 5.6698,
+        "longitude": 127.1203,
+        "depth_km": 78.851,
+        "time_ms": 1771089783156,
+        "place": "129 km SE of Pondaguitan, Philippines",
+        "country_code": "PH",
+        "shakemap_available": false
+      }
+    ],
+    "seismic_hub_risk_score": 2.01
+  },
+  {
     "country": "Solomon Islands",
     "iso_alpha2": "SB",
     "iso_alpha3": "SLB",
@@ -1567,186 +1456,6 @@
       }
     ],
     "seismic_hub_risk_score": 1.66
-  },
-  {
-    "country": "Philippines",
-    "iso_alpha2": "PH",
-    "iso_alpha3": "PHL",
-    "capital": "Manila",
-    "population": 114123600,
-    "area_km2": 342353.0,
-    "region": "Asia",
-    "subregion": "South-Eastern Asia",
-    "currencies": [
-      {
-        "code": "PHP",
-        "name": "Philippine peso"
-      }
-    ],
-    "languages": [
-      "English",
-      "Filipino"
-    ],
-    "un_member": true,
-    "bordering_countries": [],
-    "earthquake_count": 4,
-    "avg_magnitude": 5.15,
-    "strongest_earthquake": {
-      "magnitude": 5.3,
-      "date": "2026-02-28",
-      "depth_km": 76.4,
-      "latitude": 5.018,
-      "longitude": 125.9457
-    },
-    "highest_pager_alert": null,
-    "max_felt_reports": 0,
-    "tsunami_warning_issued": false,
-    "significant_events_count": 0,
-    "exposed_airports": [
-      {
-        "name": "Laoag International Airport",
-        "iata_code": "LAO",
-        "latitude": 18.175089,
-        "longitude": 120.531006,
-        "municipality": "Laoag City",
-        "closest_quake_distance_km": 149.7,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us6000sas0",
-            "magnitude": 5.1,
-            "latitude": 19.3715,
-            "longitude": 121.1835,
-            "depth_km": 39.544,
-            "time_ms": 1771756843486,
-            "place": "84 km N of Namuac, Philippines",
-            "distance_km": 149.7,
-            "exposure_contribution": 0.52,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 0.52
-      },
-      {
-        "name": "General Santos International Airport",
-        "iata_code": "GES",
-        "latitude": 6.057208,
-        "longitude": 125.096243,
-        "municipality": "General Santos",
-        "closest_quake_distance_km": 149.0,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us7000s135",
-            "magnitude": 5.3,
-            "latitude": 5.018,
-            "longitude": 125.9457,
-            "depth_km": 76.41,
-            "time_ms": 1772299339696,
-            "place": "68 km SE of Sarangani, Philippines",
-            "distance_km": 149.0,
-            "exposure_contribution": 0.58,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 0.58
-      },
-      {
-        "name": "Laguindingan International Airport",
-        "iata_code": "CGY",
-        "latitude": 8.612203,
-        "longitude": 124.456496,
-        "municipality": "Laguindingan",
-        "closest_quake_distance_km": 195.2,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us6000s6q8",
-            "magnitude": 5,
-            "latitude": 9.9608,
-            "longitude": 125.5946,
-            "depth_km": 162.508,
-            "time_ms": 1770315351506,
-            "place": "0 km NNE of Dinagat, Philippines",
-            "distance_km": 195.2,
-            "exposure_contribution": 0.19,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 0.19
-      },
-      {
-        "name": "Mactan Cebu International Airport",
-        "iata_code": "CEB",
-        "latitude": 10.309261,
-        "longitude": 123.97974,
-        "municipality": "Cebu City/Lapu-Lapu City",
-        "closest_quake_distance_km": 181.0,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us6000s6q8",
-            "magnitude": 5,
-            "latitude": 9.9608,
-            "longitude": 125.5946,
-            "depth_km": 162.508,
-            "time_ms": 1770315351506,
-            "place": "0 km NNE of Dinagat, Philippines",
-            "distance_km": 181.0,
-            "exposure_contribution": 0.21,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 0.21
-      }
-    ],
-    "earthquakes": [
-      {
-        "id": "us7000s135",
-        "magnitude": 5.3,
-        "latitude": 5.018,
-        "longitude": 125.9457,
-        "depth_km": 76.41,
-        "time_ms": 1772299339696,
-        "place": "68 km SE of Sarangani, Philippines",
-        "country_code": "PH",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000sas0",
-        "magnitude": 5.1,
-        "latitude": 19.3715,
-        "longitude": 121.1835,
-        "depth_km": 39.544,
-        "time_ms": 1771756843486,
-        "place": "84 km N of Namuac, Philippines",
-        "country_code": "PH",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s98c",
-        "magnitude": 5.2,
-        "latitude": 5.6698,
-        "longitude": 127.1203,
-        "depth_km": 78.851,
-        "time_ms": 1771089783156,
-        "place": "129 km SE of Pondaguitan, Philippines",
-        "country_code": "PH",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s6q8",
-        "magnitude": 5,
-        "latitude": 9.9608,
-        "longitude": 125.5946,
-        "depth_km": 162.508,
-        "time_ms": 1770315351506,
-        "place": "0 km NNE of Dinagat, Philippines",
-        "country_code": "PH",
-        "shakemap_available": false
-      }
-    ],
-    "seismic_hub_risk_score": 1.5
   },
   {
     "country": "Papua New Guinea",
@@ -1873,6 +1582,238 @@
     "seismic_hub_risk_score": 1.41
   },
   {
+    "country": "Indonesia",
+    "iso_alpha2": "ID",
+    "iso_alpha3": "IDN",
+    "capital": "Jakarta",
+    "population": 284438782,
+    "area_km2": 1904569.0,
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "currencies": [
+      {
+        "code": "IDR",
+        "name": "Indonesian rupiah"
+      }
+    ],
+    "languages": [
+      "Indonesian"
+    ],
+    "un_member": true,
+    "bordering_countries": [
+      "TLS",
+      "MYS",
+      "PNG"
+    ],
+    "earthquake_count": 15,
+    "avg_magnitude": 5.25,
+    "strongest_earthquake": {
+      "magnitude": 6.2,
+      "date": "2026-03-03",
+      "depth_km": 18,
+      "latitude": 2.042,
+      "longitude": 96.7387
+    },
+    "highest_pager_alert": null,
+    "max_felt_reports": 0,
+    "tsunami_warning_issued": false,
+    "significant_events_count": 0,
+    "exposed_airports": [
+      {
+        "name": "Dortheys Hiyo Eluay International Airport",
+        "iata_code": "DJJ",
+        "latitude": -2.579627,
+        "longitude": 140.519857,
+        "municipality": "Sentani",
+        "closest_quake_distance_km": 192.7,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us7000rzxu",
+            "magnitude": 5.5,
+            "latitude": -2.1052,
+            "longitude": 138.8515,
+            "depth_km": 10.633,
+            "time_ms": 1771919208799,
+            "place": "205 km WNW of Abepura, Indonesia",
+            "distance_km": 192.7,
+            "exposure_contribution": 0.57,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 0.57
+      }
+    ],
+    "earthquakes": [
+      {
+        "id": "us7000s2u5",
+        "magnitude": 5.2,
+        "latitude": -2.8756,
+        "longitude": 101.6747,
+        "depth_km": 88.787,
+        "time_ms": 1772902723886,
+        "place": "95 km SSE of Sungai Penuh, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us7000s2m9",
+        "magnitude": 5.3,
+        "latitude": 1.6563,
+        "longitude": 128.6057,
+        "depth_km": 10,
+        "time_ms": 1772819753065,
+        "place": "66 km E of Tobelo, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": true
+      },
+      {
+        "id": "us7000s2ip",
+        "magnitude": 5.1,
+        "latitude": -3.0251,
+        "longitude": 130.1319,
+        "depth_km": 10,
+        "time_ms": 1772810867797,
+        "place": "132 km ENE of Masohi, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us7000s1ln",
+        "magnitude": 6.2,
+        "latitude": 2.042,
+        "longitude": 96.7387,
+        "depth_km": 18,
+        "time_ms": 1772513806093,
+        "place": "62 km SE of Sinabang, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": true
+      },
+      {
+        "id": "us7000s10h",
+        "magnitude": 5.1,
+        "latitude": 1.0569,
+        "longitude": 121.0325,
+        "depth_km": 46.548,
+        "time_ms": 1772261532102,
+        "place": "233 km WNW of Gorontalo, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us7000s09j",
+        "magnitude": 5,
+        "latitude": -0.3152,
+        "longitude": 99.1819,
+        "depth_km": 72.426,
+        "time_ms": 1772041772099,
+        "place": "109 km WNW of Pariaman, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us7000rzxu",
+        "magnitude": 5.5,
+        "latitude": -2.1052,
+        "longitude": 138.8515,
+        "depth_km": 10.633,
+        "time_ms": 1771919208799,
+        "place": "205 km WNW of Abepura, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000sasp",
+        "magnitude": 5,
+        "latitude": -0.6712,
+        "longitude": 99.2601,
+        "depth_km": 50.055,
+        "time_ms": 1771774541512,
+        "place": "95 km W of Pariaman, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000sa2c",
+        "magnitude": 5.5,
+        "latitude": 1.3709,
+        "longitude": 122.1572,
+        "depth_km": 10,
+        "time_ms": 1771460774231,
+        "place": "136 km NW of Gorontalo, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000s9wr",
+        "magnitude": 5.2,
+        "latitude": -6.216,
+        "longitude": 131.2277,
+        "depth_km": 71.316,
+        "time_ms": 1771380927939,
+        "place": "180 km WSW of Tual, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s9mt",
+        "magnitude": 5,
+        "latitude": -5.6101,
+        "longitude": 133.7994,
+        "depth_km": 10,
+        "time_ms": 1771285641153,
+        "place": "116 km E of Tual, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s9gm",
+        "magnitude": 5,
+        "latitude": -0.4327,
+        "longitude": 99.2638,
+        "depth_km": 59.563,
+        "time_ms": 1771221639462,
+        "place": "97 km WNW of Pariaman, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s9ci",
+        "magnitude": 5.1,
+        "latitude": -4.3166,
+        "longitude": 102.3737,
+        "depth_km": 64.946,
+        "time_ms": 1771136082695,
+        "place": "58 km SSE of Bengkulu, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000s8rt",
+        "magnitude": 5.6,
+        "latitude": 4.2222,
+        "longitude": 128.2588,
+        "depth_km": 56.368,
+        "time_ms": 1770994624236,
+        "place": "277 km N of Tobelo, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000s7es",
+        "magnitude": 5,
+        "latitude": 2.3512,
+        "longitude": 126.7963,
+        "depth_km": 36.888,
+        "time_ms": 1770625851571,
+        "place": "151 km WNW of Tobelo, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      }
+    ],
+    "seismic_hub_risk_score": 0.57
+  },
+  {
     "country": "Tonga",
     "iso_alpha2": "TO",
     "iso_alpha3": "TON",
@@ -1893,8 +1834,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 11,
-    "avg_magnitude": 5.41,
+    "earthquake_count": 12,
+    "avg_magnitude": 5.38,
     "strongest_earthquake": {
       "magnitude": 6.3,
       "date": "2026-03-01",
@@ -1946,6 +1887,17 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us7000s2pg",
+        "magnitude": 5.1,
+        "latitude": -15.8524,
+        "longitude": -172.9305,
+        "depth_km": 10,
+        "time_ms": 1772844293787,
+        "place": "93 km E of Hihifo, Tonga",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
       {
         "id": "us7000s2ih",
         "magnitude": 5.3,
@@ -2037,11 +1989,11 @@
       {
         "id": "us6000s8mg",
         "magnitude": 5,
-        "latitude": -15.3591,
-        "longitude": -173.2848,
+        "latitude": -15.3842,
+        "longitude": -173.2967,
         "depth_km": 35,
-        "time_ms": 1770943288911,
-        "place": "85 km NE of Hihifo, Tonga",
+        "time_ms": 1770943289061,
+        "place": "82 km NE of Hihifo, Tonga",
         "country_code": "TO",
         "shakemap_available": false
       },
