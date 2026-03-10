@@ -19,14 +19,14 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 19,
-    "avg_magnitude": 5.25,
+    "earthquake_count": 20,
+    "avg_magnitude": 5.28,
     "strongest_earthquake": {
-      "magnitude": 5.7,
-      "date": "2026-03-08",
-      "depth_km": 16,
-      "latitude": 39.4377,
-      "longitude": 143.2346
+      "magnitude": 5.9,
+      "date": "2026-03-09",
+      "depth_km": 140.6,
+      "latitude": 42.1141,
+      "longitude": 140.3109
     },
     "highest_pager_alert": null,
     "max_felt_reports": 0,
@@ -39,8 +39,21 @@
         "latitude": 42.774753,
         "longitude": 141.690414,
         "municipality": "Sapporo",
-        "closest_quake_distance_km": 138.5,
+        "closest_quake_distance_km": 134.9,
         "nearby_quakes": [
+          {
+            "earthquake_id": "us7000s36m",
+            "magnitude": 5.9,
+            "latitude": 42.1141,
+            "longitude": 140.3109,
+            "depth_km": 140.617,
+            "time_ms": 1773071143393,
+            "place": "21 km NE of Otobe, Japan",
+            "distance_km": 134.9,
+            "exposure_contribution": 0.88,
+            "pga_g": null,
+            "mmi": null
+          },
           {
             "earthquake_id": "us6000sae0",
             "magnitude": 5.3,
@@ -55,7 +68,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 0.68
+        "exposure_score": 1.56
       },
       {
         "name": "Hakodate Airport",
@@ -63,8 +76,21 @@
         "latitude": 41.77,
         "longitude": 140.822006,
         "municipality": "Hakodate",
-        "closest_quake_distance_km": 102.9,
+        "closest_quake_distance_km": 57.0,
         "nearby_quakes": [
+          {
+            "earthquake_id": "us7000s36m",
+            "magnitude": 5.9,
+            "latitude": 42.1141,
+            "longitude": 140.3109,
+            "depth_km": 140.617,
+            "time_ms": 1773071143393,
+            "place": "21 km NE of Otobe, Japan",
+            "distance_km": 57.0,
+            "exposure_contribution": 1.35,
+            "pga_g": null,
+            "mmi": null
+          },
           {
             "earthquake_id": "us6000sae0",
             "magnitude": 5.3,
@@ -79,7 +105,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 0.98
+        "exposure_score": 2.33
       },
       {
         "name": "Kagoshima Airport",
@@ -260,9 +286,22 @@
             "exposure_contribution": 0.64,
             "pga_g": null,
             "mmi": null
+          },
+          {
+            "earthquake_id": "us7000s36m",
+            "magnitude": 5.9,
+            "latitude": 42.1141,
+            "longitude": 140.3109,
+            "depth_km": 140.617,
+            "time_ms": 1773071143393,
+            "place": "21 km NE of Otobe, Japan",
+            "distance_km": 156.7,
+            "exposure_contribution": 0.77,
+            "pga_g": null,
+            "mmi": null
           }
         ],
-        "exposure_score": 0.64
+        "exposure_score": 1.4
       },
       {
         "name": "Naha International Airport",
@@ -314,6 +353,17 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us7000s36m",
+        "magnitude": 5.9,
+        "latitude": 42.1141,
+        "longitude": 140.3109,
+        "depth_km": 140.617,
+        "time_ms": 1773071143393,
+        "place": "21 km NE of Otobe, Japan",
+        "country_code": "JP",
+        "shakemap_available": true
+      },
       {
         "id": "us7000s2z5",
         "magnitude": 5.7,
@@ -524,7 +574,7 @@
         "shakemap_available": true
       }
     ],
-    "seismic_hub_risk_score": 9.69
+    "seismic_hub_risk_score": 12.68
   },
   {
     "country": "Russia",
@@ -561,8 +611,8 @@
       "POL",
       "UKR"
     ],
-    "earthquake_count": 24,
-    "avg_magnitude": 5.38,
+    "earthquake_count": 25,
+    "avg_magnitude": 5.36,
     "strongest_earthquake": {
       "magnitude": 6.4,
       "date": "2026-03-04",
@@ -636,6 +686,19 @@
             "mmi": null
           },
           {
+            "earthquake_id": "us7000s372",
+            "magnitude": 5,
+            "latitude": 51.6944,
+            "longitude": 159.6841,
+            "depth_km": 36.847,
+            "time_ms": 1773074277413,
+            "place": "162 km SSE of Vilyuchinsk, Russia",
+            "distance_km": 184.0,
+            "exposure_contribution": 0.33,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
             "earthquake_id": "us7000s0dq",
             "magnitude": 5.7,
             "latitude": 51.5562,
@@ -649,10 +712,21 @@
             "mmi": null
           }
         ],
-        "exposure_score": 2.9
+        "exposure_score": 3.23
       }
     ],
     "earthquakes": [
+      {
+        "id": "us7000s372",
+        "magnitude": 5,
+        "latitude": 51.6944,
+        "longitude": 159.6841,
+        "depth_km": 36.847,
+        "time_ms": 1773074277413,
+        "place": "162 km SSE of Vilyuchinsk, Russia",
+        "country_code": "RU",
+        "shakemap_available": false
+      },
       {
         "id": "us7000s322",
         "magnitude": 5.1,
@@ -853,12 +927,12 @@
       },
       {
         "id": "us6000s9ei",
-        "magnitude": 6,
-        "latitude": 48.3271,
-        "longitude": 154.5612,
-        "depth_km": 54.981,
-        "time_ms": 1771171128801,
-        "place": "284 km SSW of Severo-Kuril’sk, Russia",
+        "magnitude": 5.9,
+        "latitude": 48.1948,
+        "longitude": 154.5212,
+        "depth_km": 36,
+        "time_ms": 1771171125737,
+        "place": "299 km SSW of Severo-Kuril’sk, Russia",
         "country_code": "RU",
         "shakemap_available": true
       },
@@ -918,7 +992,7 @@
         "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 2.9
+    "seismic_hub_risk_score": 3.23
   },
   {
     "country": "China",
@@ -2122,6 +2196,109 @@
       }
     ],
     "seismic_hub_risk_score": 0.57
+  },
+  {
+    "country": "Argentina",
+    "iso_alpha2": "AR",
+    "iso_alpha3": "ARG",
+    "capital": "Buenos Aires",
+    "population": 46735004,
+    "area_km2": 2780400.0,
+    "region": "Americas",
+    "subregion": "South America",
+    "currencies": [
+      {
+        "code": "ARS",
+        "name": "Argentine peso"
+      }
+    ],
+    "languages": [
+      "Guaraní",
+      "Spanish"
+    ],
+    "un_member": true,
+    "bordering_countries": [
+      "BOL",
+      "BRA",
+      "CHL",
+      "PRY",
+      "URY"
+    ],
+    "earthquake_count": 3,
+    "avg_magnitude": 5.17,
+    "strongest_earthquake": {
+      "magnitude": 5.3,
+      "date": "2026-02-27",
+      "depth_km": 17.6,
+      "latitude": -60.3002,
+      "longitude": -61.3738
+    },
+    "highest_pager_alert": null,
+    "max_felt_reports": 0,
+    "tsunami_warning_issued": false,
+    "significant_events_count": 0,
+    "exposed_airports": [
+      {
+        "name": "Governor Francisco Gabrielli International Airport",
+        "iata_code": "MDZ",
+        "latitude": -32.831699,
+        "longitude": -68.7929,
+        "municipality": "Mendoza",
+        "closest_quake_distance_km": 169.5,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us7000s33f",
+            "magnitude": 5.1,
+            "latitude": -31.4461,
+            "longitude": -69.5425,
+            "depth_km": 111.791,
+            "time_ms": 1773036617073,
+            "place": "16 km SW of Calingasta, Argentina",
+            "distance_km": 169.5,
+            "exposure_contribution": 0.33,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 0.33
+      }
+    ],
+    "earthquakes": [
+      {
+        "id": "us7000s33f",
+        "magnitude": 5.1,
+        "latitude": -31.4461,
+        "longitude": -69.5425,
+        "depth_km": 111.791,
+        "time_ms": 1773036617073,
+        "place": "16 km SW of Calingasta, Argentina",
+        "country_code": "AR",
+        "shakemap_available": false
+      },
+      {
+        "id": "us7000s2u7",
+        "magnitude": 5.1,
+        "latitude": -31.6647,
+        "longitude": -67.0247,
+        "depth_km": 146.383,
+        "time_ms": 1772903606502,
+        "place": "119 km E of Caucete, Argentina",
+        "country_code": "AR",
+        "shakemap_available": false
+      },
+      {
+        "id": "us7000s0v7",
+        "magnitude": 5.3,
+        "latitude": -60.3002,
+        "longitude": -61.3738,
+        "depth_km": 17.556,
+        "time_ms": 1772217079564,
+        "place": "Drake Passage",
+        "country_code": "AR",
+        "shakemap_available": false
+      }
+    ],
+    "seismic_hub_risk_score": 0.33
   },
   {
     "country": "Vanuatu",
