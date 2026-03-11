@@ -76,20 +76,20 @@ curl "http://localhost:8000/risk?min_magnitude=4.0&days=14&format=csv"
 *Updated daily by [GitHub Actions](https://github.com/KayKv10/seismic-risk/actions/workflows/daily-report.yml). View the [interactive map](https://kaykv10.github.io/seismic-risk/latest.html).*
 
 <!-- LATEST_RESULTS_START -->
-*Last updated: 2026-03-10 06:38 UTC*
+*Last updated: 2026-03-11 06:41 UTC*
 
 | # | Country | ISO | Score | Trend | Quakes | Airports | Alert |
 |--:|:--------|:----|------:|:------|-------:|---------:|:------|
-| 1 | Japan | JPN | 12.7 | +3.0 | 20 | 10 | - |
+| 1 | Japan | JPN | 12.7 | ~ | 20 | 10 | - |
 | 2 | Russia | RUS | 3.2 | ~ | 25 | 1 | green |
 | 3 | China | CHN | 2.8 | ~ | 3 | 1 | - |
-| 4 | Philippines | PHL | 2.0 | ~ | 4 | 5 | - |
+| 4 | Philippines | PHL | 2.6 | +0.6 | 5 | 6 | - |
 | 5 | Solomon Islands | SLB | 1.7 | ~ | 5 | 1 | green |
 | 6 | Papua New Guinea | PNG | 1.4 | ~ | 4 | 1 | - |
-| 7 | Chile | CHL | 0.8 | ~ | 6 | 1 | green |
-| 8 | Tonga | TON | 0.8 | ~ | 14 | 1 | green |
-| 9 | Indonesia | IDN | 0.6 | ~ | 17 | 1 | - |
-| 10 | Argentina | ARG | 0.3 | NEW | 3 | 1 | - |
+| 7 | Tonga | TON | 1.2 | ~ | 15 | 2 | green |
+| 8 | Indonesia | IDN | 0.6 | ~ | 17 | 1 | - |
+| 9 | Argentina | ARG | 0.3 | ~ | 3 | 1 | - |
+| 10 | Vanuatu | VUT | 0.2 | ~ | 5 | 1 | green |
 <!-- LATEST_RESULTS_END -->
 
 ## How It Works

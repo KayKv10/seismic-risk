@@ -917,11 +917,11 @@
       {
         "id": "us6000s9l2",
         "magnitude": 6,
-        "latitude": 51.2808,
-        "longitude": 157.6376,
+        "latitude": 51.2605,
+        "longitude": 157.6876,
         "depth_km": 43,
-        "time_ms": 1771278172700,
-        "place": "82 km ESE of Ozernovskiy, Russia",
+        "time_ms": 1771278172507,
+        "place": "86 km ESE of Ozernovskiy, Russia",
         "country_code": "RU",
         "shakemap_available": true
       },
@@ -1141,8 +1141,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 4,
-    "avg_magnitude": 5.15,
+    "earthquake_count": 5,
+    "avg_magnitude": 5.14,
     "strongest_earthquake": {
       "magnitude": 5.3,
       "date": "2026-02-28",
@@ -1161,23 +1161,23 @@
         "latitude": 14.794833,
         "longitude": 120.271883,
         "municipality": "Olongapo",
-        "closest_quake_distance_km": 116.5,
+        "closest_quake_distance_km": 115.4,
         "nearby_quakes": [
           {
             "earthquake_id": "us7000s2tu",
             "magnitude": 5,
-            "latitude": 13.8523,
-            "longitude": 120.7447,
-            "depth_km": 161.173,
-            "time_ms": 1772899494468,
-            "place": "4 km E of Hukay, Philippines",
-            "distance_km": 116.5,
-            "exposure_contribution": 0.3,
+            "latitude": 13.8532,
+            "longitude": 120.723,
+            "depth_km": 179.156,
+            "time_ms": 1772899496236,
+            "place": "2 km ENE of Hukay, Philippines",
+            "distance_km": 115.4,
+            "exposure_contribution": 0.27,
             "pga_g": null,
             "mmi": null
           }
         ],
-        "exposure_score": 0.3
+        "exposure_score": 0.27
       },
       {
         "name": "Clark International Airport / Clark Air Base",
@@ -1185,23 +1185,23 @@
         "latitude": 15.186,
         "longitude": 120.559998,
         "municipality": "Mabalacat",
-        "closest_quake_distance_km": 149.6,
+        "closest_quake_distance_km": 149.2,
         "nearby_quakes": [
           {
             "earthquake_id": "us7000s2tu",
             "magnitude": 5,
-            "latitude": 13.8523,
-            "longitude": 120.7447,
-            "depth_km": 161.173,
-            "time_ms": 1772899494468,
-            "place": "4 km E of Hukay, Philippines",
-            "distance_km": 149.6,
-            "exposure_contribution": 0.25,
+            "latitude": 13.8532,
+            "longitude": 120.723,
+            "depth_km": 179.156,
+            "time_ms": 1772899496236,
+            "place": "2 km ENE of Hukay, Philippines",
+            "distance_km": 149.2,
+            "exposure_contribution": 0.23,
             "pga_g": null,
             "mmi": null
           }
         ],
-        "exposure_score": 0.25
+        "exposure_score": 0.23
       },
       {
         "name": "Laoag International Airport",
@@ -1228,28 +1228,52 @@
         "exposure_score": 0.52
       },
       {
+        "name": "Bicol International Airport",
+        "iata_code": "DRP",
+        "latitude": 13.111915,
+        "longitude": 123.676829,
+        "municipality": "Legazpi",
+        "closest_quake_distance_km": 84.0,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us7000s311",
+            "magnitude": 5.1,
+            "latitude": 12.8656,
+            "longitude": 124.4095,
+            "depth_km": 105.641,
+            "time_ms": 1772898829081,
+            "place": "20 km NNE of Biri, Philippines",
+            "distance_km": 84.0,
+            "exposure_contribution": 0.65,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 0.65
+      },
+      {
         "name": "Ninoy Aquino International Airport",
         "iata_code": "MNL",
         "latitude": 14.5086,
         "longitude": 121.019997,
         "municipality": "Manila (Pasay)",
-        "closest_quake_distance_km": 78.8,
+        "closest_quake_distance_km": 79.6,
         "nearby_quakes": [
           {
             "earthquake_id": "us7000s2tu",
             "magnitude": 5,
-            "latitude": 13.8523,
-            "longitude": 120.7447,
-            "depth_km": 161.173,
-            "time_ms": 1772899494468,
-            "place": "4 km E of Hukay, Philippines",
-            "distance_km": 78.8,
-            "exposure_contribution": 0.36,
+            "latitude": 13.8532,
+            "longitude": 120.723,
+            "depth_km": 179.156,
+            "time_ms": 1772899496236,
+            "place": "2 km ENE of Hukay, Philippines",
+            "distance_km": 79.6,
+            "exposure_contribution": 0.31,
             "pga_g": null,
             "mmi": null
           }
         ],
-        "exposure_score": 0.36
+        "exposure_score": 0.31
       },
       {
         "name": "General Santos International Airport",
@@ -1280,11 +1304,22 @@
       {
         "id": "us7000s2tu",
         "magnitude": 5,
-        "latitude": 13.8523,
-        "longitude": 120.7447,
-        "depth_km": 161.173,
-        "time_ms": 1772899494468,
-        "place": "4 km E of Hukay, Philippines",
+        "latitude": 13.8532,
+        "longitude": 120.723,
+        "depth_km": 179.156,
+        "time_ms": 1772899496236,
+        "place": "2 km ENE of Hukay, Philippines",
+        "country_code": "PH",
+        "shakemap_available": false
+      },
+      {
+        "id": "us7000s311",
+        "magnitude": 5.1,
+        "latitude": 12.8656,
+        "longitude": 124.4095,
+        "depth_km": 105.641,
+        "time_ms": 1772898829081,
+        "place": "20 km NNE of Biri, Philippines",
         "country_code": "PH",
         "shakemap_available": false
       },
@@ -1322,7 +1357,7 @@
         "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 2.01
+    "seismic_hub_risk_score": 2.56
   },
   {
     "country": "Solomon Islands",
@@ -1567,139 +1602,6 @@
     "seismic_hub_risk_score": 1.41
   },
   {
-    "country": "Chile",
-    "iso_alpha2": "CL",
-    "iso_alpha3": "CHL",
-    "capital": "Santiago",
-    "population": 20206953,
-    "area_km2": 756102.0,
-    "region": "Americas",
-    "subregion": "South America",
-    "currencies": [
-      {
-        "code": "CLP",
-        "name": "Chilean peso"
-      }
-    ],
-    "languages": [
-      "Spanish"
-    ],
-    "un_member": true,
-    "bordering_countries": [
-      "ARG",
-      "BOL",
-      "PER"
-    ],
-    "earthquake_count": 6,
-    "avg_magnitude": 5.35,
-    "strongest_earthquake": {
-      "magnitude": 6.2,
-      "date": "2026-02-12",
-      "depth_km": 40.2,
-      "latitude": -30.7798,
-      "longitude": -71.4214
-    },
-    "highest_pager_alert": "green",
-    "max_felt_reports": 126,
-    "tsunami_warning_issued": false,
-    "significant_events_count": 1,
-    "exposed_airports": [
-      {
-        "name": "Diego Aracena International Airport",
-        "iata_code": "IQQ",
-        "latitude": -20.536273,
-        "longitude": -70.181373,
-        "municipality": "Iquique",
-        "closest_quake_distance_km": 138.7,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us6000s7ab",
-            "magnitude": 5.7,
-            "latitude": -20.103,
-            "longitude": -68.9337,
-            "depth_km": 114.026,
-            "time_ms": 1770567837357,
-            "place": "79 km ENE of La Tirana, Chile",
-            "distance_km": 138.7,
-            "exposure_contribution": 0.81,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 0.81
-      }
-    ],
-    "earthquakes": [
-      {
-        "id": "us7000s1ak",
-        "magnitude": 5.1,
-        "latitude": -22.1006,
-        "longitude": -68.7571,
-        "depth_km": 110.655,
-        "time_ms": 1772395433868,
-        "place": "43 km NNE of Calama, Chile",
-        "country_code": "CL",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000sacu",
-        "magnitude": 5,
-        "latitude": -37.0647,
-        "longitude": -96.5435,
-        "depth_km": 10,
-        "time_ms": 1771572072264,
-        "place": "southeast of Easter Island",
-        "country_code": "CL",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s9g6",
-        "magnitude": 5.1,
-        "latitude": -35.2327,
-        "longitude": -111.5735,
-        "depth_km": 10,
-        "time_ms": 1771214289491,
-        "place": "southern East Pacific Rise",
-        "country_code": "CL",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s98p",
-        "magnitude": 5,
-        "latitude": -37.2153,
-        "longitude": -94.2173,
-        "depth_km": 10,
-        "time_ms": 1771093549659,
-        "place": "West Chile Rise",
-        "country_code": "CL",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s8gw",
-        "magnitude": 6.2,
-        "latitude": -30.7798,
-        "longitude": -71.4214,
-        "depth_km": 40.207,
-        "time_ms": 1770903270696,
-        "place": "29 km SW of Ovalle, Chile",
-        "country_code": "CL",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000s7ab",
-        "magnitude": 5.7,
-        "latitude": -20.103,
-        "longitude": -68.9337,
-        "depth_km": 114.026,
-        "time_ms": 1770567837357,
-        "place": "79 km ENE of La Tirana, Chile",
-        "country_code": "CL",
-        "shakemap_available": true
-      }
-    ],
-    "seismic_hub_risk_score": 0.81
-  },
-  {
     "country": "Tonga",
     "iso_alpha2": "TO",
     "iso_alpha3": "TON",
@@ -1720,8 +1622,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 14,
-    "avg_magnitude": 5.41,
+    "earthquake_count": 15,
+    "avg_magnitude": 5.39,
     "strongest_earthquake": {
       "magnitude": 6.3,
       "date": "2026-03-01",
@@ -1783,6 +1685,30 @@
           }
         ],
         "exposure_score": 0.76
+      },
+      {
+        "name": "Vava'u International Airport",
+        "iata_code": "VAV",
+        "latitude": -18.5853,
+        "longitude": -173.962006,
+        "municipality": "Vava'u Island",
+        "closest_quake_distance_km": 163.3,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us7000s2ux",
+            "magnitude": 5,
+            "latitude": -17.7626,
+            "longitude": -172.6813,
+            "depth_km": 10,
+            "time_ms": 1772906653613,
+            "place": "169 km NE of Neiafu, Tonga",
+            "distance_km": 163.3,
+            "exposure_contribution": 0.42,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 0.42
       }
     ],
     "earthquakes": [
@@ -1805,6 +1731,17 @@
         "depth_km": 200.124,
         "time_ms": 1772954314262,
         "place": "157 km WSW of Houma, Tonga",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
+      {
+        "id": "us7000s2ux",
+        "magnitude": 5,
+        "latitude": -17.7626,
+        "longitude": -172.6813,
+        "depth_km": 10,
+        "time_ms": 1772906653613,
+        "place": "169 km NE of Neiafu, Tonga",
         "country_code": "TO",
         "shakemap_available": false
       },
@@ -1941,7 +1878,7 @@
         "shakemap_available": true
       }
     ],
-    "seismic_hub_risk_score": 0.76
+    "seismic_hub_risk_score": 1.18
   },
   {
     "country": "Indonesia",
@@ -2008,6 +1945,17 @@
     ],
     "earthquakes": [
       {
+        "id": "us7000s3i3",
+        "magnitude": 5,
+        "latitude": -9.4883,
+        "longitude": 120.5923,
+        "depth_km": 49.917,
+        "time_ms": 1773179136137,
+        "place": "40 km ENE of Waingapu, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
         "id": "us7000s2xx",
         "magnitude": 5.2,
         "latitude": 2.0328,
@@ -2021,11 +1969,11 @@
       {
         "id": "us7000s2u5",
         "magnitude": 5.2,
-        "latitude": -2.8756,
-        "longitude": 101.6747,
-        "depth_km": 88.787,
-        "time_ms": 1772902723886,
-        "place": "95 km SSE of Sungai Penuh, Indonesia",
+        "latitude": -2.9146,
+        "longitude": 101.6406,
+        "depth_km": 77.51,
+        "time_ms": 1772902722449,
+        "place": "98 km SSE of Sungai Penuh, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
       },
@@ -2070,17 +2018,6 @@
         "depth_km": 46.548,
         "time_ms": 1772261532102,
         "place": "233 km WNW of Gorontalo, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
-      },
-      {
-        "id": "us7000s09j",
-        "magnitude": 5,
-        "latitude": -0.3152,
-        "longitude": 99.1819,
-        "depth_km": 72.426,
-        "time_ms": 1772041772099,
-        "place": "109 km WNW of Pariaman, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
       },
@@ -2175,11 +2112,11 @@
       {
         "id": "us6000s8rt",
         "magnitude": 5.6,
-        "latitude": 4.2222,
-        "longitude": 128.2588,
-        "depth_km": 56.368,
-        "time_ms": 1770994624236,
-        "place": "277 km N of Tobelo, Indonesia",
+        "latitude": 4.1482,
+        "longitude": 128.2683,
+        "depth_km": 11,
+        "time_ms": 1770994618596,
+        "place": "269 km N of Tobelo, Indonesia",
         "country_code": "ID",
         "shakemap_available": true
       },
@@ -2278,11 +2215,11 @@
       {
         "id": "us7000s2u7",
         "magnitude": 5.1,
-        "latitude": -31.6647,
-        "longitude": -67.0247,
-        "depth_km": 146.383,
-        "time_ms": 1772903606502,
-        "place": "119 km E of Caucete, Argentina",
+        "latitude": -31.5603,
+        "longitude": -66.8824,
+        "depth_km": 130.639,
+        "time_ms": 1772903605310,
+        "place": "114 km WNW of Candelaria, Argentina",
         "country_code": "AR",
         "shakemap_available": false
       },
