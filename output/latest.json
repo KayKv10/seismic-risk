@@ -363,11 +363,11 @@
       {
         "id": "us7000s1k2",
         "magnitude": 5,
-        "latitude": 25.2893,
-        "longitude": 124.8906,
+        "latitude": 25.2746,
+        "longitude": 124.9008,
         "depth_km": 10,
-        "time_ms": 1772496703467,
-        "place": "67 km NW of Hirara, Japan",
+        "time_ms": 1772496703408,
+        "place": "66 km NW of Hirara, Japan",
         "country_code": "JP",
         "shakemap_available": false
       },
@@ -541,8 +541,8 @@
       "POL",
       "UKR"
     ],
-    "earthquake_count": 22,
-    "avg_magnitude": 5.37,
+    "earthquake_count": 21,
+    "avg_magnitude": 5.39,
     "strongest_earthquake": {
       "magnitude": 6.4,
       "date": "2026-03-04",
@@ -876,17 +876,6 @@
         "place": "299 km SSW of Severo-Kuril’sk, Russia",
         "country_code": "RU",
         "shakemap_available": true
-      },
-      {
-        "id": "us6000s96i",
-        "magnitude": 5,
-        "latitude": 51.9595,
-        "longitude": 178.3918,
-        "depth_km": 115.83,
-        "time_ms": 1771053002705,
-        "place": "Rat Islands, Aleutian Islands, Alaska",
-        "country_code": "RU",
-        "shakemap_available": true
       }
     ],
     "seismic_hub_risk_score": 3.14
@@ -1038,8 +1027,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 5,
-    "avg_magnitude": 5.14,
+    "earthquake_count": 4,
+    "avg_magnitude": 5.12,
     "strongest_earthquake": {
       "magnitude": 5.3,
       "date": "2026-02-28",
@@ -1241,138 +1230,9 @@
         "place": "84 km N of Namuac, Philippines",
         "country_code": "PH",
         "shakemap_available": false
-      },
-      {
-        "id": "us6000s98c",
-        "magnitude": 5.2,
-        "latitude": 5.6708,
-        "longitude": 127.1406,
-        "depth_km": 66.978,
-        "time_ms": 1771089781930,
-        "place": "131 km SE of Pondaguitan, Philippines",
-        "country_code": "PH",
-        "shakemap_available": false
       }
     ],
     "seismic_hub_risk_score": 2.56
-  },
-  {
-    "country": "Solomon Islands",
-    "iso_alpha2": "SB",
-    "iso_alpha3": "SLB",
-    "capital": "Honiara",
-    "population": 750325,
-    "area_km2": 28896.0,
-    "region": "Oceania",
-    "subregion": "Melanesia",
-    "currencies": [
-      {
-        "code": "SBD",
-        "name": "Solomon Islands dollar"
-      }
-    ],
-    "languages": [
-      "English"
-    ],
-    "un_member": true,
-    "bordering_countries": [],
-    "earthquake_count": 5,
-    "avg_magnitude": 5.6,
-    "strongest_earthquake": {
-      "magnitude": 6.3,
-      "date": "2026-03-06",
-      "depth_km": 8.7,
-      "latitude": -11.5475,
-      "longitude": 163.1628
-    },
-    "highest_pager_alert": "green",
-    "max_felt_reports": 0,
-    "tsunami_warning_issued": true,
-    "significant_events_count": 1,
-    "exposed_airports": [
-      {
-        "name": "Honiara International Airport",
-        "iata_code": "HIR",
-        "latitude": -9.428,
-        "longitude": 160.054993,
-        "municipality": "Honiara",
-        "closest_quake_distance_km": 70.6,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us6000s95m",
-            "magnitude": 5.1,
-            "latitude": -9.5475,
-            "longitude": 159.423,
-            "depth_km": 14.069,
-            "time_ms": 1771038749562,
-            "place": "36 km WNW of Malango, Solomon Islands",
-            "distance_km": 70.6,
-            "exposure_contribution": 1.66,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 1.66
-      }
-    ],
-    "earthquakes": [
-      {
-        "id": "us7000s2i2",
-        "magnitude": 6.3,
-        "latitude": -11.5475,
-        "longitude": 163.1628,
-        "depth_km": 8.682,
-        "time_ms": 1772807267626,
-        "place": "181 km SE of Kirakira, Solomon Islands",
-        "country_code": "SB",
-        "shakemap_available": true
-      },
-      {
-        "id": "us7000s06c",
-        "magnitude": 5,
-        "latitude": -10.5861,
-        "longitude": 165.8949,
-        "depth_km": 121.261,
-        "time_ms": 1772012888841,
-        "place": "18 km NE of Lata, Solomon Islands",
-        "country_code": "SB",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000sams",
-        "magnitude": 5.9,
-        "latitude": -11.2777,
-        "longitude": 162.3479,
-        "depth_km": 10,
-        "time_ms": 1771692127126,
-        "place": "102 km SSE of Kirakira, Solomon Islands",
-        "country_code": "SB",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000s9k6",
-        "magnitude": 5.7,
-        "latitude": -11.5639,
-        "longitude": 166.3653,
-        "depth_km": 40,
-        "time_ms": 1771269819694,
-        "place": "111 km SE of Lata, Solomon Islands",
-        "country_code": "SB",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000s95m",
-        "magnitude": 5.1,
-        "latitude": -9.5475,
-        "longitude": 159.423,
-        "depth_km": 14.069,
-        "time_ms": 1771038749562,
-        "place": "36 km WNW of Malango, Solomon Islands",
-        "country_code": "SB",
-        "shakemap_available": false
-      }
-    ],
-    "seismic_hub_risk_score": 1.66
   },
   {
     "country": "Indonesia",
@@ -1610,11 +1470,11 @@
       {
         "id": "us6000sa2c",
         "magnitude": 5.5,
-        "latitude": 1.3709,
-        "longitude": 122.1572,
-        "depth_km": 10,
-        "time_ms": 1771460774231,
-        "place": "136 km NW of Gorontalo, Indonesia",
+        "latitude": 1.3768,
+        "longitude": 122.081,
+        "depth_km": 33.861,
+        "time_ms": 1771460777365,
+        "place": "143 km NW of Gorontalo, Indonesia",
         "country_code": "ID",
         "shakemap_available": true
       },
@@ -2182,14 +2042,14 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 5,
-    "avg_magnitude": 5.38,
+    "earthquake_count": 4,
+    "avg_magnitude": 5.12,
     "strongest_earthquake": {
-      "magnitude": 6.4,
-      "date": "2026-02-14",
-      "depth_km": 43,
-      "latitude": -14.9918,
-      "longitude": 166.6216
+      "magnitude": 5.4,
+      "date": "2026-02-20",
+      "depth_km": 608.7,
+      "latitude": -13.8873,
+      "longitude": 172.4032
     },
     "highest_pager_alert": null,
     "max_felt_reports": 0,
@@ -2265,17 +2125,6 @@
         "place": "105 km NNW of Port-Olry, Vanuatu",
         "country_code": "VU",
         "shakemap_available": false
-      },
-      {
-        "id": "us6000s94q",
-        "magnitude": 6.4,
-        "latitude": -14.9918,
-        "longitude": 166.6216,
-        "depth_km": 43,
-        "time_ms": 1771036062554,
-        "place": "48 km W of Port-Olry, Vanuatu",
-        "country_code": "VU",
-        "shakemap_available": true
       }
     ],
     "seismic_hub_risk_score": 0.19
