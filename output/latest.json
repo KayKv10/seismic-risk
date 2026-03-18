@@ -57,18 +57,18 @@
           {
             "earthquake_id": "us6000sae0",
             "magnitude": 5.3,
-            "latitude": 41.5548,
-            "longitude": 142.0269,
-            "depth_km": 63.223,
-            "time_ms": 1771596991286,
-            "place": "73 km ENE of Mutsu, Japan",
-            "distance_km": 138.5,
-            "exposure_contribution": 0.68,
+            "latitude": 41.5427,
+            "longitude": 141.9999,
+            "depth_km": 54.152,
+            "time_ms": 1771596990267,
+            "place": "71 km ENE of Mutsu, Japan",
+            "distance_km": 139.4,
+            "exposure_contribution": 0.7,
             "pga_g": null,
             "mmi": null
           }
         ],
-        "exposure_score": 1.56
+        "exposure_score": 1.58
       },
       {
         "name": "Hakodate Airport",
@@ -94,18 +94,18 @@
           {
             "earthquake_id": "us6000sae0",
             "magnitude": 5.3,
-            "latitude": 41.5548,
-            "longitude": 142.0269,
-            "depth_km": 63.223,
-            "time_ms": 1771596991286,
-            "place": "73 km ENE of Mutsu, Japan",
-            "distance_km": 102.9,
-            "exposure_contribution": 0.98,
+            "latitude": 41.5427,
+            "longitude": 141.9999,
+            "depth_km": 54.152,
+            "time_ms": 1771596990267,
+            "place": "71 km ENE of Mutsu, Japan",
+            "distance_km": 101.1,
+            "exposure_contribution": 1.06,
             "pga_g": null,
             "mmi": null
           }
         ],
-        "exposure_score": 2.33
+        "exposure_score": 2.41
       },
       {
         "name": "Kagoshima Airport",
@@ -272,18 +272,18 @@
         "latitude": 40.733777,
         "longitude": 140.689477,
         "municipality": "Aomori",
-        "closest_quake_distance_km": 144.5,
+        "closest_quake_distance_km": 141.9,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000sae0",
             "magnitude": 5.3,
-            "latitude": 41.5548,
-            "longitude": 142.0269,
-            "depth_km": 63.223,
-            "time_ms": 1771596991286,
-            "place": "73 km ENE of Mutsu, Japan",
-            "distance_km": 144.5,
-            "exposure_contribution": 0.64,
+            "latitude": 41.5427,
+            "longitude": 141.9999,
+            "depth_km": 54.152,
+            "time_ms": 1771596990267,
+            "place": "71 km ENE of Mutsu, Japan",
+            "distance_km": 141.9,
+            "exposure_contribution": 0.68,
             "pga_g": null,
             "mmi": null
           },
@@ -301,7 +301,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 1.4
+        "exposure_score": 1.45
       }
     ],
     "earthquakes": [
@@ -484,11 +484,11 @@
       {
         "id": "us6000sae0",
         "magnitude": 5.3,
-        "latitude": 41.5548,
-        "longitude": 142.0269,
-        "depth_km": 63.223,
-        "time_ms": 1771596991286,
-        "place": "73 km ENE of Mutsu, Japan",
+        "latitude": 41.5427,
+        "longitude": 141.9999,
+        "depth_km": 54.152,
+        "time_ms": 1771596990267,
+        "place": "71 km ENE of Mutsu, Japan",
         "country_code": "JP",
         "shakemap_available": false
       },
@@ -504,7 +504,7 @@
         "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 9.88
+    "seismic_hub_risk_score": 10.03
   },
   {
     "country": "Russia",
@@ -541,14 +541,14 @@
       "POL",
       "UKR"
     ],
-    "earthquake_count": 21,
-    "avg_magnitude": 5.39,
+    "earthquake_count": 20,
+    "avg_magnitude": 5.38,
     "strongest_earthquake": {
       "magnitude": 6.4,
       "date": "2026-03-04",
       "depth_km": 10,
-      "latitude": 52.2664,
-      "longitude": 176.3634
+      "latitude": 52.3107,
+      "longitude": 176.3577
     },
     "highest_pager_alert": "green",
     "max_felt_reports": 0,
@@ -647,12 +647,23 @@
     ],
     "earthquakes": [
       {
-        "id": "us6000sgc2",
-        "magnitude": 5.1,
-        "latitude": 46.5573,
-        "longitude": 153.3556,
+        "id": "us6000sgvw",
+        "magnitude": 5.3,
+        "latitude": 52.2195,
+        "longitude": 176.5306,
         "depth_km": 10,
-        "time_ms": 1773513131388,
+        "time_ms": 1773764497882,
+        "place": "237 km ESE of Attu Station, Alaska",
+        "country_code": "RU",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000sgv2",
+        "magnitude": 5,
+        "latitude": 47.1946,
+        "longitude": 153.5679,
+        "depth_km": 43.507,
+        "time_ms": 1773757965271,
         "place": "Kuril Islands",
         "country_code": "RU",
         "shakemap_available": false
@@ -737,11 +748,11 @@
       {
         "id": "us7000s211",
         "magnitude": 6.4,
-        "latitude": 52.2664,
-        "longitude": 176.3634,
+        "latitude": 52.3107,
+        "longitude": 176.3577,
         "depth_km": 10,
-        "time_ms": 1772646876733,
-        "place": "224 km ESE of Attu Station, Alaska",
+        "time_ms": 1772646876658,
+        "place": "223 km ESE of Attu Station, Alaska",
         "country_code": "RU",
         "shakemap_available": true
       },
@@ -812,17 +823,6 @@
         "shakemap_available": false
       },
       {
-        "id": "us7000s0ea",
-        "magnitude": 5,
-        "latitude": 51.2738,
-        "longitude": 159.3975,
-        "depth_km": 10,
-        "time_ms": 1772085527245,
-        "place": "196 km SSE of Vilyuchinsk, Russia",
-        "country_code": "RU",
-        "shakemap_available": false
-      },
-      {
         "id": "us7000s0dq",
         "magnitude": 5.7,
         "latitude": 51.5562,
@@ -863,17 +863,6 @@
         "depth_km": 43,
         "time_ms": 1771278172507,
         "place": "86 km ESE of Ozernovskiy, Russia",
-        "country_code": "RU",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000s9ei",
-        "magnitude": 5.9,
-        "latitude": 48.1948,
-        "longitude": 154.5212,
-        "depth_km": 36,
-        "time_ms": 1771171125737,
-        "place": "299 km SSW of Severo-Kuril’sk, Russia",
         "country_code": "RU",
         "shakemap_available": true
       }
@@ -995,11 +984,11 @@
       {
         "id": "us6000sa5f",
         "magnitude": 5,
-        "latitude": 42.2356,
-        "longitude": 80.4951,
+        "latitude": 42.1906,
+        "longitude": 80.5811,
         "depth_km": 10,
-        "time_ms": 1771492154725,
-        "place": "118 km N of Aksu, China",
+        "time_ms": 1771492154321,
+        "place": "114 km NNE of Aksu, China",
         "country_code": "CN",
         "shakemap_available": false
       }
@@ -1095,23 +1084,23 @@
         "latitude": 18.175089,
         "longitude": 120.531006,
         "municipality": "Laoag City",
-        "closest_quake_distance_km": 149.7,
+        "closest_quake_distance_km": 144.4,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000sas0",
             "magnitude": 5.1,
-            "latitude": 19.3715,
-            "longitude": 121.1835,
-            "depth_km": 39.544,
-            "time_ms": 1771756843486,
-            "place": "84 km N of Namuac, Philippines",
-            "distance_km": 149.7,
-            "exposure_contribution": 0.52,
+            "latitude": 19.3145,
+            "longitude": 121.1894,
+            "depth_km": 23.719,
+            "time_ms": 1771756841326,
+            "place": "77 km N of Namuac, Philippines",
+            "distance_km": 144.4,
+            "exposure_contribution": 0.57,
             "pga_g": null,
             "mmi": null
           }
         ],
-        "exposure_score": 0.52
+        "exposure_score": 0.57
       },
       {
         "name": "Bicol International Airport",
@@ -1223,16 +1212,16 @@
       {
         "id": "us6000sas0",
         "magnitude": 5.1,
-        "latitude": 19.3715,
-        "longitude": 121.1835,
-        "depth_km": 39.544,
-        "time_ms": 1771756843486,
-        "place": "84 km N of Namuac, Philippines",
+        "latitude": 19.3145,
+        "longitude": 121.1894,
+        "depth_km": 23.719,
+        "time_ms": 1771756841326,
+        "place": "77 km N of Namuac, Philippines",
         "country_code": "PH",
         "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 2.56
+    "seismic_hub_risk_score": 2.61
   },
   {
     "country": "Indonesia",
@@ -1258,7 +1247,7 @@
       "MYS",
       "PNG"
     ],
-    "earthquake_count": 16,
+    "earthquake_count": 15,
     "avg_magnitude": 5.23,
     "strongest_earthquake": {
       "magnitude": 6.2,
@@ -1278,23 +1267,23 @@
         "latitude": -2.579627,
         "longitude": 140.519857,
         "municipality": "Sentani",
-        "closest_quake_distance_km": 192.7,
+        "closest_quake_distance_km": 194.2,
         "nearby_quakes": [
           {
             "earthquake_id": "us7000rzxu",
-            "magnitude": 5.5,
-            "latitude": -2.1052,
-            "longitude": 138.8515,
-            "depth_km": 10.633,
-            "time_ms": 1771919208799,
-            "place": "205 km WNW of Abepura, Indonesia",
-            "distance_km": 192.7,
-            "exposure_contribution": 0.57,
+            "magnitude": 5.3,
+            "latitude": -2.0948,
+            "longitude": 138.8408,
+            "depth_km": 14,
+            "time_ms": 1771919209141,
+            "place": "206 km WNW of Abepura, Indonesia",
+            "distance_km": 194.2,
+            "exposure_contribution": 0.44,
             "pga_g": null,
             "mmi": null
           }
         ],
-        "exposure_score": 0.57
+        "exposure_score": 0.44
       },
       {
         "name": "Halim Perdanakusuma International Airport",
@@ -1447,12 +1436,12 @@
       },
       {
         "id": "us7000rzxu",
-        "magnitude": 5.5,
-        "latitude": -2.1052,
-        "longitude": 138.8515,
-        "depth_km": 10.633,
-        "time_ms": 1771919208799,
-        "place": "205 km WNW of Abepura, Indonesia",
+        "magnitude": 5.3,
+        "latitude": -2.0948,
+        "longitude": 138.8408,
+        "depth_km": 14,
+        "time_ms": 1771919209141,
+        "place": "206 km WNW of Abepura, Indonesia",
         "country_code": "ID",
         "shakemap_available": true
       },
@@ -1510,20 +1499,9 @@
         "place": "92 km WNW of Pariaman, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
-      },
-      {
-        "id": "us6000s9ci",
-        "magnitude": 5.1,
-        "latitude": -4.3166,
-        "longitude": 102.3737,
-        "depth_km": 64.946,
-        "time_ms": 1771136082695,
-        "place": "58 km SSE of Bengkulu, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 1.51
+    "seismic_hub_risk_score": 1.38
   },
   {
     "country": "Papua New Guinea",
@@ -1670,8 +1648,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 14,
-    "avg_magnitude": 5.29,
+    "earthquake_count": 12,
+    "avg_magnitude": 5.32,
     "strongest_earthquake": {
       "magnitude": 6.3,
       "date": "2026-03-01",
@@ -1871,17 +1849,6 @@
         "shakemap_available": false
       },
       {
-        "id": "us6000sb07",
-        "magnitude": 5,
-        "latitude": -20.1016,
-        "longitude": -177.6036,
-        "depth_km": 393.607,
-        "time_ms": 1771838104339,
-        "place": "267 km WNW of Houma, Tonga",
-        "country_code": "TO",
-        "shakemap_available": false
-      },
-      {
         "id": "us6000sarm",
         "magnitude": 5.3,
         "latitude": -22.1557,
@@ -1900,17 +1867,6 @@
         "depth_km": 223.358,
         "time_ms": 1771210957261,
         "place": "south of the Fiji Islands",
-        "country_code": "TO",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000s9f6",
-        "magnitude": 5.3,
-        "latitude": -15.1092,
-        "longitude": -173.1889,
-        "depth_km": 10,
-        "time_ms": 1771188877198,
-        "place": "113 km NE of Hihifo, Tonga",
         "country_code": "TO",
         "shakemap_available": false
       }
@@ -2019,114 +1975,5 @@
       }
     ],
     "seismic_hub_risk_score": 0.33
-  },
-  {
-    "country": "Vanuatu",
-    "iso_alpha2": "VU",
-    "iso_alpha3": "VUT",
-    "capital": "Port Vila",
-    "population": 321409,
-    "area_km2": 12189.0,
-    "region": "Oceania",
-    "subregion": "Melanesia",
-    "currencies": [
-      {
-        "code": "VUV",
-        "name": "Vanuatu vatu"
-      }
-    ],
-    "languages": [
-      "Bislama",
-      "English",
-      "French"
-    ],
-    "un_member": true,
-    "bordering_countries": [],
-    "earthquake_count": 4,
-    "avg_magnitude": 5.12,
-    "strongest_earthquake": {
-      "magnitude": 5.4,
-      "date": "2026-02-20",
-      "depth_km": 608.7,
-      "latitude": -13.8873,
-      "longitude": 172.4032
-    },
-    "highest_pager_alert": null,
-    "max_felt_reports": 0,
-    "tsunami_warning_issued": false,
-    "significant_events_count": 0,
-    "exposed_airports": [
-      {
-        "name": "Bauerfield International Airport",
-        "iata_code": "VLI",
-        "latitude": -17.699301,
-        "longitude": 168.320007,
-        "municipality": "Port Vila",
-        "closest_quake_distance_km": 174.8,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us6000say0",
-            "magnitude": 5,
-            "latitude": -16.184,
-            "longitude": 167.8834,
-            "depth_km": 186.816,
-            "time_ms": 1771816354535,
-            "place": "50 km E of Lakatoro, Vanuatu",
-            "distance_km": 174.8,
-            "exposure_contribution": 0.19,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 0.19
-      }
-    ],
-    "earthquakes": [
-      {
-        "id": "us6000say0",
-        "magnitude": 5,
-        "latitude": -16.184,
-        "longitude": 167.8834,
-        "depth_km": 186.816,
-        "time_ms": 1771816354535,
-        "place": "50 km E of Lakatoro, Vanuatu",
-        "country_code": "VU",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000saq6",
-        "magnitude": 5.1,
-        "latitude": -15.424,
-        "longitude": 166.6059,
-        "depth_km": 10,
-        "time_ms": 1771723373470,
-        "place": "60 km W of Luganville, Vanuatu",
-        "country_code": "VU",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000saef",
-        "magnitude": 5.4,
-        "latitude": -13.8873,
-        "longitude": 172.4032,
-        "depth_km": 608.731,
-        "time_ms": 1771599461646,
-        "place": "Vanuatu region",
-        "country_code": "VU",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000s9we",
-        "magnitude": 5,
-        "latitude": -14.2131,
-        "longitude": 166.5951,
-        "depth_km": 10,
-        "time_ms": 1771375529090,
-        "place": "105 km NNW of Port-Olry, Vanuatu",
-        "country_code": "VU",
-        "shakemap_available": false
-      }
-    ],
-    "seismic_hub_risk_score": 0.19
   }
 ]
