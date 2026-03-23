@@ -19,7 +19,7 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 18,
+    "earthquake_count": 17,
     "avg_magnitude": 5.27,
     "strongest_earthquake": {
       "magnitude": 5.9,
@@ -53,22 +53,9 @@
             "exposure_contribution": 0.85,
             "pga_g": null,
             "mmi": null
-          },
-          {
-            "earthquake_id": "us6000sae0",
-            "magnitude": 5.3,
-            "latitude": 41.5427,
-            "longitude": 141.9999,
-            "depth_km": 54.152,
-            "time_ms": 1771596990267,
-            "place": "71 km ENE of Mutsu, Japan",
-            "distance_km": 139.4,
-            "exposure_contribution": 0.7,
-            "pga_g": null,
-            "mmi": null
           }
         ],
-        "exposure_score": 1.55
+        "exposure_score": 0.85
       },
       {
         "name": "Hakodate Airport",
@@ -90,22 +77,9 @@
             "exposure_contribution": 1.32,
             "pga_g": null,
             "mmi": null
-          },
-          {
-            "earthquake_id": "us6000sae0",
-            "magnitude": 5.3,
-            "latitude": 41.5427,
-            "longitude": 141.9999,
-            "depth_km": 54.152,
-            "time_ms": 1771596990267,
-            "place": "71 km ENE of Mutsu, Japan",
-            "distance_km": 101.1,
-            "exposure_contribution": 1.06,
-            "pga_g": null,
-            "mmi": null
           }
         ],
-        "exposure_score": 2.38
+        "exposure_score": 1.32
       },
       {
         "name": "Kagoshima Airport",
@@ -272,21 +246,8 @@
         "latitude": 40.733777,
         "longitude": 140.689477,
         "municipality": "Aomori",
-        "closest_quake_distance_km": 141.9,
+        "closest_quake_distance_km": 153.8,
         "nearby_quakes": [
-          {
-            "earthquake_id": "us6000sae0",
-            "magnitude": 5.3,
-            "latitude": 41.5427,
-            "longitude": 141.9999,
-            "depth_km": 54.152,
-            "time_ms": 1771596990267,
-            "place": "71 km ENE of Mutsu, Japan",
-            "distance_km": 141.9,
-            "exposure_contribution": 0.68,
-            "pga_g": null,
-            "mmi": null
-          },
           {
             "earthquake_id": "us7000s36m",
             "magnitude": 5.9,
@@ -301,7 +262,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 1.44
+        "exposure_score": 0.77
       }
     ],
     "earthquakes": [
@@ -491,20 +452,9 @@
         "place": "96 km S of Sukumo, Japan",
         "country_code": "JP",
         "shakemap_available": false
-      },
-      {
-        "id": "us6000sae0",
-        "magnitude": 5.3,
-        "latitude": 41.5427,
-        "longitude": 141.9999,
-        "depth_km": 54.152,
-        "time_ms": 1771596990267,
-        "place": "71 km ENE of Mutsu, Japan",
-        "country_code": "JP",
-        "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 9.96
+    "seismic_hub_risk_score": 7.53
   },
   {
     "country": "Philippines",
@@ -769,8 +719,8 @@
       "POL",
       "UKR"
     ],
-    "earthquake_count": 20,
-    "avg_magnitude": 5.36,
+    "earthquake_count": 21,
+    "avg_magnitude": 5.35,
     "strongest_earthquake": {
       "magnitude": 6.4,
       "date": "2026-03-04",
@@ -842,12 +792,36 @@
             "exposure_contribution": 0.35,
             "pga_g": null,
             "mmi": null
+          },
+          {
+            "earthquake_id": "us6000sie4",
+            "magnitude": 5.1,
+            "latitude": 52.1582,
+            "longitude": 160.8307,
+            "depth_km": 10,
+            "time_ms": 1774163998619,
+            "place": "180 km SE of Petropavlovsk-Kamchatsky, Russia",
+            "distance_km": 195.9,
+            "exposure_contribution": 0.35,
+            "pga_g": null,
+            "mmi": null
           }
         ],
-        "exposure_score": 2.08
+        "exposure_score": 2.43
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000sie4",
+        "magnitude": 5.1,
+        "latitude": 52.1582,
+        "longitude": 160.8307,
+        "depth_km": 10,
+        "time_ms": 1774163998619,
+        "place": "180 km SE of Petropavlovsk-Kamchatsky, Russia",
+        "country_code": "RU",
+        "shakemap_available": false
+      },
       {
         "id": "us6000sheg",
         "magnitude": 5.2,
@@ -1069,7 +1043,7 @@
         "shakemap_available": true
       }
     ],
-    "seismic_hub_risk_score": 2.08
+    "seismic_hub_risk_score": 2.43
   },
   {
     "country": "Indonesia",
@@ -1219,10 +1193,10 @@
       {
         "id": "us7000s3i3",
         "magnitude": 5,
-        "latitude": -9.4883,
-        "longitude": 120.5923,
-        "depth_km": 49.917,
-        "time_ms": 1773179136137,
+        "latitude": -9.489,
+        "longitude": 120.5881,
+        "depth_km": 50.442,
+        "time_ms": 1773179136187,
         "place": "40 km ENE of Waingapu, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
@@ -1561,19 +1535,19 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 13,
-    "avg_magnitude": 5.28,
+    "earthquake_count": 17,
+    "avg_magnitude": 5.45,
     "strongest_earthquake": {
       "magnitude": 6.3,
-      "date": "2026-03-01",
-      "depth_km": 579,
-      "latitude": -21.8035,
-      "longitude": -179.4529
+      "date": "2026-03-22",
+      "depth_km": 10,
+      "latitude": -15.2263,
+      "longitude": -172.6832
     },
     "highest_pager_alert": "green",
     "max_felt_reports": 0,
     "tsunami_warning_issued": false,
-    "significant_events_count": 1,
+    "significant_events_count": 2,
     "exposed_airports": [
       {
         "name": "Fua'amotu International Airport",
@@ -1651,6 +1625,50 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000siln",
+        "magnitude": 5.9,
+        "latitude": -15.5887,
+        "longitude": -172.8436,
+        "depth_km": 13,
+        "time_ms": 1774218374506,
+        "place": "109 km ENE of Hihifo, Tonga",
+        "country_code": "TO",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000siia",
+        "magnitude": 5.6,
+        "latitude": -14.9649,
+        "longitude": -173.0424,
+        "depth_km": 10,
+        "time_ms": 1774195218888,
+        "place": "136 km NE of Hihifo, Tonga",
+        "country_code": "TO",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000sii1",
+        "magnitude": 6.3,
+        "latitude": -15.2263,
+        "longitude": -172.6832,
+        "depth_km": 10,
+        "time_ms": 1774193437033,
+        "place": "144 km NE of Hihifo, Tonga",
+        "country_code": "TO",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000sidb",
+        "magnitude": 6.2,
+        "latitude": -15.3824,
+        "longitude": -173.0468,
+        "depth_km": 10,
+        "time_ms": 1774160136646,
+        "place": "102 km NE of Hihifo, Tonga",
+        "country_code": "TO",
+        "shakemap_available": true
+      },
       {
         "id": "us6000si9m",
         "magnitude": 5,
