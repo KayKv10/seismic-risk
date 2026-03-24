@@ -357,11 +357,11 @@
       {
         "id": "us7000s1df",
         "magnitude": 5,
-        "latitude": 25.2462,
-        "longitude": 124.9703,
+        "latitude": 25.2869,
+        "longitude": 124.9384,
         "depth_km": 10,
-        "time_ms": 1772427386781,
-        "place": "59 km NW of Hirara, Japan",
+        "time_ms": 1772427386985,
+        "place": "64 km NW of Hirara, Japan",
         "country_code": "JP",
         "shakemap_available": false
       },
@@ -755,28 +755,15 @@
             "mmi": null
           },
           {
-            "earthquake_id": "us7000s304",
-            "magnitude": 5.1,
-            "latitude": 51.64,
-            "longitude": 159.4509,
-            "depth_km": 10,
-            "time_ms": 1772990625691,
-            "place": "160 km SSE of Vilyuchinsk, Russia",
-            "distance_km": 183.0,
-            "exposure_contribution": 0.39,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
             "earthquake_id": "us7000s2zx",
             "magnitude": 5.9,
-            "latitude": 51.621,
-            "longitude": 159.3956,
+            "latitude": 51.6519,
+            "longitude": 159.3937,
             "depth_km": 16,
-            "time_ms": 1772989722581,
-            "place": "160 km SSE of Vilyuchinsk, Russia",
-            "distance_km": 183.6,
-            "exposure_contribution": 0.97,
+            "time_ms": 1772989722553,
+            "place": "157 km SSE of Vilyuchinsk, Russia",
+            "distance_km": 180.4,
+            "exposure_contribution": 1.0,
             "pga_g": null,
             "mmi": null
           },
@@ -807,7 +794,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 2.43
+        "exposure_score": 2.07
       }
     ],
     "earthquakes": [
@@ -891,33 +878,33 @@
       {
         "id": "us7000s304",
         "magnitude": 5.1,
-        "latitude": 51.64,
-        "longitude": 159.4509,
+        "latitude": 51.471,
+        "longitude": 159.5688,
         "depth_km": 10,
-        "time_ms": 1772990625691,
-        "place": "160 km SSE of Vilyuchinsk, Russia",
+        "time_ms": 1772990625254,
+        "place": "180 km SSE of Vilyuchinsk, Russia",
         "country_code": "RU",
         "shakemap_available": false
       },
       {
         "id": "us7000s302",
         "magnitude": 5.1,
-        "latitude": 51.4956,
-        "longitude": 159.5829,
+        "latitude": 51.4036,
+        "longitude": 159.6719,
         "depth_km": 10,
-        "time_ms": 1772990354823,
-        "place": "178 km SSE of Vilyuchinsk, Russia",
+        "time_ms": 1772990354449,
+        "place": "190 km SSE of Vilyuchinsk, Russia",
         "country_code": "RU",
         "shakemap_available": false
       },
       {
         "id": "us7000s2zx",
         "magnitude": 5.9,
-        "latitude": 51.621,
-        "longitude": 159.3956,
+        "latitude": 51.6519,
+        "longitude": 159.3937,
         "depth_km": 16,
-        "time_ms": 1772989722581,
-        "place": "160 km SSE of Vilyuchinsk, Russia",
+        "time_ms": 1772989722553,
+        "place": "157 km SSE of Vilyuchinsk, Russia",
         "country_code": "RU",
         "shakemap_available": true
       },
@@ -1043,7 +1030,7 @@
         "shakemap_available": true
       }
     ],
-    "seismic_hub_risk_score": 2.43
+    "seismic_hub_risk_score": 2.07
   },
   {
     "country": "Indonesia",
@@ -1293,130 +1280,6 @@
     "seismic_hub_risk_score": 1.38
   },
   {
-    "country": "Papua New Guinea",
-    "iso_alpha2": "PG",
-    "iso_alpha3": "PNG",
-    "capital": "Port Moresby",
-    "population": 11781559,
-    "area_km2": 462840.0,
-    "region": "Oceania",
-    "subregion": "Melanesia",
-    "currencies": [
-      {
-        "code": "PGK",
-        "name": "Papua New Guinean kina"
-      }
-    ],
-    "languages": [
-      "English",
-      "Hiri Motu",
-      "Tok Pisin"
-    ],
-    "un_member": true,
-    "bordering_countries": [
-      "IDN"
-    ],
-    "earthquake_count": 4,
-    "avg_magnitude": 5.43,
-    "strongest_earthquake": {
-      "magnitude": 5.7,
-      "date": "2026-02-21",
-      "depth_km": 70,
-      "latitude": -5.3342,
-      "longitude": 145.8472
-    },
-    "highest_pager_alert": null,
-    "max_felt_reports": 0,
-    "tsunami_warning_issued": false,
-    "significant_events_count": 0,
-    "exposed_airports": [
-      {
-        "name": "Nadzab Tomodachi International Airport",
-        "iata_code": "LAE",
-        "latitude": -6.567995,
-        "longitude": 146.726544,
-        "municipality": "Lae",
-        "closest_quake_distance_km": 164.9,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us7000s06i",
-            "magnitude": 5.4,
-            "latitude": -5.347,
-            "longitude": 145.8805,
-            "depth_km": 81.449,
-            "time_ms": 1772018043799,
-            "place": "17 km SE of Madang, Papua New Guinea",
-            "distance_km": 164.9,
-            "exposure_contribution": 0.55,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
-            "earthquake_id": "us6000saks",
-            "magnitude": 5.7,
-            "latitude": -5.3342,
-            "longitude": 145.8472,
-            "depth_km": 70,
-            "time_ms": 1771654723778,
-            "place": "14 km SSE of Madang, Papua New Guinea",
-            "distance_km": 168.2,
-            "exposure_contribution": 0.79,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 1.34
-      }
-    ],
-    "earthquakes": [
-      {
-        "id": "us6000sfy3",
-        "magnitude": 5.2,
-        "latitude": -3.5314,
-        "longitude": 149.7727,
-        "depth_km": 10,
-        "time_ms": 1773352726473,
-        "place": "155 km SW of Kavieng, Papua New Guinea",
-        "country_code": "PG",
-        "shakemap_available": false
-      },
-      {
-        "id": "us7000s106",
-        "magnitude": 5.4,
-        "latitude": -5.463,
-        "longitude": 151.8942,
-        "depth_km": 52.402,
-        "time_ms": 1772259807314,
-        "place": "130 km SSW of Kokopo, Papua New Guinea",
-        "country_code": "PG",
-        "shakemap_available": true
-      },
-      {
-        "id": "us7000s06i",
-        "magnitude": 5.4,
-        "latitude": -5.347,
-        "longitude": 145.8805,
-        "depth_km": 81.449,
-        "time_ms": 1772018043799,
-        "place": "17 km SE of Madang, Papua New Guinea",
-        "country_code": "PG",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000saks",
-        "magnitude": 5.7,
-        "latitude": -5.3342,
-        "longitude": 145.8472,
-        "depth_km": 70,
-        "time_ms": 1771654723778,
-        "place": "14 km SSE of Madang, Papua New Guinea",
-        "country_code": "PG",
-        "shakemap_available": true
-      }
-    ],
-    "seismic_hub_risk_score": 1.34
-  },
-  {
     "country": "Vanuatu",
     "iso_alpha2": "VU",
     "iso_alpha3": "VUT",
@@ -1535,8 +1398,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 17,
-    "avg_magnitude": 5.45,
+    "earthquake_count": 18,
+    "avg_magnitude": 5.47,
     "strongest_earthquake": {
       "magnitude": 6.3,
       "date": "2026-03-22",
@@ -1545,7 +1408,7 @@
       "longitude": -172.6832
     },
     "highest_pager_alert": "green",
-    "max_felt_reports": 0,
+    "max_felt_reports": 1,
     "tsunami_warning_issued": false,
     "significant_events_count": 2,
     "exposed_airports": [
@@ -1625,6 +1488,17 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000sisb",
+        "magnitude": 5.8,
+        "latitude": -15.3637,
+        "longitude": -172.9452,
+        "depth_km": 10,
+        "time_ms": 1774245765817,
+        "place": "112 km NE of Hihifo, Tonga",
+        "country_code": "TO",
+        "shakemap_available": true
+      },
       {
         "id": "us6000siln",
         "magnitude": 5.9,
@@ -1976,5 +1850,105 @@
       }
     ],
     "seismic_hub_risk_score": 1.03
+  },
+  {
+    "country": "Papua New Guinea",
+    "iso_alpha2": "PG",
+    "iso_alpha3": "PNG",
+    "capital": "Port Moresby",
+    "population": 11781559,
+    "area_km2": 462840.0,
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "currencies": [
+      {
+        "code": "PGK",
+        "name": "Papua New Guinean kina"
+      }
+    ],
+    "languages": [
+      "English",
+      "Hiri Motu",
+      "Tok Pisin"
+    ],
+    "un_member": true,
+    "bordering_countries": [
+      "IDN"
+    ],
+    "earthquake_count": 3,
+    "avg_magnitude": 5.33,
+    "strongest_earthquake": {
+      "magnitude": 5.4,
+      "date": "2026-02-28",
+      "depth_km": 52.4,
+      "latitude": -5.463,
+      "longitude": 151.8942
+    },
+    "highest_pager_alert": null,
+    "max_felt_reports": 0,
+    "tsunami_warning_issued": false,
+    "significant_events_count": 0,
+    "exposed_airports": [
+      {
+        "name": "Nadzab Tomodachi International Airport",
+        "iata_code": "LAE",
+        "latitude": -6.567995,
+        "longitude": 146.726544,
+        "municipality": "Lae",
+        "closest_quake_distance_km": 164.9,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us7000s06i",
+            "magnitude": 5.4,
+            "latitude": -5.347,
+            "longitude": 145.8805,
+            "depth_km": 81.449,
+            "time_ms": 1772018043799,
+            "place": "17 km SE of Madang, Papua New Guinea",
+            "distance_km": 164.9,
+            "exposure_contribution": 0.55,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 0.55
+      }
+    ],
+    "earthquakes": [
+      {
+        "id": "us6000sfy3",
+        "magnitude": 5.2,
+        "latitude": -3.5314,
+        "longitude": 149.7727,
+        "depth_km": 10,
+        "time_ms": 1773352726473,
+        "place": "155 km SW of Kavieng, Papua New Guinea",
+        "country_code": "PG",
+        "shakemap_available": false
+      },
+      {
+        "id": "us7000s106",
+        "magnitude": 5.4,
+        "latitude": -5.463,
+        "longitude": 151.8942,
+        "depth_km": 52.402,
+        "time_ms": 1772259807314,
+        "place": "130 km SSW of Kokopo, Papua New Guinea",
+        "country_code": "PG",
+        "shakemap_available": true
+      },
+      {
+        "id": "us7000s06i",
+        "magnitude": 5.4,
+        "latitude": -5.347,
+        "longitude": 145.8805,
+        "depth_km": 81.449,
+        "time_ms": 1772018043799,
+        "place": "17 km SE of Madang, Papua New Guinea",
+        "country_code": "PG",
+        "shakemap_available": true
+      }
+    ],
+    "seismic_hub_risk_score": 0.55
   }
 ]
