@@ -20,8 +20,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 19,
-    "avg_magnitude": 5.57,
+    "earthquake_count": 21,
+    "avg_magnitude": 5.55,
     "strongest_earthquake": {
       "magnitude": 7.5,
       "date": "2026-03-24",
@@ -123,6 +123,28 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us7000s7ha",
+        "magnitude": 5.2,
+        "latitude": -15.6261,
+        "longitude": -174.4632,
+        "depth_km": 198.051,
+        "time_ms": 1774433849823,
+        "place": "80 km WNW of Hihifo, Tonga",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
+      {
+        "id": "us7000s7h9",
+        "magnitude": 5.6,
+        "latitude": -15.5143,
+        "longitude": -174.3933,
+        "depth_km": 198.327,
+        "time_ms": 1774433459550,
+        "place": "80 km NW of Hihifo, Tonga",
+        "country_code": "TO",
+        "shakemap_available": true
+      },
       {
         "id": "us7000s79e",
         "magnitude": 5.2,
@@ -682,11 +704,11 @@
       {
         "id": "us7000s1en",
         "magnitude": 5.6,
-        "latitude": 25.2561,
-        "longitude": 124.8849,
-        "depth_km": 10,
-        "time_ms": 1772447963321,
-        "place": "65 km NW of Hirara, Japan",
+        "latitude": 25.2088,
+        "longitude": 124.9773,
+        "depth_km": 9,
+        "time_ms": 1772447962622,
+        "place": "55 km NW of Hirara, Japan",
         "country_code": "JP",
         "shakemap_available": true
       },
@@ -876,6 +898,19 @@
             "mmi": null
           },
           {
+            "earthquake_id": "us7000s7nc",
+            "magnitude": 5,
+            "latitude": 52.217,
+            "longitude": 160.6922,
+            "depth_km": 26.504,
+            "time_ms": 1774477517682,
+            "place": "168 km SE of Petropavlovsk-Kamchatsky, Russia",
+            "distance_km": 184.4,
+            "exposure_contribution": 0.34,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
             "earthquake_id": "us7000s372",
             "magnitude": 5.1,
             "latitude": 51.593,
@@ -902,10 +937,21 @@
             "mmi": null
           }
         ],
-        "exposure_score": 2.07
+        "exposure_score": 2.4
       }
     ],
     "earthquakes": [
+      {
+        "id": "us7000s7nc",
+        "magnitude": 5,
+        "latitude": 52.217,
+        "longitude": 160.6922,
+        "depth_km": 26.504,
+        "time_ms": 1774477517682,
+        "place": "168 km SE of Petropavlovsk-Kamchatsky, Russia",
+        "country_code": "RU",
+        "shakemap_available": false
+      },
       {
         "id": "us7000s7ee",
         "magnitude": 5.2,
@@ -1063,44 +1109,33 @@
       {
         "id": "us7000s1z1",
         "magnitude": 5.4,
-        "latitude": 52.2374,
-        "longitude": 176.3148,
+        "latitude": 52.165,
+        "longitude": 176.3407,
         "depth_km": 10,
-        "time_ms": 1772630819753,
-        "place": "222 km ESE of Attu Station, Alaska",
+        "time_ms": 1772630819361,
+        "place": "227 km ESE of Attu Station, Alaska",
         "country_code": "RU",
         "shakemap_available": true
       },
       {
         "id": "us7000s1nu",
-        "magnitude": 5.2,
-        "latitude": 52.2167,
-        "longitude": 176.4919,
+        "magnitude": 5.3,
+        "latitude": 52.2579,
+        "longitude": 176.429,
         "depth_km": 10,
-        "time_ms": 1772534663505,
-        "place": "235 km ESE of Attu Station, Alaska",
+        "time_ms": 1772534663241,
+        "place": "229 km ESE of Attu Station, Alaska",
         "country_code": "RU",
         "shakemap_available": true
       },
       {
-        "id": "us7000s1lc",
-        "magnitude": 5.1,
-        "latitude": 51.0326,
-        "longitude": 158.4253,
-        "depth_km": 41.402,
-        "time_ms": 1772504204453,
-        "place": "143 km ESE of Ozernovskiy, Russia",
-        "country_code": "RU",
-        "shakemap_available": false
-      },
-      {
         "id": "us7000s1jn",
         "magnitude": 5.3,
-        "latitude": 52.3034,
-        "longitude": 176.3996,
+        "latitude": 52.3183,
+        "longitude": 176.4354,
         "depth_km": 10,
-        "time_ms": 1772495209663,
-        "place": "226 km ESE of Attu Station, Alaska",
+        "time_ms": 1772495209761,
+        "place": "227 km ESE of Attu Station, Alaska",
         "country_code": "RU",
         "shakemap_available": true
       },
@@ -1138,7 +1173,7 @@
         "shakemap_available": true
       }
     ],
-    "seismic_hub_risk_score": 2.07
+    "seismic_hub_risk_score": 2.4
   },
   {
     "country": "Philippines",
@@ -1363,8 +1398,8 @@
       "magnitude": 6.2,
       "date": "2026-03-03",
       "depth_km": 18,
-      "latitude": 2.042,
-      "longitude": 96.7387
+      "latitude": 2.0076,
+      "longitude": 96.695
     },
     "highest_pager_alert": null,
     "max_felt_reports": 0,
@@ -1536,10 +1571,10 @@
       {
         "id": "us7000s1ln",
         "magnitude": 6.2,
-        "latitude": 2.042,
-        "longitude": 96.7387,
+        "latitude": 2.0076,
+        "longitude": 96.695,
         "depth_km": 18,
-        "time_ms": 1772513806093,
+        "time_ms": 1772513805857,
         "place": "62 km SE of Sinabang, Indonesia",
         "country_code": "ID",
         "shakemap_available": true
@@ -1755,8 +1790,8 @@
     "bordering_countries": [
       "IDN"
     ],
-    "earthquake_count": 3,
-    "avg_magnitude": 5.33,
+    "earthquake_count": 4,
+    "avg_magnitude": 5.25,
     "strongest_earthquake": {
       "magnitude": 5.4,
       "date": "2026-02-28",
@@ -1795,6 +1830,17 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us7000s7in",
+        "magnitude": 5,
+        "latitude": -5.8203,
+        "longitude": 152.0742,
+        "depth_km": 10,
+        "time_ms": 1774436373633,
+        "place": "164 km S of Kokopo, Papua New Guinea",
+        "country_code": "PG",
+        "shakemap_available": false
+      },
       {
         "id": "us6000sfy3",
         "magnitude": 5.2,
