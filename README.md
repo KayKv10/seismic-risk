@@ -76,16 +76,16 @@ curl "http://localhost:8000/risk?min_magnitude=4.0&days=14&format=csv"
 *Updated daily by [GitHub Actions](https://github.com/KayKv10/seismic-risk/actions/workflows/daily-report.yml). View the [interactive map](https://kaykv10.github.io/seismic-risk/latest.html).*
 
 <!-- LATEST_RESULTS_START -->
-*Last updated: 2026-03-28 06:49 UTC*
+*Last updated: 2026-03-29 06:55 UTC*
 
 | # | Country | ISO | Score | Trend | Quakes | Airports | Alert |
 |--:|:--------|:----|------:|:------|-------:|---------:|:------|
-| 1 | Tonga | TON | 8.4 | ~ | 21 | 2 | green |
-| 2 | Japan | JPN | 4.9 | -2.7 | 18 | 6 | green |
-| 3 | Russia | RUS | 2.4 | ~ | 21 | 1 | green |
-| 4 | Indonesia | IDN | 2.0 | ~ | 12 | 3 | - |
-| 5 | Philippines | PHL | 2.0 | ~ | 3 | 5 | - |
-| 6 | Pakistan | PAK | 1.3 | NEW | 3 | 1 | - |
+| 1 | Tonga | TON | 8.2 | ~ | 20 | 2 | green |
+| 2 | Japan | JPN | 4.9 | ~ | 17 | 6 | green |
+| 3 | Indonesia | IDN | 3.2 | +1.2 | 13 | 3 | - |
+| 4 | Philippines | PHL | 2.5 | +0.5 | 4 | 6 | - |
+| 5 | Russia | RUS | 2.4 | ~ | 19 | 1 | green |
+| 6 | Pakistan | PAK | 1.3 | ~ | 3 | 1 | - |
 | 7 | Argentina | ARG | 1.0 | ~ | 4 | 3 | - |
 <!-- LATEST_RESULTS_END -->
 
