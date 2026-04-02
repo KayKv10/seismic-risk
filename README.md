@@ -1,6 +1,6 @@
 # seismic-risk
 
-[![CI](https://github.com/KayKv10/seismic-risk/actions/workflows/ci.yml/badge.svg)](https://github.com/KayKv10/seismic-risk/actions/workflows/ci.yml)
+[![CI](https://github.com/kmvaidya/seismic-risk/actions/workflows/ci.yml/badge.svg)](https://github.com/kmvaidya/seismic-risk/actions/workflows/ci.yml)
 [![PyPI version](https://img.shields.io/pypi/v/seismic-risk)](https://pypi.org/project/seismic-risk/)
 [![Python versions](https://img.shields.io/pypi/pyversions/seismic-risk)](https://pypi.org/project/seismic-risk/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -18,7 +18,7 @@ pip install seismic-risk
 ### Install from source
 
 ```bash
-git clone https://github.com/KayKv10/seismic-risk.git
+git clone https://github.com/kmvaidya/seismic-risk.git
 cd seismic-risk
 uv sync --all-extras   # or: pip install -e ".[dev,api]"
 ```
@@ -73,7 +73,7 @@ curl "http://localhost:8000/risk?min_magnitude=4.0&days=14&format=csv"
 
 ## Latest Results
 
-*Updated daily by [GitHub Actions](https://github.com/KayKv10/seismic-risk/actions/workflows/daily-report.yml). View the [interactive map](https://kaykv10.github.io/seismic-risk/latest.html).*
+*Updated daily by [GitHub Actions](https://github.com/kmvaidya/seismic-risk/actions/workflows/daily-report.yml). View the [interactive map](https://kmvaidya.github.io/seismic-risk/latest.html).*
 
 <!-- LATEST_RESULTS_START -->
 *Last updated: 2026-04-02 07:02 UTC*
@@ -183,7 +183,7 @@ jupyter notebook examples/notebook_demo.ipynb
 
 ## Trend Tracking
 
-The `output/history/` directory contains monthly snapshots back to January 2020 and daily snapshots going forward, updated automatically by the [daily report workflow](https://github.com/KayKv10/seismic-risk/actions/workflows/daily-report.yml). The HTML map shows SVG sparkline charts for each country's risk score history, and per-airport exposure sparklines in airport popups.
+The `output/history/` directory contains monthly snapshots back to January 2020 and daily snapshots going forward, updated automatically by the [daily report workflow](https://github.com/kmvaidya/seismic-risk/actions/workflows/daily-report.yml). The HTML map shows SVG sparkline charts for each country's risk score history, and per-airport exposure sparklines in airport popups.
 
 ```bash
 # Run with trend sparklines
