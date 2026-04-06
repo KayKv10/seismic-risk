@@ -76,17 +76,17 @@ curl "http://localhost:8000/risk?min_magnitude=4.0&days=14&format=csv"
 *Updated daily by [GitHub Actions](https://github.com/kmvaidya/seismic-risk/actions/workflows/daily-report.yml). View the [interactive map](https://kmvaidya.github.io/seismic-risk/latest.html).*
 
 <!-- LATEST_RESULTS_START -->
-*Last updated: 2026-04-05 06:56 UTC*
+*Last updated: 2026-04-06 07:19 UTC*
 
 | # | Country | ISO | Score | Trend | Quakes | Airports | Alert |
 |--:|:--------|:----|------:|:------|-------:|---------:|:------|
-| 1 | Indonesia | IDN | 26.8 | +1.5 | 44 | 4 | green |
-| 2 | Tonga | TON | 8.4 | ~ | 25 | 2 | green |
-| 3 | Japan | JPN | 6.9 | +0.7 | 11 | 6 | green |
-| 4 | Russia | RUS | 2.1 | ~ | 17 | 1 | - |
+| 1 | Indonesia | IDN | 26.8 | ~ | 42 | 4 | green |
+| 2 | Tonga | TON | 8.4 | ~ | 28 | 2 | green |
+| 3 | Japan | JPN | 6.9 | ~ | 12 | 6 | green |
+| 4 | Russia | RUS | 2.1 | ~ | 15 | 1 | - |
 | 5 | Philippines | PHL | 2.1 | ~ | 3 | 6 | - |
 | 6 | Vanuatu | VUT | 1.5 | ~ | 7 | 1 | green |
-| 7 | Turkey | TUR | 1.4 | NEW | 3 | 3 | - |
+| 7 | Turkey | TUR | 1.4 | ~ | 3 | 3 | - |
 | 8 | Pakistan | PAK | 1.3 | ~ | 3 | 1 | - |
 | 9 | Argentina | ARG | 1.0 | ~ | 3 | 3 | - |
 <!-- LATEST_RESULTS_END -->

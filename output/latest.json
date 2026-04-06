@@ -23,8 +23,8 @@
       "MYS",
       "PNG"
     ],
-    "earthquake_count": 44,
-    "avg_magnitude": 5.34,
+    "earthquake_count": 42,
+    "avg_magnitude": 5.35,
     "strongest_earthquake": {
       "magnitude": 7.4,
       "date": "2026-04-01",
@@ -960,28 +960,6 @@
         "place": "103 km SSE of Sungai Penuh, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
-      },
-      {
-        "id": "us7000s2m9",
-        "magnitude": 5.3,
-        "latitude": 1.6539,
-        "longitude": 128.6002,
-        "depth_km": 10,
-        "time_ms": 1772819753067,
-        "place": "66 km E of Tobelo, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": true
-      },
-      {
-        "id": "us7000s2ip",
-        "magnitude": 5,
-        "latitude": -2.9214,
-        "longitude": 130.2375,
-        "depth_km": 10,
-        "time_ms": 1772810867968,
-        "place": "147 km ENE of Masohi, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
       }
     ],
     "seismic_hub_risk_score": 26.79
@@ -1007,8 +985,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 25,
-    "avg_magnitude": 5.48,
+    "earthquake_count": 28,
+    "avg_magnitude": 5.46,
     "strongest_earthquake": {
       "magnitude": 7.5,
       "date": "2026-03-24",
@@ -1110,6 +1088,50 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000smwq",
+        "magnitude": 5.4,
+        "latitude": -32.0691,
+        "longitude": -177.9594,
+        "depth_km": 11,
+        "time_ms": 1775409647491,
+        "place": "south of the Kermadec Islands",
+        "country_code": "TO",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000smww",
+        "magnitude": 5.2,
+        "latitude": -32.0921,
+        "longitude": -178.0867,
+        "depth_km": 10,
+        "time_ms": 1775409591822,
+        "place": "south of the Kermadec Islands",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000smwn",
+        "magnitude": 5.1,
+        "latitude": -31.9405,
+        "longitude": -178.5931,
+        "depth_km": 35,
+        "time_ms": 1775409041726,
+        "place": "Kermadec Islands region",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000smui",
+        "magnitude": 5.5,
+        "latitude": -32.0412,
+        "longitude": -177.8645,
+        "depth_km": 10,
+        "time_ms": 1775395335957,
+        "place": "south of the Kermadec Islands",
+        "country_code": "TO",
+        "shakemap_available": true
+      },
       {
         "id": "us6000smp9",
         "magnitude": 5,
@@ -1245,11 +1267,11 @@
       {
         "id": "us6000siln",
         "magnitude": 5.9,
-        "latitude": -15.5887,
-        "longitude": -172.8436,
+        "latitude": -15.6311,
+        "longitude": -172.8184,
         "depth_km": 13,
-        "time_ms": 1774218374506,
-        "place": "109 km ENE of Hihifo, Tonga",
+        "time_ms": 1774218374332,
+        "place": "110 km ENE of Hihifo, Tonga",
         "country_code": "TO",
         "shakemap_available": true
       },
@@ -1278,11 +1300,11 @@
       {
         "id": "us6000sidb",
         "magnitude": 6.2,
-        "latitude": -15.3824,
-        "longitude": -173.0468,
-        "depth_km": 10,
-        "time_ms": 1774160136646,
-        "place": "102 km NE of Hihifo, Tonga",
+        "latitude": -15.1922,
+        "longitude": -172.96,
+        "depth_km": 14,
+        "time_ms": 1774160136306,
+        "place": "123 km NE of Hihifo, Tonga",
         "country_code": "TO",
         "shakemap_available": true
       },
@@ -1373,17 +1395,6 @@
         "place": "100 km E of Hihifo, Tonga",
         "country_code": "TO",
         "shakemap_available": false
-      },
-      {
-        "id": "us7000s2ih",
-        "magnitude": 5.3,
-        "latitude": -29.9481,
-        "longitude": -177.9293,
-        "depth_km": 54.303,
-        "time_ms": 1772810267953,
-        "place": "Kermadec Islands, New Zealand",
-        "country_code": "TO",
-        "shakemap_available": false
       }
     ],
     "seismic_hub_risk_score": 8.39
@@ -1408,8 +1419,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 11,
-    "avg_magnitude": 5.38,
+    "earthquake_count": 12,
+    "avg_magnitude": 5.36,
     "strongest_earthquake": {
       "magnitude": 6.5,
       "date": "2026-03-26",
@@ -1595,6 +1606,17 @@
     ],
     "earthquakes": [
       {
+        "id": "us6000smq4",
+        "magnitude": 5.1,
+        "latitude": 28.4548,
+        "longitude": 142.6478,
+        "depth_km": 10,
+        "time_ms": 1775355482073,
+        "place": "Bonin Islands, Japan region",
+        "country_code": "JP",
+        "shakemap_available": false
+      },
+      {
         "id": "us6000smj7",
         "magnitude": 5,
         "latitude": 38.4373,
@@ -1753,8 +1775,8 @@
       "POL",
       "UKR"
     ],
-    "earthquake_count": 17,
-    "avg_magnitude": 5.22,
+    "earthquake_count": 15,
+    "avg_magnitude": 5.2,
     "strongest_earthquake": {
       "magnitude": 5.9,
       "date": "2026-03-08",
@@ -1996,28 +2018,6 @@
         "place": "157 km SSE of Vilyuchinsk, Russia",
         "country_code": "RU",
         "shakemap_available": true
-      },
-      {
-        "id": "us7000s2n6",
-        "magnitude": 5.7,
-        "latitude": 52.2174,
-        "longitude": 176.4498,
-        "depth_km": 11.174,
-        "time_ms": 1772831299781,
-        "place": "232 km ESE of Attu Station, Alaska",
-        "country_code": "RU",
-        "shakemap_available": true
-      },
-      {
-        "id": "us7000s2g3",
-        "magnitude": 5.1,
-        "latitude": 51.5741,
-        "longitude": 159.8864,
-        "depth_km": 10,
-        "time_ms": 1772773236057,
-        "place": "181 km SSE of Vilyuchinsk, Russia",
-        "country_code": "RU",
-        "shakemap_available": false
       }
     ],
     "seismic_hub_risk_score": 2.1
