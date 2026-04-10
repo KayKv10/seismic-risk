@@ -500,6 +500,17 @@
     ],
     "earthquakes": [
       {
+        "id": "us6000snmv",
+        "magnitude": 5.1,
+        "latitude": -2.9855,
+        "longitude": 136.2579,
+        "depth_km": 10,
+        "time_ms": 1775719941057,
+        "place": "93 km ENE of Nabire, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
         "id": "us6000sn81",
         "magnitude": 5,
         "latitude": -6.1919,
@@ -938,17 +949,6 @@
         "place": "105 km WNW of Luwuk, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
-      },
-      {
-        "id": "us7000s3i3",
-        "magnitude": 5,
-        "latitude": -9.489,
-        "longitude": 120.5881,
-        "depth_km": 50.442,
-        "time_ms": 1773179136187,
-        "place": "40 km ENE of Waingapu, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
       }
     ],
     "seismic_hub_risk_score": 26.79
@@ -974,8 +974,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 26,
-    "avg_magnitude": 5.46,
+    "earthquake_count": 27,
+    "avg_magnitude": 5.44,
     "strongest_earthquake": {
       "magnitude": 7.5,
       "date": "2026-03-24",
@@ -1023,6 +1023,19 @@
             "mmi": null
           },
           {
+            "earthquake_id": "us7000s7vr",
+            "magnitude": 5,
+            "latitude": -19.9096,
+            "longitude": -173.3305,
+            "depth_km": 10,
+            "time_ms": 1773760605398,
+            "place": "105 km E of Fangale’ounga, Tonga",
+            "distance_km": 161.5,
+            "exposure_contribution": 0.43,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
             "earthquake_id": "us7000s789",
             "magnitude": 7.5,
             "latitude": -18.6678,
@@ -1036,7 +1049,7 @@
             "mmi": 5.1
           }
         ],
-        "exposure_score": 7.72
+        "exposure_score": 8.16
       }
     ],
     "earthquakes": [
@@ -1305,6 +1318,17 @@
         "shakemap_available": false
       },
       {
+        "id": "us7000s7vr",
+        "magnitude": 5,
+        "latitude": -19.9096,
+        "longitude": -173.3305,
+        "depth_km": 10,
+        "time_ms": 1773760605398,
+        "place": "105 km E of Fangale’ounga, Tonga",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
+      {
         "id": "us6000sfza",
         "magnitude": 5.2,
         "latitude": -28.2374,
@@ -1327,7 +1351,7 @@
         "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 7.72
+    "seismic_hub_risk_score": 8.16
   },
   {
     "country": "Japan",
@@ -1349,8 +1373,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 10,
-    "avg_magnitude": 5.23,
+    "earthquake_count": 11,
+    "avg_magnitude": 5.22,
     "strongest_earthquake": {
       "magnitude": 6.5,
       "date": "2026-03-26",
@@ -1463,6 +1487,17 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000snqs",
+        "magnitude": 5.1,
+        "latitude": 30.8731,
+        "longitude": 141.9379,
+        "depth_km": 10,
+        "time_ms": 1775760864963,
+        "place": "Izu Islands, Japan region",
+        "country_code": "JP",
+        "shakemap_available": false
+      },
       {
         "id": "us6000smq4",
         "magnitude": 5.1,
@@ -1665,11 +1700,11 @@
       {
         "id": "us7000s97y",
         "magnitude": 5,
-        "latitude": -12.7607,
-        "longitude": 169.2312,
-        "depth_km": 650.109,
-        "time_ms": 1774994193870,
-        "place": "219 km NE of Sola, Vanuatu",
+        "latitude": -12.8045,
+        "longitude": 169.2442,
+        "depth_km": 653.461,
+        "time_ms": 1774994194185,
+        "place": "218 km ENE of Sola, Vanuatu",
         "country_code": "VU",
         "shakemap_available": false
       },
@@ -2062,21 +2097,21 @@
       {
         "id": "us6000sgvw",
         "magnitude": 5.3,
-        "latitude": 52.1503,
-        "longitude": 176.4619,
+        "latitude": 52.248,
+        "longitude": 176.4218,
         "depth_km": 10,
-        "time_ms": 1773764497453,
-        "place": "235 km ESE of Attu Station, Alaska",
+        "time_ms": 1773764497526,
+        "place": "229 km ESE of Attu Station, Alaska",
         "country_code": "RU",
         "shakemap_available": true
       },
       {
         "id": "us6000sgv2",
         "magnitude": 5,
-        "latitude": 47.1946,
-        "longitude": 153.5679,
-        "depth_km": 43.507,
-        "time_ms": 1773757965271,
+        "latitude": 47.2657,
+        "longitude": 153.5413,
+        "depth_km": 51.48,
+        "time_ms": 1773757966417,
         "place": "Kuril Islands",
         "country_code": "RU",
         "shakemap_available": false

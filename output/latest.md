@@ -1,23 +1,22 @@
 # Seismic Risk Report
-Generated: 2026-04-09 07:12 UTC
+Generated: 2026-04-10 07:17 UTC
 
 ## Trend Summary
 
-Based on 89 snapshots (2023-09-30 to 2026-04-09).
+Based on 89 snapshots (2023-10-31 to 2026-04-10).
 
-**Dropped off**: Turkey
 
 **Top score changes**:
 
-- Japan (JPN): -2.9
-- Russia (RUS): -0.3
+- Tonga (TON): +0.4
 - Indonesia (IDN): 0.0
-- Tonga (TON): 0.0
+- Japan (JPN): 0.0
 - Vanuatu (VUT): 0.0
+- Pakistan (PAK): 0.0
 
 **Top airport exposure changes**:
 
-- Yelizovo Airport (PKC, RUS): -0.3
+- Vava'u International Airport (VAV, TON): +0.4
 - Dortheys Hiyo Eluay International Airport (DJJ, IDN): 0.0
 - Sam Ratulangi International Airport (MDC, IDN): 0.0
 - Halim Perdanakusuma International Airport (HLP, IDN): 0.0
@@ -28,8 +27,8 @@ Based on 89 snapshots (2023-09-30 to 2026-04-09).
 | Country | ISO | Region | Score | Trend | Avg Mag | Strongest | Quakes | Airports | Alert | Tsunami | Sig. Events |
 |:--------|:----|:-------|------:|:------|--------:|:----------|-------:|---------:|:------|:--------|------------:|
 | Indonesia | IDN | Asia | 26.8 | ~ | 5.3 | M7.4 (2026-04-01) | 41 | 4 | green | No | 1 |
-| Tonga | TON | Oceania | 7.7 | ~ | 5.5 | M7.5 (2026-03-24) | 26 | 1 | green | No | 2 |
-| Japan | JPN | Asia | 3.9 | -2.9 | 5.2 | M6.5 (2026-03-26) | 10 | 3 | green | No | 1 |
+| Tonga | TON | Oceania | 8.2 | ~ | 5.4 | M7.5 (2026-03-24) | 27 | 1 | green | No | 2 |
+| Japan | JPN | Asia | 3.9 | ~ | 5.2 | M6.5 (2026-03-26) | 11 | 3 | green | No | 1 |
 | Vanuatu | VUT | Oceania | 1.5 | ~ | 5.7 | M7.3 (2026-03-30) | 7 | 1 | green | No | 1 |
 | Pakistan | PAK | Asia | 1.3 | ~ | 5.1 | M5.3 (2026-03-26) | 3 | 1 | - | No | 0 |
 | Russia | RUS | Europe | 1.1 | ~ | 5.2 | M5.6 (2026-03-19) | 11 | 1 | - | No | 0 |
@@ -42,7 +41,7 @@ Based on 89 snapshots (2023-09-30 to 2026-04-09).
 | Dortheys Hiyo Eluay International Airport | DJJ | Sentani | Indonesia | 2.3 | ~ | - | 113.5 | 2 |
 | Halim Perdanakusuma International Airport | HLP | Jakarta | Indonesia | 0.5 | ~ | - | 138.1 | 1 |
 | Soekarno-Hatta International Airport | CGK | Jakarta | Indonesia | 0.4 | ~ | - | 159.4 | 1 |
-| Vava'u International Airport | VAV | Vava'u Island | Tonga | 7.7 | ~ | 0.0733 | 158.5 | 3 |
+| Vava'u International Airport | VAV | Vava'u Island | Tonga | 8.2 | ~ | 0.0733 | 158.5 | 4 |
 | Sendai Airport | SDJ | Natori | Japan | 1.8 | ~ | - | 60.1 | 2 |
 | Kadena Air Base | DNA | Okinawa | Japan | 1.3 | ~ | - | 106.4 | 2 |
 | Naha International Airport | OKA | Naha | Japan | 0.8 | ~ | - | 118.4 | 1 |
