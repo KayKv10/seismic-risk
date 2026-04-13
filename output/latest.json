@@ -23,7 +23,7 @@
       "MYS",
       "PNG"
     ],
-    "earthquake_count": 40,
+    "earthquake_count": 41,
     "avg_magnitude": 5.35,
     "strongest_earthquake": {
       "magnitude": 7.4,
@@ -96,19 +96,6 @@
             "mmi": null
           },
           {
-            "earthquake_id": "us6000sm6e",
-            "magnitude": 5,
-            "latitude": 1.1246,
-            "longitude": 126.001,
-            "depth_km": 35,
-            "time_ms": 1775155571597,
-            "place": "103 km ESE of Bitung, Indonesia",
-            "distance_km": 128.4,
-            "exposure_contribution": 0.59,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
             "earthquake_id": "us6000slwd",
             "magnitude": 5.2,
             "latitude": 1.2694,
@@ -135,6 +122,19 @@
             "mmi": null
           },
           {
+            "earthquake_id": "us6000sm6e",
+            "magnitude": 5,
+            "latitude": 1.1724,
+            "longitude": 126.1172,
+            "depth_km": 35,
+            "time_ms": 1775155571883,
+            "place": "113 km ESE of Bitung, Indonesia",
+            "distance_km": 138.8,
+            "exposure_contribution": 0.53,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
             "earthquake_id": "us6000sm5i",
             "magnitude": 5.1,
             "latitude": 1.2405,
@@ -150,13 +150,13 @@
           {
             "earthquake_id": "us6000slyt",
             "magnitude": 5.1,
-            "latitude": 1.1063,
-            "longitude": 126.1708,
+            "latitude": 1.1573,
+            "longitude": 126.1756,
             "depth_km": 35,
-            "time_ms": 1775119139182,
-            "place": "121 km ESE of Bitung, Indonesia",
-            "distance_km": 146.8,
-            "exposure_contribution": 0.54,
+            "time_ms": 1775119139044,
+            "place": "120 km ESE of Bitung, Indonesia",
+            "distance_km": 145.5,
+            "exposure_contribution": 0.55,
             "pga_g": null,
             "mmi": null
           },
@@ -248,19 +248,6 @@
             "place": "130 km WNW of Ternate, Indonesia",
             "distance_km": 156.2,
             "exposure_contribution": 0.62,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
-            "earthquake_id": "us6000slyx",
-            "magnitude": 5.1,
-            "latitude": 1.3718,
-            "longitude": 126.3203,
-            "depth_km": 35,
-            "time_ms": 1775119926334,
-            "place": "132 km E of Bitung, Indonesia",
-            "distance_km": 156.2,
-            "exposure_contribution": 0.49,
             "pga_g": null,
             "mmi": null
           },
@@ -369,19 +356,6 @@
             "mmi": null
           },
           {
-            "earthquake_id": "us6000slyf",
-            "magnitude": 5.2,
-            "latitude": 1.287,
-            "longitude": 126.4449,
-            "depth_km": 35,
-            "time_ms": 1775113454816,
-            "place": "118 km WNW of Ternate, Indonesia",
-            "distance_km": 171.3,
-            "exposure_contribution": 0.48,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
             "earthquake_id": "us6000slxu",
             "magnitude": 5,
             "latitude": 1.0749,
@@ -408,6 +382,19 @@
             "mmi": null
           },
           {
+            "earthquake_id": "us6000slyf",
+            "magnitude": 5.2,
+            "latitude": 1.2752,
+            "longitude": 126.4786,
+            "depth_km": 35,
+            "time_ms": 1775113454591,
+            "place": "114 km WNW of Ternate, Indonesia",
+            "distance_km": 175.2,
+            "exposure_contribution": 0.46,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
             "earthquake_id": "us6000sm9y",
             "magnitude": 5.4,
             "latitude": 1.0005,
@@ -417,6 +404,19 @@
             "place": "111 km WNW of Ternate, Indonesia",
             "distance_km": 175.6,
             "exposure_contribution": 0.58,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
+            "earthquake_id": "us6000slyx",
+            "magnitude": 5,
+            "latitude": 1.3943,
+            "longitude": 126.4989,
+            "depth_km": 35,
+            "time_ms": 1775119926726,
+            "place": "119 km NW of Ternate, Indonesia",
+            "distance_km": 175.7,
+            "exposure_contribution": 0.36,
             "pga_g": null,
             "mmi": null
           },
@@ -447,10 +447,21 @@
             "mmi": null
           }
         ],
-        "exposure_score": 23.56
+        "exposure_score": 23.35
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000spea",
+        "magnitude": 5.2,
+        "latitude": 1.9632,
+        "longitude": 94.7702,
+        "depth_km": 10,
+        "time_ms": 1775961636099,
+        "place": "187 km WSW of Sinabang, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
       {
         "id": "us6000snwt",
         "magnitude": 5.1,
@@ -597,11 +608,11 @@
       {
         "id": "us6000sm6e",
         "magnitude": 5,
-        "latitude": 1.1246,
-        "longitude": 126.001,
+        "latitude": 1.1724,
+        "longitude": 126.1172,
         "depth_km": 35,
-        "time_ms": 1775155571597,
-        "place": "103 km ESE of Bitung, Indonesia",
+        "time_ms": 1775155571883,
+        "place": "113 km ESE of Bitung, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
       },
@@ -673,34 +684,34 @@
       },
       {
         "id": "us6000slyx",
-        "magnitude": 5.1,
-        "latitude": 1.3718,
-        "longitude": 126.3203,
+        "magnitude": 5,
+        "latitude": 1.3943,
+        "longitude": 126.4989,
         "depth_km": 35,
-        "time_ms": 1775119926334,
-        "place": "132 km E of Bitung, Indonesia",
+        "time_ms": 1775119926726,
+        "place": "119 km NW of Ternate, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
       },
       {
         "id": "us6000slyt",
         "magnitude": 5.1,
-        "latitude": 1.1063,
-        "longitude": 126.1708,
+        "latitude": 1.1573,
+        "longitude": 126.1756,
         "depth_km": 35,
-        "time_ms": 1775119139182,
-        "place": "121 km ESE of Bitung, Indonesia",
+        "time_ms": 1775119139044,
+        "place": "120 km ESE of Bitung, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
       },
       {
         "id": "us6000slyf",
         "magnitude": 5.2,
-        "latitude": 1.287,
-        "longitude": 126.4449,
+        "latitude": 1.2752,
+        "longitude": 126.4786,
         "depth_km": 35,
-        "time_ms": 1775113454816,
-        "place": "118 km WNW of Ternate, Indonesia",
+        "time_ms": 1775113454591,
+        "place": "114 km WNW of Ternate, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
       },
@@ -892,7 +903,7 @@
         "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 25.57
+    "seismic_hub_risk_score": 25.36
   },
   {
     "country": "Tonga",
@@ -915,8 +926,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 28,
-    "avg_magnitude": 5.47,
+    "earthquake_count": 27,
+    "avg_magnitude": 5.48,
     "strongest_earthquake": {
       "magnitude": 7.5,
       "date": "2026-03-24",
@@ -1217,22 +1228,22 @@
       {
         "id": "us6000siia",
         "magnitude": 5.6,
-        "latitude": -14.9649,
-        "longitude": -173.0424,
+        "latitude": -14.9521,
+        "longitude": -173.0721,
         "depth_km": 10,
-        "time_ms": 1774195218888,
-        "place": "136 km NE of Hihifo, Tonga",
+        "time_ms": 1774195218732,
+        "place": "135 km NE of Hihifo, Tonga",
         "country_code": "TO",
         "shakemap_available": true
       },
       {
         "id": "us6000sii1",
         "magnitude": 6.3,
-        "latitude": -15.2263,
-        "longitude": -172.6832,
-        "depth_km": 10,
-        "time_ms": 1774193437033,
-        "place": "144 km NE of Hihifo, Tonga",
+        "latitude": -15.3376,
+        "longitude": -172.652,
+        "depth_km": 12,
+        "time_ms": 1774193436570,
+        "place": "140 km ENE of Hihifo, Tonga",
         "country_code": "TO",
         "shakemap_available": true
       },
@@ -1261,10 +1272,10 @@
       {
         "id": "us6000si9m",
         "magnitude": 5,
-        "latitude": -29.2715,
-        "longitude": -179.0714,
-        "depth_km": 302.214,
-        "time_ms": 1774123645788,
+        "latitude": -29.2454,
+        "longitude": -179.0521,
+        "depth_km": 303.062,
+        "time_ms": 1774123645751,
         "place": "Kermadec Islands region",
         "country_code": "TO",
         "shakemap_available": false
@@ -1288,17 +1299,6 @@
         "depth_km": 10,
         "time_ms": 1773760605398,
         "place": "105 km E of Fangale’ounga, Tonga",
-        "country_code": "TO",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000sfza",
-        "magnitude": 5.2,
-        "latitude": -28.2374,
-        "longitude": -176.6216,
-        "depth_km": 10,
-        "time_ms": 1773377671352,
-        "place": "Kermadec Islands region",
         "country_code": "TO",
         "shakemap_available": false
       }
@@ -1325,8 +1325,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 12,
-    "avg_magnitude": 5.23,
+    "earthquake_count": 11,
+    "avg_magnitude": 5.25,
     "strongest_earthquake": {
       "magnitude": 6.5,
       "date": "2026-03-26",
@@ -1559,17 +1559,6 @@
         "place": "Kuril Islands",
         "country_code": "JP",
         "shakemap_available": false
-      },
-      {
-        "id": "us6000sg57",
-        "magnitude": 5,
-        "latitude": 39.418,
-        "longitude": 143.3754,
-        "depth_km": 32.862,
-        "time_ms": 1773431724163,
-        "place": "122 km E of Yamada, Japan",
-        "country_code": "JP",
-        "shakemap_available": false
       }
     ],
     "seismic_hub_risk_score": 3.92
@@ -1663,11 +1652,11 @@
       {
         "id": "us7000s97y",
         "magnitude": 5,
-        "latitude": -12.8045,
-        "longitude": 169.2442,
-        "depth_km": 653.461,
-        "time_ms": 1774994194185,
-        "place": "218 km ENE of Sola, Vanuatu",
+        "latitude": -12.7861,
+        "longitude": 169.2267,
+        "depth_km": 649.858,
+        "time_ms": 1774994193940,
+        "place": "217 km NE of Sola, Vanuatu",
         "country_code": "VU",
         "shakemap_available": false
       },
@@ -1892,8 +1881,8 @@
       "POL",
       "UKR"
     ],
-    "earthquake_count": 11,
-    "avg_magnitude": 5.15,
+    "earthquake_count": 12,
+    "avg_magnitude": 5.14,
     "strongest_earthquake": {
       "magnitude": 5.6,
       "date": "2026-03-19",
@@ -1958,6 +1947,17 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000spj7",
+        "magnitude": 5,
+        "latitude": 49.7449,
+        "longitude": 155.7719,
+        "depth_km": 10,
+        "time_ms": 1776024306816,
+        "place": "106 km SSW of Severo-Kuril’sk, Russia",
+        "country_code": "RU",
+        "shakemap_available": false
+      },
       {
         "id": "us6000smax",
         "magnitude": 5.1,
