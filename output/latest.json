@@ -61,18 +61,18 @@
           {
             "earthquake_id": "us7000s7z5",
             "magnitude": 5.7,
-            "latitude": -3.1837,
-            "longitude": 139.3807,
-            "depth_km": 53.94,
-            "time_ms": 1774565461074,
-            "place": "153 km WSW of Abepura, Indonesia",
-            "distance_km": 143.2,
-            "exposure_contribution": 1.06,
+            "latitude": -3.1237,
+            "longitude": 139.3955,
+            "depth_km": 54.742,
+            "time_ms": 1774565461209,
+            "place": "149 km WSW of Abepura, Indonesia",
+            "distance_km": 138.8,
+            "exposure_contribution": 1.11,
             "pga_g": null,
             "mmi": null
           }
         ],
-        "exposure_score": 2.01
+        "exposure_score": 2.06
       },
       {
         "name": "Sam Ratulangi International Airport",
@@ -966,11 +966,11 @@
       {
         "id": "us7000s7z5",
         "magnitude": 5.7,
-        "latitude": -3.1837,
-        "longitude": 139.3807,
-        "depth_km": 53.94,
-        "time_ms": 1774565461074,
-        "place": "153 km WSW of Abepura, Indonesia",
+        "latitude": -3.1237,
+        "longitude": 139.3955,
+        "depth_km": 54.742,
+        "time_ms": 1774565461209,
+        "place": "149 km WSW of Abepura, Indonesia",
         "country_code": "ID",
         "shakemap_available": true
       },
@@ -997,7 +997,7 @@
         "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 26.02
+    "seismic_hub_risk_score": 26.07
   },
   {
     "country": "Tonga",
@@ -1020,8 +1020,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 35,
-    "avg_magnitude": 5.45,
+    "earthquake_count": 38,
+    "avg_magnitude": 5.46,
     "strongest_earthquake": {
       "magnitude": 7.5,
       "date": "2026-03-24",
@@ -1125,6 +1125,39 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000srg6",
+        "magnitude": 5.2,
+        "latitude": -32.291,
+        "longitude": -177.9764,
+        "depth_km": 10,
+        "time_ms": 1776642750000,
+        "place": "south of the Kermadec Islands",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000sred",
+        "magnitude": 6.1,
+        "latitude": -15.1256,
+        "longitude": -173.6164,
+        "depth_km": 36,
+        "time_ms": 1776620087472,
+        "place": "93 km NNE of Hihifo, Tonga",
+        "country_code": "TO",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000sr9c",
+        "magnitude": 5.2,
+        "latitude": -32.1851,
+        "longitude": -178.2523,
+        "depth_km": 10,
+        "time_ms": 1776576916689,
+        "place": "south of the Kermadec Islands",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
       {
         "id": "us6000sr5n",
         "magnitude": 5.4,
@@ -1326,11 +1359,11 @@
       {
         "id": "us7000s8a0",
         "magnitude": 5.4,
-        "latitude": -15.9208,
-        "longitude": -172.4385,
+        "latitude": -15.9143,
+        "longitude": -172.7048,
         "depth_km": 10,
-        "time_ms": 1774654509558,
-        "place": "145 km E of Hihifo, Tonga",
+        "time_ms": 1774654510604,
+        "place": "116 km E of Hihifo, Tonga",
         "country_code": "TO",
         "shakemap_available": true
       },
@@ -1534,7 +1567,7 @@
     "un_member": true,
     "bordering_countries": [],
     "earthquake_count": 12,
-    "avg_magnitude": 5.24,
+    "avg_magnitude": 5.23,
     "strongest_earthquake": {
       "magnitude": 6.5,
       "date": "2026-03-26",
@@ -1657,10 +1690,10 @@
       {
         "id": "us6000snqs",
         "magnitude": 5.1,
-        "latitude": 30.8731,
-        "longitude": 141.9379,
+        "latitude": 30.8412,
+        "longitude": 141.8852,
         "depth_km": 10,
-        "time_ms": 1775760864963,
+        "time_ms": 1775760864881,
         "place": "Izu Islands, Japan region",
         "country_code": "JP",
         "shakemap_available": false
@@ -1711,12 +1744,12 @@
       },
       {
         "id": "us7000s83k",
-        "magnitude": 5.1,
-        "latitude": 39.3975,
-        "longitude": 143.1958,
-        "depth_km": 16.096,
-        "time_ms": 1774625073227,
-        "place": "107 km E of Yamada, Japan",
+        "magnitude": 5,
+        "latitude": 39.4886,
+        "longitude": 143.0726,
+        "depth_km": 42.133,
+        "time_ms": 1774625076960,
+        "place": "96 km E of Yamada, Japan",
         "country_code": "JP",
         "shakemap_available": false
       },
@@ -1778,7 +1811,7 @@
       "longitude": -119.0075
     },
     "highest_pager_alert": "green",
-    "max_felt_reports": 6486,
+    "max_felt_reports": 6495,
     "tsunami_warning_issued": false,
     "significant_events_count": 1,
     "exposed_airports": [
@@ -1843,172 +1876,6 @@
       }
     ],
     "seismic_hub_risk_score": 2.15
-  },
-  {
-    "country": "Vanuatu",
-    "iso_alpha2": "VU",
-    "iso_alpha3": "VUT",
-    "capital": "Port Vila",
-    "population": 321409,
-    "area_km2": 12189.0,
-    "region": "Oceania",
-    "subregion": "Melanesia",
-    "currencies": [
-      {
-        "code": "VUV",
-        "name": "Vanuatu vatu"
-      }
-    ],
-    "languages": [
-      "Bislama",
-      "English",
-      "French"
-    ],
-    "un_member": true,
-    "bordering_countries": [],
-    "earthquake_count": 8,
-    "avg_magnitude": 5.66,
-    "strongest_earthquake": {
-      "magnitude": 7.3,
-      "date": "2026-03-30",
-      "depth_km": 121.3,
-      "latitude": -15.3139,
-      "longitude": 167.5616
-    },
-    "highest_pager_alert": "green",
-    "max_felt_reports": 32,
-    "tsunami_warning_issued": false,
-    "significant_events_count": 1,
-    "exposed_airports": [
-      {
-        "name": "Bauerfield International Airport",
-        "iata_code": "VLI",
-        "latitude": -17.699301,
-        "longitude": 168.320007,
-        "municipality": "Port Vila",
-        "closest_quake_distance_km": 173.1,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us6000shnl",
-            "magnitude": 6.1,
-            "latitude": -19.2558,
-            "longitude": 168.3256,
-            "depth_km": 10,
-            "time_ms": 1773973832528,
-            "place": "105 km WNW of Isangel, Vanuatu",
-            "distance_km": 173.1,
-            "exposure_contribution": 1.36,
-            "pga_g": null,
-            "mmi": null
-          },
-          {
-            "earthquake_id": "us6000sm8a",
-            "magnitude": 5.4,
-            "latitude": -18.906,
-            "longitude": 169.4841,
-            "depth_km": 278.376,
-            "time_ms": 1775172134773,
-            "place": "73 km NNE of Isangel, Vanuatu",
-            "distance_km": 182.0,
-            "exposure_contribution": 0.17,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 1.54
-      }
-    ],
-    "earthquakes": [
-      {
-        "id": "us6000sq6d",
-        "magnitude": 5.4,
-        "latitude": -21.3603,
-        "longitude": 170.3357,
-        "depth_km": 166.688,
-        "time_ms": 1776239981365,
-        "place": "229 km SSE of Isangel, Vanuatu",
-        "country_code": "VU",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000sm8a",
-        "magnitude": 5.4,
-        "latitude": -18.906,
-        "longitude": 169.4841,
-        "depth_km": 278.376,
-        "time_ms": 1775172134773,
-        "place": "73 km NNE of Isangel, Vanuatu",
-        "country_code": "VU",
-        "shakemap_available": true
-      },
-      {
-        "id": "us7000s97y",
-        "magnitude": 5,
-        "latitude": -12.7861,
-        "longitude": 169.2267,
-        "depth_km": 649.858,
-        "time_ms": 1774994193940,
-        "place": "217 km NE of Sola, Vanuatu",
-        "country_code": "VU",
-        "shakemap_available": false
-      },
-      {
-        "id": "us7000s8rs",
-        "magnitude": 5,
-        "latitude": -15.3663,
-        "longitude": 167.5229,
-        "depth_km": 149.049,
-        "time_ms": 1774861352124,
-        "place": "42 km ENE of Luganville, Vanuatu",
-        "country_code": "VU",
-        "shakemap_available": false
-      },
-      {
-        "id": "us7000s8q0",
-        "magnitude": 7.3,
-        "latitude": -15.3139,
-        "longitude": 167.5616,
-        "depth_km": 121.28,
-        "time_ms": 1774860253823,
-        "place": "48 km ENE of Luganville, Vanuatu",
-        "country_code": "VU",
-        "shakemap_available": true
-      },
-      {
-        "id": "us7000s8v7",
-        "magnitude": 5.4,
-        "latitude": -15.2696,
-        "longitude": 167.4673,
-        "depth_km": 115.406,
-        "time_ms": 1774860247642,
-        "place": "42 km NE of Luganville, Vanuatu",
-        "country_code": "VU",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000si17",
-        "magnitude": 5.7,
-        "latitude": -16.011,
-        "longitude": 166.9002,
-        "depth_km": 22,
-        "time_ms": 1774063258592,
-        "place": "53 km W of Norsup, Vanuatu",
-        "country_code": "VU",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000shnl",
-        "magnitude": 6.1,
-        "latitude": -19.2558,
-        "longitude": 168.3256,
-        "depth_km": 10,
-        "time_ms": 1773973832528,
-        "place": "105 km WNW of Isangel, Vanuatu",
-        "country_code": "VU",
-        "shakemap_available": true
-      }
-    ],
-    "seismic_hub_risk_score": 1.54
   },
   {
     "country": "Pakistan",
@@ -2318,5 +2185,147 @@
       }
     ],
     "seismic_hub_risk_score": 1.08
+  },
+  {
+    "country": "Vanuatu",
+    "iso_alpha2": "VU",
+    "iso_alpha3": "VUT",
+    "capital": "Port Vila",
+    "population": 321409,
+    "area_km2": 12189.0,
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "currencies": [
+      {
+        "code": "VUV",
+        "name": "Vanuatu vatu"
+      }
+    ],
+    "languages": [
+      "Bislama",
+      "English",
+      "French"
+    ],
+    "un_member": true,
+    "bordering_countries": [],
+    "earthquake_count": 7,
+    "avg_magnitude": 5.6,
+    "strongest_earthquake": {
+      "magnitude": 7.3,
+      "date": "2026-03-30",
+      "depth_km": 121.3,
+      "latitude": -15.3139,
+      "longitude": 167.5616
+    },
+    "highest_pager_alert": "green",
+    "max_felt_reports": 32,
+    "tsunami_warning_issued": false,
+    "significant_events_count": 1,
+    "exposed_airports": [
+      {
+        "name": "Bauerfield International Airport",
+        "iata_code": "VLI",
+        "latitude": -17.699301,
+        "longitude": 168.320007,
+        "municipality": "Port Vila",
+        "closest_quake_distance_km": 182.0,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us6000sm8a",
+            "magnitude": 5.4,
+            "latitude": -18.906,
+            "longitude": 169.4841,
+            "depth_km": 278.376,
+            "time_ms": 1775172134773,
+            "place": "73 km NNE of Isangel, Vanuatu",
+            "distance_km": 182.0,
+            "exposure_contribution": 0.17,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 0.17
+      }
+    ],
+    "earthquakes": [
+      {
+        "id": "us6000sq6d",
+        "magnitude": 5.4,
+        "latitude": -21.3603,
+        "longitude": 170.3357,
+        "depth_km": 166.688,
+        "time_ms": 1776239981365,
+        "place": "229 km SSE of Isangel, Vanuatu",
+        "country_code": "VU",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000sm8a",
+        "magnitude": 5.4,
+        "latitude": -18.906,
+        "longitude": 169.4841,
+        "depth_km": 278.376,
+        "time_ms": 1775172134773,
+        "place": "73 km NNE of Isangel, Vanuatu",
+        "country_code": "VU",
+        "shakemap_available": true
+      },
+      {
+        "id": "us7000s97y",
+        "magnitude": 5,
+        "latitude": -12.7861,
+        "longitude": 169.2267,
+        "depth_km": 649.858,
+        "time_ms": 1774994193940,
+        "place": "217 km NE of Sola, Vanuatu",
+        "country_code": "VU",
+        "shakemap_available": false
+      },
+      {
+        "id": "us7000s8rs",
+        "magnitude": 5,
+        "latitude": -15.3663,
+        "longitude": 167.5229,
+        "depth_km": 149.049,
+        "time_ms": 1774861352124,
+        "place": "42 km ENE of Luganville, Vanuatu",
+        "country_code": "VU",
+        "shakemap_available": false
+      },
+      {
+        "id": "us7000s8q0",
+        "magnitude": 7.3,
+        "latitude": -15.3139,
+        "longitude": 167.5616,
+        "depth_km": 121.28,
+        "time_ms": 1774860253823,
+        "place": "48 km ENE of Luganville, Vanuatu",
+        "country_code": "VU",
+        "shakemap_available": true
+      },
+      {
+        "id": "us7000s8v7",
+        "magnitude": 5.4,
+        "latitude": -15.2696,
+        "longitude": 167.4673,
+        "depth_km": 115.406,
+        "time_ms": 1774860247642,
+        "place": "42 km NE of Luganville, Vanuatu",
+        "country_code": "VU",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000si17",
+        "magnitude": 5.7,
+        "latitude": -16.011,
+        "longitude": 166.9002,
+        "depth_km": 22,
+        "time_ms": 1774063258592,
+        "place": "53 km W of Norsup, Vanuatu",
+        "country_code": "VU",
+        "shakemap_available": true
+      }
+    ],
+    "seismic_hub_risk_score": 0.17
   }
 ]
