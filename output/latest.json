@@ -23,7 +23,7 @@
       "MYS",
       "PNG"
     ],
-    "earthquake_count": 46,
+    "earthquake_count": 47,
     "avg_magnitude": 5.33,
     "strongest_earthquake": {
       "magnitude": 7.4,
@@ -70,9 +70,22 @@
             "exposure_contribution": 1.11,
             "pga_g": null,
             "mmi": null
+          },
+          {
+            "earthquake_id": "us6000srn6",
+            "magnitude": 5.3,
+            "latitude": -2.374,
+            "longitude": 139.1482,
+            "depth_km": 10,
+            "time_ms": 1776710825797,
+            "place": "166 km W of Abepura, Indonesia",
+            "distance_km": 154.1,
+            "exposure_contribution": 0.66,
+            "pga_g": null,
+            "mmi": null
           }
         ],
-        "exposure_score": 2.06
+        "exposure_score": 2.72
       },
       {
         "name": "Sam Ratulangi International Airport",
@@ -163,13 +176,13 @@
           {
             "earthquake_id": "us6000smfm",
             "magnitude": 5.1,
-            "latitude": 1.4735,
-            "longitude": 126.26,
+            "latitude": 1.4501,
+            "longitude": 126.2796,
             "depth_km": 35,
-            "time_ms": 1775251146281,
-            "place": "125 km E of Bitung, Indonesia",
-            "distance_km": 148.5,
-            "exposure_contribution": 0.53,
+            "time_ms": 1775251146118,
+            "place": "128 km E of Bitung, Indonesia",
+            "distance_km": 150.8,
+            "exposure_contribution": 0.52,
             "pga_g": null,
             "mmi": null
           },
@@ -486,10 +499,32 @@
             "mmi": null
           }
         ],
-        "exposure_score": 24.01
+        "exposure_score": 23.99
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000srn6",
+        "magnitude": 5.3,
+        "latitude": -2.374,
+        "longitude": 139.1482,
+        "depth_km": 10,
+        "time_ms": 1776710825797,
+        "place": "166 km W of Abepura, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000srhi",
+        "magnitude": 5.2,
+        "latitude": -7.9677,
+        "longitude": 124.3047,
+        "depth_km": 183.138,
+        "time_ms": 1776662375993,
+        "place": "122 km NW of Maubara, Timor Leste",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
       {
         "id": "us6000sr5z",
         "magnitude": 5.7,
@@ -636,11 +671,11 @@
       {
         "id": "us6000smfm",
         "magnitude": 5.1,
-        "latitude": 1.4735,
-        "longitude": 126.26,
+        "latitude": 1.4501,
+        "longitude": 126.2796,
         "depth_km": 35,
-        "time_ms": 1775251146281,
-        "place": "125 km E of Bitung, Indonesia",
+        "time_ms": 1775251146118,
+        "place": "128 km E of Bitung, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
       },
@@ -984,20 +1019,9 @@
         "place": "89 km ENE of Kendari, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
-      },
-      {
-        "id": "us6000si8m",
-        "magnitude": 5.1,
-        "latitude": -7.5504,
-        "longitude": 105.0028,
-        "depth_km": 10,
-        "time_ms": 1774116533265,
-        "place": "158 km SW of Labuan, Indonesia",
-        "country_code": "ID",
-        "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 26.07
+    "seismic_hub_risk_score": 26.71
   },
   {
     "country": "Tonga",
@@ -1020,8 +1044,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 38,
-    "avg_magnitude": 5.46,
+    "earthquake_count": 37,
+    "avg_magnitude": 5.47,
     "strongest_earthquake": {
       "magnitude": 7.5,
       "date": "2026-03-24",
@@ -1125,6 +1149,17 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000srhw",
+        "magnitude": 5.1,
+        "latitude": -32.4235,
+        "longitude": -178.3141,
+        "depth_km": 10,
+        "time_ms": 1776668663455,
+        "place": "south of the Kermadec Islands",
+        "country_code": "TO",
+        "shakemap_available": false
+      },
       {
         "id": "us6000srg6",
         "magnitude": 5.2,
@@ -1520,28 +1555,6 @@
         "place": "123 km NE of Hihifo, Tonga",
         "country_code": "TO",
         "shakemap_available": true
-      },
-      {
-        "id": "us6000si9m",
-        "magnitude": 5,
-        "latitude": -29.2454,
-        "longitude": -179.0521,
-        "depth_km": 303.062,
-        "time_ms": 1774123645751,
-        "place": "Kermadec Islands region",
-        "country_code": "TO",
-        "shakemap_available": false
-      },
-      {
-        "id": "us6000si52",
-        "magnitude": 5,
-        "latitude": -30.2244,
-        "longitude": -177.2245,
-        "depth_km": 10,
-        "time_ms": 1774088758976,
-        "place": "Kermadec Islands, New Zealand",
-        "country_code": "TO",
-        "shakemap_available": false
       }
     ],
     "seismic_hub_risk_score": 7.5
@@ -1566,19 +1579,19 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 12,
-    "avg_magnitude": 5.23,
+    "earthquake_count": 16,
+    "avg_magnitude": 5.35,
     "strongest_earthquake": {
-      "magnitude": 6.5,
-      "date": "2026-03-26",
-      "depth_km": 16,
-      "latitude": 39.4377,
-      "longitude": 143.3826
+      "magnitude": 7.4,
+      "date": "2026-04-20",
+      "depth_km": 35,
+      "latitude": 39.9532,
+      "longitude": 143.0462
     },
     "highest_pager_alert": "green",
-    "max_felt_reports": 8,
-    "tsunami_warning_issued": false,
-    "significant_events_count": 1,
+    "max_felt_reports": 109,
+    "tsunami_warning_issued": true,
+    "significant_events_count": 2,
     "exposed_airports": [
       {
         "name": "Sendai Airport",
@@ -1643,6 +1656,61 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000srjx",
+        "magnitude": 5.1,
+        "latitude": 39.5889,
+        "longitude": 143.4485,
+        "depth_km": 10,
+        "time_ms": 1776689805171,
+        "place": "129 km E of Yamada, Japan",
+        "country_code": "JP",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000srj9",
+        "magnitude": 5,
+        "latitude": 39.4819,
+        "longitude": 143.2471,
+        "depth_km": 47.565,
+        "time_ms": 1776681856040,
+        "place": "111 km E of Yamada, Japan",
+        "country_code": "JP",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000sriv",
+        "magnitude": 5.1,
+        "latitude": 39.7888,
+        "longitude": 143.2807,
+        "depth_km": 25,
+        "time_ms": 1776678583363,
+        "place": "115 km E of Miyako, Japan",
+        "country_code": "JP",
+        "shakemap_available": false
+      },
+      {
+        "id": "us6000srih",
+        "magnitude": 5.6,
+        "latitude": 39.6393,
+        "longitude": 143.2591,
+        "depth_km": 24.452,
+        "time_ms": 1776673966679,
+        "place": "113 km E of Miyako, Japan",
+        "country_code": "JP",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000sri7",
+        "magnitude": 7.4,
+        "latitude": 39.9532,
+        "longitude": 143.0462,
+        "depth_km": 35,
+        "time_ms": 1776671580185,
+        "place": "100 km ENE of Miyako, Japan",
+        "country_code": "JP",
+        "shakemap_available": true
+      },
       {
         "id": "us6000sr27",
         "magnitude": 5.2,
@@ -1763,17 +1831,6 @@
         "place": "123 km E of Yamada, Japan",
         "country_code": "JP",
         "shakemap_available": true
-      },
-      {
-        "id": "us6000si57",
-        "magnitude": 5.4,
-        "latitude": 29.4858,
-        "longitude": 130.6689,
-        "depth_km": 21.65,
-        "time_ms": 1774091524314,
-        "place": "84 km S of Koshima, Japan",
-        "country_code": "JP",
-        "shakemap_available": true
       }
     ],
     "seismic_hub_risk_score": 2.21
@@ -1811,7 +1868,7 @@
       "longitude": -119.0075
     },
     "highest_pager_alert": "green",
-    "max_felt_reports": 6495,
+    "max_felt_reports": 6498,
     "tsunami_warning_issued": false,
     "significant_events_count": 1,
     "exposed_airports": [
@@ -2208,7 +2265,7 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 7,
+    "earthquake_count": 6,
     "avg_magnitude": 5.6,
     "strongest_earthquake": {
       "magnitude": 7.3,
@@ -2283,12 +2340,12 @@
       },
       {
         "id": "us7000s8rs",
-        "magnitude": 5,
-        "latitude": -15.3663,
-        "longitude": 167.5229,
-        "depth_km": 149.049,
-        "time_ms": 1774861352124,
-        "place": "42 km ENE of Luganville, Vanuatu",
+        "magnitude": 5.1,
+        "latitude": -15.3579,
+        "longitude": 167.6325,
+        "depth_km": 119.458,
+        "time_ms": 1774861348726,
+        "place": "53 km ENE of Luganville, Vanuatu",
         "country_code": "VU",
         "shakemap_available": false
       },
@@ -2311,17 +2368,6 @@
         "depth_km": 115.406,
         "time_ms": 1774860247642,
         "place": "42 km NE of Luganville, Vanuatu",
-        "country_code": "VU",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000si17",
-        "magnitude": 5.7,
-        "latitude": -16.011,
-        "longitude": 166.9002,
-        "depth_km": 22,
-        "time_ms": 1774063258592,
-        "place": "53 km W of Norsup, Vanuatu",
         "country_code": "VU",
         "shakemap_available": true
       }
