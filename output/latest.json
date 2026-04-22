@@ -265,6 +265,19 @@
             "mmi": null
           },
           {
+            "earthquake_id": "us6000slvh",
+            "magnitude": 5.2,
+            "latitude": 1.2166,
+            "longitude": 126.308,
+            "depth_km": 35,
+            "time_ms": 1775087699469,
+            "place": "128 km WNW of Ternate, Indonesia",
+            "distance_km": 158.0,
+            "exposure_contribution": 0.54,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
             "earthquake_id": "us6000sqzn",
             "magnitude": 5.1,
             "latitude": 1.2073,
@@ -289,19 +302,6 @@
             "exposure_contribution": 5.18,
             "pga_g": 0.05183,
             "mmi": 5.5
-          },
-          {
-            "earthquake_id": "us6000slvh",
-            "magnitude": 5.1,
-            "latitude": 1.1961,
-            "longitude": 126.3522,
-            "depth_km": 35,
-            "time_ms": 1775087699470,
-            "place": "123 km WNW of Ternate, Indonesia",
-            "distance_km": 163.3,
-            "exposure_contribution": 0.46,
-            "pga_g": null,
-            "mmi": null
           },
           {
             "earthquake_id": "us6000sm8r",
@@ -499,7 +499,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 23.99
+        "exposure_score": 24.08
       }
     ],
     "earthquakes": [
@@ -923,12 +923,12 @@
       },
       {
         "id": "us6000slvh",
-        "magnitude": 5.1,
-        "latitude": 1.1961,
-        "longitude": 126.3522,
+        "magnitude": 5.2,
+        "latitude": 1.2166,
+        "longitude": 126.308,
         "depth_km": 35,
-        "time_ms": 1775087699470,
-        "place": "123 km WNW of Ternate, Indonesia",
+        "time_ms": 1775087699469,
+        "place": "128 km WNW of Ternate, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
       },
@@ -1021,7 +1021,7 @@
         "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 26.71
+    "seismic_hub_risk_score": 26.8
   },
   {
     "country": "Tonga",
@@ -1044,8 +1044,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 37,
-    "avg_magnitude": 5.47,
+    "earthquake_count": 32,
+    "avg_magnitude": 5.38,
     "strongest_earthquake": {
       "magnitude": 7.5,
       "date": "2026-03-24",
@@ -1056,7 +1056,7 @@
     "highest_pager_alert": "green",
     "max_felt_reports": 19,
     "tsunami_warning_issued": false,
-    "significant_events_count": 2,
+    "significant_events_count": 1,
     "exposed_airports": [
       {
         "name": "Vava'u International Airport",
@@ -1196,21 +1196,21 @@
       {
         "id": "us6000sr5n",
         "magnitude": 5.4,
-        "latitude": -32.4116,
-        "longitude": -178.0587,
-        "depth_km": 11.382,
-        "time_ms": 1776536998948,
+        "latitude": -32.3563,
+        "longitude": -178.1329,
+        "depth_km": 12,
+        "time_ms": 1776536999392,
         "place": "south of the Kermadec Islands",
         "country_code": "TO",
         "shakemap_available": true
       },
       {
         "id": "us6000sr4y",
-        "magnitude": 5.3,
-        "latitude": -32.0646,
-        "longitude": -178.1403,
-        "depth_km": 34.735,
-        "time_ms": 1776528228162,
+        "magnitude": 5,
+        "latitude": -32.0023,
+        "longitude": -178.1955,
+        "depth_km": 32.486,
+        "time_ms": 1776528227888,
         "place": "south of the Kermadec Islands",
         "country_code": "TO",
         "shakemap_available": false
@@ -1383,11 +1383,11 @@
       {
         "id": "us7000s8me",
         "magnitude": 5.2,
-        "latitude": -16.4164,
-        "longitude": -173.658,
-        "depth_km": 47.782,
-        "time_ms": 1774827913919,
-        "place": "53 km SSE of Hihifo, Tonga",
+        "latitude": -16.5053,
+        "longitude": -173.5921,
+        "depth_km": 44.694,
+        "time_ms": 1774827913353,
+        "place": "64 km SSE of Hihifo, Tonga",
         "country_code": "TO",
         "shakemap_available": false
       },
@@ -1500,61 +1500,6 @@
         "place": "106 km ENE of Hihifo, Tonga",
         "country_code": "TO",
         "shakemap_available": true
-      },
-      {
-        "id": "us6000siln",
-        "magnitude": 5.9,
-        "latitude": -15.6311,
-        "longitude": -172.8184,
-        "depth_km": 13,
-        "time_ms": 1774218374332,
-        "place": "110 km ENE of Hihifo, Tonga",
-        "country_code": "TO",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000siia",
-        "magnitude": 5.6,
-        "latitude": -14.9521,
-        "longitude": -173.0721,
-        "depth_km": 10,
-        "time_ms": 1774195218732,
-        "place": "135 km NE of Hihifo, Tonga",
-        "country_code": "TO",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000sii1",
-        "magnitude": 6.3,
-        "latitude": -15.3376,
-        "longitude": -172.652,
-        "depth_km": 12,
-        "time_ms": 1774193436570,
-        "place": "140 km ENE of Hihifo, Tonga",
-        "country_code": "TO",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000sii0",
-        "magnitude": 6.2,
-        "latitude": -15.2769,
-        "longitude": -172.5558,
-        "depth_km": 10,
-        "time_ms": 1774193275074,
-        "place": "152 km ENE of Hihifo, Tonga",
-        "country_code": "TO",
-        "shakemap_available": true
-      },
-      {
-        "id": "us6000sidb",
-        "magnitude": 6.2,
-        "latitude": -15.1922,
-        "longitude": -172.96,
-        "depth_km": 14,
-        "time_ms": 1774160136306,
-        "place": "123 km NE of Hihifo, Tonga",
-        "country_code": "TO",
-        "shakemap_available": true
       }
     ],
     "seismic_hub_risk_score": 7.5
@@ -1579,8 +1524,8 @@
     ],
     "un_member": true,
     "bordering_countries": [],
-    "earthquake_count": 16,
-    "avg_magnitude": 5.35,
+    "earthquake_count": 18,
+    "avg_magnitude": 5.37,
     "strongest_earthquake": {
       "magnitude": 7.4,
       "date": "2026-04-20",
@@ -1589,7 +1534,7 @@
       "longitude": 143.0462
     },
     "highest_pager_alert": "green",
-    "max_felt_reports": 109,
+    "max_felt_reports": 110,
     "tsunami_warning_issued": true,
     "significant_events_count": 2,
     "exposed_airports": [
@@ -1656,6 +1601,28 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us6000srvu",
+        "magnitude": 5.6,
+        "latitude": 40.1562,
+        "longitude": 143.4599,
+        "depth_km": 35,
+        "time_ms": 1776797052001,
+        "place": "140 km E of Noda, Japan",
+        "country_code": "JP",
+        "shakemap_available": true
+      },
+      {
+        "id": "us6000srs6",
+        "magnitude": 5.4,
+        "latitude": 39.8481,
+        "longitude": 143.6273,
+        "depth_km": 10,
+        "time_ms": 1776749349335,
+        "place": "146 km E of Miyako, Japan",
+        "country_code": "JP",
+        "shakemap_available": true
+      },
       {
         "id": "us6000srjx",
         "magnitude": 5.1,
@@ -1868,7 +1835,7 @@
       "longitude": -119.0075
     },
     "highest_pager_alert": "green",
-    "max_felt_reports": 6498,
+    "max_felt_reports": 6499,
     "tsunami_warning_issued": false,
     "significant_events_count": 1,
     "exposed_airports": [
@@ -2097,8 +2064,8 @@
       "POL",
       "UKR"
     ],
-    "earthquake_count": 7,
-    "avg_magnitude": 5.09,
+    "earthquake_count": 6,
+    "avg_magnitude": 5.07,
     "strongest_earthquake": {
       "magnitude": 5.2,
       "date": "2026-03-24",
@@ -2144,22 +2111,9 @@
             "exposure_contribution": 0.33,
             "pga_g": null,
             "mmi": null
-          },
-          {
-            "earthquake_id": "us6000sie4",
-            "magnitude": 5.2,
-            "latitude": 52.2156,
-            "longitude": 160.8067,
-            "depth_km": 10,
-            "time_ms": 1774163998715,
-            "place": "175 km ESE of Petropavlovsk-Kamchatsky, Russia",
-            "distance_km": 190.9,
-            "exposure_contribution": 0.41,
-            "pga_g": null,
-            "mmi": null
           }
         ],
-        "exposure_score": 1.08
+        "exposure_score": 0.67
       }
     ],
     "earthquakes": [
@@ -2228,20 +2182,9 @@
         "place": "226 km ESE of Attu Station, Alaska",
         "country_code": "RU",
         "shakemap_available": true
-      },
-      {
-        "id": "us6000sie4",
-        "magnitude": 5.2,
-        "latitude": 52.2156,
-        "longitude": 160.8067,
-        "depth_km": 10,
-        "time_ms": 1774163998715,
-        "place": "175 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "country_code": "RU",
-        "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 1.08
+    "seismic_hub_risk_score": 0.67
   },
   {
     "country": "Vanuatu",
