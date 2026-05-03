@@ -1,0 +1,192 @@
+{
+  "date": "2026-05-03",
+  "scoring_method": "shakemap",
+  "countries": [
+    {
+      "iso_alpha3": "JPN",
+      "country": "Japan",
+      "score": 17.3,
+      "earthquake_count": 21,
+      "exposed_airport_count": 11,
+      "avg_magnitude": 5.33,
+      "airports": [
+        {
+          "iata_code": "KIX",
+          "name": "Kansai International Airport",
+          "exposure_score": 3.28,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 42.0,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "UKB",
+          "name": "Kobe Airport",
+          "exposure_score": 2.55,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 63.2,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "CTS",
+          "name": "New Chitose Airport",
+          "exposure_score": 2.12,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 105.1,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "NGO",
+          "name": "Chubu Centrair International Airport",
+          "exposure_score": 1.0,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 147.0,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "OKJ",
+          "name": "Okayama Momotaro Airport",
+          "exposure_score": 0.84,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 166.1,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "KCZ",
+          "name": "Kochi Ryoma Airport",
+          "exposure_score": 0.74,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 179.0,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "ITM",
+          "name": "Osaka Itami International Airport",
+          "exposure_score": 2.21,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 75.0,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "TKS",
+          "name": "Tokushima Awaodori Airport / JMSDF Tokushima Air Base",
+          "exposure_score": 2.06,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 80.9,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "TAK",
+          "name": "Takamatsu Airport",
+          "exposure_score": 1.12,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 135.8,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "AOJ",
+          "name": "Aomori Airport",
+          "exposure_score": 0.62,
+          "nearby_quake_count": 2,
+          "closest_quake_km": 191.9,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "SDJ",
+          "name": "Sendai Airport",
+          "exposure_score": 0.76,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 80.4,
+          "max_pga_g": null
+        }
+      ]
+    },
+    {
+      "iso_alpha3": "IDN",
+      "country": "Indonesia",
+      "score": 8.93,
+      "earthquake_count": 25,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.26,
+      "airports": [
+        {
+          "iata_code": "DJJ",
+          "name": "Dortheys Hiyo Eluay International Airport",
+          "exposure_score": 0.66,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 154.1,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "MDC",
+          "name": "Sam Ratulangi International Airport",
+          "exposure_score": 8.27,
+          "nearby_quake_count": 15,
+          "closest_quake_km": 127.5,
+          "max_pga_g": null
+        }
+      ]
+    },
+    {
+      "iso_alpha3": "USA",
+      "country": "United States",
+      "score": 2.95,
+      "earthquake_count": 5,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.27,
+      "airports": [
+        {
+          "iata_code": "RNO",
+          "name": "Reno Tahoe International Airport",
+          "exposure_score": 2.95,
+          "nearby_quake_count": 2,
+          "closest_quake_km": 65.6,
+          "max_pga_g": 0.0215
+        }
+      ]
+    },
+    {
+      "iso_alpha3": "RUS",
+      "country": "Russia",
+      "score": 2.61,
+      "earthquake_count": 7,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.17,
+      "airports": [
+        {
+          "iata_code": "PKC",
+          "name": "Yelizovo Airport",
+          "exposure_score": 2.61,
+          "nearby_quake_count": 4,
+          "closest_quake_km": 57.2,
+          "max_pga_g": null
+        }
+      ]
+    },
+    {
+      "iso_alpha3": "TON",
+      "country": "Tonga",
+      "score": 0.68,
+      "earthquake_count": 24,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.26,
+      "airports": [
+        {
+          "iata_code": "TBU",
+          "name": "Fua'amotu International Airport",
+          "exposure_score": 0.26,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 126.1,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "VAV",
+          "name": "Vava'u International Airport",
+          "exposure_score": 0.42,
+          "nearby_quake_count": 2,
+          "closest_quake_km": 135.5,
+          "max_pga_g": null
+        }
+      ]
+    }
+  ]
+}
