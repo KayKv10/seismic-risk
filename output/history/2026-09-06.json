@@ -1,0 +1,294 @@
+{
+  "date": "2026-09-06",
+  "scoring_method": "shakemap",
+  "countries": [
+    {
+      "iso_alpha3": "",
+      "country": "",
+      "score": 25.05,
+      "earthquake_count": 8,
+      "exposed_airport_count": 6,
+      "avg_magnitude": 5.49,
+      "airports": [
+        {
+          "iata_code": "NRT",
+          "name": "Narita International Airport",
+          "exposure_score": 5.42,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 32.6,
+          "max_pga_g": 0.0542
+        },
+        {
+          "iata_code": "IBR",
+          "name": "Ibaraki Airport",
+          "exposure_score": 11.2,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 42.1,
+          "max_pga_g": 0.112
+        },
+        {
+          "iata_code": "CTS",
+          "name": "New Chitose Airport",
+          "exposure_score": 1.66,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 137.6,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "HKD",
+          "name": "Hakodate Airport",
+          "exposure_score": 1.26,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 164.3,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "AOJ",
+          "name": "Aomori Airport",
+          "exposure_score": 0.81,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 153.2,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "HND",
+          "name": "Tokyo Haneda International Airport",
+          "exposure_score": 4.7,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 48.6,
+          "max_pga_g": 0.047
+        }
+      ]
+    },
+    {
+      "iso_alpha3": "",
+      "country": "",
+      "score": 11.45,
+      "earthquake_count": 67,
+      "exposed_airport_count": 5,
+      "avg_magnitude": 5.33,
+      "airports": [
+        {
+          "iata_code": "YIA",
+          "name": "Yogyakarta International Airport",
+          "exposure_score": 0.97,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 112.3,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "DJJ",
+          "name": "Dortheys Hiyo Eluay International Airport",
+          "exposure_score": 0.84,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 148.8,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "SOC",
+          "name": "Adisoemarmo International Airport",
+          "exposure_score": 0.39,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 196.2,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "SRG",
+          "name": "Jenderal Ahmad Yani Airport",
+          "exposure_score": 0.43,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 185.3,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "KNO",
+          "name": "Kualanamu International Airport",
+          "exposure_score": 8.82,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 73.6,
+          "max_pga_g": 0.0882
+        }
+      ]
+    },
+    {
+      "iso_alpha3": "",
+      "country": "",
+      "score": 8.35,
+      "earthquake_count": 8,
+      "exposed_airport_count": 7,
+      "avg_magnitude": 5.15,
+      "airports": [
+        {
+          "iata_code": "SFS",
+          "name": "Subic Bay International Airport / Naval Air Station Cubi Point",
+          "exposure_score": 0.43,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 177.5,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "MNL",
+          "name": "Ninoy Aquino International Airport",
+          "exposure_score": 0.55,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 145.8,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "DVO",
+          "name": "Francisco Bangoy International Airport",
+          "exposure_score": 1.05,
+          "nearby_quake_count": 2,
+          "closest_quake_km": 100.9,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "GES",
+          "name": "General Santos International Airport",
+          "exposure_score": 2.62,
+          "nearby_quake_count": 4,
+          "closest_quake_km": 89.1,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "CGY",
+          "name": "Laguindingan International Airport",
+          "exposure_score": 1.8,
+          "nearby_quake_count": 3,
+          "closest_quake_km": 126.4,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "TAG",
+          "name": "Bohol-Panglao International Airport",
+          "exposure_score": 1.12,
+          "nearby_quake_count": 3,
+          "closest_quake_km": 174.4,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "CEB",
+          "name": "Mactan Cebu International Airport",
+          "exposure_score": 0.78,
+          "nearby_quake_count": 2,
+          "closest_quake_km": 184.2,
+          "max_pga_g": null
+        }
+      ]
+    },
+    {
+      "iso_alpha3": "",
+      "country": "",
+      "score": 2.89,
+      "earthquake_count": 9,
+      "exposed_airport_count": 3,
+      "avg_magnitude": 5.19,
+      "airports": [
+        {
+          "iata_code": "CKG",
+          "name": "Chongqing Jiangbei International Airport",
+          "exposure_score": 0.51,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 146.0,
+          "max_pga_g": null
+        },
+        {
+          "iata_code": "TFU",
+          "name": "Chengdu Tianfu International Airport",
+          "exposure_score": 1.17,
+          "nearby_quake_count": 2,
+          "closest_quake_km": 138.1,
+          "max_pga_g": 0.0061
+        },
+        {
+          "iata_code": "CTU",
+          "name": "Chengdu Shuangliu International Airport",
+          "exposure_score": 1.21,
+          "nearby_quake_count": 2,
+          "closest_quake_km": 152.8,
+          "max_pga_g": 0.0088
+        }
+      ]
+    },
+    {
+      "iso_alpha3": "",
+      "country": "",
+      "score": 2.59,
+      "earthquake_count": 7,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.24,
+      "airports": [
+        {
+          "iata_code": "PKC",
+          "name": "Yelizovo Airport",
+          "exposure_score": 2.59,
+          "nearby_quake_count": 2,
+          "closest_quake_km": 85.6,
+          "max_pga_g": null
+        }
+      ]
+    },
+    {
+      "iso_alpha3": "",
+      "country": "",
+      "score": 1.97,
+      "earthquake_count": 11,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.17,
+      "airports": [
+        {
+          "iata_code": "LAE",
+          "name": "Nadzab Tomodachi International Airport",
+          "exposure_score": 1.97,
+          "nearby_quake_count": 2,
+          "closest_quake_km": 87.4,
+          "max_pga_g": null
+        }
+      ]
+    },
+    {
+      "iso_alpha3": "",
+      "country": "",
+      "score": 1.06,
+      "earthquake_count": 10,
+      "exposed_airport_count": 2,
+      "avg_magnitude": 5.4,
+      "airports": [
+        {
+          "iata_code": "ANC",
+          "name": "Ted Stevens Anchorage International Airport",
+          "exposure_score": 0.27,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 172.2,
+          "max_pga_g": 0.0027
+        },
+        {
+          "iata_code": "KOA",
+          "name": "Ellison Onizuka Kona International Airport at Ke\u0101hole",
+          "exposure_score": 0.79,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 128.1,
+          "max_pga_g": null
+        }
+      ]
+    },
+    {
+      "iso_alpha3": "",
+      "country": "",
+      "score": 0.38,
+      "earthquake_count": 6,
+      "exposed_airport_count": 1,
+      "avg_magnitude": 5.35,
+      "airports": [
+        {
+          "iata_code": "VLI",
+          "name": "Bauerfield International Airport",
+          "exposure_score": 0.38,
+          "nearby_quake_count": 1,
+          "closest_quake_km": 174.4,
+          "max_pga_g": null
+        }
+      ]
+    }
+  ]
+}
