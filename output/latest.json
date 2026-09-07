@@ -276,8 +276,8 @@
     "languages": [],
     "un_member": false,
     "bordering_countries": [],
-    "earthquake_count": 67,
-    "avg_magnitude": 5.33,
+    "earthquake_count": 68,
+    "avg_magnitude": 5.32,
     "strongest_earthquake": {
       "magnitude": 7.8,
       "date": "2026-08-14",
@@ -514,11 +514,11 @@
       {
         "id": "us7000tbyu",
         "magnitude": 5,
-        "latitude": -8.3715,
-        "longitude": 121.5083,
+        "latitude": -8.3425,
+        "longitude": 121.4343,
         "depth_km": 10,
-        "time_ms": 1787753731234,
-        "place": "54 km NNW of Ende, Indonesia",
+        "time_ms": 1787753730369,
+        "place": "60 km NNW of Ende, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
       },
@@ -732,6 +732,17 @@
         "shakemap_available": false
       },
       {
+        "id": "usd0015edt",
+        "magnitude": 5,
+        "latitude": -8.1972,
+        "longitude": 120.4892,
+        "depth_km": 10,
+        "time_ms": 1786971063447,
+        "place": "45 km N of Ruteng, Indonesia",
+        "country_code": "ID",
+        "shakemap_available": false
+      },
+      {
         "id": "usd0015ed8",
         "magnitude": 5.4,
         "latitude": -7.9289,
@@ -799,22 +810,22 @@
       },
       {
         "id": "usd0015e7k",
-        "magnitude": 5.1,
-        "latitude": -7.8791,
-        "longitude": 120.5504,
+        "magnitude": 5.2,
+        "latitude": -7.8539,
+        "longitude": 120.5848,
         "depth_km": 10,
-        "time_ms": 1786876294822,
-        "place": "81 km N of Ruteng, Indonesia",
+        "time_ms": 1786876294855,
+        "place": "84 km N of Ruteng, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
       },
       {
         "id": "usd0015e7j",
         "magnitude": 5.3,
-        "latitude": -7.9399,
-        "longitude": 120.5995,
+        "latitude": -7.9467,
+        "longitude": 120.6027,
         "depth_km": 10,
-        "time_ms": 1786875276343,
+        "time_ms": 1786875276311,
         "place": "75 km NNE of Ruteng, Indonesia",
         "country_code": "ID",
         "shakemap_available": true
@@ -1165,8 +1176,8 @@
     "languages": [],
     "un_member": false,
     "bordering_countries": [],
-    "earthquake_count": 8,
-    "avg_magnitude": 5.15,
+    "earthquake_count": 7,
+    "avg_magnitude": 5.13,
     "strongest_earthquake": {
       "magnitude": 5.3,
       "date": "2026-08-13",
@@ -1179,54 +1190,6 @@
     "tsunami_warning_issued": false,
     "significant_events_count": 0,
     "exposed_airports": [
-      {
-        "name": "Subic Bay International Airport / Naval Air Station Cubi Point",
-        "iata_code": "SFS",
-        "latitude": 14.794833,
-        "longitude": 120.271883,
-        "municipality": "Olongapo",
-        "closest_quake_distance_km": 177.5,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us6000tivb",
-            "magnitude": 5.3,
-            "latitude": 13.2442,
-            "longitude": 120.6615,
-            "depth_km": 90.523,
-            "time_ms": 1786070289583,
-            "place": "7 km ENE of Mamburao, Philippines",
-            "distance_km": 177.5,
-            "exposure_contribution": 0.43,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 0.43
-      },
-      {
-        "name": "Ninoy Aquino International Airport",
-        "iata_code": "MNL",
-        "latitude": 14.5086,
-        "longitude": 121.019997,
-        "municipality": "Manila (Pasay)",
-        "closest_quake_distance_km": 145.8,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us6000tivb",
-            "magnitude": 5.3,
-            "latitude": 13.2442,
-            "longitude": 120.6615,
-            "depth_km": 90.523,
-            "time_ms": 1786070289583,
-            "place": "7 km ENE of Mamburao, Philippines",
-            "distance_km": 145.8,
-            "exposure_contribution": 0.55,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 0.55
-      },
       {
         "name": "Francisco Bangoy International Airport",
         "iata_code": "DVO",
@@ -1542,20 +1505,9 @@
         "place": "22 km ENE of Lapuan, Philippines",
         "country_code": "PH",
         "shakemap_available": false
-      },
-      {
-        "id": "us6000tivb",
-        "magnitude": 5.3,
-        "latitude": 13.2442,
-        "longitude": 120.6615,
-        "depth_km": 90.523,
-        "time_ms": 1786070289583,
-        "place": "7 km ENE of Mamburao, Philippines",
-        "country_code": "PH",
-        "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 8.35
+    "seismic_hub_risk_score": 7.37
   },
   {
     "country": "",
@@ -1570,8 +1522,8 @@
     "languages": [],
     "un_member": false,
     "bordering_countries": [],
-    "earthquake_count": 9,
-    "avg_magnitude": 5.19,
+    "earthquake_count": 8,
+    "avg_magnitude": 5.2,
     "strongest_earthquake": {
       "magnitude": 5.5,
       "date": "2026-08-18",
@@ -1771,17 +1723,6 @@
         "place": "269 km SSE of Dunhuang, China",
         "country_code": "CN",
         "shakemap_available": true
-      },
-      {
-        "id": "us6000tivz",
-        "magnitude": 5.1,
-        "latitude": 28.4377,
-        "longitude": 104.7436,
-        "depth_km": 10,
-        "time_ms": 1786079310186,
-        "place": "3 km ESE of Xunchang, China",
-        "country_code": "CN",
-        "shakemap_available": false
       }
     ],
     "seismic_hub_risk_score": 2.89
@@ -1799,14 +1740,14 @@
     "languages": [],
     "un_member": false,
     "bordering_countries": [],
-    "earthquake_count": 7,
-    "avg_magnitude": 5.24,
+    "earthquake_count": 6,
+    "avg_magnitude": 5.28,
     "strongest_earthquake": {
       "magnitude": 5.8,
       "date": "2026-08-17",
-      "depth_km": 54.7,
-      "latitude": 53.024,
-      "longitude": 159.7106
+      "depth_km": 66.7,
+      "latitude": 52.9895,
+      "longitude": 159.6941
     },
     "highest_pager_alert": null,
     "max_felt_reports": 0,
@@ -1819,18 +1760,18 @@
         "latitude": 53.168716,
         "longitude": 158.451068,
         "municipality": "Petropavlovsk-Kamchatsky",
-        "closest_quake_distance_km": 85.6,
+        "closest_quake_distance_km": 85.4,
         "nearby_quakes": [
           {
             "earthquake_id": "usd0015edq",
             "magnitude": 5.8,
-            "latitude": 53.024,
-            "longitude": 159.7106,
-            "depth_km": 54.741,
-            "time_ms": 1786970283466,
+            "latitude": 52.9895,
+            "longitude": 159.6941,
+            "depth_km": 66.746,
+            "time_ms": 1786970284615,
             "place": "72 km E of Petropavlovsk-Kamchatsky, Russia",
-            "distance_km": 85.6,
-            "exposure_contribution": 2.26,
+            "distance_km": 85.4,
+            "exposure_contribution": 2.05,
             "pga_g": null,
             "mmi": null
           },
@@ -1848,7 +1789,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 2.59
+        "exposure_score": 2.38
       }
     ],
     "earthquakes": [
@@ -1899,10 +1840,10 @@
       {
         "id": "usd0015edq",
         "magnitude": 5.8,
-        "latitude": 53.024,
-        "longitude": 159.7106,
-        "depth_km": 54.741,
-        "time_ms": 1786970283466,
+        "latitude": 52.9895,
+        "longitude": 159.6941,
+        "depth_km": 66.746,
+        "time_ms": 1786970284615,
         "place": "72 km E of Petropavlovsk-Kamchatsky, Russia",
         "country_code": "RU",
         "shakemap_available": true
@@ -1917,20 +1858,9 @@
         "place": "43 km SE of Severo-Kuril’sk, Russia",
         "country_code": "RU",
         "shakemap_available": true
-      },
-      {
-        "id": "us6000tixr",
-        "magnitude": 5,
-        "latitude": 50.3577,
-        "longitude": 156.7443,
-        "depth_km": 77.647,
-        "time_ms": 1786112489448,
-        "place": "56 km SE of Severo-Kuril’sk, Russia",
-        "country_code": "RU",
-        "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 2.59
+    "seismic_hub_risk_score": 2.38
   },
   {
     "country": "",
@@ -1946,7 +1876,7 @@
     "un_member": false,
     "bordering_countries": [],
     "earthquake_count": 11,
-    "avg_magnitude": 5.17,
+    "avg_magnitude": 5.2,
     "strongest_earthquake": {
       "magnitude": 5.5,
       "date": "2026-09-05",
@@ -1983,18 +1913,18 @@
           {
             "earthquake_id": "usd0015e7p",
             "magnitude": 5.5,
-            "latitude": -5.5432,
-            "longitude": 146.7882,
-            "depth_km": 147.71,
-            "time_ms": 1786877951283,
-            "place": "116 km ESE of Madang, Papua New Guinea",
-            "distance_km": 114.2,
-            "exposure_contribution": 0.6,
+            "latitude": -5.6736,
+            "longitude": 146.7605,
+            "depth_km": 137.2,
+            "time_ms": 1786877949771,
+            "place": "118 km ESE of Madang, Papua New Guinea",
+            "distance_km": 99.5,
+            "exposure_contribution": 0.71,
             "pga_g": null,
             "mmi": null
           }
         ],
-        "exposure_score": 1.97
+        "exposure_score": 2.07
       }
     ],
     "earthquakes": [
@@ -2055,23 +1985,23 @@
       },
       {
         "id": "usd0015edb",
-        "magnitude": 5.1,
-        "latitude": -6.3769,
-        "longitude": 149.3577,
+        "magnitude": 5.4,
+        "latitude": -6.3828,
+        "longitude": 149.452,
         "depth_km": 35,
-        "time_ms": 1786964423022,
-        "place": "28 km SW of Kandrian, Papua New Guinea",
+        "time_ms": 1786964422688,
+        "place": "22 km SSW of Kandrian, Papua New Guinea",
         "country_code": "PG",
-        "shakemap_available": false
+        "shakemap_available": true
       },
       {
         "id": "usd0015e7p",
         "magnitude": 5.5,
-        "latitude": -5.5432,
-        "longitude": 146.7882,
-        "depth_km": 147.71,
-        "time_ms": 1786877951283,
-        "place": "116 km ESE of Madang, Papua New Guinea",
+        "latitude": -5.6736,
+        "longitude": 146.7605,
+        "depth_km": 137.2,
+        "time_ms": 1786877949771,
+        "place": "118 km ESE of Madang, Papua New Guinea",
         "country_code": "PG",
         "shakemap_available": true
       },
@@ -2120,7 +2050,7 @@
         "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 1.97
+    "seismic_hub_risk_score": 2.07
   },
   {
     "country": "",
@@ -2145,9 +2075,9 @@
       "longitude": -169.4088
     },
     "highest_pager_alert": "green",
-    "max_felt_reports": 1137,
+    "max_felt_reports": 3,
     "tsunami_warning_issued": true,
-    "significant_events_count": 2,
+    "significant_events_count": 1,
     "exposed_airports": [
       {
         "name": "Ted Stevens Anchorage International Airport",
@@ -2166,12 +2096,12 @@
             "time_ms": 1786164634985,
             "place": "57 km WNW of Skwentna, Alaska",
             "distance_km": 172.2,
-            "exposure_contribution": 0.27,
-            "pga_g": 0.00267,
-            "mmi": 2.9
+            "exposure_contribution": 0.77,
+            "pga_g": null,
+            "mmi": null
           }
         ],
-        "exposure_score": 0.27
+        "exposure_score": 0.77
       },
       {
         "name": "Ellison Onizuka Kona International Airport at Keāhole",
@@ -2310,7 +2240,7 @@
         "shakemap_available": true
       }
     ],
-    "seismic_hub_risk_score": 1.06
+    "seismic_hub_risk_score": 1.56
   },
   {
     "country": "",
@@ -2345,23 +2275,23 @@
         "latitude": -17.699301,
         "longitude": 168.320007,
         "municipality": "Port Vila",
-        "closest_quake_distance_km": 174.4,
+        "closest_quake_distance_km": 172.6,
         "nearby_quakes": [
           {
             "earthquake_id": "us7000tcig",
             "magnitude": 5,
-            "latitude": -19.2675,
-            "longitude": 168.2841,
+            "latitude": -19.249,
+            "longitude": 168.2309,
             "depth_km": 10,
-            "time_ms": 1787905955971,
-            "place": "109 km WNW of Isangel, Vanuatu",
-            "distance_km": 174.4,
-            "exposure_contribution": 0.38,
+            "time_ms": 1787905956200,
+            "place": "115 km WNW of Isangel, Vanuatu",
+            "distance_km": 172.6,
+            "exposure_contribution": 0.39,
             "pga_g": null,
             "mmi": null
           }
         ],
-        "exposure_score": 0.38
+        "exposure_score": 0.39
       }
     ],
     "earthquakes": [
@@ -2401,11 +2331,11 @@
       {
         "id": "us7000tcig",
         "magnitude": 5,
-        "latitude": -19.2675,
-        "longitude": 168.2841,
+        "latitude": -19.249,
+        "longitude": 168.2309,
         "depth_km": 10,
-        "time_ms": 1787905955971,
-        "place": "109 km WNW of Isangel, Vanuatu",
+        "time_ms": 1787905956200,
+        "place": "115 km WNW of Isangel, Vanuatu",
         "country_code": "VU",
         "shakemap_available": false
       },
@@ -2432,6 +2362,6 @@
         "shakemap_available": true
       }
     ],
-    "seismic_hub_risk_score": 0.38
+    "seismic_hub_risk_score": 0.39
   }
 ]
