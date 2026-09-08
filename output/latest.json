@@ -12,7 +12,7 @@
     "languages": [],
     "un_member": false,
     "bordering_countries": [],
-    "earthquake_count": 8,
+    "earthquake_count": 7,
     "avg_magnitude": 5.49,
     "strongest_earthquake": {
       "magnitude": 6,
@@ -22,7 +22,7 @@
       "longitude": 142.802
     },
     "highest_pager_alert": "green",
-    "max_felt_reports": 153,
+    "max_felt_reports": 154,
     "tsunami_warning_issued": false,
     "significant_events_count": 1,
     "exposed_airports": [
@@ -121,30 +121,6 @@
           }
         ],
         "exposure_score": 1.26
-      },
-      {
-        "name": "Aomori Airport",
-        "iata_code": "AOJ",
-        "latitude": 40.733777,
-        "longitude": 140.689477,
-        "municipality": "Aomori",
-        "closest_quake_distance_km": 153.2,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "us6000tjaj",
-            "magnitude": 5.5,
-            "latitude": 40.1992,
-            "longitude": 142.3591,
-            "depth_km": 34,
-            "time_ms": 1786211878812,
-            "place": "47 km ENE of Noda, Japan",
-            "distance_km": 153.2,
-            "exposure_contribution": 0.81,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 0.81
       },
       {
         "name": "Tokyo Haneda International Airport",
@@ -248,20 +224,9 @@
         "place": "Kuril Islands",
         "country_code": "JP",
         "shakemap_available": false
-      },
-      {
-        "id": "us6000tjaj",
-        "magnitude": 5.5,
-        "latitude": 40.1992,
-        "longitude": 142.3591,
-        "depth_km": 34,
-        "time_ms": 1786211878812,
-        "place": "47 km ENE of Noda, Japan",
-        "country_code": "JP",
-        "shakemap_available": true
       }
     ],
-    "seismic_hub_risk_score": 25.05
+    "seismic_hub_risk_score": 24.24
   },
   {
     "country": "",
@@ -712,11 +677,11 @@
       {
         "id": "us6000tlkt",
         "magnitude": 5.6,
-        "latitude": -0.6858,
-        "longitude": 98.416,
+        "latitude": -0.5829,
+        "longitude": 98.4357,
         "depth_km": 10,
-        "time_ms": 1787032940229,
-        "place": "154 km SSE of Teluk Dalam, Indonesia",
+        "time_ms": 1787032940555,
+        "place": "145 km SSE of Teluk Dalam, Indonesia",
         "country_code": "ID",
         "shakemap_available": true
       },
@@ -766,23 +731,23 @@
       },
       {
         "id": "usd0015ebj",
-        "magnitude": 5.2,
-        "latitude": -8.2999,
-        "longitude": 121.327,
-        "depth_km": 16.335,
-        "time_ms": 1786938484873,
-        "place": "70 km NNW of Ende, Indonesia",
+        "magnitude": 5.1,
+        "latitude": -8.2581,
+        "longitude": 121.1401,
+        "depth_km": 10,
+        "time_ms": 1786938482420,
+        "place": "84 km ENE of Ruteng, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
       },
       {
         "id": "usd0015ebi",
-        "magnitude": 5.3,
-        "latitude": -8.278,
-        "longitude": 121.407,
+        "magnitude": 5.2,
+        "latitude": -8.1503,
+        "longitude": 121.2002,
         "depth_km": 10,
-        "time_ms": 1786937799370,
-        "place": "68 km NNW of Ende, Indonesia",
+        "time_ms": 1786937798195,
+        "place": "91 km NNW of Ende, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
       },
@@ -898,34 +863,34 @@
       },
       {
         "id": "us6000tkx5",
-        "magnitude": 5.1,
-        "latitude": -8.0446,
-        "longitude": 120.7765,
+        "magnitude": 5.2,
+        "latitude": -8.0652,
+        "longitude": 120.8009,
         "depth_km": 10,
-        "time_ms": 1786779578975,
-        "place": "71 km NNE of Ruteng, Indonesia",
+        "time_ms": 1786779578638,
+        "place": "70 km NNE of Ruteng, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
       },
       {
         "id": "us6000tkwq",
         "magnitude": 5.1,
-        "latitude": -8.2671,
-        "longitude": 121.3664,
+        "latitude": -8.2884,
+        "longitude": 121.3891,
         "depth_km": 10,
-        "time_ms": 1786775331109,
-        "place": "71 km NNW of Ende, Indonesia",
+        "time_ms": 1786775330852,
+        "place": "68 km NNW of Ende, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
       },
       {
         "id": "us6000tkwj",
         "magnitude": 5,
-        "latitude": -8.3681,
-        "longitude": 121.3609,
+        "latitude": -8.4028,
+        "longitude": 121.2455,
         "depth_km": 10,
-        "time_ms": 1786772708046,
-        "place": "62 km NNW of Ende, Indonesia",
+        "time_ms": 1786772707896,
+        "place": "66 km NW of Ende, Indonesia",
         "country_code": "ID",
         "shakemap_available": false
       },
@@ -1196,17 +1161,17 @@
         "latitude": 7.12552,
         "longitude": 125.646004,
         "municipality": "Davao",
-        "closest_quake_distance_km": 100.9,
+        "closest_quake_distance_km": 100.7,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000tkfh",
             "magnitude": 5.1,
-            "latitude": 6.2479,
-            "longitude": 125.8789,
-            "depth_km": 91.206,
-            "time_ms": 1786612978999,
-            "place": "22 km ENE of Lapuan, Philippines",
-            "distance_km": 100.9,
+            "latitude": 6.2419,
+            "longitude": 125.8478,
+            "depth_km": 92.638,
+            "time_ms": 1786612978839,
+            "place": "19 km ENE of Lapuan, Philippines",
+            "distance_km": 100.7,
             "exposure_contribution": 0.64,
             "pga_g": null,
             "mmi": null
@@ -1233,18 +1198,18 @@
         "latitude": 6.057208,
         "longitude": 125.096243,
         "municipality": "General Santos",
-        "closest_quake_distance_km": 89.1,
+        "closest_quake_distance_km": 85.6,
         "nearby_quakes": [
           {
             "earthquake_id": "us6000tkfh",
             "magnitude": 5.1,
-            "latitude": 6.2479,
-            "longitude": 125.8789,
-            "depth_km": 91.206,
-            "time_ms": 1786612978999,
-            "place": "22 km ENE of Lapuan, Philippines",
-            "distance_km": 89.1,
-            "exposure_contribution": 0.71,
+            "latitude": 6.2419,
+            "longitude": 125.8478,
+            "depth_km": 92.638,
+            "time_ms": 1786612978839,
+            "place": "19 km ENE of Lapuan, Philippines",
+            "distance_km": 85.6,
+            "exposure_contribution": 0.73,
             "pga_g": null,
             "mmi": null
           },
@@ -1288,7 +1253,7 @@
             "mmi": null
           }
         ],
-        "exposure_score": 2.62
+        "exposure_score": 2.63
       },
       {
         "name": "Laguindingan International Airport",
@@ -1498,16 +1463,118 @@
       {
         "id": "us6000tkfh",
         "magnitude": 5.1,
-        "latitude": 6.2479,
-        "longitude": 125.8789,
-        "depth_km": 91.206,
-        "time_ms": 1786612978999,
-        "place": "22 km ENE of Lapuan, Philippines",
+        "latitude": 6.2419,
+        "longitude": 125.8478,
+        "depth_km": 92.638,
+        "time_ms": 1786612978839,
+        "place": "19 km ENE of Lapuan, Philippines",
         "country_code": "PH",
         "shakemap_available": false
       }
     ],
-    "seismic_hub_risk_score": 7.37
+    "seismic_hub_risk_score": 7.38
+  },
+  {
+    "country": "",
+    "iso_alpha2": "NZ",
+    "iso_alpha3": "",
+    "capital": "",
+    "population": 0,
+    "area_km2": 0,
+    "region": "",
+    "subregion": "",
+    "currencies": [],
+    "languages": [],
+    "un_member": false,
+    "bordering_countries": [],
+    "earthquake_count": 3,
+    "avg_magnitude": 5.17,
+    "strongest_earthquake": {
+      "magnitude": 5.3,
+      "date": "2026-09-02",
+      "depth_km": 10,
+      "latitude": -44.4431,
+      "longitude": 168.3029
+    },
+    "highest_pager_alert": null,
+    "max_felt_reports": 0,
+    "tsunami_warning_issued": false,
+    "significant_events_count": 0,
+    "exposed_airports": [
+      {
+        "name": "Queenstown Airport",
+        "iata_code": "ZQN",
+        "latitude": -45.019205,
+        "longitude": 168.746379,
+        "municipality": "Queenstown",
+        "closest_quake_distance_km": 73.0,
+        "nearby_quakes": [
+          {
+            "earthquake_id": "us7000tdj8",
+            "magnitude": 5.3,
+            "latitude": -44.4431,
+            "longitude": 168.3029,
+            "depth_km": 10,
+            "time_ms": 1788329613779,
+            "place": "66 km NNW of Arthurs Point, New Zealand",
+            "distance_km": 73.0,
+            "exposure_contribution": 2.02,
+            "pga_g": null,
+            "mmi": null
+          },
+          {
+            "earthquake_id": "us7000tdjg",
+            "magnitude": 5.2,
+            "latitude": -44.4277,
+            "longitude": 168.2503,
+            "depth_km": 10,
+            "time_ms": 1788332232278,
+            "place": "70 km NNW of Arthurs Point, New Zealand",
+            "distance_km": 76.6,
+            "exposure_contribution": 1.69,
+            "pga_g": null,
+            "mmi": null
+          }
+        ],
+        "exposure_score": 3.71
+      }
+    ],
+    "earthquakes": [
+      {
+        "id": "us7000test",
+        "magnitude": 5,
+        "latitude": -30.9663,
+        "longitude": 178.5443,
+        "depth_km": 585.146,
+        "time_ms": 1788746808371,
+        "place": "Kermadec Islands region",
+        "country_code": "NZ",
+        "shakemap_available": false
+      },
+      {
+        "id": "us7000tdjg",
+        "magnitude": 5.2,
+        "latitude": -44.4277,
+        "longitude": 168.2503,
+        "depth_km": 10,
+        "time_ms": 1788332232278,
+        "place": "70 km NNW of Arthurs Point, New Zealand",
+        "country_code": "NZ",
+        "shakemap_available": true
+      },
+      {
+        "id": "us7000tdj8",
+        "magnitude": 5.3,
+        "latitude": -44.4431,
+        "longitude": 168.3029,
+        "depth_km": 10,
+        "time_ms": 1788329613779,
+        "place": "66 km NNW of Arthurs Point, New Zealand",
+        "country_code": "NZ",
+        "shakemap_available": true
+      }
+    ],
+    "seismic_hub_risk_score": 3.71
   },
   {
     "country": "",
@@ -2066,7 +2133,7 @@
     "un_member": false,
     "bordering_countries": [],
     "earthquake_count": 10,
-    "avg_magnitude": 5.4,
+    "avg_magnitude": 5.37,
     "strongest_earthquake": {
       "magnitude": 6.3,
       "date": "2026-09-03",
@@ -2079,30 +2146,6 @@
     "tsunami_warning_issued": true,
     "significant_events_count": 1,
     "exposed_airports": [
-      {
-        "name": "Ted Stevens Anchorage International Airport",
-        "iata_code": "ANC",
-        "latitude": 61.179004,
-        "longitude": -149.992561,
-        "municipality": "Anchorage",
-        "closest_quake_distance_km": 172.2,
-        "nearby_quakes": [
-          {
-            "earthquake_id": "aka2026powmkf",
-            "magnitude": 5.6,
-            "latitude": 62.269,
-            "longitude": -152.314,
-            "depth_km": 10,
-            "time_ms": 1786164634985,
-            "place": "57 km WNW of Skwentna, Alaska",
-            "distance_km": 172.2,
-            "exposure_contribution": 0.77,
-            "pga_g": null,
-            "mmi": null
-          }
-        ],
-        "exposure_score": 0.77
-      },
       {
         "name": "Ellison Onizuka Kona International Airport at Keāhole",
         "iata_code": "KOA",
@@ -2129,6 +2172,17 @@
       }
     ],
     "earthquakes": [
+      {
+        "id": "us7000tesi",
+        "magnitude": 5.3,
+        "latitude": 43.9019,
+        "longitude": -128.2038,
+        "depth_km": 10,
+        "time_ms": 1788744624930,
+        "place": "off the coast of Oregon",
+        "country_code": "US",
+        "shakemap_available": false
+      },
       {
         "id": "us7000te4b",
         "magnitude": 5.5,
@@ -2227,20 +2281,9 @@
         "place": "42 km ESE of Naalehu, Hawaii",
         "country_code": "US",
         "shakemap_available": true
-      },
-      {
-        "id": "aka2026powmkf",
-        "magnitude": 5.6,
-        "latitude": 62.269,
-        "longitude": -152.314,
-        "depth_km": 10,
-        "time_ms": 1786164634985,
-        "place": "57 km WNW of Skwentna, Alaska",
-        "country_code": "US",
-        "shakemap_available": true
       }
     ],
-    "seismic_hub_risk_score": 1.56
+    "seismic_hub_risk_score": 0.79
   },
   {
     "country": "",
