@@ -1,9 +1,9 @@
 # Seismic Risk Report
-Generated: 2026-09-08 10:20 UTC
+Generated: 2026-09-09 10:28 UTC
 
 ## Trend Summary
 
-Based on 89 snapshots (2026-06-11 to 2026-09-08).
+Based on 89 snapshots (2026-06-12 to 2026-09-09).
 
 
 **Top score changes**:
@@ -12,25 +12,26 @@ Based on 89 snapshots (2026-06-11 to 2026-09-08).
 
 **Top airport exposure changes**:
 
-- General Santos International Airport (GES, ): +0.0
 - Narita International Airport (NRT, ): 0.0
 - Ibaraki Airport (IBR, ): 0.0
 - New Chitose Airport (CTS, ): 0.0
 - Hakodate Airport (HKD, ): 0.0
+- Tokyo Haneda International Airport (HND, ): 0.0
 
 ## Country Summary
 
 | Country | ISO | Region | Score | Trend | Avg Mag | Strongest | Quakes | Airports | Alert | Tsunami | Sig. Events |
 |:--------|:----|:-------|------:|:------|--------:|:----------|-------:|---------:|:------|:--------|------------:|
 |  |  |  | 24.2 | ~ | 5.5 | M6 (2026-08-23) | 7 | 5 | green | No | 1 |
-|  |  |  | 11.4 | ~ | 5.3 | M7.8 (2026-08-14) | 68 | 5 | yellow | No | 2 |
+|  |  |  | 11.4 | ~ | 5.3 | M7.8 (2026-08-14) | 67 | 5 | yellow | No | 2 |
+|  |  |  | 8.0 | ~ | 5.3 | M5.8 (2026-08-30) | 7 | 1 | - | No | 0 |
 |  |  |  | 7.4 | ~ | 5.1 | M5.3 (2026-08-13) | 7 | 5 | - | No | 0 |
 |  |  |  | 3.7 | ~ | 5.2 | M5.3 (2026-09-02) | 3 | 1 | - | No | 0 |
 |  |  |  | 2.9 | ~ | 5.2 | M5.5 (2026-08-18) | 8 | 3 | yellow | No | 3 |
 |  |  |  | 2.4 | ~ | 5.3 | M5.8 (2026-08-17) | 6 | 1 | - | No | 0 |
-|  |  |  | 2.1 | ~ | 5.2 | M5.5 (2026-09-05) | 11 | 1 | - | No | 0 |
+|  |  |  | 2.1 | ~ | 5.2 | M5.5 (2026-09-05) | 10 | 1 | - | No | 0 |
 |  |  |  | 0.8 | ~ | 5.4 | M6.3 (2026-09-03) | 10 | 1 | green | Yes | 1 |
-|  |  |  | 0.4 | ~ | 5.3 | M6.1 (2026-08-16) | 6 | 1 | - | No | 0 |
+|  |  |  | 0.4 | ~ | 5.3 | M6.1 (2026-08-16) | 7 | 1 | - | No | 0 |
 
 ## Airport Details
 
@@ -46,12 +47,13 @@ Based on 89 snapshots (2026-06-11 to 2026-09-08).
 | Dortheys Hiyo Eluay International Airport | DJJ | Sentani |  | 0.8 | ~ | - | 148.8 | 1 |
 | Jenderal Ahmad Yani Airport | SRG | Semarang |  | 0.4 | ~ | - | 185.3 | 1 |
 | Adisoemarmo International Airport | SOC | Surakarta |  | 0.4 | ~ | - | 196.2 | 1 |
+| Vava'u International Airport | VAV | Vava'u Island |  | 8.0 | NEW | - | 23.8 | 1 |
 | General Santos International Airport | GES | General Santos |  | 2.6 | ~ | - | 85.6 | 4 |
 | Laguindingan International Airport | CGY | Laguindingan |  | 1.8 | ~ | - | 126.4 | 3 |
 | Bohol-Panglao International Airport | TAG | Panglao |  | 1.1 | ~ | - | 174.4 | 3 |
 | Francisco Bangoy International Airport | DVO | Davao |  | 1.1 | ~ | - | 100.7 | 2 |
 | Mactan Cebu International Airport | CEB | Cebu City/Lapu-Lapu City |  | 0.8 | ~ | - | 184.2 | 2 |
-| Queenstown Airport | ZQN | Queenstown |  | 3.7 | NEW | - | 73.0 | 2 |
+| Queenstown Airport | ZQN | Queenstown |  | 3.7 | ~ | - | 73.0 | 2 |
 | Chengdu Shuangliu International Airport | CTU | Chengdu (Shuangliu) |  | 1.2 | ~ | 0.0088 | 152.8 | 2 |
 | Chengdu Tianfu International Airport | TFU | Chengdu (Jianyang) |  | 1.2 | ~ | 0.0061 | 138.1 | 2 |
 | Chongqing Jiangbei International Airport | CKG | Chongqing |  | 0.5 | ~ | - | 146.0 | 1 |
